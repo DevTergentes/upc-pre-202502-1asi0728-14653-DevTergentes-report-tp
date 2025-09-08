@@ -773,7 +773,8 @@ Duración: 4:30
 
 Link: 
 
-![entrevista2e](<img width="1113" height="414" alt="image" src="https://github.com/user-attachments/assets/10d50135-7aca-4110-96e7-0c863f7c96eb" />)
+<img width="1156" height="531" alt="image" src="https://github.com/user-attachments/assets/735a624b-fe54-4c31-b010-2150dd54bdc2" />
+
 
 Hemos entrevistado a Arnold Alfred, de 26 años, propietario de una pequeña empresa dedicada al transporte de gas en Villa El Salvador. Actualmente, cuentan con medidas básicas de seguridad como la revisión de las unidades antes de cada viaje, el uso de extintores y la entrega de chalecos y cascos al personal. La capacitación se realiza mediante charlas internas y simples recomendaciones de prevención.
 En cuanto a tecnología, la empresa utiliza únicamente GPS para el seguimiento de los vehículos, sin otras herramientas de supervisión. Arnold considera que los sensores de fuga de gas y de temperatura serían los más adecuados para su rubro, y manifestó interés en implementar soluciones IoT para mejorar la seguridad en tiempo real, ya que estas permitirían reaccionar más rápido ante emergencias y generar mayor confianza en los clientes.
