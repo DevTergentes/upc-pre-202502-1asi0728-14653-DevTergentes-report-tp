@@ -1,3 +1,4 @@
+<div align="center">
 ![UPC_logo_transparente (1)](https://github.com/JorgeGonzales15/SW51-GreatMinds-OpenSource/assets/104078975/2ff342be-dc34-415c-925e-1e7133e49abf)
 
 Universidad Peruana de Ciencias Aplicadas
@@ -6,40 +7,37 @@ Ingeniería de Software
 
 Ciclo 2025-10
 
-# DESARROLLO DE SOLUCIONES IOT
+# Arquitecturas De Software Emergentes
 
-NRC 2939
 
-Profesor: León Baca, Marco Antonio
+NRC 14653
 
-***INFORME DE TRABAJO - TF1***
+Profesor: Berrocal Navarro, Richard Leonardo 
 
-**Startup: TrackTox**
+***INFORME DE TRABAJO - TB1***
 
-**Producto: Chemtrack**
+**Startup: DevTergentes**
+
+**Producto: SecurOn**
 
 **Integrantes**
 | Nombre completo | Código        |
 |----------------------------------------------|---------------|
 | Amaro Villanueva, Camila Elena               | U202114248    |
-| Barrial Marín, Sharon Antuanet Ivet          | U202114900    |
-| García Moscoso, Andrea Joselyn               | U201291060    |
-| Laguerre Challco, Fabrizzio Hernan           | U20211A950    |
-| Hidalgo Bustamante, Josue Omar               | U202119880    |
-| Huarcaya Quispe, Niurka Lucero               | U20221B226    |
+| Astuyauri Calderon, Jherson David            | U202218451    |
+| Calderon Huaman, Jose Daniel Mario           | U202213076    |
+| Antonio Fretel, Jeremi Jose                  | U202219022    |
+| Quispesivana Torres, Claudio Sandro          | U202215099    |
 
-
-Lima, 06 de Julio del 2025
+</div>
+<br><div align="center"><h3>Septiembre 2025</h3></div><br>
 
 ---
 # Registro de Versiones del Informe
 
 | Versión | Fecha | Autor | Descripción de la modificación |
 | - | - | - | - |
-| 1.00 | 24/04/2025 | Todos los integrantes del equipo  | Se desarrolló la descripción del startup Chemtrack, presentando a los integrantes del equipo, la problemática a resolver y el análisis del mercado, incluyendo a la competencia y el valor agregado que ofrece nuestra solución dentro del nicho. Además, se definieron la visión y objetivos del proyecto, el segmento objetivo y se propuso una solución tecnológica basada en IoT para el monitoreo seguro del transporte de materiales peligrosos, sentando así las bases para el desarrollo futuro del sistema. Luego se implementó los demás artefactos necesarios para realizar una base sólida para la arquitectura, implementación, validación y desarrollo de ChemTrack.   |
-| 2.00 | 14/05/2025 | Todos los integrantes del equipo  | Se levantaron las correcciones de la entrega pasada, se realizaron y definieron los style guideline, las cualidades core de nuestro sistema para garantizar una interfaz interactiva y limpia, se realizaron los mockups, wireframes junto con los wireflows y userflows. Finalmente se obtuvo el prototipo de mobile, landing y desktop con el cual se planificó el sprint 1  y su respectivo desarrollo junto con el sprint backlog 1, development, execution, testing y los demás artefactos disponibles en el presente proyecto. Se desarrolló e implementó la landing page como el primer prototipo web de Chemtrack y se prosiguió con su despliegue.   |
-| 3.00 | 20/06/2025 | Todos los integrantes del equipo | Se levantaron las observaciones de la entrega anterior y se desarrolló la versión final del landing page y del frontend de la página web. Además, se implementaron las funcionalidades core del sistema para asegurar una interfaz interactiva y limpia en esta primera versión de backend, edge, mobile y embebido. Finalmente, se realizó el despliegue de cada uno de los artefactos, documentándolo como parte del desarrollo del Sprint 2. También se llevaron a cabo las entrevistas de validación con Chemtrack, se aplicaron las heurísticas de evaluación, se elaboró el video "About the Product" y se actualizaron las conclusiones y recomendaciones. |
-| 4.00 | 06/07/2025 | Todos los integrantes del equipo | Se levantaron las ultimas observaciones de la entrega anterior y se desarrolló la versión final del landing page y del frontend de la página web. Además, se implementaron las funcionalidades core finales del sistema para asegurar una interfaz interactiva y limpia en esta última versión de backend, edge, mobile y embebido. Finalmente, se realizó el despliegue de cada uno de los artefactos, documentándolo como parte del desarrollo del Sprint 3. También se llevaron a cabo las entrevistas de validación con Chemtrack, se aplicaron las heurísticas de evaluación, se elaboró el video "About the Product", se elaboró el video "About the team", se elaboró el prototipo fisico y se actualizaron las conclusiones y recomendaciones finales. |
+| 1.00 | 07/09/2025 | Todos los integrantes del equipo  |  |
 
 ---
 
