@@ -763,7 +763,7 @@ Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118468_upc_edu_pe/EV
 
 ***Primera Entrevista:***
 
-Nombre: Paolo Checa
+Nombre: Arnhol Castrejon
 
 Inicio: 0:00
 
@@ -771,12 +771,13 @@ Fin: 4:30
 
 Duración: 4:30
 
-Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118468_upc_edu_pe/EVhL7w8-vyZKl68ljP0MwdYB7jwPNv07LyALip-7_Lmg2w?e=sL9c5x&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+Link: 
 
-![entrevista2e](https://github.com/user-attachments/assets/a8db29a9-6d0b-473a-992b-9c071af4750c)
+![entrevista2e](<img width="1113" height="414" alt="image" src="https://github.com/user-attachments/assets/10d50135-7aca-4110-96e7-0c863f7c96eb" />)
 
-- Hemos entrevistado a Paolo Checa, quien explicó que actualmente cuentan solo con un sistema de GPS para monitorear los vehículos, y un seguro de vida para los transportistas, sin medidas específicas adicionales para su protección. La capacitación se limita a recomendaciones básicas como evitar exponer la carga a fuego o movimientos bruscos, y prefieren contratar transportistas experimentados. Aparte del GPS y los teléfonos proporcionados por la empresa, no disponen de otras tecnologías para la seguridad de las cargas.
-
+Hemos entrevistado a Arnold Alfred, de 26 años, propietario de una pequeña empresa dedicada al transporte de gas en Villa El Salvador. Actualmente, cuentan con medidas básicas de seguridad como la revisión de las unidades antes de cada viaje, el uso de extintores y la entrega de chalecos y cascos al personal. La capacitación se realiza mediante charlas internas y simples recomendaciones de prevención.
+En cuanto a tecnología, la empresa utiliza únicamente GPS para el seguimiento de los vehículos, sin otras herramientas de supervisión. Arnold considera que los sensores de fuga de gas y de temperatura serían los más adecuados para su rubro, y manifestó interés en implementar soluciones IoT para mejorar la seguridad en tiempo real, ya que estas permitirían reaccionar más rápido ante emergencias y generar mayor confianza en los clientes.
+Entre los beneficios que espera obtener menciona el mayor control de la carga, la reducción de riesgos y la prevención de pérdidas. Sin embargo, también señaló inquietudes relacionadas con el costo de implementación y la adaptación del personal. Finalmente, indicó que preferiría recibir alertas mediante mensajes al celular y aplicaciones móviles, y considera que una solución IoT confiable, fácil de usar y de bajo costo representaría una ventaja competitiva frente a otras empresas del sector.
 
 ***Segunda Entrevista:***
 
