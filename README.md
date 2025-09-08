@@ -258,41 +258,12 @@ Como misión se plantea “Incrementar la calidad del servicio de transporte de 
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
+A continuación, presentaremos los perfiles de los integrantes del equipo encargado de desarrollar el proyecto. Cada uno de nuestros miembros aporta una combinación única de habilidades y perspectivas que son fundamentales para el éxito del proyecto.
 
-
-| <img src="https://github.com/user-attachments/assets/d03388b2-c106-406c-961f-3785e3fae476" width="600" alt="Foto de Camila Elena Amaro Villanueva" style="border-radius: 10px;"> | Mi nombre es Camila Elena Amaro Villanueva, cuento con conocimientos de desarrollo frontend y backend, además de lenguajes de programación como C++, Python y JavaScript. Además, entre mis habilidades, puedo resaltar la responsabilidad y creatividad que poseo para aportar en los trabajos en equipo. |
-|----------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
-
-
----
-
-| <img src="https://github.com/user-attachments/assets/5ceaee27-7da3-4863-9518-4910ba33e5f5" width="700" alt="Foto" style="border-radius: 10px;"> | Mi nombre es Fabrizzio Hernán Laguerre Challco, tengo 19 años, desde pequeño siempre he sentido un interés por aprender a usar ciertos dispositivos siendo uno de estos los más útiles que tenemos en la actualidad, las computadoras, por ello me esforzado en practicar y aprender ciertas habilidades en ofimática, edición de videos, programación y en aprender inglés, habilidades que puedo ofrecer para contribuir al grupo. |
-|----------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
-
-
----
-
-| <img src="https://github.com/user-attachments/assets/f009ea27-6761-4f18-9c34-f5d7a6501bab" width="700" alt="Foto" style="border-radius: 10px;"> | Mi nombre es Sharon Antuanet Ivet Barrial Marin, soy estudiante de Ingeniería de Software con experiencia en desarrollo de software, full-stack, diseño UI/UX y arquitectura de software. En mi tiempo libre disfruto leer, ver películas y escuchar música. Espero que mis pocas cualidades tanto técnicas como blandas pueden ayudar al equipo durante toda esta etapa de realización del proyecto.   |
-|----------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
-
-
-
----
-
-| <img src="https://github.com/user-attachments/assets/e8277566-b4e5-45d2-8cfe-a8fe04a56471" width="700" alt="Foto" style="border-radius: 10px;"> | Mi nombre es Niurka Huarcaya y actualmente estoy llevando la carrera de Ingeniería de Software. Considero que soy una persona responsable y que puedo aportar al equipo en cualquier aspecto que se requiera. De igual manera, siento que los conocimientos que he ido adquiriendo en ciclos anteriores serán de gran ayuda para llevar a cabo el presente trabajo. |
-|----------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
-
-
----
-
-| <img src="https://github.com/user-attachments/assets/cb84ecb3-20f0-4a5c-ba50-43888c811843" width="1000" alt="Foto" style="border-radius: 10px;"> | Soy estudiante de Ingeniería de Software y actualmente me desempeño como Cloud Backend Developer en Python. Me especializo en el desarrollo de soluciones escalables en la nube, con énfasis en eficiencia, automatización y buenas prácticas. Disfruto diseñar backends aplicando distintos tipos de arquitectura, y tengo un sólido conocimiento en la integración con interfaces frontend. Me considero proactivo, orientado a la mejora continua y con un fuerte interés en seguir aprendiendo tecnologías que impulsen la calidad del software. |
-|----------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
-
-
----
-
-| <img src="https://github.com/user-attachments/assets/b1bd791c-87c3-4de1-9fed-52e3382b4ca6" width="700" alt="Foto" style="border-radius: 10px;">| Actualmente estoy cursando el séptimo ciclo de mi carrera. Elegí esta carrera debido a que desde la niñez me interesó el cómo funcionan las computadoras por dentro. Poseo conocimiento en programación estructurada, POO, Python, JavaScript y C. Además, tengo habilidades en el trabajo en equipo y trabajo en tareas múltiples.|
-|----------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| **Integrante**                         | **Perfil**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | **Imagen**                                                                                                       |
+| -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| **Amaro Villanueva, Camila Elena - u202114248**             |Mi nombre es Camila Elena Amaro Villanueva, cuento con conocimientos de desarrollo frontend y backend, además de lenguajes de programación como C++, Python y JavaScript. Además, entre mis habilidades, puedo resaltar la responsabilidad y creatividad que poseo para aportar en los trabajos en equipo. | <img src="https://github.com/user-attachments/assets/d03388b2-c106-406c-961f-3785e3fae476" alt="Imagen de Camila Amaro" />|
+| **Quispesivana Torres, Claudio Sandro - u202215099**     |Mi nombre es Claudio Sandro Quispesivana Torres, tengo 20 años y estoy cursando el octavo ciclo de la carrera de Ingeniería de Software. Me apasiona la resolución de problemas mediante la aplicación de conceptos y tecnologías innovadoras. Como miembro del equipo, aporto un sólido conocimiento en desarrollo de software y un compromiso constante con la excelencia en cada proyecto en el que participo. Estoy emocionado por aprender y colaborar con el equipo, así como por adquirir nuevas habilidades y conocimientos en las tecnologías que utilizaremos en nuestro trabajo.    | <img src="https://raw.githubusercontent.com/TechZo-1ASI0732-4453/Report/refs/heads/main/Resources/Chapter-I/Profiles/sandroquispesivana.png" alt="Imagen de Sandro Quispesivana"/> |
 
 
 ## 1.2. Solution Profile
