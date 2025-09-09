@@ -1017,9 +1017,10 @@ El trayecto definido que debe seguir el transportista, monitoreado en tiempo rea
 # Capítulo III: Requirements Specification
 
 ## 3.1. To-Be Scenario Mapping
-![image](https://github.com/user-attachments/assets/c5d9bbff-01ac-4111-8638-5a62cc7b1e40)
 
-![image](https://github.com/user-attachments/assets/8027d267-90bf-4513-8589-bc8096e62f76)
+**To Be Scenario Mapping: Empresas de transporte**
+<img width="1693" height="652" alt="image" src="https://github.com/user-attachments/assets/14d02699-4d2d-45d1-949a-e3b9a303ac64" />
+
 
 
 ## 3.2. User Stories
