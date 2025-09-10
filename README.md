@@ -267,7 +267,7 @@ A continuación, presentaremos los perfiles de los integrantes del equipo encarg
 | **Astuyauri Calderon, Jherson David - u202218451**          |Soy Jherson, estudiante de Ingeniería de Software en la UPC (8.º ciclo). Me apasiona la inteligencia artificial y su potencial para transformar el mundo mediante soluciones más inteligentes y humanas. Tengo adaptabilidad, soy una persona responsable y proactiva con muchas ganas de crecer profesionalmente. | <img src="https://jhersonss24-portafolio.netlify.app/assets/profile-front_1.jpg" alt="Imagen de Jherson" />|
 | **Quispesivana Torres, Claudio Sandro - u202215099**     |Mi nombre es Claudio Sandro Quispesivana Torres, tengo 20 años y estoy cursando el octavo ciclo de la carrera de Ingeniería de Software. Me apasiona la resolución de problemas mediante la aplicación de conceptos y tecnologías innovadoras. Como miembro del equipo, aporto un sólido conocimiento en desarrollo de software y un compromiso constante con la excelencia en cada proyecto en el que participo. Estoy emocionado por aprender y colaborar con el equipo, así como por adquirir nuevas habilidades y conocimientos en las tecnologías que utilizaremos en nuestro trabajo.    | <img src="https://raw.githubusercontent.com/TechZo-1ASI0732-4453/Report/refs/heads/main/Resources/Chapter-I/Profiles/sandroquispesivana.png" alt="Imagen de Sandro Quispesivana"/> |
 | **Calderon Huaman, Jose Daniel Mario - U202213076** |Soy estudiante de 8.º ciclo de Ingeniería de Software con experiencia en desarrollo full-stack. Me considero una persona responsable, organizada y comprometida. Valoro el trabajo en equipo y me esfuerzo por aportar soluciones eficientes y bien estructuradas. He trabajado con tecnologías como React, Tailwind, Express.js, JavaScript y TypeScript, aplicándolas en proyectos reales. También tengo conocimientos en C++, Python y Flutter. | <img src="https://github.com/user-attachments/assets/7a670c75-fa1d-45d8-847c-2e829189ce79" alt="Imagen de Jose Calderon" /> |
-
+| **Antonio Fretel, Jeremi Jose - U202219022** |Soy estudiante de 8vo ciclo de la carrera de Ingeniería de Software en la UPC. Me considero una persona disciplinada y comprometida con mis objetivos académicos. He trabajado con tecnologías como C++, Python, Java, HTML/CSS, React y SQL. He desarrollado proyectos académicos principalmente en React.| <img src="https://github.com/user-attachments/assets/90844ac8-41e9-4feb-b7b7-d254379758e2" alt="Imagen de Jeremi Antonio" /> |
 
 ## 1.2. Solution Profile
 
@@ -814,7 +814,26 @@ Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118468_upc_edu_pe/EV
 ![entrevista1e](https://github.com/user-attachments/assets/ade12b09-87c0-4c4e-8ddb-7cf14e5a830c)
 
 - Hemos entrevistado Jose Luis Castillo de 22 años de edad que vive en Santiago de Surco, quien mencionó que implementan protocolos rigurosos para garantizar la seguridad de los transportistas y la carga, como la señalización adecuada, límites de velocidad, rutas seguras y revisiones periódicas de los vehículos. La capacitación de los transportistas incluye entrenamiento regular en el manejo de materiales peligrosos, procedimientos de emergencia y el uso de equipos de protección personal.
-  
+
+***Cuarta Entrevista:***
+
+Nombres y Apellidos: Diego Sebastian Valdivia Colque
+
+Edad: 21
+
+Inicio: 
+
+Fin: 
+
+Duración: 05:51
+
+Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213076_upc_edu_pe/EcZvB8ghDNZGk085n_5gQ5gBybPyV61xzbfqsEiSqnWcRw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Xl7yiH
+
+![entrevista_3](https://github.com/user-attachments/assets/8785f422-1467-4562-9a4d-8f26b943154a)
+
+- Entrevistamos a Diego, de 21 años, residente en Bellavista, quien señaló que su empresa aplica el Reglamento Nacional de Transporte Terrestre de Materiales y Residuos Peligrosos, utilizando vehículos certificados, señalización adecuada, bitácoras de control, equipos de protección personal y kits de emergencia en cada unidad. La capacitación del personal se realiza mediante convenios con SENCICO e incluye simulacros de derrames, incendios y evacuación, además de charlas sobre primeros auxilios y manejo de sustancias químicas. Asimismo, emplean tecnologías como GPS con geocercas, sensores de temperatura y presión, cámaras de cabina y sistemas de trazabilidad en tiempo real. Diego destacó que la implementación de soluciones IoT permitiría anticipar incidentes, optimizar operaciones y generar ventajas competitivas, aunque reconoció desafíos como el costo inicial, la capacitación y la seguridad de los datos.
+
+
 ### 2.2.3. Análisis de entrevistas
 
 Las entrevistas realizadas tanto a conductores como a representantes de empresas que transportan productos peligrosos han permitido identificar patrones comunes que subrayan la necesidad de fortalecer la seguridad, incorporar monitoreo en tiempo real y adoptar nuevas tecnologías, especialmente aquellas basadas en IoT. A continuación, se detallan los principales hallazgos:
