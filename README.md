@@ -723,21 +723,21 @@ Resumen:
 
 ***Segunda Entrevista:***
 
-Nombres y apellidos: Ian Perez
+Nombres y apellidos: Maricielo Valdivia
 
 Edad: 25
 
-Inicio: 25:55
+Inicio: 
 
-Fin: 31:34
+Fin: 
 
-Duración: 05:39
+Duración: 04:06
 
-Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118468_upc_edu_pe/EVhL7w8-vyZKl68ljP0MwdYB7jwPNv07LyALip-7_Lmg2w?e=sL9c5x&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213076_upc_edu_pe/EcZvB8ghDNZGk085n_5gQ5gBybPyV61xzbfqsEiSqnWcRw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Xl7yiH
 
-![entrevista2t](https://github.com/user-attachments/assets/fadb0fcb-c20a-44fd-b714-401c9a28501f)
+![entrevista_2](https://github.com/user-attachments/assets/4dc6f462-920d-4513-adcf-1dc2e1ca6348)
 
-- Hemos entrevistado a Ian Perez de 25 años de edad y vive en Ate Vitarte. Aunque no ha enfrentado incidentes graves, tuvo una experiencia cercana con una fuga de gas menor, en la que reaccionó de acuerdo con los protocolos de seguridad. Entre sus principales frustraciones están la incertidumbre sobre el estado de la carga y la falta de comunicación eficiente en algunas rutas. Actualmente, usa un sistema básico de rastreo GPS que le ofrece algunas ventajas, pero señala que no proporciona suficiente información sobre la seguridad de la carga. Está dispuesto a utilizar una solución tecnológica de monitoreo en tiempo real para mejorar la seguridad, siempre que sea fácil de usar y no represente una distracción. Considera esenciales los sensores de nivel de líquidos, presión y gases para monitorear combustibles, y prefiere recibir notificaciones a través de una pantalla en el vehículo o mediante una aplicación móvil. Utiliza principalmente el GPS y su teléfono móvil durante su jornada de trabajo.
+- Hemos entrevistado a Maricielo, de 25 años, quien vive en Callao. Relató que tuvo una experiencia con una fuga menor de gas, frente a la cual actuó siguiendo los protocolos de seguridad. Entre sus principales dificultades menciona el tráfico, las largas jornadas y la falta de espacios seguros para detenerse. Actualmente, utiliza un sistema de GPS, el cual le resulta útil para el control de la ruta, aunque reconoce que no brinda información sobre el estado de la carga. Está dispuesta a incorporar una solución tecnológica de monitoreo en tiempo real, motivada por la seguridad y la prevención de accidentes, siempre que sea sencilla y práctica. Considera clave el uso de sensores de presión, temperatura y gases, y cree que las alertas más efectivas serían las sonoras inmediatas y las notificaciones en celular. Su canal preferido para recibirlas es una app móvil o mensajes de texto. Identifica como posibles obstáculos el costo, el mantenimiento y la capacitación. En su rutina laboral utiliza con mayor frecuencia el celular, el GPS y la radio de comunicación.
 
 ***Tercera Entrevista:***
 
