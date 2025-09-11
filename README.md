@@ -45,33 +45,34 @@ Profesor: Berrocal Navarro, Richard Leonardo
 # Project Report Collaboration Insights
 
 **TB1:** Se han desarrollado las actividades correspondientes para la entrega TB1 en el siguiente repositorio de Github dentro de la organización del equipo:
-Link de repositorio Github: https://github.com/Chemtrack-Grupo4/report
+
+Link de repositorio Github: 
 
 *Registro de commits*
-![image](https://github.com/user-attachments/assets/7010f212-ddcc-470e-b2df-781a12cbd85a)
 
-**TP1:** Se han desarrollado las actividades correspondientes para la entrega TP1 en el siguiente repositorio de GitHub dentro de la organización del equipo:
 
-Link de repositorio GitHub: https://github.com/Chemtrack-Grupo4/report
+**TP1:** Se han desarrollado las actividades correspondientes para la entrega  en el siguiente repositorio de GitHub dentro de la organización del equipo:
+
+Link de repositorio GitHub: 
 
 *Registro de commits*
-![image](https://github.com/user-attachments/assets/6c0adc3c-c4fb-4cff-937b-ff5b1cbc21f6)
+
 
 **TB2:** Se han desarrollado las actividades correspondientes para la entrega TB2 en el siguiente repositorio de GitHub dentro de la organización del equipo:
 
-Link de repositorio GitHub: https://github.com/Chemtrack-Grupo4/report
+Link de repositorio GitHub: 
 
 *Registro de commits*
 
-![image](https://github.com/user-attachments/assets/c7a9982a-f550-487f-ba34-fcc6bd2b2879)
+
 
 **TF1:** Se han desarrollado las actividades correspondientes para la entrega TF1 en el siguiente repositorio de GitHub dentro de la organización del equipo:
 
-Link de repositorio GitHub: https://github.com/Chemtrack-Grupo4/report
+Link de repositorio GitHub: 
 
 *Registro de commits*
 
-![image](https://github.com/user-attachments/assets/45377e9d-842d-4fa5-9c84-8babf030be20)
+
 
 
 
@@ -132,8 +133,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 | Criterio específico | Acciones realizadas                                                                                                      | Conclusiones |
 | - |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| - |
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta. | **TB1**<br>**Camila Elena Amaro Villanueva**<br>Ayude en la en la elaboración de epics junto con sus respectivas user y technical stories teniendo en cuenta las necesidades identificadas en nuestros segmentos objetivos y los posibles escenarios que podrían presentarse. Esto nos permitió anticipar cómo deberíamos actuar ante diferentes situaciones. Asimismo, brindé apoyo en la creación de los impact maps correspondientes a los dos segmentos objetivos definidos.<br><br>**Sharon Antuanet Ivet Barrial Marin**<br>Apoyé activamente a la identificación de eventos de dominio para mejorar la experiencia de usuario durante las interacciones con funciones centrales de nuestro sistema *Chemtrack*. Para ello, se realizó un proceso completo de event storming siguiendo un patrón de pasos preestablecidos que nos permitió visualizar la lógica correcta del sistema.<br><br>**Andrea Joselyn Garcia Moscoso**<br>Participé en la elaboración de los segmentos objetivo, el análisis de competidores y la definición de estrategias frente a ellos, lo cual requirió coordinación constante con el equipo. Asimismo, realicé el diseño de entrevistas y el análisis de resultados, fomentando el intercambio de ideas y perspectivas para fortalecer la solución final.<br><br>**Fabrizzio Hernan Laguerre Challco**<br>Desarrollé la parte de descripción del startup del equipo, así como nuestro solution profile frente a una necesidad identificada, los antecendes que surgieron previamente a esta problemática y las solución que nuestra solución ofrece.<br><br>**Josue Omar Hidalgo Bustamante**<br>Contribuí de manera activa en el desarrollo de los arquetipos de usuarios y en la definición de sus necesidades principales, lo que permitió orientar mejor el diseño de soluciones dentro del proyecto. Además, colaboré en la preparación de los journey maps para visualizar las experiencias de los usuarios en diferentes etapas del proceso. Este trabajo facilitó la identificación de puntos críticos y oportunidades de mejora en el sistema propuesto, asegurando una propuesta de valor más ajustada a las expectativas reales.<br><br>**Niurka Lucero Huarcaya Quispe**<br>Participé en el desarrollo de los modelos de arquitectura del sistema, así como en el Context Mapping, colaborando con el equipo para garantizar una visión unificada y estratégica del sistema. La definición de límites claros entre los contextos permitieron optimizar la comunicación entre el equipo, fomentando una colaboración efectiva que fortaleció la coherencia y robustez de la solución. <br><br> **TP1**<br>**Camila Elena Amaro Villanueva**<br>Apoye en la elaboración de los mockups y wireframes de la app web y móvil teniendo en cuenta las etiquetas planeadas para nuestras aplicaciones y el proceso lean ux realizado previamente donde captamos las necesidades de los usuarios. Asimismo, participe en el desarrollo de la primera versión de la app web. <br><br>**Sharon Antuanet Ivet Barrial Marin**<br>Lideré la ejecución de la planificación del Sprint 1, en la cual, junto con el equipo, realizamos un análisis detallado del estado del proyecto. Durante esta sesión, identificamos las partes faltantes tanto a nivel funcional como técnico. Asimismo, organizamos y priorizamos las tareas clave para el desarrollo del proyecto, incluyendo la planificación estructurada del diseño e implementación de la landing page. Además, definimos los pasos necesarios para construir y desplegar nuestro primer prototipo web funcional, lo que marcó un hito inicial en la validación del producto.<br><br>**Andrea Joselyn Garcia Moscoso**<br>Durante el desarrollo de esta entrega correjí y realicé la mejora de secciones clave del diseño de software, tales como Tactical-Level Software Design, General Style Guidelines y Web, Mobile and IoT Style Guide. Este trabajo fue realizado de manera colaborativa, promoviendo discusiones técnicas, consensuando decisiones de estilo y asegurando la coherencia entre los distintos componentes del sistema<br><br>**Fabrizzio Hernan Laguerre Challco**<br>Durante esta etapa se trabajó en el diseño inicial de la landing page utilizando Figma como herramienta principal. El equipo se enfocó en definir la identidad visual del producto, seleccionando una paleta de colores, tipografías y componentes visuales coherentes con los objetivos del proyecto. Se diseñó un primer wireframe y posteriormente una propuesta de alta fidelidad que refleja la estructura, navegación y funcionalidades clave de la página de inicio del sistema. Este diseño sentó las bases para el posterior desarrollo del prototipo funcional y facilitó una visión clara y compartida entre todos los miembros del equipo.<br><br>**Josue Omar Hidalgo Bustamante**<br>La primera versión de la aplicación web fue desarrollada con mi participación directa en su implementación. Previamente, estuve involucrado en el diseño de sus interfaces, colaborando en la elaboración de mockups y wireframes tanto para la versión web como móvil. Estos se construyeron tomando en cuenta las etiquetas planificadas y los resultados del proceso de Lean UX, en el que identificamos las principales necesidades de los usuarios.<br><br>**Niurka Lucero Huarcaya Quispe**<br> Participé en la recopilación y presentación de las evidencias necesarias para la Sprint Review. Me encargué de documentar el desarrollo, las pruebas, la ejecución de funcionalidades y la documentación de los servicios. Esto permitió al equipo tener una visión clara del progreso del sprint. <br><br>**TB2**<br>**Camila Elena Amaro Villanueva**<br>Contribuyó activamente en solucionar las correcciones señaladas en frontend demostrando compromiso y colaboración constante con el equipo para alcanzar los objetivos técnicos del proyecto.<br><br>**Sharon Antuanet Ivet Barrial Marin**<br>Se realizaron reuniones Scrum para identificar debilidades del proyecto y promover un trabajo en equipo eficiente, facilitando la toma de decisiones colaborativas y el avance coordinado del grupo.<br><br>**Andrea Joselyn Garcia Moscoso**<br>Durante el desarrollo de esta entrega correjí y realicé la mejora de secciones clave del diseño de software, tales como Sprint Planning y Product Backlog. Este trabajo fue realizado de manera colaborativa, promoviendo discusiones técnicas y asegurando la coherencia entre los distintos componentes del sistema <br><br>**Fabrizzio Hernan Laguerre Challco**<br>Identificó y definió las funcionalidades clave de la versión mobile, lo que permitió guiar el desarrollo orientado a una experiencia de usuario optimizada. Su aporte fue fundamental para alinear al equipo en la construcción de una interfaz coherente, intuitiva y funcional para dispositivos móviles.<br><br>**Josue Omar Hidalgo Bustamante**<br>Colaboró activamente en la construcción de la arquitectura del backend, en la integración de los componentes edge y en el desarrollo de simulaciones en Wokwi, contribuyendo al ensamblaje técnico del sistema y asegurando su funcionamiento coordinado dentro del entorno de Chemtrack.<br><br>**Niurka Lucero Huarcaya Quispe**<br>Brindó apoyo en la validación del servicio, participando activamente en la aplicación de heurísticas para evaluar la usabilidad del sistema. Su contribución fue clave para asegurar la calidad de la experiencia del usuario y fortalecer el proceso colaborativo de mejora continua en el equipo.<br><br> **TF1**<br>**Camila Elena Amaro Villanueva**<br>Para este último Sprint colaboré en mejorar los componentes del frontend para que cumplan con lo planteado inicialmente en las user stories. Asimismo, revisé que los endpoints se llamarán de manera adecuada y realicé entrevistas de validación con los segmentos objetivo para recopilar opiniones respecto a nuestro producto y puntos de mejora. Además, colaboré en la elaboración del prototipo iot físico. <br><br>**Sharon Antuanet Ivet Barrial Marin**<br>Durante este sprint, asumí un rol activo en la organización y seguimiento del proyecto mediante la actualización continua del tablero en Trello, lo cual permitió al equipo tener claridad sobre el avance de cada tarea y priorizar pendientes críticos. Asimismo, lideré la edición final de los videos de entrega, asegurándome de que reflejen fielmente el desarrollo del sistema y cumplan con los criterios de revisión establecidos. Coordiné con los miembros encargados de cada componente para recopilar y validar la evidencia técnica de desarrollo, pruebas, ejecución y despliegue, facilitando una presentación clara y ordenada durante la revisión del sprint.<br><br>**Andrea Joselyn Garcia Moscoso**<br>Apoyé al equipo en el procesamiento y sistematización de la información recogida durante las entrevistas de validación, organizando los hallazgos en categorías relevantes y facilitando su discusión en equipo para la toma de decisiones. A partir de los resultados, propuse tareas de mejora que fueron incorporadas al backlog. Además, promoví un entorno colaborativo al incentivar la participación equitativa de todos los integrantes durante la evaluación heurística, estableciendo tiempos y objetivos claros para cada etapa del análisis, asegurando así que se cumplieran dentro del sprint.<br><br>**Niurka Lucero Huarcaya Quispe**<br> Me aseguré de que las tareas críticas de cierre estuvieran correctamente distribuidas y se cumplieran dentro del sprint final. Organicé y participé en reuniones técnicas donde se definieron los objetivos relacionados a la migración del edge fuera de la nube y la inclusión de la simulación en Wokwi. Además, colaboré con el equipo de backend para aplicar las últimas validaciones, revisando cada endpoint y su consistencia con las reglas de negocio. Impulsé la planificación y ejecución del video integrador, guiando a mis compañeros en qué debía incluirse para reflejar adecuadamente el funcionamiento de cada componente del proyecto. <br><br>**Josue Omar Hidalgo Bustamante**<br> Durante este sprint final, lideré la integración completa del sistema IoT, coordinando con el equipo la actualización del punto del edge para que funcione fuera de la nube, lo cual representó un reto técnico importante. Además, propuse y ejecuté la implementación de un segundo edge en Wokwi para fines de simulación y pruebas en paralelo, facilitando el trabajo de mis compañeros en frontend y mobile. También organicé sesiones internas para revisar la lógica del backend, identificar errores y aplicar validaciones finales. Finalmente, colaboré activamente en la producción del video que demuestra todo el flujo del sistema (web, mobile, edge y Wokwi), asegurando que cada parte estuviera correctamente sincronizada y funcionando.<br><br>**Fabrizzio Hernan Laguerre Challco**<br>Me enfoqué en planificar y ejecutar la integración del prototipo con el backend, asegurando que las lecturas del microcontrolador fueran procesadas y almacenadas adecuadamente. Establecí objetivos técnicos claros y coordiné tareas con el equipo para abordar desafíos como la latencia en la transmisión de datos y la validación del flujo completo. Además, fomenté un entorno de colaboración continua mediante pruebas conjuntas, intercambio de avances y resolución colectiva de problemas técnicos, lo cual fue clave para lograr un funcionamiento estable del sistema.<br><br> | **TB1:** Como equipo, trabajamos de manera colaborativa para cubrir todas las etapas clave del desarrollo inicial de Chemtrack, desde la definición del problema y el análisis de mercado hasta la construcción de la solución tecnológica. Cada integrante asumió un rol fundamental en áreas como la elaboración de user stories, la identificación de eventos de dominio, el diseño de entrevistas, la creación de arquetipos, el mapeo de experiencias y el modelado de la arquitectura del sistema. Esta sinergia nos permitió integrar múltiples perspectivas y asegurar una base sólida, estratégica y centrada en el usuario para el desarrollo de nuestra solución. <br><br> **TP1:** Como equipo, trabajamos de manera colectiva y alineada para identificar y corregir los artefactos faltantes en nuestro proyecto. Este proceso nos permitió afinar los detalles y reforzar la definición de nuestra propuesta, asegurando una visión compartida del producto. Gracias a esta colaboración, logramos preparar y desplegar una primera muestra representativa de lo que será nuestra solución final, materializada en la publicación de la landing page y el primer prototipo funcional de la web.<br><br> **TB2:** Como equipo, trabajamos de manera colaborativa para consolidar la segunda entrega del proyecto, enfocándonos en el desarrollo integral del sistema. Se levantaron las observaciones de la entrega anterior y se implementó la versión final de la landing page y de la página web (frontend). Además, se desarrollaron las funcionalidades core del backend, edge, mobile y del sistema embebido (Wokwi), asegurando una interfaz limpia, funcional e integrada.<br><br>**TF1:** Como grupo, logramos consolidar un flujo de trabajo colaborativo y eficiente a lo largo del desarrollo del proyecto. Cada integrante asumió responsabilidades específicas en base a sus fortalezas, permitiendo una ejecución coordinada tanto del backend, frontend, como del sistema físico. Nos apoyamos constantemente mediante sesiones de revisión y pruebas cruzadas, lo que fortaleció la calidad del producto entregado. Además, tomamos decisiones conjuntas en momentos clave del desarrollo, demostrando liderazgo compartido, comunicación efectiva y compromiso colectivo con los objetivos planteados desde el inicio.<br><br>| 
-| Crea un entorno colaborativo einclusivo, establece metas, planifica tareas y cumple objetivos. | **TB1**<br>**Camila Elena Amaro Villanueva**<br>Participé de manera activa en las reuniones de planificación del proyecto, así como en su desarrollo. Además, me encargué de organizar las tareas relacionadas con la elaboración de las user stories, basándome en la información recopilada por cada integrante del equipo a través de entrevistas realizadas a usuarios pertenecientes a los segmentos objetivo.<br><br>**Sharon Antuanet Ivet Barrial Marin**<br>Organicé las diferentes reuniones utilizando la metodología daily scrum hasta la entrega, donde identificamos las partes faltantes de nuestro trabajo, priorizamos tareas pendientes y coordinamos responsabilidades para asegurar el avance constante del proyecto. Donde la comunicación efectiva fue clave dentro del equipo para resolver bloqueos de forma oportuna y mantener la misma alineación.<br><br>**Andrea Joselyn Garcia Moscoso**<br>Contribuí activamente a la creación de un entorno colaborativo, establecimos metas claras desde las fases iniciales del proyecto y organicé tareas relacionadas con el diseño táctico del software, abarcando los distintos Bounded Contexts. Coordiné la elaboración de las distintas capas arquitectónicas y diagramas técnicos, asegurando una planificación eficiente y cumplimiento de los plazos.<br><br>**Fabrizzio Hernan Laguerre Challco**<br>Desarrollé el Lean UX Process, una artefacto fundamental para identificar nuestras funciones claves, segmentos objetivos, identificación y establecimiento de nuestra solución frente a la problemática identificada brindando una gráfica ejemplar y amplia para implementar una solución completa.<br><br>**Josue Omar Hidalgo Bustamante**<br>Apoyé en la validación de requerimientos técnicos y funcionales, asegurando que cada propuesta se ajustara a los objetivos del proyecto. También colaboré activamente en la elaboración de diagramas de flujo y en la definición de entidades clave del sistema. Durante el desarrollo, participé en sesiones de retroalimentación continua, lo que permitió realizar ajustes oportunos y mantener la calidad en cada entrega parcial.<br><br>**Niurka Lucero Huarcaya Quispe**<br>Contribuí en la creación de los modelos de arquitectura del sistema, así como en el Context Mapping, asegurando que cada nivel de arquitectura estuviera alineado con los objetivos estratégicos y técnicos. Además, en equipo, establecimos metas claras, organizamos las tareas de manera estratégica y aseguramos el cumplimiento de los objetivos del proyecto. <br><br> **TP1**<br>**Camila Elena Amaro Villanueva**<br>Participé activamente en las reuniones de planificación del proyecto y en su desarrollo. Además, coordine al grupo en la creación de la aplicación web, guiándolos con base en los mockups previamente diseñados.<br><br>**Sharon Antuanet Ivet Barrial Marin**<br>Desarrollé el Sprint Backlog 1 identificando y priorizando las tareas clave (core) de nuestro sistema, enfocándome en aquellas funcionalidades esenciales que debían estar presentes en esta primera entrega del prototipo. Esta planificación permitió establecer una hoja de ruta clara para el equipo y asegurar que el prototipado inicial reflejara de manera efectiva los pilares fundamentales de nuestra solución.<br><br>**Andrea Joselyn Garcia Moscoso**<br>Contribuí activamente a la creación de un entorno colaborativo y corrección de los documentos Tactical-Level Software Design, General Style Guidelines y Web, Mobile and IoT Style Guide. Para ello, coordiné con el equipo la definición de metas claras relacionadas con la mejora de la consistencia, calidad del diseño, revisión en función de los tiempos establecidos, y aseguré el cumplimiento de los objetivos propuestos.<br><br>**Fabrizzio Hernan Laguerre Challco**<br>En esta primera entrega se consolidó el diseño de la landing page desarrollado en Figma. A partir de los wireframes y propuestas previas, se logró una versión pulida y funcional que cumple con los objetivos de comunicación del proyecto. El trabajo en Figma permitió una colaboración fluida entre los integrantes del equipo, permitiendo iteraciones rápidas y comentarios en tiempo real. Este diseño no solo representa visualmente el producto, sino que también guió el desarrollo del prototipo inicial. El despliegue de la landing page refleja el compromiso del equipo con la calidad visual y la experiencia del usuario desde las primeras fases del proyecto.<br><br>**Josue Omar Hidalgo Bustamante**<br>Durante el desarrollo del proyecto, asumí un rol activo tanto en la etapa de planificación como en la ejecución. Me encargué de coordinar al equipo, brindando orientación basada en los mockups definidos con anterioridad para asegurar la coherencia en el diseño de la aplicación web.<br><br>**Niurka Lucero Huarcaya Quispe**<br>Se realizó la recolección y elaboración de las evidencias requeridas para la Sprint Review. Se promovió un entorno donde todos los miembros participaron aportando resultados del desarrollo, pruebas, ejecución, documentación de servicios y despliegue del software.<br><br>**TB2**<br>**Camila Elena Amaro Villanueva**<br>Se desarrollaron los módulos de frontend, backend y las simulaciones en Wokwi, con el objetivo de validar el funcionamiento integral del sistema, garantizando la coherencia entre interfaces, lógica de negocio y componentes físicos simulados dentro del entorno de Chemtrack.<br><br>**Sharon Antuanet Ivet Barrial Marin**<br>Se aplicó Scrum para colaborar activamente en cada tarea, elaborando el video “About the Product” para comunicar el objetivo de Chemtrack y una serie de auditorias de funcionamiento de todos los artefactos desarrollados para validar su calidad.<br><br> **Andrea Joselyn Garcia Moscoso**<br>Contribuí activamente a la creación de un entorno colaborativo y corrección de los documentos en el Sprint Planning. Además, coordiné con el equipo la definición de metas claras relacionadas con la mejora de la consistencia,revisión en función de los tiempos establecidos, y aseguré el cumplimiento de los objetivos propuestos.<BR><BR>**Fabrizzio Hernan Laguerre Challco**<br>Se establecieron metas específicas para la versión mobile, asignando tareas de diseño, desarrollo e integración que facilitaron su avance estructurado y desplegado creando un apk.<br><br>**Josue Omar Hidalgo Bustamante**<br>Se logró cumplir con el desarrollo e integración del backend, el módulo edge y las simulaciones en Wokwi, asegurando su correcto despliegue, funcionamiento y conexión con el resto del sistema, lo que permitió validar su operatividad dentro del ecosistema de Chemtrack. <br><br>**Niurka Lucero Huarcaya Quispe**<br>Se documentó y aplicó evaluaciones heurísticas y validaciones con usuarios, fortaleciendo la calidad del sistema y reflejando los valores de inclusión, colaboración y mejora continua.<br><br>**TF1**<br>**Camila Elena Amaro Villanueva**<br>Revisé que la app web elaborada estuviera de acuerdo a las user stories identificadas al inicio del desarrollo del proyecto y que cumplieran con sus respectivos criterios de aceptación. Además, participé de manera activa en las reuniones de planificación y me encargue de coordinar la elaboración del front con los compañeros de mi equipo y de gestionar reuniones en caso se presentarán bugs en el desarrollo.<br><br>**Sharon Antuanet Ivet Barrial Marin**<br>Me encargué de estructurar y organizar los entregables correspondientes al Sprint Review, coordinando la documentación de evidencias clave como el Sprint Backlog, pruebas realizadas, despliegue del software y servicios desarrollados. Promoví la colaboración entre los integrantes al establecer deadlines internos y alinear los esfuerzos para cumplir con los entregables a tiempo. Además, participé activamente en las reuniones de planificación, proponiendo estrategias para mejorar la gestión visual de tareas a través del Trello, lo que ayudó a optimizar el trabajo en equipo y mantener el enfoque en los objetivos del sprint.<br><br> **Andrea Joselyn Garcia Moscoso**<br>Apoyé al equipo en el procesamiento y sistematización de la información recogida durante las entrevistas de validación, organizando los hallazgos en categorías relevantes y facilitando su discusión en equipo para la toma de decisiones. A partir de los resultados, propuse tareas de mejora que fueron incorporadas al backlog. Además, promoví un entorno colaborativo al incentivar la participación equitativa de todos los integrantes durante la evaluación heurística, estableciendo tiempos y objetivos claros para cada etapa del análisis, asegurando así que se cumplieran dentro del sprint.<BR><BR>**Fabrizzio Hernan Laguerre Challco**<br>Me enfoqué en planificar y ejecutar la integración del prototipo con el backend, asegurando que las lecturas del microcontrolador fueran procesadas y almacenadas adecuadamente. Establecí objetivos técnicos claros y coordiné tareas con el equipo para abordar desafíos como la latencia en la transmisión de datos y la validación del flujo completo. Además, fomenté un entorno de colaboración continua mediante pruebas conjuntas, intercambio de avances y resolución colectiva de problemas técnicos, lo cual fue clave para lograr un funcionamiento estable del sistema.<br><br>**Josue Omar Hidalgo Bustamante**<br>Me aseguré de que las tareas críticas de cierre estuvieran correctamente distribuidas y se cumplieran dentro del sprint final. Organicé y participé en reuniones técnicas donde se definieron los objetivos relacionados a la migración del edge fuera de la nube y la inclusión de la simulación en Wokwi. Además, colaboré con el equipo de backend para aplicar las últimas validaciones, revisando cada endpoint y su consistencia con las reglas de negocio. Impulsé la planificación y ejecución del video integrador, guiando a mis compañeros en qué debía incluirse para reflejar adecuadamente el funcionamiento de cada componente del proyecto. <br><br>**Niurka Lucero Huarcaya Quispe**<br>Mi apoyo en la documentación a lo largo del proyecto ayudó a mantener una comunicación clara y accesible para todos los miembros del equipo. Esta contribución permitió organizar mejor las tareas, definir metas comunes y asegurar que cada integrante participara activamente en el cumplimiento de los objetivos. | **TB1:** El equipo demostró una sólida capacidad para colaborar de forma inclusiva, planificando estratégicamente las tareas y cumpliendo los objetivos del proyecto. A través de reuniones constantes, el uso de metodologías ágiles y una distribución clara de responsabilidades, logramos mantener una comunicación efectiva, anticipar desafíos y avanzar de manera organizada. Esto nos permitió construir una base sólida para el desarrollo de Chemtrack, alineando tanto los aspectos técnicos como los objetivos del negocio. <br><br> **TP1:** Nuevamente se evidenció una sólida capacidad de trabajo en equipo, reflejada en la distribución equitativa de las tareas y el compromiso de cada integrante para cumplir con los objetivos dentro del tiempo estimado. Esta coordinación eficiente nos permitió avanzar con fluidez en el desarrollo del prototipo, fortaleciendo tanto la dinámica grupal como el progreso del proyecto. Logrando tener el despliegue de landing page y de la web. Además de las correcciones levantadas. <br><br> **TB2:** Como equipo, aplicamos la metodología Scrum para fomentar la colaboración activa y la organización del trabajo en cada sprint. Desarrollamos e integramos los módulos de frontend, backend, edge, mobile y embebido mediante una planificación clara de tareas y metas. Usamos Wokwi para simular y validar los dispositivos, y realizamos evaluaciones heurísticas e entrevistas para asegurar una experiencia de usuario óptima. Elaboramos el video “About the Product” para comunicar el objetivo de Chemtrack a nuestros clientes y auditamos cada artefacto del sistema para garantizar su correcto funcionamiento y calidad. <br><br> **TF1:** Durante todo el proyecto, nuestro equipo mantuvo una planificación clara y compartida, utilizando herramientas como Trello, reuniones periódicas y documentación colaborativa para asegurar un avance constante. Fomentamos un entorno de trabajo inclusivo donde todas las opiniones fueron escuchadas y valoradas, lo cual enriqueció el diseño del producto. Gracias a una distribución equitativa de tareas y un enfoque orientado a objetivos, cumplimos con los entregables de cada sprint, logrando integrar satisfactoriamente todas las partes del sistema y presentar un producto funcional validado por usuarios reales. |
+| Comunica oralmente con efectividad a diferentes rangos de audiencia. | **TB1**<br>**Camila Elena Amaro Villanueva**<br>Ayude en la en la elaboración de epics junto con sus respectivas user y technical stories teniendo en cuenta las necesidades identificadas en nuestros segmentos objetivos y los posibles escenarios que podrían presentarse. Esto nos permitió anticipar cómo deberíamos actuar ante diferentes situaciones. Asimismo, brindé apoyo en la creación de los impact maps correspondientes a los dos segmentos objetivos definidos.<br><br>**Jherson David Astuyauri Calderon**<br>Apoyé activamente a la identificación de eventos de dominio para mejorar la experiencia de usuario durante las interacciones con funciones centrales de nuestro sistema *SecurOn*. Para ello, se realizó un proceso completo de event storming siguiendo un patrón de pasos preestablecidos que nos permitió visualizar la lógica correcta del sistema.<br><br>**Claudio Sandro Quispesivana Torres**<br>Participé en la elaboración de los segmentos objetivo, el análisis de competidores y la definición de estrategias frente a ellos, lo cual requirió coordinación constante con el equipo. Asimismo, realicé el diseño de entrevistas y el análisis de resultados, fomentando el intercambio de ideas y perspectivas para fortalecer la solución final.<br><br>**Jose Daniel Mario Calderon Huaman**<br>Desarrollé la parte de descripción del startup del equipo, así como nuestro solution profile frente a una necesidad identificada, los antecendes que surgieron previamente a esta problemática y las solución que nuestra solución ofrece.<br><br>**Jeremi Jose Antonio Fretel**<br>Contribuí de manera activa en el desarrollo de los arquetipos de usuarios y en la definición de sus necesidades principales, lo que permitió orientar mejor el diseño de soluciones dentro del proyecto. Además, colaboré en la preparación de los journey maps para visualizar las experiencias de los usuarios en diferentes etapas del proceso. Este trabajo facilitó la identificación de puntos críticos y oportunidades de mejora en el sistema propuesto, asegurando una propuesta de valor más ajustada a las expectativas reales. | **TB1:** Como equipo, trabajamos de manera colaborativa para cubrir todas las etapas clave del desarrollo inicial de SecurOn, desde la definición del problema y el análisis de mercado hasta la construcción de la solución tecnológica. Cada integrante asumió un rol fundamental en áreas como la elaboración de user stories, la identificación de eventos de dominio, el diseño de entrevistas, la creación de arquetipos, el mapeo de experiencias y el modelado de la arquitectura del sistema. Esta sinergia nos permitió integrar múltiples perspectivas y asegurar una base sólida, estratégica y centrada en el usuario para el desarrollo de nuestra solución. 
+| Comunica por escrito con efectividad a diferentes rangos de audiencia. | **TB1**<br>**Camila Elena Amaro Villanueva**<br>Participé de manera activa en las reuniones de planificación del proyecto, así como en su desarrollo. Además, me encargué de organizar las tareas relacionadas con la elaboración de las user stories, basándome en la información recopilada por cada integrante del equipo a través de entrevistas realizadas a usuarios pertenecientes a los segmentos objetivo.<br><br>**Jherson David Astuyauri Calderon**<br>Organicé las diferentes reuniones utilizando la metodología daily scrum hasta la entrega, donde identificamos las partes faltantes de nuestro trabajo, priorizamos tareas pendientes y coordinamos responsabilidades para asegurar el avance constante del proyecto. Donde la comunicación efectiva fue clave dentro del equipo para resolver bloqueos de forma oportuna y mantener la misma alineación.<br><br>**Claudio Sandro Quispesivana Torres**<br>Contribuí activamente a la creación de un entorno colaborativo, establecimos metas claras desde las fases iniciales del proyecto y organicé tareas relacionadas con el diseño táctico del software, abarcando los distintos Bounded Contexts. Coordiné la elaboración de las distintas capas arquitectónicas y diagramas técnicos, asegurando una planificación eficiente y cumplimiento de los plazos.<br><br>**Jose Daniel Mario Calderon Huaman**<br>Desarrollé el Lean UX Process, una artefacto fundamental para identificar nuestras funciones claves, segmentos objetivos, identificación y establecimiento de nuestra solución frente a la problemática identificada brindando una gráfica ejemplar y amplia para implementar una solución completa.<br><br>**Jeremi Jose Antonio Fretel**<br>Apoyé en la validación de requerimientos técnicos y funcionales, asegurando que cada propuesta se ajustara a los objetivos del proyecto. También colaboré activamente en la elaboración de diagramas de flujo y en la definición de entidades clave del sistema. Durante el desarrollo, participé en sesiones de retroalimentación continua, lo que permitió realizar ajustes oportunos y mantener la calidad en cada entrega parcial.  | **TB1:** El equipo demostró una sólida capacidad para colaborar de forma inclusiva, planificando estratégicamente las tareas y cumpliendo los objetivos del proyecto. A través de reuniones constantes, el uso de metodologías ágiles y una distribución clara de responsabilidades, logramos mantener una comunicación efectiva, anticipar desafíos y avanzar de manera organizada. Esto nos permitió construir una base sólida para el desarrollo de SecurOn, alineando tanto los aspectos técnicos como los objetivos del negocio. |
 
 # Capítulo I: Introducción
 
@@ -359,7 +360,7 @@ A continuación, se plantean las hipótesis que proponen una solución a la prob
 #### 1.2.2.4. Lean UX Canvas
 
 
-![image](https://github.com/user-attachments/assets/206cc4de-3194-4e2d-b4c5-7eb92febd4eb)
+![image](https://github.com/user-attachments/assets/ed8887b4-8e82-49c9-ad85-539f768bda72)
 
 
 
@@ -392,7 +393,7 @@ A continuación, se plantean las hipótesis que proponen una solución a la prob
 <th colspan="5">Se hace este analisis para conocer las debilidades y fortalezas y compararlas con el producto solución propuesto</th>
 </tr>
 <tr class="odd">
-<th colspan="5">Permite reconocer las ventajas competitivas y áreas de mejora de "Chemtrack" frente a competidores clave, facilitando el diseño de estrategias eficaces para destacarse en el sector agrícola y atraer a agricultores y comerciantes.</th>
+<th colspan="5">Permite reconocer las ventajas competitivas y áreas de mejora de "SecurOn" frente a competidores clave, facilitando el diseño de estrategias eficaces para destacarse en el sector agrícola y atraer a agricultores y comerciantes.</th>
 </tr>
 <tr class="header">
 <th></th>
@@ -1074,7 +1075,7 @@ Por último, gracias a la identificación y definición de cada uno de los eleme
 
 Para priorizar el desarrollo del núcleo funcional del sistema aplicamos la técnica *start-with value*, con el objetivo de tener una visión más clara y enfocada del producto desde sus bases.
 
-- **Identificación de valores del negocio:** Se realizó un análisis de los principales valores que aporta la aplicación. Tales como mejorar la experiencia de nuestros usuarios durante la monitorización de cargas, el registro eficiente de incidentes sucedidos durante el transporte, la calificación a nuestros usuarios transportistas luego de cada viaje relaixado y la optimización en la gestión de usuarios en Chemtrack.
+- **Identificación de valores del negocio:** Se realizó un análisis de los principales valores que aporta la aplicación. Tales como mejorar la experiencia de nuestros usuarios durante la monitorización de cargas, el registro eficiente de incidentes sucedidos durante el transporte, la calificación a nuestros usuarios transportistas luego de cada viaje relaixado y la optimización en la gestión de usuarios en SecurOn.
 - **Identidicación de funcionalidades clave:** Se definieron las funcionalidades fundamentales que sostienen el objetivo de nuestro sistema. Incluyendo la autenticación y registro de usuarios *(IAM)*, el monitoreo y notificación de incidentes *(MANAGEMENT)* y las operaciones de registro y reporte de incidentes *(RECORDS)*. Todas ellas alineadas directamente con el valor agregado del negocio.
 
 **Candidate para Bounded Context: *IAM***
@@ -1118,7 +1119,7 @@ Para priorizar el desarrollo del núcleo funcional del sistema aplicamos la téc
 
 ### 4.1.2. Context Mapping
 
-Este diagrama muestra la interacción entre los contextos delimitados IAM, Records y Management en Chemtrack. IAM y Management se conectan mediante un Shared Kernel, compartiendo lógica para autenticación y gestión de transporte. Records usa un ACL con Management e IAM para preservar la integridad de los datos y evitar contaminación. IAM actúa como Supplier para Records, proporcionando servicios de autenticación, mientras Records los consume para gestionar incidentes. Esto fomenta una arquitectura modular y cohesiva en el sistema.
+Este diagrama muestra la interacción entre los contextos delimitados IAM, Records y Management en SecurOn. IAM y Management se conectan mediante un Shared Kernel, compartiendo lógica para autenticación y gestión de transporte. Records usa un ACL con Management e IAM para preservar la integridad de los datos y evitar contaminación. IAM actúa como Supplier para Records, proporcionando servicios de autenticación, mientras Records los consume para gestionar incidentes. Esto fomenta una arquitectura modular y cohesiva en el sistema.
 
 <a href="https://ibb.co/wZts5VFt"><img src="https://i.ibb.co/sp7H8nd7/contextmapping.png" alt="contextmapping" border="0"></a>
 
@@ -1126,13 +1127,13 @@ Este diagrama muestra la interacción entre los contextos delimitados IAM, Recor
 
 #### 4.1.3.1. Software Architecture System Landscape Diagram
 
-En el diagrama se identifican dos usuarios principales: el Driver (Conductor) y el Manager (Gerente), quienes interactúan directamente con el sistema Chemtrack para gestionar el transporte y responder ante posibles riesgos. A su vez, el sistema Chemtrack utiliza un Alert System, un servicio de notificaciones, para enviar alertas y mantener informados a los usuarios ante cualquier evento relevante durante el proceso de transporte.
+En el diagrama se identifican dos usuarios principales: el Driver (Conductor) y el Manager (Gerente), quienes interactúan directamente con el sistema SecurOn para gestionar el transporte y responder ante posibles riesgos. A su vez, el sistema SecurOn utiliza un Alert System, un servicio de notificaciones, para enviar alertas y mantener informados a los usuarios ante cualquier evento relevante durante el proceso de transporte.
 
 <a href="https://ibb.co/4Rz65xL1"><img src="https://i.ibb.co/DfhxSnFr/landscapecontext.png" alt="landscapecontext" border="0"></a>
 
 #### 4.1.3.2. Software Architecture Context Level Diagrams
 
-Este diagrama contextualiza cómo el sistema Chemtrack se integra en su entorno y qué actores externos (personas o sistemas) interactúan con él, resaltando el flujo de información crítica como el monitoreo, las alertas y la gestión de incidentes en situaciones de riesgo.
+Este diagrama contextualiza cómo el sistema SecurOn se integra en su entorno y qué actores externos (personas o sistemas) interactúan con él, resaltando el flujo de información crítica como el monitoreo, las alertas y la gestión de incidentes en situaciones de riesgo.
 
 ![image](https://github.com/user-attachments/assets/c2df48b0-dada-401d-aed2-dac8f42f14e2)
 
@@ -1146,13 +1147,13 @@ El diagrama representa la arquitectura de software a nivel de contenedores del s
 
 #### 4.1.3.3. Software Architecture Deployment Diagrams
 
-El diagrama de despliegue muestra la arquitectura de software del sistema Chemtrack para la mitigación de riesgos de productos químicos reactivos. Detalla los contenedores y nodos de despliegue: Landing Page (HTML/CSS, Github Pages), Web Application (Angular/Springboot, Netlify), Web API y Edge API Application (Springboot, Azure), Mobile App (Flutter, dispositivos móviles), IoT Embedded App (Python, dispositivos IoT), Web Database (MySQL, Azure) y Edge Database (MySQL, Azure). Las conexiones indican flujos de datos, como monitoreo, transferencia de datos IoT y lecturas/escrituras en bases de datos.
+El diagrama de despliegue muestra la arquitectura de software del sistema SecurOn para la mitigación de riesgos de productos químicos reactivos. Detalla los contenedores y nodos de despliegue: Landing Page (HTML/CSS, Github Pages), Web Application (Angular/Springboot, Netlify), Web API y Edge API Application (Springboot, Azure), Mobile App (Flutter, dispositivos móviles), IoT Embedded App (Python, dispositivos IoT), Web Database (MySQL, Azure) y Edge Database (MySQL, Azure). Las conexiones indican flujos de datos, como monitoreo, transferencia de datos IoT y lecturas/escrituras en bases de datos.
 
 <a href="https://ibb.co/G4zcw7sy"><img src="https://i.ibb.co/8L163Mzq/deployment.png" alt="deployment" border="0"></a>
 
 ## 4.2. Tactical-Level Domain-Driven Design
 
-Este apartado describe el diseño orientado a dominios a nivel táctico, un enfoque que estructura el software basado en los dominios del negocio. Se centra en modelos, entidades, objetos de valor y servicios que reflejan las necesidades y reglas del dominio, facilitando una implementación más alineada con los requisitos del sistema Chemtrack para la mitigación de riesgos de productos químicos reactivos.
+Este apartado describe el diseño orientado a dominios a nivel táctico, un enfoque que estructura el software basado en los dominios del negocio. Se centra en modelos, entidades, objetos de valor y servicios que reflejan las necesidades y reglas del dominio, facilitando una implementación más alineada con los requisitos del sistema SecurOn para la mitigación de riesgos de productos químicos reactivos.
 
 ### 4.2.1. Bounded Context: IAM
 
@@ -1170,7 +1171,7 @@ Este apartado describe el diseño orientado a dominios a nivel táctico, un enfo
     <tr>
         <td>Usuario</td>
         <td>Entity/Aggregate</td>
-        <td colspan="2">Modela un usuario del sistema Chemtrack, gestionando su información de acceso, roles y certificaciones para garantizar una autenticación y autorización seguras.</td>
+        <td colspan="2">Modela un usuario del sistema SecurOn, gestionando su información de acceso, roles y certificaciones para garantizar una autenticación y autorización seguras.</td>
     </tr>
 </table>
 
@@ -1266,7 +1267,7 @@ Este apartado describe el diseño orientado a dominios a nivel táctico, un enfo
     <tr>
         <td>Rol</td>
         <td>Value Object</td>
-        <td colspan="2">Especifica el rol de un usuario (DRIVER o MANAGER) dentro de Chemtrack, permitiendo la asignación de permisos y responsabilidades según su función.</td>
+        <td colspan="2">Especifica el rol de un usuario (DRIVER o MANAGER) dentro de SecurOn, permitiendo la asignación de permisos y responsabilidades según su función.</td>
     </tr>
 </table>
 
@@ -1320,7 +1321,7 @@ Este apartado describe el diseño orientado a dominios a nivel táctico, un enfo
     <tr>
         <td>Certificación</td>
         <td>Entity/Aggregate</td>
-        <td colspan="2">Registra y gestiona las certificaciones asociadas a un usuario en Chemtrack, asegurando que cumplan con los requisitos de validez para operar en el sistema.</td>
+        <td colspan="2">Registra y gestiona las certificaciones asociadas a un usuario en SecurOn, asegurando que cumplan con los requisitos de validez para operar en el sistema.</td>
     </tr>
 </table>
 
@@ -1386,7 +1387,7 @@ Este apartado describe el diseño orientado a dominios a nivel táctico, un enfo
     <tr>
         <td>Permiso</td>
         <td>Entity/Aggregate</td>
-        <td colspan="2">Establece los permisos específicos de un usuario en Chemtrack, controlando su acceso a funcionalidades y datos según su rol.</td>
+        <td colspan="2">Establece los permisos específicos de un usuario en SecurOn, controlando su acceso a funcionalidades y datos según su rol.</td>
     </tr>
 </table>
 
@@ -1448,7 +1449,7 @@ Este apartado describe el diseño orientado a dominios a nivel táctico, un enfo
     <tr>
         <td>AuthController</td>
         <td>Controller</td>
-        <td colspan="2">Maneja las solicitudes HTTP para autenticar usuarios y gestionar sus cuentas en Chemtrack, incluyendo inicio de sesión, registro y actualizaciones.</td>
+        <td colspan="2">Maneja las solicitudes HTTP para autenticar usuarios y gestionar sus cuentas en SecurOn, incluyendo inicio de sesión, registro y actualizaciones.</td>
     </tr>
 </table>
 
@@ -1520,7 +1521,7 @@ Este apartado describe el diseño orientado a dominios a nivel táctico, un enfo
 
 | Nombre | Categoría | Propósito |
 | --- | --- | --- |
-| PermissionController | Controller | Gestiona solicitudes HTTP para asignar y remover permisos de usuarios en Chemtrack, asegurando un control de acceso granular. |
+| PermissionController | Controller | Gestiona solicitudes HTTP para asignar y remover permisos de usuarios en SecurOn, asegurando un control de acceso granular. |
 
 **Atributos de PermissionController:**
 
@@ -1548,7 +1549,7 @@ Este apartado describe el diseño orientado a dominios a nivel táctico, un enfo
     <tr>
         <td>UserService</td>
         <td>Service</td>
-        <td colspan="2">Implementa la lógica de negocio para la gestión de usuarios en Chemtrack, incluyendo autenticación, registro y manejo de perfiles.</td>
+        <td colspan="2">Implementa la lógica de negocio para la gestión de usuarios en SecurOn, incluyendo autenticación, registro y manejo de perfiles.</td>
     </tr>
 </table>
 
@@ -1632,7 +1633,7 @@ Este apartado describe el diseño orientado a dominios a nivel táctico, un enfo
 
 | Nombre | Categoría | Propósito |
 | --- | --- | --- |
-| PermissionService | Service | Aplica la lógica de negocio para la gestión de permisos en Chemtrack, permitiendo asignar y revocar accesos a usuarios. |
+| PermissionService | Service | Aplica la lógica de negocio para la gestión de permisos en SecurOn, permitiendo asignar y revocar accesos a usuarios. |
 
 **Atributos de PermissionService:**
 
@@ -1654,7 +1655,7 @@ Este apartado describe el diseño orientado a dominios a nivel táctico, un enfo
 
 | Nombre | Categoría | Propósito |
 | --- | --- | --- |
-| UserRepositoryImpl | Repository | Facilita las operaciones de persistencia de usuarios en Chemtrack, interactuando con la base de datos para operaciones CRUD. |
+| UserRepositoryImpl | Repository | Facilita las operaciones de persistencia de usuarios en SecurOn, interactuando con la base de datos para operaciones CRUD. |
 
 **Métodos de UserRepositoryImpl:**
 
@@ -1669,7 +1670,7 @@ Este apartado describe el diseño orientado a dominios a nivel táctico, un enfo
 
 | Nombre | Categoría | Propósito |
 | --- | --- | --- |
-| PermissionRepositoryImpl | Repository | Administra la persistencia de permisos en Chemtrack, permitiendo operaciones CRUD en la base de datos. |
+| PermissionRepositoryImpl | Repository | Administra la persistencia de permisos en SecurOn, permitiendo operaciones CRUD en la base de datos. |
 
 **Métodos de PermissionRepositoryImpl:**
 
@@ -1685,7 +1686,7 @@ Este apartado describe el diseño orientado a dominios a nivel táctico, un enfo
 
 | Nombre | Categoría | Propósito |
 | --- | --- | --- |
-| EmailService | Service | Gestiona el envío de notificaciones y correos electrónicos a usuarios de Chemtrack a través de un servidor SMTP externo. |
+| EmailService | Service | Gestiona el envío de notificaciones y correos electrónicos a usuarios de SecurOn a través de un servidor SMTP externo. |
 
 **Métodos de EmailService:**
 
@@ -1695,7 +1696,7 @@ Este apartado describe el diseño orientado a dominios a nivel táctico, un enfo
 
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
 
-El IAM Bounded Context administra identidad y acceso para Drivers y Managers en Chemtrack. Componentes como AuthController, UserService y PermissionService manejan autenticación y permisos. EmailService, Certification y UserRepositoryImpl gestionan notificaciones y persistencia de usuarios. Se integra con un External Email System y una base de datos relacional para almacenamiento.
+El IAM Bounded Context administra identidad y acceso para Drivers y Managers en SecurOn. Componentes como AuthController, UserService y PermissionService manejan autenticación y permisos. EmailService, Certification y UserRepositoryImpl gestionan notificaciones y persistencia de usuarios. Se integra con un External Email System y una base de datos relacional para almacenamiento.
 
 ![image](https://github.com/user-attachments/assets/3178abf8-7494-4cde-8c7a-14583a51c3ef)
 
@@ -1706,7 +1707,7 @@ A continuación se incluirán las secciones internas Bounded Context Domain Laye
 
 #### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
 
-El diagrama de la capa de dominio muestra el contexto delimitado de gestión de usuarios en Chemtrack. Incluye clases como UserAggregate, que contiene User y Certification, con métodos para agregar certificaciones y validar usuarios. AuthenticationService genera tokens y hashes de contraseñas, mientras UserRepository gestiona operaciones CRUD. La relación "has" con Role define roles como DRIVER y MANAGER, integrando permisos y autenticación.
+El diagrama de la capa de dominio muestra el contexto delimitado de gestión de usuarios en SecurOn. Incluye clases como UserAggregate, que contiene User y Certification, con métodos para agregar certificaciones y validar usuarios. AuthenticationService genera tokens y hashes de contraseñas, mientras UserRepository gestiona operaciones CRUD. La relación "has" con Role define roles como DRIVER y MANAGER, integrando permisos y autenticación.
 
 ![image](https://github.com/user-attachments/assets/7870fb53-32b9-449f-944c-dad16c11f427)
 
@@ -1728,7 +1729,7 @@ El diagrama de diseño de base de datos representa la estructura relacional del 
 
 | Nombre | Categoría | Propósito |
 | --- | --- | --- |
-| Transporte | Entity | Modela y gestiona una operación de transporte químico en Chemtrack, incluyendo su estado, conductor asignado y datos de inicio. |
+| Transporte | Entity | Modela y gestiona una operación de transporte químico en SecurOn, incluyendo su estado, conductor asignado y datos de inicio. |
 
 **Atributos de Transporte:**
 
@@ -1751,7 +1752,7 @@ El diagrama de diseño de base de datos representa la estructura relacional del 
 
 | Nombre | Categoría | Propósito |
 | --- | --- | --- |
-| SensorReading | Entity | Registra y gestiona las lecturas de sensores durante un transporte en Chemtrack, capturando datos como niveles de gas y temperatura. |
+| SensorReading | Entity | Registra y gestiona las lecturas de sensores durante un transporte en SecurOn, capturando datos como niveles de gas y temperatura. |
 
 **Atributos de SensorReading:**
 
@@ -1773,7 +1774,7 @@ El diagrama de diseño de base de datos representa la estructura relacional del 
 
 | Nombre | Categoría | Propósito |
 | --- | --- | --- |
-| TransportStatus | Value Object | Define y categoriza los estados posibles de un transporte en Chemtrack, como PENDIENTE o EN_PROCESO, para seguimiento operativo. |
+| TransportStatus | Value Object | Define y categoriza los estados posibles de un transporte en SecurOn, como PENDIENTE o EN_PROCESO, para seguimiento operativo. |
 
 **Atributos de TransportStatus:**
 
@@ -1794,7 +1795,7 @@ El diagrama de diseño de base de datos representa la estructura relacional del 
 
 | Nombre | Categoría | Propósito |
 | --- | --- | --- |
-| TransportController | Controller | Procesa solicitudes HTTP para gestionar operaciones de transporte en Chemtrack, como inicio, actualización y consulta de estados. |
+| TransportController | Controller | Procesa solicitudes HTTP para gestionar operaciones de transporte en SecurOn, como inicio, actualización y consulta de estados. |
 
 **Atributos de TransportController:**
 
@@ -1816,7 +1817,7 @@ El diagrama de diseño de base de datos representa la estructura relacional del 
 
 | Nombre | Categoría | Propósito |
 | --- | --- | --- |
-| TransportService | Service | Implementa la lógica de negocio para la gestión de operaciones de transporte en Chemtrack, coordinando inicios, actualizaciones y consultas. |
+| TransportService | Service | Implementa la lógica de negocio para la gestión de operaciones de transporte en SecurOn, coordinando inicios, actualizaciones y consultas. |
 
 **Atributos de TransportService:**
 
@@ -1838,7 +1839,7 @@ El diagrama de diseño de base de datos representa la estructura relacional del 
 
 | Nombre | Categoría | Propósito |
 | --- | --- | --- |
-| TransportRepositoryImpl | Repository | Administra la persistencia de datos de transporte en Chemtrack, permitiendo operaciones CRUD en la base de datos. |
+| TransportRepositoryImpl | Repository | Administra la persistencia de datos de transporte en SecurOn, permitiendo operaciones CRUD en la base de datos. |
 
 **Métodos de TransportRepositoryImpl:**
 
@@ -1853,7 +1854,7 @@ El diagrama de diseño de base de datos representa la estructura relacional del 
 
 | Nombre | Categoría | Propósito |
 | --- | --- | --- |
-| IoTDeviceService | Service | Obtiene y procesa datos de sensores de dispositivos IoT en Chemtrack para monitoreo en tiempo real durante el transporte. |
+| IoTDeviceService | Service | Obtiene y procesa datos de sensores de dispositivos IoT en SecurOn para monitoreo en tiempo real durante el transporte. |
 
 **Métodos de IoTDeviceService:**
 
@@ -1863,7 +1864,7 @@ El diagrama de diseño de base de datos representa la estructura relacional del 
 
 #### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
 
-El diagrama del Management Bounded Context muestra la gestión de transporte y monitoreo en Chemtrack. Incluye TransportController, TransportService e IoTDeviceService para procesar datos de sensores IoT. Transport y SensorReading envían notificaciones vía SMTP, mientras TransportRepositoryImpl persiste datos. Se integra con una base de datos y un IoT System para monitoreo en tiempo real.
+El diagrama del Management Bounded Context muestra la gestión de transporte y monitoreo en SecurOn. Incluye TransportController, TransportService e IoTDeviceService para procesar datos de sensores IoT. Transport y SensorReading envían notificaciones vía SMTP, mientras TransportRepositoryImpl persiste datos. Se integra con una base de datos y un IoT System para monitoreo en tiempo real.
 
 ![image](https://github.com/user-attachments/assets/8b6ee048-e773-49e0-9fb4-092c47885f70)
 
@@ -1874,7 +1875,7 @@ A continuación se incluirán las secciones internas Bounded Context Domain Laye
 
 #### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
 
-El diagrama de clases del Management Bounded Context modela transporte en Chemtrack. TransportAggregate contiene Transport y SensorReading, con métodos como addSensorReading y validateTransport.MonitoringService procesa datos de sensores y genera alertas, mientras TransportRepository gestiona persistencia.TransportStatus define estados como PENDING, IN_PROGRESS y COMPLETED, asignados a Transport.
+El diagrama de clases del Management Bounded Context modela transporte en SecurOn. TransportAggregate contiene Transport y SensorReading, con métodos como addSensorReading y validateTransport.MonitoringService procesa datos de sensores y genera alertas, mientras TransportRepository gestiona persistencia.TransportStatus define estados como PENDING, IN_PROGRESS y COMPLETED, asignados a Transport.
 
 ![image](https://github.com/user-attachments/assets/7458ce29-30be-407f-a661-d9983f5c246d)
 
@@ -1896,7 +1897,7 @@ El esquema de base de datos del Management Bounded Context organiza datos de tra
 
 | Nombre | Categoría | Propósito |
 | --- | --- | --- |
-| Incident | Entity | Representa y gestiona un incidente relacionado con un transporte en Chemtrack, capturando su tipo, tiempo y estado para seguimiento y resolución. |
+| Incident | Entity | Representa y gestiona un incidente relacionado con un transporte en SecurOn, capturando su tipo, tiempo y estado para seguimiento y resolución. |
 
 **Atributos de Incident:**
 
@@ -1919,7 +1920,7 @@ El esquema de base de datos del Management Bounded Context organiza datos de tra
 
 | Nombre | Categoría | Propósito |
 | --- | --- | --- |
-| CorrectiveAction | Entity | Define y registra una acción correctiva asociada a un incidente en Chemtrack, incluyendo su descripción y estado de resolución. |
+| CorrectiveAction | Entity | Define y registra una acción correctiva asociada a un incidente en SecurOn, incluyendo su descripción y estado de resolución. |
 
 **Atributos de CorrectiveAction:**
 
@@ -1941,7 +1942,7 @@ El esquema de base de datos del Management Bounded Context organiza datos de tra
 
 | Nombre | Categoría | Propósito |
 | --- | --- | --- |
-| IncidentType | Value Object | Clasifica los tipos de incidentes en Chemtrack, como fugas de gas o anomalías de temperatura, para categorización y análisis. |
+| IncidentType | Value Object | Clasifica los tipos de incidentes en SecurOn, como fugas de gas o anomalías de temperatura, para categorización y análisis. |
 
 **Atributos de IncidentType:**
 
@@ -1962,7 +1963,7 @@ El esquema de base de datos del Management Bounded Context organiza datos de tra
 
 | Nombre | Categoría | Propósito |
 | --- | --- | --- |
-| IncidentController | Procesa solicitudes HTTP para gestionar incidentes en Chemtrack, incluyendo reportes, resoluciones y consultas de incidentes. |
+| IncidentController | Procesa solicitudes HTTP para gestionar incidentes en SecurOn, incluyendo reportes, resoluciones y consultas de incidentes. |
 
 **Atributos de IncidentController:**
 
@@ -1984,7 +1985,7 @@ El esquema de base de datos del Management Bounded Context organiza datos de tra
 
 | Nombre | Categoría | Propósito |
 | --- | --- | --- |
-| IncidentService | Service | Aplica la lógica de negocio para la gestión de incidentes en Chemtrack, incluyendo reportes, resoluciones y recuperación de datos históricos. |
+| IncidentService | Service | Aplica la lógica de negocio para la gestión de incidentes en SecurOn, incluyendo reportes, resoluciones y recuperación de datos históricos. |
 
 **Atributos de IncidentService:**
 
@@ -2006,7 +2007,7 @@ El esquema de base de datos del Management Bounded Context organiza datos de tra
 
 | Nombre | Categoría | Propósito |
 | --- | --- | --- |
-| IncidentRepositoryImpl | Repository | Gestiona la persistencia de incidentes en Chemtrack, permitiendo operaciones CRUD en la base de datos para datos históricos. |
+| IncidentRepositoryImpl | Repository | Gestiona la persistencia de incidentes en SecurOn, permitiendo operaciones CRUD en la base de datos para datos históricos. |
 
 **Métodos de IncidentRepositoryImpl:**
 
@@ -2021,7 +2022,7 @@ El esquema de base de datos del Management Bounded Context organiza datos de tra
 
 | Nombre | Categoría | Propósito |
 | --- | --- | --- |
-| NotificationService | Service | Gestiona el envío de notificaciones de incidentes en Chemtrack a sistemas externos, asegurando alertas en tiempo real. |
+| NotificationService | Service | Gestiona el envío de notificaciones de incidentes en SecurOn a sistemas externos, asegurando alertas en tiempo real. |
 
 **Métodos de NotificationService:**
 
@@ -2031,7 +2032,7 @@ El esquema de base de datos del Management Bounded Context organiza datos de tra
 
 #### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
 
-El Records Bounded Context gestiona incidentes y reportes históricos en Chemtrack. Incluye IncidentController, IncidentService y NotificationService para manejar reportes y alertas. Corrective Action envía acciones correctivas vía SMTP, mientras IncidentRepositoryImpl persiste datos. Se integra con un Alert System y una base de datos relacional para almacenamiento.
+El Records Bounded Context gestiona incidentes y reportes históricos en SecurOn. Incluye IncidentController, IncidentService y NotificationService para manejar reportes y alertas. Corrective Action envía acciones correctivas vía SMTP, mientras IncidentRepositoryImpl persiste datos. Se integra con un Alert System y una base de datos relacional para almacenamiento.
 
 ![image](https://github.com/user-attachments/assets/11cc8bdf-878c-432a-ac20-36c2bfb03060)
 
@@ -2041,7 +2042,7 @@ A continuación se incluirán las secciones internas Bounded Context Domain Laye
 
 #### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
 
-El diagrama de clases del Records Bounded Context modela incidentes en Chemtrack. IncidentAggregate contiene Incident y CorrectiveAction, con métodos como addAction y validateIncident. ReportingService genera reportes, mientras IncidentRepository gestiona persistencia de incidentes. IncidentType define tipos como GAS_LEAK y TEMPERATURE_ANOMALY, asociados a Incident.
+El diagrama de clases del Records Bounded Context modela incidentes en SecurOn. IncidentAggregate contiene Incident y CorrectiveAction, con métodos como addAction y validateIncident. ReportingService genera reportes, mientras IncidentRepository gestiona persistencia de incidentes. IncidentType define tipos como GAS_LEAK y TEMPERATURE_ANOMALY, asociados a Incident.
 
 ![image](https://github.com/user-attachments/assets/db74f044-9b00-48a5-87dc-6095170426bb)
 
@@ -2075,12 +2076,12 @@ Soto, J. A. S., González, D. L. E., Sánchez, J. F. I., Reyes, J. A., & Layva, 
 
 *[Enlace del MIRO para mayor visualización del Event Storming](https://miro.com/welcomeonboard/ZDUyWkh5OTlpSVF4RGdTNG9tdkI0N0FnS1F5VUtRczM0dXJkS2dSZHRDeW1yWm54RW02c3EybHBKYzdIaGkxRjZUb2lwNHB2a0RKelJzRmJNUDd3NEoyNVE3Wk1Uc2U5MUFySzEyZFNBZ0pSa011QkVnQy93aVprVXUyVGFsQ2pNakdSWkpBejJWRjJhRnhhb1UwcS9BPT0hdjE=?share_link_id=980476835383)*
 
-**Anexo B.** Diagrama de Clases de Chemtrack.
+**Anexo B.** Diagrama de Clases de SecurOn.
 
 ![image](https://github.com/user-attachments/assets/0ba27eb9-5cc4-468f-b3a3-f3ab755b4e94)
 
 
-**Anexo C.** Diagrama de Base de Datos de Chemtrack.
+**Anexo C.** Diagrama de Base de Datos de SecurOn.
 
 ![image](https://github.com/user-attachments/assets/8891c6d6-734c-46f2-9289-fd25f42f66af)
 
@@ -2089,7 +2090,7 @@ Soto, J. A. S., González, D. L. E., Sánchez, J. F. I., Reyes, J. A., & Layva, 
 
 [Video de exposición TB1](https://youtu.be/n4_SKmnvCeU)
 
-[Video de exposición TP1](https://youtu.be/Y9wkGYbHHYE)
+[Video de exposición ](https://youtu.be/Y9wkGYbHHYE)
 
 [Video de exposición TB2](https://youtu.be/Yd74MizvXWY)
 
