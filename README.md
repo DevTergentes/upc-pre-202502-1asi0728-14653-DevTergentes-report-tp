@@ -253,9 +253,9 @@ del ABET – EAC - Student Outcome 5.
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
 
-El startup que se introduce en el presente informe recibe como nombre “TrackTox”. Actualmente conformado por un conjunto de estudiantes de la Universidad Peruana de Ciencias Aplicadas, con la ambición de querer ayudar a la sociedad con nuestra grán pasión a la tecnología e informática, creamos esta startup tomando como objetivo asegurar la integridad y mejorar los procesos de trabajo de las empresas de transporte de productos peligrosos.
+El startup DevTergentes, conformado por estudiantes de la Universidad Peruana de Ciencias Aplicadas, nace con el propósito de aportar a la sociedad mediante soluciones tecnológicas que mejoren la seguridad en el transporte de productos peligrosos. Su misión es optimizar la calidad del servicio con eficiencia, seguridad y transparencia, mientras que su visión es liderar en el Perú el desarrollo de soluciones IoT aplicadas al transporte seguro de materiales reactivos.
 
-Como misión se plantea “Incrementar la calidad del servicio de transporte de combustibles con eficiencia, seguridad y transparencia entre conductores y empresas”. Asimismo, la visión de la startup plantea desarrollar la solución IoT más reconocida en el Perú para asegurar la integridad de los transportes de productos peligrosos.
+La propuesta consiste en un sistema integral de monitoreo con IoT que controla tanto las condiciones de salud del conductor como parámetros críticos de la carga (velocidad, horas de manejo, fugas de gas, temperatura y presión). Ante cualquier anomalía, el sistema envía alertas y activa medidas preventivas para mitigar riesgos y garantizar la integridad del transporte.
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
@@ -274,62 +274,64 @@ A continuación, presentaremos los perfiles de los integrantes del equipo encarg
 **Product name**
 
 
-El nombre elegido para nuestra solucion es ChemTrack. Este nombre transmite la idea de un camino seguro en el cuál se llevaran los productos quimicos, lo cual es el objetivo principal del sistema de detección y alerta.
+El nombre asignado a nuestra solución es SecurOn. Este nombre refleja el concepto de seguridad activa y permanente durante todo el proceso de transporte, garantizando que tanto la carga como el conductor estén protegidos en todo momento.
 
 
 **Product Description**
 
-La solución IoT es innovadora dado que se brinda un servicio de transporte de productos peligrosos implementando la supervisión de condiciones de seguridad tanto para el mismo conductor y para el monitoreo de la empresa. Por medio de sensores incluidos en el vehículo y en el conductor, se supervisará el material de carga y se notificará en caso exista alguna fuga. También se mantendra control del estado de salud del conductor. Estos sensores varían desde fuga de gas, temperatura, presión, movimiento, etc. 
+SecurOn es una solución basada en IoT que transforma el transporte de materiales peligrosos mediante un sistema integral de monitoreo. A través de sensores inteligentes instalados en el vehículo y en el conductor, se supervisan parámetros críticos como fugas de gas, temperatura, presión y condiciones de salud del operador.
+En caso de detectar una anomalía, el sistema envía notificaciones inmediatas y activa mecanismos de alerta para prevenir incidentes. De esta manera, se asegura la integridad de la carga, la seguridad del conductor y la tranquilidad de las empresas transportistas.
 
 
 **Monetización**
 
-El sistema tendrá una suscripción donde cubra el precio de los dispostivos IOT y el servicio de la plataforma.
+El modelo de negocio de SecurOn se basa en un esquema de suscripción que cubre tanto el uso de los dispositivos IoT como el acceso a la plataforma de monitoreo y gestión.
 
 ### 1.2.1. Antecedentes y problemática
 
-En los últimos años, la industria del transporte de productos peligrosos, como gases inflamables, productos químicos y materiales industriales, la seguridad es una prioridad absoluta. A lo largo de los años, ha habido numerosos incidentes que han resultado en daños graves, tanto para los trabajadores involucrados como para el medio ambiente y las comunidades cercanas. Estos incidentes se han debido principalmente a fugas, explosiones y derrames de materiales peligrosos durante el transporte.
+En la última década, el transporte de productos peligrosos —como gases inflamables, sustancias químicas e insumos industriales— se ha convertido en una actividad de alto riesgo. Numerosos incidentes han demostrado que una fuga, un derrame o una explosión pueden generar daños graves al personal, al medio ambiente y a las comunidades cercanas.
 
-Uno de los principales problemas radica en la detección tardía de fugas y otras condiciones peligrosas durante el transporte. La falta de un monitoreo continuo y en tiempo real dificulta la identificación oportuna de irregularidades, como cambios en la presión, temperatura o movimiento inusual del vehículo. Esta situación aumenta la probabilidad de que un problema menor se convierta en una emergencia antes de ser detectado y abordado.
+Uno de los principales problemas es la detección tardía de anomalías. La falta de un sistema de monitoreo en tiempo real impide identificar a tiempo variaciones de presión, temperatura o movimientos anormales del vehículo, lo que convierte pequeños problemas en emergencias críticas.
 
-Otro desafío es la fragmentación de las soluciones actuales de monitoreo. Muchas empresas dependen de sistemas manuales o tecnologías desactualizadas que no proporcionan una supervisión integral. Esta carencia de un sistema centralizado y automatizado crea brechas en la seguridad, dejando a las empresas vulnerables a incidentes que podrían haberse prevenido con un mejor monitoreo.
+Otro reto es la fragmentación tecnológica. Muchas empresas aún dependen de controles manuales o de equipos obsoletos que no ofrecen una supervisión integral ni centralizada, lo cual genera vulnerabilidades operativas.
 
-Además, las exigencias regulatorias en el transporte de materiales peligrosos son cada vez más estrictas. El incumplimiento de estas normativas no solo implica sanciones legales, sino también la pérdida de confianza de los clientes y daños significativos a la reputación de la empresa. Sin herramientas adecuadas para garantizar el cumplimiento, las empresas corren el riesgo de enfrentar graves consecuencias financieras y operativas.
+A ello se suman las exigencias regulatorias cada vez más estrictas. No cumplir con la normativa de transporte de materiales peligrosos implica sanciones legales, pérdidas económicas y un daño significativo a la reputación empresarial.
+
+SecurOn surge como respuesta a esta problemática, ofreciendo una solución digital moderna, integral y confiable.
 
 **Herramienta 5W y 2H**
 
 **¿Qué? (What)**
 
-Según Lopez-Atamorors et al. (2010), nos dice que los principales riesgos dentro del servicio de transportes peligros son: Choque, Explosión y Fuga. Debido a ello, el transporte de productos peligrosos, como gases inflamables y productos químicos, significa un alto riesgo que se tiene que afrontar. La falta de monitoreo continuo y en tiempo real impide la identificación oportuna de condiciones peligrosas, como cambios en la presión, temperatura o movimiento del vehículo, también suponen unod estos problemas.
+El transporte de productos peligrosos como gases y químicos implica riesgos altos: fugas, explosiones y derrames. La falta de monitoreo en tiempo real impide detectar estas situaciones a tiempo.
 
 **¿Cuándo? (When)**
 
-Este problema se presenta de manera constante durante el transporte de productos peligrosos, particularmente en situaciones de emergencia o cuando las condiciones de seguridad cambian rápidamente y no se detectan a tiempo.
+Estos problemas ocurren de manera constante durante los trayectos, especialmente en viajes largos o condiciones adversas donde no se supervisan las variables críticas.
 
 **¿Dónde? (Where)**
 
-Los problemas surgen en cualquier etapa del transporte de materiales peligrosos, ya sea en carreteras, vías ferroviarias o puertos. Estos incidentes afectan principalmente a las rutas de transporte utilizadas por empresas que manejan productos químicos, gases inflamables y otros materiales industriales peligrosos.
+Los incidentes pueden presentarse en carreteras, vías férreas o puertos, afectando no solo al transporte sino también a las comunidades y el medio ambiente.
 
 **¿Quién? (Who)**
 
-Los principales afectados son las empresas de transporte de productos peligrosos, los trabajadores que manipulan estos materiales y las comunidades cercanas a las rutas de transporte. También se ven afectadas las autoridades reguladoras que deben supervisar el cumplimiento de las normas de seguridad.
+Los principales afectados son los conductores, las empresas transportistas, las comunidades cercanas a las rutas y las entidades reguladoras que supervisan la seguridad.
 
 **¿Por qué? (Why)**
 
-Según Chacoón y Domingo (2021): los efectos de fugas de gases pueden aumentar el efecto invernadero, contaminación de atmosfera y otros efectos nocivos, debido a ello es importante. Además, la falta de un sistema de monitoreo eficiente y continuo. Muchos sistemas actuales son manuales o desactualizados, lo que crea brechas de seguridad. Esto se agrava con el incumplimiento de regulaciones, lo cual puede resultar en sanciones legales y pérdidas de reputación.
+La mayoría de empresas aún usan sistemas manuales o desactualizados, lo que genera brechas de seguridad y dificulta cumplir con normativas cada vez más estrictas.
 
 **¿Cómo? (How)**
 
-La problemática se manifiesta a través de incidentes como fugas, explosiones y derrames que no son detectados a tiempo debido a la falta de monitoreo adecuado. Las empresas a menudo dependen de sistemas fragmentados que no ofrecen una supervisión integral, exponiendo a los trabajadores y al medio ambiente a riesgos significativos.
+Los incidentes ocurren cuando fugas o anomalías no son detectadas a tiempo. Sin un monitoreo integral, pequeños problemas pueden escalar a emergencias graves.
 
 **¿Cuánto? (How Much)**
 
-Según Soto et al. (2023), en la mayoría de países de latinoamerica, se arroja que en un año promedio se atienden más de 11,00 resportes relacionados con gas L.P y gas natural. Las pérdidas asociadas incluyen daños a la infraestructura, sanciones legales, costos de limpieza y posibles daños a la salud de los trabajadores y el público. Además, el incumplimiento de las regulaciones puede llevar a multas que varían dependiendo de la gravedad del incidente y el impacto ambiental.
+En Latinoamérica se registran miles de incidentes anuales con gases y combustibles, ocasionando pérdidas económicas, sanciones legales y graves impactos ambientales.
 
 **Conclusiones de las 5W + 2H**
 
 Luego de analizar las 5W y 2H, se evidencia que la industria del transporte de productos peligrosos enfrenta desafíos críticos en la detección temprana de fugas y otros incidentes relacionados con la seguridad. La fragmentación y la falta de actualización de las tecnologías de monitoreo son factores clave que impiden una respuesta rápida y efectiva ante emergencias. Para mitigar estos riesgos, se requiere una solución integral que incluya la implementación de tecnologías de monitoreo continuo y en tiempo real, centralizando la supervisión y mejorando la capacidad de respuesta ante condiciones peligrosas. Esto no solo ayudaría a cumplir con las normativas cada vez más estrictas, sino que también protegería a los trabajadores, el medio ambiente y las comunidades circundantes.
-
 ### 1.2.2. Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
 
@@ -508,7 +510,7 @@ A continuación, se plantean las hipótesis que proponen una solución a la prob
 <tr class="header">
 <th></th>
 <th></th>
-<th>Chemtrack</th>
+<th>SecurOn</th>
 <th>Grupo Caresny</th>
 <th>Dachser</th>
 <th>Cargo & Transport</th>
