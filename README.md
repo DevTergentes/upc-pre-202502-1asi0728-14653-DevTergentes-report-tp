@@ -567,14 +567,13 @@ Nombres y apellidos: Carolina Torres Torres
 
 Edad: 27
 
-Inicio: 0:00
+Inicio: 
 
-Fin: 5:07
+Fin: 
 
 Duración: 5:07
 
-Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114248_upc_edu_pe/ESJ2p17qJopCnR5y_ExwldIBFC13m5znCcQtlcKynGLgHw?e=0XxBFT&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
-
+Link: 
 ![entrevista1t](https://i.imgur.com/0MFB9Rr.png)
 
 Resumen:
@@ -602,22 +601,22 @@ Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213076_upc_edu_pe/Ec
 
 ***Tercera Entrevista:***
 
-Nombres y apellidos: Luis Cornejo
+Nombres y apellidos: 
 
-Edad: 25
+Edad:
 
-Inicio: 31:34
+Inicio: 
 
-Fin: 39:17
+Fin: 
 
-Duración: 07:43
+Duración: 
 
-![Captura de pantalla 2024-09-06 171745](https://github.com/user-attachments/assets/6570a2ce-794a-41f8-870c-1fa46d93ea19)
+Captura:
 
 
-Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118468_upc_edu_pe/EVhL7w8-vyZKl68ljP0MwdYB7jwPNv07LyALip-7_Lmg2w?e=sL9c5x&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+Link: 
 
-- Hemos entrevistado a Luis Cornejo de 25 años de edad y vive en San Borja. Nos cuenta que tienemedidas de seguridad como extintores, un sistema de detección de fugas y equipo de comunicación para reportar problemas. Aunque no ha enfrentado incidentes graves, tuvo una fuga menor que gestionó siguiendo los protocolos de seguridad. Entre sus principales frustraciones están la incertidumbre sobre el estado de la carga y la falta de comunicación eficiente en rutas complicadas. Actualmente, solo usa un sistema básico de rastreo que no le brinda información detallada sobre la seguridad de la carga. Está interesado en adoptar una solución tecnológica de monitoreo en tiempo real, especialmente con sensores de nivel de líquidos, presión y gases, para mejorar la prevención de fugas y peligros.
+- 
 
 
 
@@ -625,58 +624,39 @@ Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118468_upc_edu_pe/EV
 
 ***Primera Entrevista:***
 
-Nombre: Arnhol Castrejon
+Nombre:
 
-Inicio: 0:00
+Inicio: 
 
-Fin: 4:30
+Fin: 
 
-Duración: 4:30
+Duración: 
 
 Link: 
 
-<img width="1156" height="531" alt="image" src="https://github.com/user-attachments/assets/735a624b-fe54-4c31-b010-2150dd54bdc2" />
+Captura:
 
 
-Hemos entrevistado a Arnold Alfred, de 26 años, propietario de una pequeña empresa dedicada al transporte de gas en Villa El Salvador. Actualmente, cuentan con medidas básicas de seguridad como la revisión de las unidades antes de cada viaje, el uso de extintores y la entrega de chalecos y cascos al personal. La capacitación se realiza mediante charlas internas y simples recomendaciones de prevención.
-En cuanto a tecnología, la empresa utiliza únicamente GPS para el seguimiento de los vehículos, sin otras herramientas de supervisión. Arnold considera que los sensores de fuga de gas y de temperatura serían los más adecuados para su rubro, y manifestó interés en implementar soluciones IoT para mejorar la seguridad en tiempo real, ya que estas permitirían reaccionar más rápido ante emergencias y generar mayor confianza en los clientes.
-Entre los beneficios que espera obtener menciona el mayor control de la carga, la reducción de riesgos y la prevención de pérdidas. Sin embargo, también señaló inquietudes relacionadas con el costo de implementación y la adaptación del personal. Finalmente, indicó que preferiría recibir alertas mediante mensajes al celular y aplicaciones móviles, y considera que una solución IoT confiable, fácil de usar y de bajo costo representaría una ventaja competitiva frente a otras empresas del sector.
+- 
 
 ***Segunda Entrevista:***
 
-Nombre: Lissane Mareni
+Nombre: 
 
-Inicio: 4:30
+Inicio: 
 
-Fin: 8:48
+Fin: 
 
-Duración: 4:18
+Duración: 
 
-Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118468_upc_edu_pe/EVhL7w8-vyZKl68ljP0MwdYB7jwPNv07LyALip-7_Lmg2w?e=sL9c5x&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+Link: 
 
-![entrevista3e](https://github.com/user-attachments/assets/8c7c6c22-70f1-4775-9212-80a7b8fb3c28)
+Captura:
 
-- Hemos entrevistado a Lisanne, quien mencionó que actualmente solo cuentan con un sistema de GPS para rastrear los vehículos y proporcionan un seguro de vida a los transportistas, pero no implementan medidas adicionales específicas para protegerlos. La capacitación que se ofrece es básica, enfocándose en evitar que la carga esté expuesta a fuentes de calor o movimientos bruscos, y se prefiere contratar conductores con experiencia. Además del GPS y los teléfonos entregados por la empresa, no utilizan tecnologías adicionales para garantizar la seguridad de las cargas.
-  
+- 
 
 
 ***Tercera Entrevista:***
-
-Nombre: Jose Luis Castillo
-
-Inicio: 8:48
-
-Fin: 14:38
-
-Duración: 5:50
-
-Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118468_upc_edu_pe/EVhL7w8-vyZKl68ljP0MwdYB7jwPNv07LyALip-7_Lmg2w?e=sL9c5x&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
-
-![entrevista1e](https://github.com/user-attachments/assets/ade12b09-87c0-4c4e-8ddb-7cf14e5a830c)
-
-- Hemos entrevistado Jose Luis Castillo de 22 años de edad que vive en Santiago de Surco, quien mencionó que implementan protocolos rigurosos para garantizar la seguridad de los transportistas y la carga, como la señalización adecuada, límites de velocidad, rutas seguras y revisiones periódicas de los vehículos. La capacitación de los transportistas incluye entrenamiento regular en el manejo de materiales peligrosos, procedimientos de emergencia y el uso de equipos de protección personal.
-
-***Cuarta Entrevista:***
 
 Nombres y Apellidos: Diego Sebastian Valdivia Colque
 
