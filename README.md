@@ -1274,14 +1274,13 @@ Este diagrama ilustra la interacción entre los contextos delimitados **IAM**, *
 
 El diagrama identifica a dos usuarios principales: el **Driver** (Conductor) y el **Manager** (Gerente), quienes interactúan directamente con el sistema **SecurOn** para gestionar el transporte y responder a posibles riesgos. Además, el sistema **SecurOn** utiliza un **Alert System**, un servicio de notificaciones, para enviar alertas y mantener a los usuarios informados sobre cualquier evento relevante durante el proceso de transporte.
 
-**System Landscape Diagram:** https://ibb.co/4Rz65xL1
-<img src="https://i.ibb.co/DfhxSnFr/landscapecontext.png" alt="landscapecontext" border="0">
+<img src="https://github.com/user-attachments/assets/14a7f683-26a9-4b40-afeb-f2ceea60d94f" alt="landscapecontext" border="0">
 
 #### 4.3.2. Software Architecture Context Level Diagrams
 
 Este diagrama **contextualiza** cómo el sistema **SecurOn** se integra en su entorno y qué **actores externos** (personas o sistemas) interactúan con él. Destaca el flujo de información crucial, como el **monitoreo**, las **alertas** y la **gestión de incidentes** en situaciones de riesgo.
 
-![image](https://github.com/user-attachments/assets/c2df48b0-dada-401d-aed2-dac8f42f14e2)
+![image](https://github.com/user-attachments/assets/9e9d621e-da36-4ec8-a68b-368853473291)
 
 ---
 
@@ -1289,7 +1288,7 @@ Este diagrama **contextualiza** cómo el sistema **SecurOn** se integra en su en
 
 El diagrama muestra la **arquitectura de software a nivel de contenedores** del sistema de mitigación de riesgos. Incluye a los actores **Driver** y **Manager**, que interactúan con componentes como la **Mobile App**, **Landing Page**, **Web Application**, **Edge Application**, **IoT Embedded App**, **Alert System**, **Web API**, **Edge Database** y **Web Database**. Las conexiones indican los flujos de datos y notificaciones, como el **monitoreo**, las **alertas de incidentes** y las **consultas**. Integra aplicaciones móviles, web y de borde con bases de datos para gestionar información en tiempo real. Los **bounded context** incluidos son **IAM**, **Management** y **Records**.
 
-![image](https://github.com/user-attachments/assets/a37540be-ea8e-4bc4-b4e4-a07c649fcce0)
+![image](https://github.com/user-attachments/assets/ca75228c-708d-4ed8-8ca5-129b9ef4128a)
 
 ---
 
@@ -1297,8 +1296,7 @@ El diagrama muestra la **arquitectura de software a nivel de contenedores** del 
 
 El diagrama de despliegue detalla la **arquitectura de software** de **SecurOn** para la mitigación de riesgos de productos químicos reactivos. Muestra los contenedores y nodos de despliegue: **Landing Page** (HTML/CSS, Github Pages), **Web Application** (Angular/Springboot, Netlify), **Web API** y **Edge API Application** (Springboot, Azure), **Mobile App** (Flutter, dispositivos móviles), **IoT Embedded App** (Python, dispositivos IoT), **Web Database** (MySQL, Azure) y **Edge Database** (MySQL, Azure). Las conexiones representan los flujos de datos, incluyendo el **monitoreo**, la **transferencia de datos IoT** y las operaciones de **lectura y escritura en las bases de datos**.
 
-**Deployment Diagram:** https://ibb.co/G4zcw7sy
-<img src="https://i.ibb.co/8L163Mzq/deployment.png" alt="deployment" border="0">
+<img src="https://github.com/user-attachments/assets/c2fac1fa-18fb-4547-ab6f-56cac609d78a" alt="deployment" border="0">
 
 
 # Bibliografía
