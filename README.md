@@ -944,6 +944,17 @@ A continuación, se mostrará la herramienta Product Backlog, lista de trabajo o
 
 ## 4.1. Strategic-Level Attribute-Driven Design
 ### 4.1.1. Design Purpose.
+
+El propósito del diseño estratégico de SecurOn es ofrecer una solución digital integral que aborde los riesgos asociados al transporte de materiales peligrosos, garantizando la seguridad de los conductores, la protección de las comunidades y el cumplimiento normativo de las empresas. El diseño busca responder directamente a la problemática identificada: la detección tardía de anomalías, la fragmentación tecnológica en los procesos de monitoreo y las crecientes exigencias regulatorias en el sector transporte.
+
+Para cumplir con este propósito, se plantea una arquitectura orientada a la integración de sensores IoT y servicios en la nube, que permita monitorear en tiempo real variables críticas del transporte —como presión, temperatura, ubicación y estado del vehículo— y activar protocolos de prevención ante posibles incidentes. Esta estrategia tecnológica asegura una supervisión centralizada, resiliente y adaptable a distintos escenarios operativos.
+
+La orientación al usuario es un eje fundamental. Para los transportistas, el diseño contempla funcionalidades de registro validado, inspección previa del vehículo, generación de reportes de estado y recepción de notificaciones de mantenimiento preventivo. Para las empresas de transporte, se priorizan herramientas de gestión de solicitudes, verificación de permisos de conductores, seguimiento en tiempo real de los viajes activos y alertas inmediatas en caso de incidentes. Así, el sistema no solo cubre las necesidades de operatividad y seguridad, sino que también contribuye a optimizar la eficiencia en la coordinación logística.
+
+Asimismo, el enfoque estratégico del diseño posiciona a SecurOn como una ventaja competitiva frente a actores tradicionales del sector, al ofrecer un modelo escalable basado en servicios digitales modulares y un esquema de despliegue flexible mediante Edge API. Esta decisión facilita la incorporación de nuevas funcionalidades sin afectar la estabilidad del sistema, permitiendo a la solución evolucionar en paralelo con los cambios normativos y las demandas del mercado.
+
+En suma, el propósito del diseño de SecurOn es consolidar una plataforma tecnológica que no solo garantice la continuidad y seguridad del transporte de productos peligrosos, sino que también potencie la confianza de las empresas en sus operaciones, minimice riesgos legales y reputacionales, y ofrezca a los transportistas una herramienta práctica, moderna y centrada en la prevención.
+
 ### 4.1.2. Attribute-Driven Design Inputs. 
 #### 4.1.2.1. Primary Functionality (Primary User Stories). 
 #### 4.1.2.2. Quality attribute Scenarios. 
