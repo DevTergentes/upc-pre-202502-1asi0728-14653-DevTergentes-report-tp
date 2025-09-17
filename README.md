@@ -1265,7 +1265,6 @@ Para priorizar el desarrollo del núcleo funcional del sistema se aplicó la té
 
 Este diagrama ilustra la interacción entre los contextos delimitados **IAM**, **Records** y **Management** en **SecurOn**. **IAM** y **Management** se comunican a través de un **Shared Kernel**, compartiendo la lógica de autenticación y gestión de transporte. **Records** utiliza una **ACL** (Capa Anti-Corrupción) con **Management** e **IAM** para proteger la integridad de los datos y evitar contaminación. **IAM** actúa como **Supplier** para **Records**, proporcionando servicios de autenticación que **Records** consume para gestionar incidentes. Esto promueve una arquitectura modular y cohesiva en el sistema.
 
-**Context Mapping Diagram:** https://ibb.co/wZts5VFt
 <img src="https://i.ibb.co/sp7H8nd7/contextmapping.png" alt="contextmapping" border="0">
 
 ### 4.3. Software Architecture
@@ -1319,16 +1318,6 @@ Soto, J. A. S., González, D. L. E., Sánchez, J. F. I., Reyes, J. A., & Layva, 
 ![eventStorming](https://github.com/user-attachments/assets/fe7db010-856e-4eee-8ef3-90a84ecb3327)
 
 Enlace del MIRO para mayor visualización del Event Storming: https://miro.com/welcomeonboard/ZDUyWkh5OTlpSVF4RGdTNG9tdkI0N0FnS1F5VUtRczM0dXJkS2dSZHRDeW1yWm54RW02c3EybHBKYzdIaGkxRjZUb2lwNHB2a0RKelJzRmJNUDd3NEoyNVE3Wk1Uc2U5MUFySzEyZFNBZ0pSa011QkVnQy93aVprVXUyVGFsQ2pNakdSWkpBejJWRjJhRnhhb1UwcS9BPT0hdjE=?share_link_id=980476835383
-
-**Anexo B.** Diagrama de Clases de SecureOn.
-
-![image](https://github.com/user-attachments/assets/0ba27eb9-5cc4-468f-b3a3-f3ab755b4e94)
-
-
-**Anexo C.** Diagrama de Base de Datos de SecureOn.
-
-![image](https://github.com/user-attachments/assets/8891c6d6-734c-46f2-9289-fd25f42f66af)
-
 
 **Videos de exposición**
 
