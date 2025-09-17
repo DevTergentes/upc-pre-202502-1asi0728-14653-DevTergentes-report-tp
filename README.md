@@ -987,6 +987,21 @@ Estos atributos se convierten en **drivers arquitectónicos clave**, orientando 
 | Usabilidad (Usability) | Transportista no técnico | Transportista intenta registrarse en la plataforma y subir sus permisos | Módulo de Registro de Transportistas | Operación normal | El sistema guía con formularios validados y mensajes claros de error | Registro completado en < 3 min con ≤ 1 intento fallido |
 
 #### 4.1.2.3. Constraints
+
+En esta sección se definen las **restricciones técnicas no negociables** que guían la implementación de la solución **SecurOn**.  
+Estas restricciones provienen de las necesidades del negocio, la criticidad del dominio (transporte de productos peligrosos) y las condiciones técnicas establecidas por el cliente.  
+Cada constraint se expresa como una *Technical Story* con sus respectivos criterios de aceptación.
+
+| Technical Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+|--------------------|--------|-------------|--------------------------|---------------------------|
+| CON-001 | Arquitectura Monolítica Escalable | El sistema debe ser implementado como una aplicación monolítica centralizada para simplificar despliegue y mantenimiento inicial. | La solución debe desplegarse como un único artefacto y soportar crecimiento en funcionalidades sin comprometer estabilidad. | EP01, EP02 |
+| CON-002 | Autenticación y Autorización Segura | El sistema debe validar credenciales de transportistas y empresas mediante autenticación segura y control de accesos. | Acceso a funcionalidades restringidas solo a usuarios autenticados; autorización basada en roles. | EP01 |
+| CON-003 | Procesamiento en Tiempo Real vía Edge API | La plataforma debe recibir y procesar datos de sensores IoT a través de la Edge API con baja latencia. | El sistema procesa eventos en tiempo real con latencia máxima de 5 segundos en condiciones normales. | EP03, EP04 |
+| CON-004 | Cifrado de Datos Sensibles | Toda la información sensible (permisos, certificaciones, solicitudes) debe estar cifrada en tránsito y en reposo. | Cifrado en tránsito con TLS 1.2+ y cifrado en reposo con AES-256. | EP01, EP02 |
+| CON-005 | Alta Disponibilidad | La aplicación debe estar disponible para empresas y transportistas en todo momento, incluso en horarios de alta demanda. | Disponibilidad ≥ 99.5% mensual. | EP02, EP03 |
+| CON-006 | Compatibilidad Multidispositivo | El sistema debe ser accesible desde navegadores en computadoras, tablets y dispositivos móviles. | La interfaz se adapta automáticamente a diferentes resoluciones y tamaños de pantalla. | EP01, EP02 |
+| CON-007 | Cumplimiento Normativo | El sistema debe garantizar que las solicitudes de transporte y permisos de transportistas cumplan con la normativa vigente de transporte de sustancias peligrosas. | El sistema valida documentación obligatoria antes de publicar solicitudes o aceptar transportistas. | EP01, EP02 |
+
 ### 4.1.3. Architectural Drivers Backlog. 
 ### 4.1.4. Architectural Design Decisions. 
 ### 4.1.5. Quality Attribute Scenario Refinements. 
