@@ -88,7 +88,7 @@ Link de repositorio Github:
   - [3.4. Product Backlog](#34-product-backlog)
 ## [Capítulo IV: Strategic-Level Software Design](#capítulo-iv-strategic-level-software-design)
   - [4.1. Strategic-Level Attribute-Driven Design](#41-strategic-level-attribute-driven-design)
-    - [4.1.1. Análisis competitivo](#411-design-purpose)
+    - [4.1.1. Design Purpose](#411-design-purpose)
     - [4.1.2. Attribute-Driven Design Inputs](#411-attribute-driven-design-inputs)
       - [4.1.2.1. Primary Functionality (Primary User Stories)](#4121-primary-functionality-primary-user-stories)
       - [4.1.2.2. Quality attribute Scenarios](#4122-quality-attribute-scenarios)
