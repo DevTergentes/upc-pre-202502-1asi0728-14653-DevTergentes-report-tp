@@ -972,7 +972,20 @@ Estas funcionalidades representan los **drivers funcionales principales** que or
 | EP04 / US05 | Notificaciones de Incidentes en Tiempo Real | Como empresa, quiero recibir notificaciones en tiempo real sobre incidentes (accidente, retraso, desviación) durante el transporte. | El sistema envía notificación en tiempo real con detalles; si falla, se muestra error y opciones alternativas de contacto. | EP04 |
 | EP04 / TS-05 | Implementación de Notificaciones de Incidentes en Tiempo Real a través de Edge API | Como desarrollador, quiero implementar envío de alertas de incidentes desde sensores IoT a la Edge API, para notificar a la empresa de forma inmediata. | Procesamiento correcto de notificaciones de incidente; manejo de fallas en la comunicación. | EP04 |
 
-#### 4.1.2.2. Quality attribute Scenarios. 
+#### 4.1.2.2. Quality Attribute Scenarios
+
+En esta sección se especifican los **atributos de calidad más relevantes** para el diseño de la solución **SecurOn**.  
+Los escenarios planteados responden a necesidades críticas del sistema, como la **disponibilidad en tiempo real**, la **seguridad de la información sensible**, la **escalabilidad ante picos de demanda**, la **fiabilidad de las notificaciones de incidentes** y la **usabilidad para actores no técnicos**.  
+Estos atributos se convierten en **drivers arquitectónicos clave**, orientando la selección de tecnologías, patrones y mecanismos de integración.
+
+| Atributo | Fuente | Estímulo | Artefacto | Entorno | Respuesta | Medida |
+|----------|--------|----------|-----------|---------|-----------|--------|
+| Disponibilidad (High Availability) | Empresa usuaria | Un administrador intenta acceder al sistema durante un pico de solicitudes o en mantenimiento planificado | Plataforma SecurOn (Frontend + Mobile + Backend) | Horas pico, múltiples solicitudes concurrentes | El sistema garantiza acceso continuo mediante balanceo de carga y redundancia | 99.9% de uptime mensual |
+| Seguridad (Security) | Actor malicioso externo | Intento de acceso no autorizado a datos de transportistas, rutas o solicitudes | API Gateway + Base de datos | Operación normal | El sistema rechaza el acceso y registra el intento en logs de auditoría | 100% de intentos bloqueados, detección en < 2 seg |
+| Rendimiento / Escalabilidad (Performance / Scalability) | Empresas publicando solicitudes | Se registran más de 100 solicitudes simultáneamente | Servicio de publicación de solicitudes + base de datos | Pico de uso inesperado | El sistema procesa las solicitudes sin pérdida de datos ni caídas | Tiempo de respuesta < 2 seg por solicitud |
+| Fiabilidad de Comunicación (Reliability) | Sensores IoT en transporte | Se produce un incidente (accidente, desviación) y se envía señal a la Edge API | Servicio de Monitoreo en Tiempo Real + Notificaciones | Transporte en curso bajo condiciones de riesgo | El sistema recibe y reenvía la alerta a la empresa de manera inmediata | Entrega de notificación en < 5 seg, tasa de entrega ≥ 99% |
+| Usabilidad (Usability) | Transportista no técnico | Transportista intenta registrarse en la plataforma y subir sus permisos | Módulo de Registro de Transportistas | Operación normal | El sistema guía con formularios validados y mensajes claros de error | Registro completado en < 3 min con ≤ 1 intento fallido |
+
 #### 4.1.2.3. Constraints
 ### 4.1.3. Architectural Drivers Backlog. 
 ### 4.1.4. Architectural Design Decisions. 
