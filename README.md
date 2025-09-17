@@ -2055,7 +2055,20 @@ Soto, J. A. S., González, D. L. E., Sánchez, J. F. I., Reyes, J. A., & Layva, 
 
 # Anexos
 
+**Anexo A.** Event Storming desarrollado en la plataforma MIRO.
 
+![eventStorming](https://github.com/user-attachments/assets/fe7db010-856e-4eee-8ef3-90a84ecb3327)
+
+Enlace del MIRO para mayor visualización del Event Storming: https://miro.com/welcomeonboard/ZDUyWkh5OTlpSVF4RGdTNG9tdkI0N0FnS1F5VUtRczM0dXJkS2dSZHRDeW1yWm54RW02c3EybHBKYzdIaGkxRjZUb2lwNHB2a0RKelJzRmJNUDd3NEoyNVE3Wk1Uc2U5MUFySzEyZFNBZ0pSa011QkVnQy93aVprVXUyVGFsQ2pNakdSWkpBejJWRjJhRnhhb1UwcS9BPT0hdjE=?share_link_id=980476835383
+
+**Anexo B.** Diagrama de Clases de SecureOn.
+
+![image](https://github.com/user-attachments/assets/0ba27eb9-5cc4-468f-b3a3-f3ab755b4e94)
+
+
+**Anexo C.** Diagrama de Base de Datos de SecureOn.
+
+![image](https://github.com/user-attachments/assets/8891c6d6-734c-46f2-9289-fd25f42f66af)
 
 
 **Videos de exposición**
