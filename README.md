@@ -938,6 +938,1108 @@ A continuación, se mostrará la herramienta Product Backlog, lista de trabajo o
 |18|US02|Notificaciones de Mantenimiento Preventivo|Como transportista, quiero recibir notificaciones para realizar el mantenimiento preventivo del vehículo, para evitar problemas inesperados.|3|
 
 
+
+
+# Capítulo IV: Solution Software Design
+
+## 4.1 Strategic-Level Domain-Driven Design
+### 4.1.1. EventStorming
+En el transcurso de la etapa de *Event Storming*, el grupo de trabajo ejecutó una actividad grupal donde se intercambiaron propuestas sobre funcionalidades y características que se pretendían integrar en el proyecto. 
+
+Para llevar a cabo esta metodología se utilizó la herramienta *MIRO* como soporte visual y de organización. *Ver ANEXO A*
+
+**Step 1: Unstructured exploration**
+
+En esta etapa, se consiguieron identificar los eventos más importantes que representan las acciones fundamentales dentro de la solución tecnológica, obteniendo de esta manera los primeros esbozos de los *bounded context*.
+
+![image](https://github.com/user-attachments/assets/20a8a668-6e4e-4d80-90fe-b87d6e609bff)
+
+**Step 2: Timelines**
+
+En esta fase, los eventos identificados se agruparon en conjuntos más reducidos, tomando en cuenta tanto las rutas ideales o exitosas *(happy paths)* como aquellas que representan fallos o situaciones no deseadas *(unhappy paths)*. Esta organización facilitó estructurar mejor la información y comprender las diferentes secuencias dentro del sistema de manera más clara.
+
+![image](https://github.com/user-attachments/assets/3873cf40-8ccf-4aa3-a3a8-dd4e10f9014a)
+
+**Step 3: Paint Points**
+
+En este procedimiento se identificaron *paint points*, es decir, zonas problemáticas donde los usuarios podrían encontrarse con obstáculos al interactuar con nuestro sistema. Reconocerlos es fundamental para mejorar la experiencia de uso y optimizar el diseño de la aplicación.
+
+![step3](https://github.com/user-attachments/assets/f84f6a50-bde3-46fe-8577-3a862380ec8c)
+
+
+**Step 4: Pivotal Points**
+
+A lo largo de esta etapa se reconocieron *pivotal points*, es decir, eventos fundamentales que representan instantes críticos en el flujo de la plataforma, con un impacto significativo en el comportamiento del sistema o la experiencia de usuario.
+
+![image](https://github.com/user-attachments/assets/7d6160ab-2489-4c5e-9206-7b69ddd0b90b)
+
+**Step 5: Commands**
+
+En este procedimiento, a cada evento se le asignó un comando específico que lo desencadena y un actor responsable de ejecutarlo, lo que permitió entender mejor la interacción de los usuarios con el sistema.
+
+![step5](https://github.com/user-attachments/assets/511ac749-892d-4f8e-9ab5-c175d36c27bc)
+
+**Step 6: Policies**
+
+En esta fase se establecieron las políticas relevantes para cada contexto del sistema, incluyendo reglas de negocio, validaciones y restricciones específicas. 
+
+![step6](https://github.com/user-attachments/assets/cd03c448-e0cf-42f4-b22b-d49c73f8ec9a)
+
+**Step 7: Read Models**
+
+En esta etapa se diseñaron y desarrollaron los modelos de lectura correspondientes a cada contexto del sistema, garantizando que ofrecieran la información necesaria de forma clara, eficiente y alineada con las necesidades de usuario.
+
+![step7](https://github.com/user-attachments/assets/c3698437-46d0-42c1-98f2-0a2feefa6a73)
+
+**Step 8: External Systems**
+
+Durante el desarrollo de este proceso se identificaron los sistemas externos con los que la plataforma debe interactuar y se definieron las interfaces necesarias para lograr una integración efectiva.
+
+![step8](https://github.com/user-attachments/assets/43c6e6a4-103b-4425-94e1-60daccd9f8b6)
+
+
+**Step 9: Aggregates**
+
+En el desarrollo de esta fase se definieron los *aggregates* para cada contexto del sistema, con el propósito de representar adecuadamente las transacciones y operaciones que deben mantenerse coherentes.
+
+![step9](https://github.com/user-attachments/assets/4129de72-61c2-4287-8e04-6e7a03dd6f7c)
+
+**Step 10: Bounded Contexts**
+
+Finalmente, gracias a la identificación y definición de cada uno de los elementos se pudo alcanzar la resolución de los *bounded contexts*, espacios centrales de funcionamiento diferentes, pero necesarios.
+
+![bcts](https://github.com/user-attachments/assets/33a1784f-b1aa-4c31-b0b2-3d7891c702b8)
+
+**Enlace del MIRO para mayor visualización del Event Storming:** https://miro.com/welcomeonboard/ZDUyWkh5OTlpSVF4RGdTNG9tdkI0N0FnS1F5VUtRczM0dXJkS2dSZHRDeW1yWm54RW02c3EybHBKYzdIaGkxRjZUb2lwNHB2a0RKelJzRmJNUDd3NEoyNVE3Wk1Uc2U5MUFySzEyZFNBZ0pSa011QkVnQy93aVprVXUyVGFsQ2pNakdSWkpBejJWRjJhRnhhb1UwcS9BPT0hdjE=?share_link_id=980476835383
+
+#### 4.1.1.1 Candidate Context Discovery
+
+Para priorizar el desarrollo del núcleo funcional del sistema se aplicó la técnica *start-with value*, con el propósito de tener una perspectiva más clara y enfocada del producto desde sus fundamentos.
+
+- **Identificación de valores del negocio:** Se ejecutó un análisis de los principales valores que aporta la aplicación. Tales como mejorar la experiencia de nuestros usuarios durante la monitorización de cargas, el registro eficiente de incidentes ocurridos durante el transporte, la calificación a nuestros usuarios transportistas luego de cada viaje realizado y la optimización en la gestión de usuarios en SecurOn.
+- **Identificación de funcionalidades clave:** Se definieron las funcionalidades fundamentales que sostienen el objetivo de nuestro sistema. Incluyendo la autenticación y registro de usuarios *(IAM)*, el monitoreo y notificación de incidentes *(MANAGEMENT)* y las operaciones de registro y reporte de incidentes *(RECORDS)*. Todas ellas alineadas directamente con el valor agregado del negocio.
+
+**Candidate para Bounded Context: *IAM***
+
+![iamBC](https://github.com/user-attachments/assets/60d88854-4c28-49c2-ab1c-b5df1bef1907)
+
+**Candidate para Bounded Context: *MANAGEMENT***
+
+![managementBC](https://github.com/user-attachments/assets/4f17b55d-9a8e-4d5e-8c82-2915430d7488)
+
+**Candidate para Bounded Context: *RECORDS***
+
+![recordsBC](https://github.com/user-attachments/assets/673b12d5-0db6-4d8a-8ef5-f9edd020ff22)
+
+**Vista Completa**
+
+![bcs](https://github.com/user-attachments/assets/9b91cbb8-8664-49b3-92bb-9342524bc4fb)
+
+
+#### 4.1.1.2 Domain Message Flows Modeling
+
+**Iniciar sesión:** El flujo de autenticación comienza cuando el usuario ingresa sus credenciales, que luego el sistema valida. Si las credenciales son correctas, el usuario es redirigido al panel principal; de lo contrario, el flujo se detiene y muestra un mensaje de error.
+
+![Diagrama de flujo de inicio de sesión](https://i.imgur.com/xMhtNnf.png)
+
+**Visualización de historial de transportes:** Este flujo permite al usuario acceder a un historial de transportes que se carga dinámicamente desde la base de datos. El usuario puede usar filtros para refinar los resultados y hacer clic en cada registro para ver más detalles.
+
+![Diagrama de flujo de visualización de historial de transportes](https://i.imgur.com/MdgpWkT.png)
+
+**Monitoreo real de transporte:** El flujo de monitoreo en tiempo real utiliza un mapa interactivo que actualiza constantemente la ubicación de los vehículos a través de APIs de geolocalización en vivo. Además, el sistema envía notificaciones si ocurren eventos importantes, como desvíos o retrasos.
+
+![Diagrama de flujo de monitoreo real de transporte](https://i.imgur.com/ZrJcw9H.png)
+
+### 4.1.1.3 Bounded Context Canvases 
+
+**Iniciar sesión:** El usuario accede al sistema ingresando sus credenciales en una interfaz sencilla que valida su autenticidad antes de redirigirlo al panel principal.
+
+![Canvas de inicio de sesión](https://i.imgur.com/iagavZb.png)
+
+**Visualización de historial de transportes:** El usuario puede ver una lista detallada de transportes anteriores, con opciones para filtrar y ver información específica de cada registro.
+
+![Canvas de visualización de historial de transportes](https://i.imgur.com/kiryIY9.png)
+
+**Monitoreo real de transporte:** El sistema muestra la ubicación y el estado de los vehículos en tiempo real en un mapa interactivo, lo que permite la supervisión y la respuesta inmediata ante cualquier eventualidad.
+
+![Canvas de monitoreo real de transporte](https://i.imgur.com/vXip4Oq.png)
+
+---
+
+### 4.1.2. Context Mapping
+
+Este diagrama ilustra la interacción entre los contextos delimitados **IAM**, **Records** y **Management** en **SecurOn**. **IAM** y **Management** se comunican a través de un **Shared Kernel**, compartiendo la lógica de autenticación y gestión de transporte. **Records** utiliza una **ACL** (Capa Anti-Corrupción) con **Management** e **IAM** para proteger la integridad de los datos y evitar contaminación. **IAM** actúa como **Supplier** para **Records**, proporcionando servicios de autenticación que **Records** consume para gestionar incidentes. Esto promueve una arquitectura modular y cohesiva en el sistema.
+
+**Context Mapping Diagram:** https://ibb.co/wZts5VFt
+<img src="https://i.ibb.co/sp7H8nd7/contextmapping.png" alt="contextmapping" border="0">
+
+### 4.1.3. Software Architecture
+
+#### 4.1.3.1. Software Architecture System Landscape Diagram
+
+El diagrama identifica a dos usuarios principales: el **Driver** (Conductor) y el **Manager** (Gerente), quienes interactúan directamente con el sistema **SecurOn** para gestionar el transporte y responder a posibles riesgos. Además, el sistema **SecurOn** utiliza un **Alert System**, un servicio de notificaciones, para enviar alertas y mantener a los usuarios informados sobre cualquier evento relevante durante el proceso de transporte.
+
+**System Landscape Diagram:** https://ibb.co/4Rz65xL1
+<img src="https://i.ibb.co/DfhxSnFr/landscapecontext.png" alt="landscapecontext" border="0">
+
+#### 4.1.3.2. Software Architecture Context Level Diagrams
+
+Este diagrama **contextualiza** cómo el sistema **SecurOn** se integra en su entorno y qué **actores externos** (personas o sistemas) interactúan con él. Destaca el flujo de información crucial, como el **monitoreo**, las **alertas** y la **gestión de incidentes** en situaciones de riesgo.
+
+![image](https://github.com/user-attachments/assets/c2df48b0-dada-401d-aed2-dac8f42f14e2)
+
+---
+
+#### 4.1.3.2. Software Architecture Container Level 
+
+El diagrama muestra la **arquitectura de software a nivel de contenedores** del sistema de mitigación de riesgos. Incluye a los actores **Driver** y **Manager**, que interactúan con componentes como la **Mobile App**, **Landing Page**, **Web Application**, **Edge Application**, **IoT Embedded App**, **Alert System**, **Web API**, **Edge Database** y **Web Database**. Las conexiones indican los flujos de datos y notificaciones, como el **monitoreo**, las **alertas de incidentes** y las **consultas**. Integra aplicaciones móviles, web y de borde con bases de datos para gestionar información en tiempo real. Los **bounded context** incluidos son **IAM**, **Management** y **Records**.
+
+![image](https://github.com/user-attachments/assets/a37540be-ea8e-4bc4-b4e4-a07c649fcce0)
+
+---
+
+#### 4.1.3.3. Software Architecture Deployment Diagrams
+
+El diagrama de despliegue detalla la **arquitectura de software** de **SecurOn** para la mitigación de riesgos de productos químicos reactivos. Muestra los contenedores y nodos de despliegue: **Landing Page** (HTML/CSS, Github Pages), **Web Application** (Angular/Springboot, Netlify), **Web API** y **Edge API Application** (Springboot, Azure), **Mobile App** (Flutter, dispositivos móviles), **IoT Embedded App** (Python, dispositivos IoT), **Web Database** (MySQL, Azure) y **Edge Database** (MySQL, Azure). Las conexiones representan los flujos de datos, incluyendo el **monitoreo**, la **transferencia de datos IoT** y las operaciones de **lectura y escritura en las bases de datos**.
+
+**Deployment Diagram:** https://ibb.co/G4zcw7sy
+<img src="https://i.ibb.co/8L163Mzq/deployment.png" alt="deployment" border="0">
+
+## 4.2. Tactical-Level Domain-Driven Design
+
+Esta sección describe el diseño orientado a dominios a nivel táctico, un enfoque que estructura el software basado en los dominios del negocio. Se centra en modelos, entidades, objetos de valor y servicios que reflejan las necesidades y reglas del dominio, facilitando una implementación más alineada con los requisitos del sistema SecurOn para la mitigación de riesgos de productos químicos reactivos.
+
+### 4.2.1. Bounded Context: IAM
+
+**Descripción:** Este contexto se encarga de manejar la autenticación, la autorización y la administración de roles para los usuarios del sistema. Facilita una gestión centralizada de usuarios, incluyendo su creación, actualización y eliminación, y define y aplica políticas de acceso para los diferentes servicios y datos ofrecidos por la plataforma.
+
+#### 4.2.1.1. Domain Layer
+
+## Aggregate 1: Usuario
+<table>
+    <tr>
+        <td>Nombre</td>
+        <td>Categoria</td>
+        <td colspan="2">Propósito</td>
+    </tr>
+    <tr>
+        <td>Usuario</td>
+        <td>Entity/Aggregate</td>
+        <td colspan="2">Representa un usuario del sistema SecurOn, administrando su información de acceso, roles y certificaciones para garantizar una autenticación y autorización seguras.</td>
+    </tr>
+</table>
+
+### Atributos de Usuario
+
+<table>
+    <tr>
+        <td>Nombre</td>
+        <td>Tipo de dato</td>
+        <td>Visibilidad</td>
+        <td>Descripción</td>
+    </tr>
+    <tr>
+        <td>id</td>
+        <td>Long</td>
+        <td>Private</td>
+        <td>Identificador único del usuario</td>
+    </tr>
+    <tr>
+        <td>userName</td>
+        <td>String</td>
+        <td>Private</td>
+        <td>Nombre de usuario</td>
+    </tr>
+     <tr>
+        <td>email</td>
+        <td>String</td>
+        <td>Private</td>
+        <td>Correo electrónico del usuario</td>
+    </tr>
+     <tr>
+        <td>password</td>
+        <td>String</td>
+        <td>Private</td>
+        <td>Contraseña del usuario</td>
+    </tr>
+     <tr>
+        <td>role</td>
+        <td>String</td>
+        <td>Private</td>
+        <td>Rol del usuario</td>
+    </tr>
+    <tr>
+        <td>createdAt</td>
+        <td>DateTime</td>
+        <td>Private</td>
+        <td>Fecha de creación de cuenta del usuario</td>
+    </tr>
+</table>
+
+### Métodos de Usuario
+
+<table>
+    <tr>
+        <td>Nombre</td>
+        <td>Tipo de retorno</td>
+        <td>Visibilidad</td>
+        <td>Descripción</td>
+    </tr>
+    <tr>
+        <td>Constructor</td>
+        <td>Void</td>
+        <td>Public</td>
+        <td>Crea una entidad User con los datos proporcionados</td>
+    </tr>
+    <tr>
+        <td>authenticate</td>
+        <td>Boolean</td>
+        <td>Public</td>
+        <td>Verifica la identidad del usuario basándose en su email y contraseña</td>
+    </tr>
+    <tr>
+        <td>updateProfile</td>
+        <td>Void</td>
+        <td>Public</td>
+        <td>Modifica la dirección de correo electrónico del usuario</td>
+    </tr>
+     <tr>
+        <td>assignRole</td>
+        <td>Void</td>
+        <td>Public</td>
+        <td>Otorga un rol al usuario</td>
+    </tr>
+</table>
+
+## Aggregate 2: Rol
+<table>
+    <tr>
+        <td>Nombre</td>
+        <td>Categoria</td>
+        <td colspan="2">Propósito</td>
+    </tr>
+    <tr>
+        <td>Rol</td>
+        <td>Value Object</td>
+        <td colspan="2">Define el rol de un usuario (DRIVER o MANAGER) dentro de SecurOn, permitiendo la asignación de permisos y responsabilidades según su función.</td>
+    </tr>
+</table>
+
+### Atributos de Rol
+
+<table>
+    <tr>
+        <td>Nombre</td>
+        <td>Tipo de dato</td>
+        <td>Visibilidad</td>
+        <td>Descripción</td>
+    </tr>
+    <tr>
+        <td>value</td>
+        <td>String</td>
+        <td>Private</td>
+        <td>Enum value ("DRIVER" o "MANAGER")</td>
+    </tr>
+</table>
+
+### Métodos de Rol
+
+<table>
+    <tr>
+        <td>Nombre</td>
+        <td>Tipo de retorno</td>
+        <td>Visibilidad</td>
+        <td>Descripción</td>
+    </tr>
+    <tr>
+        <td>Constructor</td>
+        <td>Void</td>
+        <td>Public</td>
+        <td>Crea una entidad Rol con los datos proporcionados</td>
+    </tr>
+    <tr>
+        <td>equals</td>
+        <td>Boolean</td>
+        <td>Public</td>
+        <td>Compara con otro Rol para verificar igualdad</td>
+    </tr>
+</table>
+
+## Aggregate 3: Certificación
+<table>
+    <tr>
+        <td>Nombre</td>
+        <td>Categoria</td>
+        <td colspan="2">Propósito</td>
+    </tr>
+    <tr>
+        <td>Certificación</td>
+        <td>Entity/Aggregate</td>
+        <td colspan="2">Registra y administra las certificaciones asociadas a un usuario en SecurOn, asegurando que cumplan con los requisitos de validez para operar en el sistema.</td>
+    </tr>
+</table>
+
+### Atributos de Certificación
+
+<table>
+    <tr>
+        <td>Nombre</td>
+        <td>Tipo de dato</td>
+        <td>Visibilidad</td>
+        <td>Descripción</td>
+    </tr>
+    <tr>
+        <td>id</td>
+        <td>UUID</td>
+        <td>Private</td>
+        <td>Identificador único de la certificación</td>
+    </tr>
+    <tr>
+        <td>certName</td>
+        <td>String</td>
+        <td>Private</td>
+        <td>Nombre de la certificación</td>
+    </tr>
+     <tr>
+        <td>issueDate</td>
+        <td>Date</td>
+        <td>Private</td>
+        <td>Fecha de expedición de la certificación</td>
+    </tr>
+     <tr>
+        <td>expirationDate</td>
+        <td>Date</td>
+        <td>Private</td>
+        <td>Fecha de caducidad de la certificación</td>
+    </tr>
+</table>
+
+### Métodos de Certificación
+
+<table>
+    <tr>
+        <td>Nombre</td>
+        <td>Tipo de retorno</td>
+        <td>Visibilidad</td>
+        <td>Descripción</td>
+    </tr>
+    <tr>
+        <td>Constructor</td>
+        <td>Void</td>
+        <td>Public</td>
+        <td>Constructor de una certificación con información proporcionada</td>
+    </tr>
+</table>
+
+## Aggregate 4: Permiso
+<table>
+    <tr>
+        <td>Nombre</td>
+        <td>Categoria</td>
+        <td colspan="2">Propósito</td>
+    </tr>
+    <tr>
+        <td>Permiso</td>
+        <td>Entity/Aggregate</td>
+        <td colspan="2">Define los permisos específicos de un usuario en SecurOn, controlando su acceso a funcionalidades y datos según su rol.</td>
+    </tr>
+</table>
+
+### Atributos de Permiso
+
+<table>
+    <tr>
+        <td>Nombre</td>
+        <td>Tipo de dato</td>
+        <td>Visibilidad</td>
+        <td>Descripción</td>
+    </tr>
+    <tr>
+        <td>id</td>
+        <td>UUID</td>
+        <td>Private</td>
+        <td>Identificador único del permiso</td>
+    </tr>
+    <tr>
+        <td>name</td>
+        <td>String</td>
+        <td>Private</td>
+        <td>Nombre del permiso</td>
+    </tr>
+</table>
+
+### Métodos de Certificación
+
+<table>
+    <tr>
+        <td>Nombre</td>
+        <td>Tipo de retorno</td>
+        <td>Visibilidad</td>
+        <td>Descripción</td>
+    </tr>
+    <tr>
+        <td>Constructor</td>
+        <td>Void</td>
+        <td>Public</td>
+        <td>Constructor de un permiso con información proporcionada</td>
+    </tr>
+    <tr>
+        <td>definePermission</td>
+        <td>Void</td>
+        <td>Public</td>
+        <td>Establece el nombre del permiso</td>
+    </tr>
+</table>
+
+#### 4.2.1.2. Interface Layer
+
+## Controller 1: AuthController
+<table>
+    <tr>
+        <td>Nombre</td>
+        <td>Categoria</td>
+        <td colspan="2">Propósito</td>
+    </tr>
+    <tr>
+        <td>AuthController</td>
+        <td>Controller</td>
+        <td colspan="2">Procesa las solicitudes HTTP para autenticar usuarios y gestionar sus cuentas en SecurOn, incluyendo inicio de sesión, registro y actualizaciones.</td>
+    </tr>
+</table>
+
+### Atributos de AuthController
+
+<table>
+    <tr>
+        <td>Nombre</td>
+        <td>Tipo de dato</td>
+        <td>Visibilidad</td>
+        <td>Descripción</td>
+    </tr>
+    <tr>
+        <td>userService</td>
+        <td>UserService</td>
+        <td>Private</td>
+        <td>Servicio para implementar reglas de negocio y lógica de autenticación</td>
+    </tr>
+    <tr>
+        <td>userMapper</td>
+        <td>UserMapper</td>
+        <td>Private</td>
+        <td>Mapeador para convertir entidades de usuario en DTO y viceversa</td>
+    </tr>
+</table>
+
+### Métodos de AuthController
+
+<table>
+    <tr>
+        <td>Nombre</td>
+        <td>Tipo de retorno</td>
+        <td>Visibilidad</td>
+        <td>Descripción</td>
+    </tr>
+    <tr>
+        <td>authenticateUser</td>
+        <td>ResponseEntity</td>
+        <td>Public</td>
+        <td>Autentica un usuario usando credenciales y JWT</td>
+    </tr>
+    <tr>
+        <td>registerUser</td>
+        <td>ResponseEntity</td>
+        <td>Public</td>
+        <td>Crea un nuevo usuario en el sistema</td>
+    </tr>
+    <tr>
+        <td>getAllUsers</td>
+        <td>ResponseEntity</td>
+        <td>Public</td>
+        <td>Devuelve la lista de usuarios registrados</td>
+    </tr>
+     <tr>
+        <td>updateUser</td>
+        <td>ResponseEntity</td>
+        <td>Public</td>
+        <td>Actualiza la información de un usuario existente</td>
+    </tr>
+    <tr>
+        <td>deleteUser</td>
+        <td>ResponseEntity</td>
+        <td>Public</td>
+        <td>Elimina un usuario por ID</td>
+    </tr>
+</table>
+
+#### Controller 2: PermissionController
+
+| Nombre | Categoría | Propósito |
+| --- | --- | --- |
+| PermissionController | Controller | Maneja las solicitudes HTTP para asignar y quitar permisos a los usuarios de **SecurOn**, lo que garantiza un control de acceso detallado. |
+
+**Atributos de PermissionController:**
+
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| permissionService | PermissionService | Private | El servicio que aplica las reglas de negocio para los permisos. |
+
+**Métodos de PermissionController:**
+
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| getAllPermissions | ResponseEntity | Public | Devuelve una lista con todos los permisos disponibles. |
+| assignPermissionToUser | ResponseEntity | Public | Asigna un permiso a un usuario específico. |
+| removePermissionFromUser | ResponseEntity | Public | Quita un permiso a un usuario específico. |
+#### 4.2.1.3. Application Layer
+
+## Service 1: UserService
+<table>
+    <tr>
+        <td>Nombre</td>
+        <td>Categoria</td>
+        <td colspan="2">Propósito</td>
+    </tr>
+    <tr>
+        <td>UserService</td>
+        <td>Service</td>
+        <td colspan="2">Ejecuta la lógica de negocio para la gestión de usuarios en SecurOn, incluyendo autenticación, registro y manejo de perfiles.</td>
+    </tr>
+</table>
+
+### Atributos de UserService
+
+<table>
+    <tr>
+        <td>Nombre</td>
+        <td>Tipo de dato</td>
+        <td>Visibilidad</td>
+        <td>Descripción</td>
+    </tr>
+    <tr>
+        <td>userRepository</td>
+        <td>UserRepository</td>
+        <td>Private</td>
+        <td>Repositorio para las operaciones CRUD de los usuarios</td>
+    </tr>
+    <tr>
+        <td>passwordEncoder</td>
+        <td>passwordEncoder</td>
+        <td>Private</td>
+        <td>Se emplea para codificar las contraseñas de los usuarios</td>
+    </tr>
+    <tr>
+        <td>jwtHandler</td>
+        <td>JwtHandler</td>
+        <td>Private</td>
+        <td>Controlador para autenticación y autorización JWT</td>
+    </tr>
+</table>
+
+### Métodos de UserService
+
+<table>
+    <tr>
+        <td>Nombre</td>
+        <td>Tipo de retorno</td>
+        <td>Visibilidad</td>
+        <td>Descripción</td>
+    </tr>
+    <tr>
+        <td>authenticateUser</td>
+        <td>ResponseEntity</td>
+        <td>Public</td>
+        <td>Autentica un usuario usando credenciales y JWT</td>
+    </tr>
+    <tr>
+        <td>registerUser</td>
+        <td>ResponseEntity</td>
+        <td>Public</td>
+        <td>Crea un nuevo usuario en el sistema y cifra la contraseña</td>
+    </tr>
+    <tr>
+        <td>getAllUsers</td>
+        <td>List</td>
+        <td>Public</td>
+        <td>Devuelve la lista de usuarios registrados</td>
+    </tr>
+     <tr>
+        <td>updateUser</td>
+        <td>User</td>
+        <td>Public</td>
+        <td>Actualiza la información de un usuario existente</td>
+    </tr>
+    <tr>
+        <td>deleteUser</td>
+        <td>ResponseEntity</td>
+        <td>Public</td>
+        <td>Elimina un usuario por ID</td>
+    </tr>
+    <tr>
+        <td>loadUserByUsername</td>
+        <td>UserDetails</td>
+        <td>Public</td>
+        <td>Obtiene un usuario por nombre de usuario para la autenticación</td>
+    </tr>
+</table>
+
+#### Service 2: PermissionService
+
+| Nombre | Categoría | Propósito |
+| --- | --- | --- |
+| PermissionService | Service | Implementa la lógica de negocio para gestionar los permisos en **SecurOn**, permitiendo asignar y quitar accesos a los usuarios. |
+
+**Atributos de PermissionService:**
+
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| permissionRepository | PermissionRepository | Private | Repositorio para realizar operaciones de crear, leer, actualizar y eliminar (CRUD) en los permisos. |
+
+**Métodos de PermissionService:**
+
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| getAllPermissions | List<Permission> | Public | Devuelve una lista de todos los permisos. |
+| assignPermissionToUser | ResponseEntity | Public | Asigna un permiso a un usuario. |
+| removePermissionFromUser | ResponseEntity | Public | Quita un permiso de un usuario. |
+
+---
+
+### 4.2.1.4. Infrastructure Layer
+
+#### Repository 1: UserRepositoryImpl
+
+| Nombre | Categoría | Propósito |
+| --- | --- | --- |
+| UserRepositoryImpl | Repository | Facilita la persistencia de los datos de usuario en **SecurOn**, interactuando con la base de datos para operaciones CRUD. |
+
+**Métodos de UserRepositoryImpl:**
+
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| findById | User | Public | Busca y recupera un usuario de la base de datos usando su ID. |
+| findByEmail | User | Public | Busca y recupera un usuario de la base de datos usando su correo electrónico. |
+| save | Void | Public | Almacena un usuario en la base de datos. |
+| existsByEmail | Boolean | Public | Verifica si un usuario con un correo electrónico específico ya existe. |
+
+---
+
+#### Repository 2: PermissionRepositoryImpl
+
+| Nombre | Categoría | Propósito |
+| --- | --- | --- |
+| PermissionRepositoryImpl | Repository | Maneja la persistencia de los permisos en **SecurOn**, permitiendo operaciones CRUD en la base de datos. |
+
+**Métodos de PermissionRepositoryImpl:**
+
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| findByName | Optional<Permission> | Public | Busca y recupera un permiso de la base de datos usando su nombre. |
+| save | Permission | Public | Almacena un permiso en la base de datos. |
+| deleteById | Void | Public | Elimina un permiso de la base de datos usando su ID. |
+
+---
+
+### External Service
+
+#### Service 1: EmailService
+
+| Nombre | Categoría | Propósito |
+| --- | --- | --- |
+| EmailService | Service | Controla el envío de notificaciones y correos electrónicos a los usuarios de **SecurOn** a través de un servidor **SMTP** externo. |
+
+**Métodos de EmailService:**
+
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| sendEmail | Void | Public | Envía un correo electrónico a un destinatario. |
+#### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
+
+El **IAM Bounded Context** se encarga de gestionar la identidad y el acceso de los **Drivers** y **Managers** en **SecurOn**. Los componentes como **AuthController**, **UserService** y **PermissionService** manejan la autenticación y los permisos. **EmailService**, **Certification** y **UserRepositoryImpl** se encargan de las notificaciones y la persistencia de los datos del usuario. Se integra con un **External Email System** y una base de datos relacional para el almacenamiento.
+
+![image](https://github.com/user-attachments/assets/3178abf8-7494-4cde-8c7a-14583a51c3ef)
+
+---
+
+#### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
+
+A continuación, se presentan las secciones internas del **Bounded Context Domain Layer Class Diagrams** y **Bounded Context Database Diagram** para el contexto delimitado de **IAM**.
+
+#### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
+
+El diagrama de la capa de dominio ilustra el contexto delimitado de gestión de usuarios en **SecurOn**. Incluye clases como **UserAggregate**, que agrupa **User** y **Certification**, con métodos para añadir certificaciones y validar usuarios. **AuthenticationService** se encarga de generar tokens y hashes de contraseñas, mientras que **UserRepository** gestiona las operaciones CRUD (crear, leer, actualizar, eliminar). La relación "has" con **Role** define roles como **DRIVER** y **MANAGER**, integrando permisos y autenticación.
+
+![image](https://github.com/user-attachments/assets/7870fb53-32b9-449f-944c-dad16c11f427)
+
+---
+
+#### 4.2.1.6.2. Bounded Context Database Design Diagram
+
+El diagrama de diseño de la base de datos muestra la estructura relacional del contexto delimitado **IAM**. La tabla **User** almacena el **id**, **role_id** y **password_hash**, con una relación "tiene" hacia **Certification**. La tabla **Role** contiene el **name** y se asocia con **User_Role_Permission** mediante las relaciones **asignado_a** y **tiene**. Por último, **Permission** define un **name** único, conectándose con **User_Role_Permission** para administrar los accesos.
+
+![image](https://github.com/user-attachments/assets/5be6bc52-8caf-45991ff25087)
+
+---
+
+### 4.2.2. Bounded Context: Management
+
+**Descripción:** Este módulo se encarga de organizar y gestionar todo lo relacionado con la generación, el envío y el seguimiento de notificaciones sobre incidentes o eventos importantes. Su propósito es mantener a los transportistas, operadores y supervisores informados en tiempo real, asegurando la transmisión oportuna de alertas y actualizaciones sobre el estado de dichos sucesos.
+
+#### 4.2.2.1. Domain Layer
+
+#### Entity 1: Transporte
+
+| Nombre | Categoría | Propósito |
+| --- | --- | --- |
+| Transporte | Entity | Representa una operación de transporte químico en **SecurOn**, manejando su estado, el conductor asignado y el momento de inicio. |
+
+**Atributos de Transporte:**
+
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| id | UUID | Private | Identificador único para el transporte. |
+| driverId | UUID | Private | ID del conductor asignado. |
+| status | TransportStatus | Private | Estado del transporte, por ejemplo, **PENDIENTE** o **EN_PROCESO**. |
+| startTime | DateTime | Private | Momento en que el transporte comenzó. |
+
+**Métodos de Transporte:**
+
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| Constructor | Void | Public | Crea una instancia de **Transporte** usando su ID. |
+| updateStatus | Void | Public | Cambia el estado del transporte. |
+| assignDriver | Void | Public | Asigna un **driverId** al transporte. |
+
+---
+
+#### Entity 2: SensorReading
+
+| Nombre | Categoría | Propósito |
+| --- | --- | --- |
+| SensorReading | Entity | Registra las lecturas de los sensores durante un transporte en **SecurOn**, capturando datos como los niveles de gas y la temperatura. |
+
+**Atributos de SensorReading:**
+
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| id | UUID | Private | Identificador único de la lectura. |
+| type | String | Private | Tipo de medición del sensor. |
+| gasLevel | Float | Private | Nivel de gas medido. |
+| temperature | Float | Private | Temperatura medida. |
+| timestamp | DateTime | Private | Momento en que se realizó la lectura. |
+
+**Métodos de SensorReading:**
+
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| Constructor | Void | Public | Crea una instancia de **SensorReading** usando su ID. |
+
+---
+
+#### Value Object 1: TransportStatus
+
+| Nombre | Categoría | Propósito |
+| --- | --- | --- |
+| TransportStatus | Value Object | Categoriza los posibles estados de un transporte en **SecurOn**, como **PENDIENTE** o **EN_PROCESO**, para su monitoreo operativo. |
+
+**Atributos de TransportStatus:**
+
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| value | String | Private | El valor del estado, como un *enum*. |
+
+**Métodos de TransportStatus:**
+
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| Constructor | Void | Public | Crea una instancia de **TransportStatus** con un valor específico. |
+| equals | Boolean | Public | Compara si este **TransportStatus** es igual a otro. |
+
+---
+
+#### 4.2.2.2. Interface Layer
+
+#### Controller 1: TransportController
+
+| Nombre | Categoría | Propósito |
+| --- | --- | --- |
+| TransportController | Controller | Gestiona las solicitudes HTTP para operaciones de transporte en **SecurOn**, incluyendo el inicio, la actualización y la consulta de su estado. |
+
+**Atributos de TransportController:**
+
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| transportService | TransportService | Private | Servicio que aplica las reglas de negocio para los transportes. |
+
+**Métodos de TransportController:**
+
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| startTransport | ResponseEntity | Public | Inicia un transporte usando un **transportId**. |
+| updateStatus | ResponseEntity | Public | Cambia el estado de un transporte usando su **transportId**. |
+| getAllTransports | ResponseEntity | Public | Devuelve una lista de todos los transportes. |
+
+---
+
+#### 4.2.2.3. Application Layer
+
+#### Service 1: TransportService
+
+| Nombre | Categoría | Propósito |
+| --- | --- | --- |
+| TransportService | Service | Contiene la lógica de negocio para gestionar operaciones de transporte en **SecurOn**, coordinando el inicio, las actualizaciones y las consultas. |
+
+**Atributos de TransportService:**
+
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| transportRepository | TransportRepository | Private | Repositorio para realizar operaciones de crear, leer, actualizar y eliminar (CRUD) en los datos de transporte. |
+
+**Métodos de TransportService:**
+
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| startTransport | ResponseEntity | Public | Inicia un transporte con un **transportId**. |
+| updateTransportStatus | ResponseEntity | Public | Actualiza un transporte usando su **transportId**. |
+| getAllTransports | List<Transport> | Public | Recupera la lista completa de transportes. |
+
+---
+
+#### 4.2.2.4. Infrastructure Layer
+
+#### Repository 1: TransportRepositoryImpl
+
+| Nombre | Categoría | Propósito |
+| --- | --- | --- |
+| TransportRepositoryImpl | Repository | Maneja la persistencia de los datos de transporte en **SecurOn**, permitiendo operaciones CRUD en la base de datos. |
+
+**Métodos de TransportRepositoryImpl:**
+
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| findById | Transport | Public | Busca y recupera un transporte de la base de datos usando su ID. |
+| save | Void | Public | Almacena un transporte en la base de datos. |
+
+---
+
+### External Service
+
+#### Service 1: IoTDeviceService
+
+| Nombre | Categoría | Propósito |
+| --- | --- | --- |
+| IoTDeviceService | Service | Recupera y procesa los datos de sensores de dispositivos IoT en **SecurOn** para un monitoreo en tiempo real durante el transporte. |
+
+**Métodos de IoTDeviceService:**
+
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| fetchSensorData | SensorData | Public | Obtiene datos de un dispositivo usando su **deviceId**. |
+
+#### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
+
+El diagrama del Management Bounded Context muestra la gestión de transporte y monitoreo en SecurOn. Incluye TransportController, TransportService e IoTDeviceService para procesar datos de sensores IoT. Transport y SensorReading envían notificaciones vía SMTP, mientras TransportRepositoryImpl persiste datos. Se integra con una base de datos y un IoT System para monitoreo en tiempo real.
+
+![image](https://github.com/user-attachments/assets/8b6ee048-e773-49e0-9fb4-092c47885f70)
+
+
+#### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
+
+A continuación se incluirán las secciones internas Bounded Context Domain Layer Class Diagrams y Bounded Context Database Diagram para el Bounded Context de Management.
+
+#### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
+
+El diagrama de clases del Management Bounded Context modela transporte en SecurOn. TransportAggregate contiene Transport y SensorReading, con métodos como addSensorReading y validateTransport.MonitoringService procesa datos de sensores y genera alertas, mientras TransportRepository gestiona persistencia.TransportStatus define estados como PENDING, IN_PROGRESS y COMPLETED, asignados a Transport.
+
+![image](https://github.com/user-attachments/assets/7458ce29-30be-407f-a661-d9983f5c246d)
+
+
+#### 4.2.2.6.2. Bounded Context Database Design Diagram
+
+El esquema de base de datos del Management Bounded Context organiza datos de transporte. La tabla Transport almacena driver_id y status_id, vinculada a SensorReading por transport_id. TransportStatus define estados únicos, mientras SensorReading registra value y timestamp. Las claves primarias y foráneas aseguran relaciones entre transporte, sensores y estados.
+
+![image](https://github.com/user-attachments/assets/5c8a4a18-9b40-46af-99be-d76661ef4c6f)
+
+
+### 4.2.3. Bounded Context: Records
+
+**Descripción:** Este contexto se encarga de gestionar y coordinar los servicios asociados al transporte y la carga. Abarca actividades como el seguimiento de recursos, la organización de rutas y la actualización de datos sobre servicios en curso. Además, proporciona soporte para la toma de decisiones operativas según el estado en tiempo real de la logística.
+
+#### 4.2.3.1. Domain Layer
+
+#### Entity 1: Incident
+
+| Nombre | Categoría | Propósito |
+| --- | --- | --- |
+| Incident | Entity | Representa un incidente relacionado con un transporte en SecurOn, registrando su tipo, tiempo y estado para su posterior seguimiento y manejo. |
+
+**Atributos de Incident:**
+
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| id | UUID | Private | Identificador único del incidente. |
+| transportId | UUID | Private | ID del transporte asociado. |
+| type | IncidentType | Private | Categoría del incidente. |
+| timestamp | DateTime | Private | Fecha y hora del incidente. |
+
+**Métodos de Incident:**
+
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| Constructor | Void | Public | Crea una instancia de un incidente usando su ID. |
+| updateDetails | Void | Public | Modifica los detalles de un incidente. |
+| resolve | Void | Public | Cambia el estado del incidente a resuelto. |
+
+---
+
+#### Entity 2: CorrectiveAction
+
+| Nombre | Categoría | Propósito |
+| --- | --- | --- |
+| CorrectiveAction | Entity | Define y registra una acción tomada para corregir un incidente en SecurOn, incluyendo su descripción y estado. |
+
+**Atributos de CorrectiveAction:**
+
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| id | UUID | Private | Identificador único de la acción. |
+| actionDescription | String | Private | Detalle de la acción. |
+| timestamp | DateTime | Private | Fecha y hora de la acción. |
+
+**Métodos de CorrectiveAction:**
+
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| Constructor | Void | Public | Crea una instancia de `CorrectiveAction` usando su ID. |
+
+---
+
+### Value Objects
+
+#### Value Object 1: IncidentType
+
+| Nombre | Categoría | Propósito |
+| --- | --- | --- |
+| IncidentType | Value Object | Clasifica los tipos de incidentes en SecurOn, como fugas de gas o anomalías de temperatura, para una mejor organización y análisis. |
+
+**Atributos de IncidentType:**
+
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| value | String | Private | Valor del tipo de incidente. |
+
+**Métodos de IncidentType:**
+
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| Constructor | Void | Public | Crea una instancia de `IncidentType`. |
+| equals | Boolean | Public | Compara si dos objetos `IncidentType` son iguales. |
+
+---
+
+#### 4.2.3.2. Interface Layer
+
+#### Controller 1: IncidentController
+
+| Nombre | Categoría | Propósito |
+| --- | --- | --- |
+| IncidentController | Procesa las solicitudes web (HTTP) para gestionar los incidentes en SecurOn, lo que incluye la creación, resolución y consulta de los mismos. |
+
+**Atributos de IncidentController:**
+
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| incidentService | IncidentService | Private | Servicio que contiene la lógica de negocio para los incidentes. |
+
+**Métodos de IncidentController:**
+
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| reportIncident | ResponseEntity | Public | Crea un nuevo incidente a partir de los datos proporcionados. |
+| resolveIncident | ResponseEntity | Public | Resuelve el incidente basándose en su ID. |
+| getAllIncidents | ResponseEntity | Public | Obtiene y devuelve una lista de todos los incidentes. |
+
+---
+
+#### 4.2.3.3. Application Layer
+
+#### Service 1: IncidentService
+
+| Nombre | Categoría | Propósito |
+| --- | --- | --- |
+| IncidentService | Service | Implementa la lógica de negocio para la gestión de incidentes en SecurOn, como reportar, resolver y recuperar datos históricos. |
+
+**Atributos de IncidentService:**
+
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| incidentRepository | IncidentRepository | Private | Repositorio para guardar, leer y eliminar datos de incidentes. |
+
+**Métodos de IncidentService:**
+
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| reportIncident | ResponseEntity | Public | Crea un nuevo incidente con los datos proporcionados. |
+| resolveIncident | ResponseEntity | Public | Resuelve un incidente a través de su ID. |
+| getAllIncidents | List<Incident> | Public | Recupera la lista completa de incidentes. |
+
+---
+
+#### 4.2.3.4. Infrastructure Layer
+
+#### Repository 1: IncidentRepositoryImpl
+
+| Nombre | Categoría | Propósito |
+| --- | --- | --- |
+| IncidentRepositoryImpl | Repository | Se encarga de la persistencia de los incidentes en SecurOn, permitiendo operaciones básicas de base de datos para los datos históricos. |
+
+**Métodos de IncidentRepositoryImpl:**
+
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| findById | Incident | Public | Busca y recupera un incidente en la base de datos usando su ID. |
+| save | Void | Public | Guarda la información del incidente en la base de datos. |
+
+---
+
+### External Service
+
+#### Service 1: NotificationService
+
+| Nombre | Categoría | Propósito |
+| --- | --- | --- |
+| NotificationService | Service | Controla el envío de notificaciones de incidentes a sistemas externos, asegurando que se generen alertas en tiempo real. |
+
+**Métodos de NotificationService:**
+
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| sendNotification | Void | Public | Envía una notificación al destinatario especificado. |
+
+#### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
+
+El Records Bounded Context administra incidentes y reportes históricos en SecurOn. Incluye IncidentController, IncidentService y NotificationService para manejar reportes y alertas. Corrective Action envía acciones correctivas vía SMTP, mientras IncidentRepositoryImpl persiste datos. Se integra con un Alert System y una base de datos relacional para almacenamiento.
+
+![image](https://github.com/user-attachments/assets/11cc8bdf-878c-432a-ac20-36c2bfb03060)
+
+#### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
+
+A continuación se presentarán las secciones internas Bounded Context Domain Layer Class Diagrams y Bounded Context Database Diagram para el Bounded Context de Records.
+
+#### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
+
+El diagrama de clases del Records Bounded Context representa incidentes en SecurOn. IncidentAggregate contiene Incident y CorrectiveAction, con métodos como addAction y validateIncident. ReportingService genera reportes, mientras IncidentRepository gestiona persistencia de incidentes. IncidentType define tipos como GAS_LEAK y TEMPERATURE_ANOMALY, asociados a Incident.
+
+![image](https://github.com/user-attachments/assets/db74f044-9b00-48a5-87dc-6095170426bb)
+
+
+#### 4.2.3.6.2. Bounded Context Database Design Diagram
+
+El esquema de base de datos del Records Bounded Context estructura datos de incidentes. La tabla Incident almacena transport_id y type_id, vinculada a CorrectiveAction por incident_id. IncidentType define tipos únicos, mientras CorrectiveAction registra action_description y completed_date. Las claves primarias y foráneas aseguran relaciones entre incidentes, tipos y acciones.
+
+![image](https://github.com/user-attachments/assets/db160ad5-988c-49e9-aa79-d3a18edcde06)
+
+
+
 # Bibliografía
 
 Aguilar-Velázquez, J. A., & Salazar-González, M. (2018). Evaluación del riesgo en el transporte terrestre de sustancias peligrosas mediante sistemas de información geográfica. Revista Internacional de Contaminación Ambiental, 34(1), 131-141.
