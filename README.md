@@ -1026,8 +1026,115 @@ A continuación, se presenta la primera versión del backlog:
 | CD-02 | Cumplimiento Normativo | Validación obligatoria de permisos y documentación en procesos críticos. | High | Medium |
 | CD-03 | Compatibilidad Multidispositivo | Adaptación responsiva para navegadores en computadoras, tablets y móviles. | Medium | Low |
 
-### 4.1.4. Architectural Design Decisions. 
-### 4.1.5. Quality Attribute Scenario Refinements. 
+### 4.1.4. Architectural Design Decisions
+
+En esta sección se resumen las decisiones de diseño arquitectónico alcanzadas durante el proceso de **Quality Attribute Workshop (QAW)**.  
+Para cada iteración, se analizaron los **drivers de mayor impacto** en los stakeholders y la complejidad técnica, considerando tácticas y patrones de diseño alternativos.  
+Las evaluaciones se documentan en la siguiente **Candidate Pattern Evaluation Matrix**, en la cual se incluyen los pros y contras de cada opción evaluada, y se justifican las decisiones finales.
+
+| Driver ID | Título de Driver | Pattern 1 | Pro | Con | Pattern 2 | Pro | Con |
+|-----------|-----------------|-----------|-----|-----|-----------|-----|-----|
+| FD-01 | Seguimiento en Tiempo Real de Transportes | Event-Driven Architecture (EDA) | Alta capacidad de respuesta; integración natural con IoT y mensajería; escalabilidad. | Mayor complejidad técnica; requiere infraestructura de colas y brokers. | Request-Response tradicional (REST) | Simplicidad en diseño; fácil integración con servicios web. | No soporta grandes volúmenes en tiempo real; latencias elevadas. |
+| FD-02 | Notificaciones de Incidentes Críticos | Publish/Subscribe Messaging | Alta desacoplación; entrega en tiempo real a múltiples suscriptores; tolerancia a fallos. | Requiere gestión de colas, configuración de tópicos y monitoreo. | Polling periódico | Implementación simple; no requiere infraestructura adicional. | Latencia alta; riesgo de pérdida de eventos críticos. |
+| QD-01 | Seguridad | Security by Design + Cifrado AES-256 | Cumplimiento normativo; protección robusta de datos en reposo. | Requiere más recursos de cómputo; impacto en rendimiento. | Seguridad básica con HTTPS/TLS | Fácil implementación; estándar en frameworks. | No cubre datos en reposo ni auditoría detallada. |
+| QD-02 | Disponibilidad | Load Balancing con Failover Activo-Pasivo | Alta disponibilidad; recuperación automática ante fallos. | Costo adicional de infraestructura. | Single Instance con Backups | Menor costo; simplicidad en despliegue. | Baja tolerancia a fallos; riesgo de indisponibilidad. |
+| CD-01 | Arquitectura Monolítica Escalable | Monolithic Layered Architecture | Sencillo de implementar y mantener; menor complejidad inicial; coherencia de datos garantizada. | Menor flexibilidad para escalar partes específicas; riesgo de “monolith gigante”. | Modular Monolith (con paquetes y capas internas bien definidas) | Balance entre simplicidad y modularidad; facilita refactorización futura. | Requiere disciplina de desarrollo para mantener separación clara de capas. |
+
+**Decisiones tomadas:**
+- Para **seguimiento en tiempo real (FD-01)** y **notificaciones críticas (FD-02)** se adoptaron patrones basados en **eventos y mensajería (EDA + Pub/Sub)**, priorizando la **baja latencia y alta disponibilidad** frente a la simplicidad de REST o polling.  
+- Para **seguridad (QD-01)** se eligió **cifrado robusto + auditoría**, aún con impacto en rendimiento, dado que los datos involucran **información sensible de transportistas y cargas peligrosas**.  
+- Para **disponibilidad (QD-02)** se seleccionó un enfoque de **Load Balancing con Failover**, asegurando continuidad del servicio en picos o fallos de nodo.  
+- En cuanto a **arquitectura (CD-01)**, se confirmó la elección de un **monolito modular**, dado que el alcance actual no justifica microservicios, pero sí requiere cierta modularidad para facilitar mantenibilidad y escalabilidad progresiva.
+
+### 4.1.5. Quality Attribute Scenario Refinements
+
+Al concluir el proceso de **Quality Attribute Workshop (QAW)**, se priorizaron los escenarios de atributos de calidad con mayor impacto para la solución **SecurOn**.  
+La priorización se basó en dos dimensiones principales:  
+- **Alineación con los objetivos de negocio**, principalmente garantizar la **seguridad en el transporte de materiales peligrosos** y la **continuidad de operación en tiempo real**.  
+- **Factibilidad técnica** de implementación en el corto plazo, considerando restricciones de arquitectura monolítica y recursos disponibles.  
+
+A continuación, se presentan los escenarios refinados en orden de prioridad:
+
+---
+
+| Scenario Refinement for Scenario 1 |
+|-----------------------------------|
+| **Scenario(s):** Protección de datos sensibles en tránsito y en reposo. |
+| **Business Goals:** Garantizar cumplimiento normativo y confianza de empresas y transportistas al usar la plataforma. |
+| **Relevant Quality Attributes:** Seguridad. |
+| **Scenario Components - Stimulus:** Intento de acceso no autorizado a datos sensibles. |
+| **Scenario Components - Stimulus Source:** Actor malicioso externo. |
+| **Scenario Components - Environment:** Operación normal con usuarios activos. |
+| **Scenario Components - Artifact (if Known):** API Gateway + Base de datos. |
+| **Scenario Components - Response:** Bloqueo del acceso, registro en logs de auditoría, alerta al administrador. |
+| **Scenario Components - Response Measure:** 100% de intentos bloqueados; detección < 2 segundos. |
+| **Questions:** ¿Qué estándar de cifrado será obligatorio (AES-256, TLS 1.2+)? ¿Cómo se gestionarán las llaves de cifrado? |
+| **Issues:** Posible impacto en el rendimiento por procesos de cifrado y validación. |
+
+---
+
+| Scenario Refinement for Scenario 2 |
+|-----------------------------------|
+| **Scenario(s):** Garantizar disponibilidad durante picos de carga. |
+| **Business Goals:** Asegurar la continuidad del servicio en horarios críticos y evitar pérdidas operativas. |
+| **Relevant Quality Attributes:** Disponibilidad. |
+| **Scenario Components - Stimulus:** Acceso concurrente de múltiples empresas durante un pico de solicitudes. |
+| **Scenario Components - Stimulus Source:** Usuarios finales (empresas). |
+| **Scenario Components - Environment:** Horas pico de operación. |
+| **Scenario Components - Artifact (if Known):** Plataforma SecurOn (frontend y backend). |
+| **Scenario Components - Response:** Balanceo de carga y failover para mantener el servicio disponible. |
+| **Scenario Components - Response Measure:** ≥ 99.5% uptime mensual. |
+| **Questions:** ¿Se usará escalado vertical u horizontal en el monolito? |
+| **Issues:** Limitaciones de escalabilidad en arquitecturas monolíticas. |
+
+---
+
+| Scenario Refinement for Scenario 3 |
+|-----------------------------------|
+| **Scenario(s):** Procesamiento de datos IoT en tiempo real. |
+| **Business Goals:** Garantizar monitoreo de transportes peligrosos sin latencia significativa. |
+| **Relevant Quality Attributes:** Rendimiento / Tiempo real. |
+| **Scenario Components - Stimulus:** Datos de ubicación y estado enviados desde dispositivos IoT. |
+| **Scenario Components - Stimulus Source:** Sensores instalados en el transporte. |
+| **Scenario Components - Environment:** Transporte en curso. |
+| **Scenario Components - Artifact (if Known):** Edge API + servicio de monitoreo en tiempo real. |
+| **Scenario Components - Response:** Recepción, procesamiento y almacenamiento inmediato de los datos. |
+| **Scenario Components - Response Measure:** Latencia máxima de 5 segundos por evento. |
+| **Questions:** ¿Qué protocolo IoT será adoptado (MQTT, HTTP, WebSocket)? |
+| **Issues:** Riesgo de pérdida de datos en conexiones inestables. |
+
+---
+
+| Scenario Refinement for Scenario 4 |
+|-----------------------------------|
+| **Scenario(s):** Recepción confiable de notificaciones críticas. |
+| **Business Goals:** Permitir a empresas reaccionar de manera inmediata ante incidentes de transporte. |
+| **Relevant Quality Attributes:** Fiabilidad de la comunicación. |
+| **Scenario Components - Stimulus:** Ocurre un incidente (accidente, retraso o desviación). |
+| **Scenario Components - Stimulus Source:** Sensor IoT del transporte. |
+| **Scenario Components - Environment:** Transporte en curso bajo condiciones de riesgo. |
+| **Scenario Components - Artifact (if Known):** Servicio de notificaciones + Edge API. |
+| **Scenario Components - Response:** Entrega inmediata de notificación al sistema central y a la empresa usuaria. |
+| **Scenario Components - Response Measure:** Entrega en < 5 segundos, tasa ≥ 99%. |
+| **Questions:** ¿Cómo garantizar la entrega en áreas sin cobertura de red? |
+| **Issues:** Dependencia de conectividad móvil para alertas críticas. |
+
+---
+
+| Scenario Refinement for Scenario 5 |
+|-----------------------------------|
+| **Scenario(s):** Registro intuitivo para transportistas no técnicos. |
+| **Business Goals:** Favorecer la adopción de la plataforma por transportistas individuales. |
+| **Relevant Quality Attributes:** Usabilidad. |
+| **Scenario Components - Stimulus:** Transportista intenta registrarse y subir documentación. |
+| **Scenario Components - Stimulus Source:** Usuario transportista sin experiencia técnica. |
+| **Scenario Components - Environment:** Operación normal. |
+| **Scenario Components - Artifact (if Known):** Módulo de Registro de Transportistas. |
+| **Scenario Components - Response:** Registro completado de manera guiada con validaciones en formularios. |
+| **Scenario Components - Response Measure:** Registro en < 3 minutos, ≤ 1 error por intento. |
+| **Questions:** ¿Se incluirá validación automática de documentos o revisión manual? |
+| **Issues:** Posible resistencia de usuarios poco familiarizados con plataformas digitales. |
+
 
 ## 4.1 Strategic-Level Domain-Driven Design
 ### 4.1.1. EventStorming
