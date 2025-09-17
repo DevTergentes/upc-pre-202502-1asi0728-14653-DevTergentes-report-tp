@@ -1002,7 +1002,30 @@ Cada constraint se expresa como una *Technical Story* con sus respectivos criter
 | CON-006 | Compatibilidad Multidispositivo | El sistema debe ser accesible desde navegadores en computadoras, tablets y dispositivos móviles. | La interfaz se adapta automáticamente a diferentes resoluciones y tamaños de pantalla. | EP01, EP02 |
 | CON-007 | Cumplimiento Normativo | El sistema debe garantizar que las solicitudes de transporte y permisos de transportistas cumplan con la normativa vigente de transporte de sustancias peligrosas. | El sistema valida documentación obligatoria antes de publicar solicitudes o aceptar transportistas. | EP01, EP02 |
 
-### 4.1.3. Architectural Drivers Backlog. 
+### 4.1.3. Architectural Drivers Backlog
+
+El **Architectural Drivers Backlog** representa el conjunto de decisiones clave que guían el diseño de la solución.  
+Este backlog fue construido a partir de la priorización de los **Functional Drivers**, los **Quality Attribute Drivers** y los **Constraints** identificados en el proceso de *Quality Attribute Workshop*.  
+Los elementos se organizaron considerando dos dimensiones:  
+- **Importancia para Stakeholders**: el grado de criticidad del driver para el negocio y los usuarios finales.  
+- **Impacto en Architecture Technical Complexity**: el nivel de esfuerzo y complejidad técnica que implica implementarlo.  
+
+A continuación, se presenta la primera versión del backlog:
+
+| Driver ID | Título de Driver | Descripción | Importancia para Stakeholders | Impacto en Architecture Technical Complexity |
+|-----------|-----------------|-------------|--------------------------------|---------------------------------------------|
+| FD-01 | Seguimiento en Tiempo Real de Transportes | Permite a empresas y autoridades monitorear en tiempo real el transporte de productos peligrosos mediante IoT y Edge API. | High | High |
+| FD-02 | Notificaciones de Incidentes Críticos | Envío de alertas en tiempo real a empresas y transportistas ante accidentes, desviaciones o retrasos. | High | High |
+| FD-03 | Gestión de Solicitudes de Transporte | Publicación, administración y actualización del estado de solicitudes de transporte. | High | Medium |
+| FD-04 | Gestión de Transportistas y Documentación | Registro, validación y control de permisos y certificaciones de transportistas. | High | Medium |
+| QD-01 | Seguridad | Cifrado en tránsito y en reposo de datos sensibles; autenticación y autorización seguras. | High | High |
+| QD-02 | Disponibilidad | El sistema debe garantizar ≥ 99.5% de disponibilidad mensual. | High | Medium |
+| QD-03 | Rendimiento / Tiempo Real | Procesamiento de datos IoT con latencia máxima de 5 segundos. | High | High |
+| QD-04 | Usabilidad | Interfaces simples y adaptables para usuarios no técnicos en dispositivos múltiples. | Medium | Medium |
+| CD-01 | Arquitectura Monolítica Escalable | La solución debe desplegarse como aplicación monolítica centralizada. | Medium | Medium |
+| CD-02 | Cumplimiento Normativo | Validación obligatoria de permisos y documentación en procesos críticos. | High | Medium |
+| CD-03 | Compatibilidad Multidispositivo | Adaptación responsiva para navegadores en computadoras, tablets y móviles. | Medium | Low |
+
 ### 4.1.4. Architectural Design Decisions. 
 ### 4.1.5. Quality Attribute Scenario Refinements. 
 
