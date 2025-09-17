@@ -956,7 +956,22 @@ Asimismo, el enfoque estratégico del diseño posiciona a SecurOn como una venta
 En suma, el propósito del diseño de SecurOn es consolidar una plataforma tecnológica que no solo garantice la continuidad y seguridad del transporte de productos peligrosos, sino que también potencie la confianza de las empresas en sus operaciones, minimice riesgos legales y reputacionales, y ofrezca a los transportistas una herramienta práctica, moderna y centrada en la prevención.
 
 ### 4.1.2. Attribute-Driven Design Inputs. 
-#### 4.1.2.1. Primary Functionality (Primary User Stories). 
+
+### 4.1.2.1. Primary Functionality (Primary User Stories)
+
+En esta sección se presentan las funcionalidades primarias que tienen un mayor impacto en las decisiones de diseño arquitectónico de **SecurOn**.  
+Se seleccionaron únicamente aquellas *Epics* y *User Stories* que son críticas para garantizar el monitoreo en tiempo real mediante IoT y Edge API, la validación de transportistas y permisos, la publicación de solicitudes, así como el envío de notificaciones críticas en situaciones de riesgo.  
+Estas funcionalidades representan los **drivers funcionales principales** que orientan la definición de la arquitectura del sistema.
+
+| Epic / User Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+|-----------------------|--------|-------------|--------------------------|---------------------------|
+| EP01 / US06 | Registro de Transportista de Combustibles Peligrosos | Como transportista, quiero registrarme en la plataforma proporcionando mis datos, certificaciones y permisos, para poder ser considerado en futuros trabajos de transporte. | Validación de datos y documentos; error mostrado si la información no es procesada correctamente. | EP01 |
+| EP02 / US09 | Publicación de Solicitudes de Transporte de Productos Peligrosos | Como empresa, quiero publicar solicitudes de transporte detallando tipo de producto, cantidad, origen, destino y requisitos, para gestionar la logística. | La solicitud se publica correctamente y transportistas calificados reciben notificaciones; se muestran errores si la publicación falla. | EP02 |
+| EP03 / US04 | Seguimiento en Tiempo Real de los Transportes Activos | Como empresa, quiero realizar seguimiento en tiempo real de los transportes activos para garantizar seguridad y puntualidad. | El sistema muestra ubicación, velocidad y estado en tiempo real; si falla, se debe notificar error y opciones de contacto manual. | EP03 |
+| EP03 / TS-04 | Implementación de Monitoreo en Tiempo Real a través de Edge API | Como desarrollador, quiero implementar monitoreo en tiempo real mediante Edge API para recibir datos IoT (ubicación, velocidad, estado). | Recepción y procesamiento correcto de datos en tiempo real; manejo de errores de conexión o datos corruptos. | EP03 |
+| EP04 / US05 | Notificaciones de Incidentes en Tiempo Real | Como empresa, quiero recibir notificaciones en tiempo real sobre incidentes (accidente, retraso, desviación) durante el transporte. | El sistema envía notificación en tiempo real con detalles; si falla, se muestra error y opciones alternativas de contacto. | EP04 |
+| EP04 / TS-05 | Implementación de Notificaciones de Incidentes en Tiempo Real a través de Edge API | Como desarrollador, quiero implementar envío de alertas de incidentes desde sensores IoT a la Edge API, para notificar a la empresa de forma inmediata. | Procesamiento correcto de notificaciones de incidente; manejo de fallas en la comunicación. | EP04 |
+
 #### 4.1.2.2. Quality attribute Scenarios. 
 #### 4.1.2.3. Constraints
 ### 4.1.3. Architectural Drivers Backlog. 
