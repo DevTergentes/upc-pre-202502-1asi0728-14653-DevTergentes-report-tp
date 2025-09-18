@@ -6,7 +6,7 @@ Universidad Peruana de Ciencias Aplicadas
 
 Ingeniería de Software
 
-Ciclo 2025-10
+Ciclo 2025-20
 
 # Arquitecturas De Software Emergentes
 
@@ -38,7 +38,7 @@ Profesor: Berrocal Navarro, Richard Leonardo
 
 | Versión | Fecha | Autor | Descripción de la modificación |
 | - | - | - | - |
-| 1.00 | 07/09/2025 | Todos los integrantes del equipo  |  |
+| 1.00 | 18/09/2025 | Todos los integrantes del equipo  | Se completó la primera entrega del TB1.  |
 
 ---
 
@@ -594,10 +594,10 @@ El objetivo de las preguntas del segmento objetivo de las empresas de transporte
 |-------------|---------|
 | **Nombre**  | Carolina Torres Torres |
 | **Edad**    | 27 |
-| **Inicio**  | - |
-| **Fin**     | - |
-| **Duración**| 5:07 |
-| **Link**    | - |
+| **Inicio**  | 0:00 |
+| **Fin**     | 5:06 |
+| **Duración**| 5:06 |
+| **Link**    | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218451_upc_edu_pe/ERzZzWSCvfVKhMVEPHadV3EBtcJbmxtE9d_93Lfp8QX-DQ?e=06ngK3&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
 | **Imagen**  | ![entrevista1t](https://i.imgur.com/0MFB9Rr.png) |
 | **Resumen de la entrevista** | Carolina es una transportista de productos reactivos y actualmente cuenta con un sistema de GPS y un monitoreo de temperatura básico instalado en su vehículo. Su principal motivación para incorporar una solución tecnológica adicional es mejorar su seguridad, ya que esto le permitiría prevenir un mayor número de accidentes que podrían poner en riesgo su integridad y la de las personas a su alrededor. Además, menciona que esta solución también le brindaría mayor tranquilidad durante sus recorridos. Carolina prefiere que las notificaciones se emitan mediante alertas sonoras, ya que considera que así podrá estar más atenta mientras conduce. En cuanto a funcionalidades imprescindibles, destaca el monitoreo en tiempo real, las alertas automáticas y el acceso inmediato desde la central. |
 
@@ -608,10 +608,10 @@ El objetivo de las preguntas del segmento objetivo de las empresas de transporte
 |-------------|---------|
 | **Nombre**  | Maricielo Valdivia |
 | **Edad**    | 25 |
-| **Inicio**  | - |
-| **Fin**     | - |
-| **Duración**| 4:06 |
-| **Link**    | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213076_upc_edu_pe/EcZvB8ghDNZGk085n_5gQ5gBybPyV61xzbfqsEiSqnWcRw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Xl7yiH) |
+| **Inicio**  | 5:06|
+| **Fin**     | 9:13 |
+| **Duración**| 4:07 |
+| **Link**    | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218451_upc_edu_pe/ERzZzWSCvfVKhMVEPHadV3EBtcJbmxtE9d_93Lfp8QX-DQ?e=06ngK3&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
 | **Imagen**  | ![entrevista_2](https://github.com/user-attachments/assets/4dc6f462-920d-4513-adcf-1dc2e1ca6348) |
 | **Resumen de la entrevista** | Maricielo, de 25 años y residente en Callao, relató que tuvo una experiencia con una fuga menor de gas, frente a la cual actuó siguiendo los protocolos de seguridad. Entre sus principales dificultades menciona el tráfico, las largas jornadas y la falta de espacios seguros para detenerse. Actualmente, utiliza un sistema de GPS que le resulta útil para el control de rutas, aunque reconoce que no brinda información sobre el estado de la carga. Está dispuesta a incorporar una solución tecnológica de monitoreo en tiempo real, motivada por la seguridad y la prevención de accidentes, siempre que sea sencilla y práctica. Considera clave el uso de sensores de presión, temperatura y gases, y cree que las alertas más efectivas serían las sonoras inmediatas y las notificaciones en celular, preferentemente mediante una app móvil o mensajes de texto. Identifica como posibles obstáculos el costo, el mantenimiento y la capacitación. En su rutina laboral utiliza con mayor frecuencia el celular, el GPS y la radio de comunicación. |
 
@@ -624,9 +624,9 @@ El objetivo de las preguntas del segmento objetivo de las empresas de transporte
 |-------------|---------|
 | **Nombre**  | Arnhol Castrejon |
 | **Inicio**  | 0:00 |
-| **Fin**     | 4:30 |
-| **Duración**| 4:30 |
-| **Link**    | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218451_upc_edu_pe/EQtqKx-9znlKuy-p8avsO5MBtr_X4r9ihAze2L7a9V7dDw?e=dPc1A0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+| **Fin**     | 4:32 |
+| **Duración**| 4:32 |
+| **Link**    | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218451_upc_edu_pe/Ef69MXwMrZZGqLdEIjw5134BLTEMz3ZmWUUBnmpt836yhg?e=VCLD5t&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
 | **Imagen**  | <img width="1235" height="446" alt="image" src="https://github.com/user-attachments/assets/c26fb33c-a0e3-44a2-a9b1-d6c69c683ffc" /> |
 | **Resumen de la entrevista** | Arnold Alfredo, de 26 años, es propietario de una empresa de transporte de gas en Villa El Salvador. Actualmente cuentan con medidas básicas de seguridad como revisión de unidades antes de los viajes, uso de extintores, chalecos y cascos, además de charlas internas de prevención. La empresa solo utiliza GPS para el seguimiento de vehículos, pero el entrevistado considera que sensores de fuga de gas y de temperatura serían los más adecuados para su rubro. Expresó interés en implementar soluciones IoT que permitan mejorar la seguridad en tiempo real, reaccionar más rápido ante emergencias y generar confianza en los clientes. Entre los beneficios esperados mencionó mayor control de la carga, reducción de riesgos y prevención de pérdidas, aunque también manifestó preocupaciones respecto al costo de implementación y la adaptación del personal. Finalmente, indicó que prefiere recibir alertas en el celular o mediante aplicaciones móviles, y considera que una solución IoT confiable, sencilla y de bajo costo le daría una ventaja competitiva en el sector. |
 
@@ -637,10 +637,10 @@ El objetivo de las preguntas del segmento objetivo de las empresas de transporte
 |-------------|---------|
 | **Nombre**  | Sebastian Lobato |
 | **Edad**    | 20 |
-| **Inicio**  | - |
-| **Fin**     | - |
-| **Duración**| 5:26 |
-| **Link**    | - |
+| **Inicio**  | 4:32 |
+| **Fin**     | 10:06 |
+| **Duración**| 5:34 |
+| **Link**    | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218451_upc_edu_pe/Ef69MXwMrZZGqLdEIjw5134BLTEMz3ZmWUUBnmpt836yhg?e=VCLD5t&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
 | **Imagen**  | <img width="1883" height="639" alt="image" src="https://github.com/user-attachments/assets/de90f951-f7e1-4297-8a5d-9b28f74b653d" /> |
 | **Resumen de la entrevista** | Sebastian, de 20 años, explicó que actualmente en su empresa se aplican medidas de seguridad como el uso de válvulas de seguridad, extintores, rutas planificadas y revisiones periódicas de los vehículos, además de protocolos estrictos para prevenir incidentes. Relató que en una ocasión, ante una fuga, el equipo detuvo las operaciones de inmediato y notificó a la empresa y a personal especializado para resolver la situación, evidenciando el cumplimiento riguroso de los procedimientos establecidos. Entre las dificultades, mencionó la presión por cumplir con los tiempos de entrega, lo que en ocasiones puede entrar en tensión con las medidas de seguridad. Actualmente, cuentan únicamente con GPS para el seguimiento de las unidades, pero no con herramientas que informen sobre el estado del gas o de las condiciones internas. Por ello, considera necesario incorporar una solución tecnológica que incremente la seguridad, permita un mejor monitoreo y brinde mayor tranquilidad tanto a los trabajadores como a la empresa. |
 
@@ -651,10 +651,10 @@ El objetivo de las preguntas del segmento objetivo de las empresas de transporte
 |-------------|---------|
 | **Nombre**  | Diego Sebastian Valdivia Colque |
 | **Edad**    | 21 |
-| **Inicio**  | - |
-| **Fin**     | - |
-| **Duración**| 5:51 |
-| **Link**    | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213076_upc_edu_pe/EcZvB8ghDNZGk085n_5gQ5gBybPyV61xzbfqsEiSqnWcRw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Xl7yiH) |
+| **Inicio**  | 10:06 |
+| **Fin**     | 15:56 |
+| **Duración**| 5:50 |
+| **Link**    | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218451_upc_edu_pe/Ef69MXwMrZZGqLdEIjw5134BLTEMz3ZmWUUBnmpt836yhg?e=VCLD5t&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
 | **Imagen**  | ![entrevista_3](https://github.com/user-attachments/assets/8785f422-1467-4562-9a4d-8f26b943154a) |
 | **Resumen de la entrevista** | Diego, de 21 años y residente en Bellavista, comentó que su empresa aplica el Reglamento Nacional de Transporte Terrestre de Materiales y Residuos Peligrosos, utilizando vehículos certificados, señalización adecuada, bitácoras de control, equipos de protección personal y kits de emergencia en cada unidad. La capacitación del personal se realiza mediante convenios con SENCICO, incluyendo simulacros de derrames, incendios y evacuación, así como charlas de primeros auxilios y manejo de sustancias químicas. Además, emplean tecnologías como GPS con geocercas, sensores de temperatura y presión, cámaras de cabina y sistemas de trazabilidad en tiempo real. Diego destacó que la implementación de soluciones IoT permitiría anticipar incidentes, optimizar operaciones y generar ventajas competitivas, aunque reconoció desafíos como el costo inicial, la capacitación del personal y la seguridad de los datos. |
 
