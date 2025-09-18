@@ -46,7 +46,7 @@ Profesor: Berrocal Navarro, Richard Leonardo
 
 **TB1:** Se han desarrollado las actividades correspondientes para la entrega TB1 dentro de nuestra organización de Git Hub.
 
-Link de Github: [Org de Git Hub](https://github.com/DevTergentes)
+Link de Github: [https://github.com/DevTergentes](https://github.com/DevTergentes)
 
 *Registro de commits*
 <img width="1022" height="585" alt="image" src="https://github.com/user-attachments/assets/365d5b4b-fc4b-46a8-bd1e-dec62e80f457" />
