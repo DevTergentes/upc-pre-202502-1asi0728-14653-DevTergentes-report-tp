@@ -1205,7 +1205,6 @@ Finalmente, gracias a la identificación y definición de cada uno de los elemen
 
 ![bcts](https://github.com/user-attachments/assets/33a1784f-b1aa-4c31-b0b2-3d7891c702b8)
 
-**Enlace del MIRO para mayor visualización del Event Storming:** https://miro.com/welcomeonboard/ZDUyWkh5OTlpSVF4RGdTNG9tdkI0N0FnS1F5VUtRczM0dXJkS2dSZHRDeW1yWm54RW02c3EybHBKYzdIaGkxRjZUb2lwNHB2a0RKelJzRmJNUDd3NEoyNVE3Wk1Uc2U5MUFySzEyZFNBZ0pSa011QkVnQy93aVprVXUyVGFsQ2pNakdSWkpBejJWRjJhRnhhb1UwcS9BPT0hdjE=?share_link_id=980476835383
 
 ### 4.2.2. Candidate Context Discovery
 
@@ -1298,6 +1297,15 @@ El diagrama de despliegue detalla la **arquitectura de software** de **SecurOn**
 
 <img src="https://github.com/user-attachments/assets/c2fac1fa-18fb-4547-ab6f-56cac609d78a" alt="deployment" border="0">
 
+<br>
+
+## Conclusiones
+
+El desarrollo de SecurOn representó un esfuerzo colaborativo integral que abarcó todas las etapas clave del proyecto, desde la definición del problema hasta el diseño arquitectónico. La integración efectiva de distintos roles y perspectivas dentro del equipo permitió enriquecer cada fase del proceso, asegurando que la solución fuera técnicámente sólida y centrada en el usuario. Gracias a una planificación estratégica, la adopción de metodologías ágiles y una comunicación constante, se logró mantener una organización clara que facilitó anticipar riesgos, adaptarse a cambios y cumplir consistentemente con los objetivos establecidos. Como resultado, se ha consolidado una base sólida que alinea los aspectos técnicos con las metas del negocio, sentando las bases para el crecimiento y la escalabilidad futura de SecurOn.
+
+## Recomendaciones
+
+Para garantizar el éxito continuo y la evolución de SecurOn, se recomienda priorizar el desarrollo iterativo basado en feedback real de usuarios en las próximas etapas. Además, es crucial consolidar un roadmap de producto que incorpore nuevas funcionalidades previamente identificadas, así como fortalecer continuamente los protocolos de seguridad y privacidad para cumplir con las regulaciones emergentes. Finalmente, se sugiere explorar oportunidades de integración con plataformas complementarias que puedan ampliar el alcance y valor de la solución.
 
 # Bibliografía
 
@@ -1318,13 +1326,10 @@ Soto, J. A. S., González, D. L. E., Sánchez, J. F. I., Reyes, J. A., & Layva, 
 
 ![eventStorming](https://github.com/user-attachments/assets/fe7db010-856e-4eee-8ef3-90a84ecb3327)
 
-Enlace del MIRO para mayor visualización del Event Storming: https://miro.com/welcomeonboard/ZDUyWkh5OTlpSVF4RGdTNG9tdkI0N0FnS1F5VUtRczM0dXJkS2dSZHRDeW1yWm54RW02c3EybHBKYzdIaGkxRjZUb2lwNHB2a0RKelJzRmJNUDd3NEoyNVE3Wk1Uc2U5MUFySzEyZFNBZ0pSa011QkVnQy93aVprVXUyVGFsQ2pNakdSWkpBejJWRjJhRnhhb1UwcS9BPT0hdjE=?share_link_id=980476835383
 
 **Videos de exposición**
 
-[Video de exposición TB1]()
-
-
+Video de exposición TB1: https://upcedupe-my.sharepoint.com/personal/u202114248_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202114248%5Fupc%5Fedu%5Fpe%2FDocuments%2FDevTergentes%2FTB1%2Fupc%2Dpre%2D202502%2D1asi0728%2D14653%2DDevTergentes%2Dexpo%2Dtb1%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Efc550a72%2D774b%2D4c15%2Dad9c%2Dd66fd808ffee
 
 
 
