@@ -44,11 +44,12 @@ Profesor: Berrocal Navarro, Richard Leonardo
 
 # Project Report Collaboration Insights
 
-**TB1:** Se han desarrollado las actividades correspondientes para la entrega TB1 en el siguiente repositorio de Github dentro de la organización del equipo:
+**TB1:** Se han desarrollado las actividades correspondientes para la entrega TB1 dentro de nuestra organización de Git Hub.
 
-Link de repositorio Github: 
+Link de Github: [Org de Git Hub](https://github.com/DevTergentes)
 
 *Registro de commits*
+<img width="1022" height="585" alt="image" src="https://github.com/user-attachments/assets/365d5b4b-fc4b-46a8-bd1e-dec62e80f457" />
 
 ---
 
