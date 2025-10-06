@@ -2697,6 +2697,25 @@ Soto, J. A. S., González, D. L. E., Sánchez, J. F. I., Reyes, J. A., & Layva, 
 
 ![eventStorming](https://github.com/user-attachments/assets/fe7db010-856e-4eee-8ef3-90a84ecb3327)
 
+**Anexo B.** Tabla de enlaces utilizados
+| Artefacto | Enlace |
+| ------------ | ------------ |
+| Video grupal del TB1 | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114248_upc_edu_pe/Eda4u05Eb9dFhA2-15qUhlEBJ2AK5KRhA0f8GNbrC7Z9kA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=AUmvWn  |
+| Lean UX Canvas |  |
+| Video entrevistas segmento transportista | https://upcedupe-my.sharepoint.com/personal/u202218451_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202218451%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevistas%20%2D%20segmento%20objetivo%20%2D%20Transportistas%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ed1ddf045%2D0880%2D437c%2D84d5%2D93616aae6cd6 |
+| Video entrevistas segmento empresa de transporte | https://upcedupe-my.sharepoint.com/personal/u202218451_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202218451%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevistas%2D%20segmento%20obj%20%2D%20Empresas%20de%20transporte%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E07cc65e9%2D2c07%2D43d1%2Daebd%2Dca09988c4eed&isDarkMode=false |
+| Journey Mapping en Miro |  |
+| As-is Scenario Mapping en Miro |  |
+| To-be Scenario Mapping en Miro | https://miro.com/app/board/uXjVJKtI4DU=/?share_link_id=437443717777 |
+| Event Storming en Miro |  |
+| Domain Message Flows Modeling en Miro |  |
+| Bounded Context Canvases en Miro |  |
+| Modelo C4 |  |
+| Wireflows y user flows en LucidChart | https://lucid.app/lucidchart/78d14ebd-5614-4c11-be07-705631141f25/edit?viewport_loc=-8888%2C-2789%2C15213%2C6598%2C0_0&invitationId=inv_efb1a0e4-2462-43d2-805c-6c06dbb66383 |
+| Prototipo en Figma de web y mobile app | https://www.figma.com/design/K1K4Imdh3xHVPDeqIXi37D/SecurOn?node-id=87-45&t=2OxavIdVJlEDenr7-1 |
+| Prototypes Navigation/ Product Navigation |  |
+| Video grupal del TP1 |  |
+
 
 **Videos de exposición**
 
