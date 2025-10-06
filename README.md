@@ -2602,7 +2602,7 @@ En esta sección, se presentan los User Flows, donde se mostrarán las Happy y U
 - Al iniciar el recorrido, se muestran los datos de monitoreo en tiempo real
 - Entonces puede seguir la ruta y finalizar la entrega desde la interfaz
 
-![image](https://i.imgur.com/SsocVaB.jpeg)
+![image](https://i.imgur.com/LAI9iqQ.jpeg)
 
 **User goal, usuario transportista reporta incidente**
 
@@ -2614,7 +2614,7 @@ En esta sección, se presentan los User Flows, donde se mostrarán las Happy y U
 - Al completar los campos requeridos, puede enviar el reporte
 - Entonces el incidente queda registrado y visible para el administrador
 
-![image](https://i.imgur.com/7bxJw1e.jpeg)
+![image](https://i.imgur.com/OER8kRX.jpeg)
 
 **User goal, usuario administrador añade nueva ruta a monitorear**
 
@@ -2626,7 +2626,7 @@ En esta sección, se presentan los User Flows, donde se mostrarán las Happy y U
 - Al guardar la información, la nueva ruta queda registrada
 - Entonces podrá monitorear los parámetros de los sensores en esa ruta
 
-![image](https://i.imgur.com/7BzRtg9.jpeg)
+![image](https://i.imgur.com/0ztCMB2.jpeg)
 
 **User goal, usuario administrador visualiza reportes de incidentes**
 
@@ -2637,7 +2637,7 @@ En esta sección, se presentan los User Flows, donde se mostrarán las Happy y U
 - Si selecciona un reporte, se visualiza el detalle del incidente
 - Entonces también se muestran los parámetros de monitoreo asociados al evento
 
-![image](https://i.imgur.com/aFCOnRN.jpeg)
+![image](https://i.imgur.com/Cn2Cg8W.jpeg)
 
 
 
