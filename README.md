@@ -1379,27 +1379,32 @@ Footer:
 
 Hero:
 
-![image](https://github.com/user-attachments/assets/89f42efd-c555-426c-ab67-a89d68fd4d36)
+<img width="1872" height="784" alt="image" src="https://github.com/user-attachments/assets/88128010-6605-4380-8680-ab17f3dc5da2" />
+
 
 Services:
 
-![image](https://github.com/user-attachments/assets/1185c8ba-d63f-4267-a5ac-f3b655a710b7)
+<img width="1875" height="893" alt="image" src="https://github.com/user-attachments/assets/3cfb5146-c3e9-401c-91f4-fc24c9ca447e" />
+
 
 About us:
+<img width="1872" height="922" alt="image" src="https://github.com/user-attachments/assets/c5989da3-c83d-4b6b-aee0-57188adf8ec6" />
 
-![image](https://github.com/user-attachments/assets/e7d26a9d-8e06-43af-999f-1381fc0ded28)
+
 
 Testimonials:
 
-![image](https://github.com/user-attachments/assets/16b6e8ac-4b0f-4f8d-bd81-f81e532be8d4)
+<img width="1841" height="905" alt="image" src="https://github.com/user-attachments/assets/a0737abd-5b41-40e1-9bed-7dec870991e2" />
+
 
 Download:
+<img width="1882" height="550" alt="image" src="https://github.com/user-attachments/assets/4cba3ce6-d36d-41f0-86b5-0a1f675028a4" />
 
-![image](https://github.com/user-attachments/assets/6cbbe3c0-e59f-4e4e-b9fd-054db6526844)
 
 Footer:
+<img width="1783" height="338" alt="image" src="https://github.com/user-attachments/assets/e2395466-5706-4b81-80a7-284a32bee66d" />
 
-![image](https://github.com/user-attachments/assets/12ee1743-0d86-43fa-8d52-ba26b9a8f389)
+
 
 
 ## 6.4. Applications UX/UI Design
