@@ -2714,12 +2714,5 @@ Soto, J. A. S., González, D. L. E., Sánchez, J. F. I., Reyes, J. A., & Layva, 
 | Wireflows y user flows en LucidChart | https://lucid.app/lucidchart/78d14ebd-5614-4c11-be07-705631141f25/edit?viewport_loc=-8888%2C-2789%2C15213%2C6598%2C0_0&invitationId=inv_efb1a0e4-2462-43d2-805c-6c06dbb66383 |
 | Prototipo en Figma de web y mobile app | https://www.figma.com/design/K1K4Imdh3xHVPDeqIXi37D/SecurOn?node-id=87-45&t=2OxavIdVJlEDenr7-1 |
 | Prototypes Navigation/ Product Navigation |  |
+| Landing Page desplegada | https://devtergentes.github.io/secureOn-landing-page/ |
 | Video grupal del TP1 |  |
-
-
-**Videos de exposición**
-
-Video de exposición TB1: https://upcedupe-my.sharepoint.com/personal/u202114248_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202114248%5Fupc%5Fedu%5Fpe%2FDocuments%2FDevTergentes%2FTB1%2Fupc%2Dpre%2D202502%2D1asi0728%2D14653%2DDevTergentes%2Dexpo%2Dtb1%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Efc550a72%2D774b%2D4c15%2Dad9c%2Dd66fd808ffee
-
-
-
