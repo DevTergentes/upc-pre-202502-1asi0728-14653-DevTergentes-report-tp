@@ -1356,28 +1356,24 @@ Durante la fase inicial del diseño de la interfaz de la página de inicio (land
 ### 6.3.1. Landing Page Wireframe
 
 Hero:
-
-![image](https://github.com/user-attachments/assets/8995e159-15f6-4bf4-9a9f-2cbe0e68860d)
+<img width="1172" height="833" alt="image" src="https://github.com/user-attachments/assets/c158b81d-50e0-4f3b-ba53-b7e8e50051d7" />
 
 Services:
-
-![image](https://github.com/user-attachments/assets/c7ce2413-f6b9-4359-804d-d6f6d48ea7a9)
+<img width="1173" height="831" alt="image" src="https://github.com/user-attachments/assets/61e03f42-07bc-48d9-a3c5-2e41eb94fcdb" />
 
 About us:
-
-![image](https://github.com/user-attachments/assets/a2140cd0-fa6d-46d0-bd69-046f8b9668b4)
+<img width="1168" height="833" alt="image" src="https://github.com/user-attachments/assets/1bb343e8-3553-4bee-bcbe-47f98caa60a1" />
 
 Testimonials:
-
-![image](https://github.com/user-attachments/assets/9cc4d581-7022-4e76-8dfd-df58706562cc)
+<img width="1171" height="832" alt="image" src="https://github.com/user-attachments/assets/d943a784-5d06-4cd9-9b4f-d1fe95838ef7" />
 
 Download:
-
-![image](https://github.com/user-attachments/assets/88aad065-1a17-4217-b814-b2ebb3b36da3)
+<img width="1166" height="604" alt="image" src="https://github.com/user-attachments/assets/8f7010c6-c341-426f-bb6a-5bca1216ac31" />
 
 Footer:
+<img width="1172" height="169" alt="image" src="https://github.com/user-attachments/assets/afec4b4b-16c6-4404-b037-83261367bfad" />
 
-![image](https://github.com/user-attachments/assets/4c0265b9-db50-401e-97cf-a08bf8dd5114)
+
 
 ### 6.3.2. Landing Page Mock-up
 
