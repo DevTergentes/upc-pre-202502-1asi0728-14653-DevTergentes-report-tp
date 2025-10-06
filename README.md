@@ -1342,13 +1342,234 @@ El diagrama de despliegue detalla la **arquitectura de software** de **SecurOn**
 # Capítulo VI: Solution UX Design
 ## 6.1. Style Guidelines
 ### 6.1.1. General Style Guidelines
+
+La solución IoT SecureOn busca proporcionar a los usuarios una interfaz que comunique profesionalismo, formalidad y un diseño minimalista, generando confianza y facilidad de uso durante el monitoreo de carga, además de ofrecer respuestas rápidas ante emergencias. Por esta razón, el equipo eligió elementos visuales que capten la atención del público objetivo y que, al mismo tiempo, sean fácilmente reconocibles. Como parte de esta estrategia, se seleccionaron colores vibrantes y contrastantes, junto con tipografías de diferentes tamaños y espaciados generosos, para ofrecer una experiencia visual atractiva y garantizar una lectura clara. Es importante destacar que no se utilizarán texturas, con el objetivo de mantener una estética limpia y minimalista.
+
+**Brand Overview**
+
+SecureOn emerge como respuesta a la necesidad de optimizar la seguridad en el transporte de sustancias peligrosas y elevar los estándares de servicio en las empresas del sector. Para alcanzar este objetivo, se propone una solución integral basada en tecnologías IoT que permiten el monitoreo en tiempo real de la carga de combustible, entre otras funcionalidades diseñadas para satisfacer estas demandas.
+
+El concepto de marca se fortalece mediante un mensaje directo y contundente: proteger el flujo logístico en entornos críticos, garantizando tanto la eficiencia operativa como la seguridad en cada fase del transporte. Esto no solo mejora la reputación de las empresas que implementan SecureOn, sino que también genera confianza entre todos los actores involucrados. En esencia, SecureOn representa un compromiso de fiabilidad en un sector donde la seguridad y la eficiencia son primordiales.
+
+**Brand Name**
+
+El nombre SecureOn refleja claramente la misión central de la solución IoT: asegurar un transporte protegido y controlado de materiales peligrosos. Su estructura transmite la idea de seguridad activa y monitoreo continuo, pilares fundamentales para mantener la protección a lo largo de toda la ruta.
+
+Esta denominación no solo evidencia el enfoque en la protección, sino que también comunica eficiencia, control y confiabilidad para empresas y transportistas. De este modo, SecureOn se establece como sinónimo de resguardo tanto para quienes manejan estas cargas como para el entorno donde operan, transmitiendo tranquilidad a operadores y clientes finales por igual.
+
+![image](https://github.com/user-attachments/assets/0143dd2d-2ec6-4c12-8c6c-78587bec7303)
+
+**Colores:**
+
+**Colores de la marca:** Estos colores definen la identidad visual de SecureOn. El Primario / #183856 es un verde vibrante que simboliza crecimiento, seguridad y energía, utilizado en elementos clave para resaltar la marca. El Secundario / #74C04A, un verde oscuro profundo, complementa al primario aportando contraste y profesionalismo, ideal para fondos o acentos secundarios.
+
+![image](https://github.com/user-attachments/assets/5d654d24-dbfd-438a-a8b5-d360abd0040e)
+
+**Colores de estado:** Empleados para comunicar diferentes estados en la interfaz. Info / #909EC4 es un azul-gris suave para mensajes informativos, transmitiendo serenidad. Success / #8ACF00, un verde claro, indica acciones exitosas, generando confianza. Warning / #F3CB52, un amarillo cálido, alerta sobre situaciones que requieren precaución. Error / #DF333C, un rojo intenso, destaca errores o problemas críticos que necesitan acción inmediata.
+
+![image](https://github.com/user-attachments/assets/47b219f5-80c5-438c-874b-9c1df6dd7fc9)
+
+**Colores negros:** Diseñados para contraste y legibilidad. Black 1 / #000000 es un negro puro para textos o fondos de alta visibilidad. Black 2 / #1A1A1A, un negro más suave, se utiliza en fondos o bordes sutiles. Grey 1 / #888888, un tono intermedio, equilibra elementos secundarios. Grey 2 / #CCCCCC, otro tono intermedio, balancea componentes secundarios. White / #FFFFFF, un blanco puro, ofrece claridad y modernidad en fondos o elementos destacados.
+
+![image](https://github.com/user-attachments/assets/9c56d0eb-921e-44b0-beb4-3e9d8bb9a432)
+
+**Tipografia:**
+
+El equipo eligió la fuente Montserrat, un estilo tradicional y de fácil lectura. La separación del interletraje es de 0,15 px, el interlineado es de 0,5 px y el tamaño de la fuente varía según su propósito; por ejemplo, para los títulos se usa un tamaño de 56 px, y para el texto escrito por el usuario, 20 px.
+
+![image](https://github.com/user-attachments/assets/d8b1574d-3742-4ac0-a310-613c7c450c02)
+
+**Iconografía:**
+
+La sección de Iconografía establece normas precisas para el uso de íconos en el diseño. Define un área activa de 20 px para interacción, un área segura de 2 px para evitar superposiciones y un tamaño total de 24 px por ícono. Además, presenta dos conjuntos de íconos: "Outline Icons" con estilo de contorno y "Fill Icons" en estilo relleno, ambos incluyendo símbolos como relojes, lápices y marcadores.
+
+![image](https://github.com/user-attachments/assets/b6f78591-4e66-42e8-8f34-9a4dab610e23)
+
+**Sistema Grid:**
+
+Los Sistemas de Grid definen configuraciones para diferentes dispositivos, asegurando un diseño adaptable. Para Desktop HD, el frame es de 1440 px con 12 columnas de 90 px; para Desktop, 1024 px con 6 columnas de 50 px; para Tablet, 768 px con 6 columnas de 88 px; y para Mobile, 320 px con 2 columnas de 130 px, garantizando alineación y proporción en cada formato.
+
+![image](https://github.com/user-attachments/assets/de76a1e5-cefc-46a0-af7f-c2330a28dfa8)
+
+**Espaciado:**
+
+El apartado de Espaciado ofrece una escala de valores para mantener la coherencia en el diseño. Los niveles van desde 4 px hasta 64 px, incluyendo medidas intermedias como 16 px, 24 px, 32 px, 40 px y 56 px. Estos valores, representados con cuadros grises de tamaño progresivo, se aplican a márgenes, padding y otros elementos de diseño.
+
+![image](https://github.com/user-attachments/assets/e2750183-7cdd-49a6-bca5-4409d713a9b3)
+
 ### 6.1.2. Web, Mobile & Devices Style Guidelines
 
+Esta sección detalla los lineamientos visuales y de interacción que debe seguir la interfaz de SecureOn en cada una de sus plataformas: web, aplicación móvil y dispositivos IoT. La experiencia del usuario debe ser coherente y fluida, adaptando los elementos visuales y funcionales al tipo de dispositivo para lograr una interacción efectiva y accesible.
+
+### Web Responsive Design
+
+La interfaz web de SecureOn ha sido creada bajo principios de diseño responsive, permitiendo su correcta visualización desde pantallas grandes (escritorio) hasta dispositivos móviles. Se utiliza un enfoque de Flat Design, que promueve una navegación clara, intuitiva y moderna. Además, se sigue el patrón Z como guía de distribución visual, asegurando que los elementos clave (logo, menú, CTA) estén posicionados estratégicamente.
+
+**Componentes principales:**
+
+Dashboard: Estructura central con una barra lateral de navegación (menú principal) y una barra superior para acceso rápido al perfil, notificaciones y ajustes.
+
+**Lineamientos técnicos:**
+- Grid System: Se adopta un sistema de 12 columnas para organizar los elementos de manera flexible.
+
+- Breakpoints:
+    - Móviles: 320px – 480px
+    - Tablets: 481px – 768px
+    - Escritorio: 769px en adelante
+
+- Tipografía: Escalable con un mínimo de 16px en móviles para asegurar la legibilidad.
+
+- Colores: Paleta uniforme con variaciones para estados interactivos (hover, focus, active).
+
+- Botones y links: Tamaño mínimo de 44px de altura para facilitar la interacción táctil.
+
+- Iconografía: Se usan íconos universales y reconocibles que apoyan la navegación.
+
+### Mobile Application Interface
+
+La interfaz de la aplicación móvil está diseñada para priorizar la usabilidad táctil, manteniendo una estructura simple, clara y centrada en la acción. Se emplea un diseño de columna única, ideal para mostrar contenido de forma lineal, y se implementan componentes adaptados a pantallas pequeñas.
+
+**Componentes principales:**
+- Navegación inferior (Bottom Navigation): Acceso directo a secciones clave como Dashboard, Dispositivos, Riego, Análisis de Suelo y Reportes.
+
+- Floating Action Button (FAB): Acceso inmediato a la acción principal desde cada vista, ubicado en la esquina inferior derecha.
+
+- Overlays: Capas superpuestas para mostrar detalles sin salir de la pantalla actual.
+
+**Lineamientos técnicos:**
+
+- Botones táctiles: Tamaño mínimo de 48x48px, con retroalimentación visual inmediata (por ejemplo, cambio de color al presionar).
+
+- Tipografía: Mínimo de 16px para garantizar buena lectura en todo tipo de dispositivos móviles.
+
+- Gestos y navegación fluida: Compatibilidad con gestos nativos para mejorar la experiencia.
+
+### IoT Application Interface
+En el caso de la interfaz para la solución embebida IoT, se prioriza la visualización clara de datos operativos en tiempo real y el control rápido de los dispositivos. Aunque no se contempla un diseño de interfaz complejo, se establecen elementos clave para asegurar una experiencia funcional y eficiente.
+
+**Componentes principales:**
+- Widgets visuales: Gráficos de barras, líneas y medidores que permiten interpretar rápidamente el estado de los dispositivos.
+
+- Alertas: Notificaciones visuales con codificación por colores:
+
+    - Crítico: Rojo (#FF4B4B)
+
+    - Normal/operativo: Verde (#6BBE44)
+
+- Controles simples: Interruptores, sliders y botones grandes que permiten ejecutar acciones directas sin confusión.
+
+**Lineamientos técnicos:**
+- Compatibilidad con pantallas pequeñas (embedded): Interfaces compactas, con mínima carga visual.
+
+- Accesibilidad: Íconos y textos lo suficientemente grandes para ser visibles de un vistazo.
+
 ## 6.2. Information Architecture
+
+Esta sección detalla cómo está organizada la solución IoT, considerando a cada grupo de usuarios. Asimismo, se describe la estructura de navegación implementada en las distintas interfaces del sistema.
+
 ### 6.2.2. Labeling Systems
+
+Aquí se describen los nombres y etiquetas utilizados para identificar y organizar la información de manera clara.
+
+**Landing Page**
+
+- **Inicio / Home**  
+  Vista inicial con una frase que representa la solución, logo y objetivo principal.
+
+- **Sobre Nosotros / About Us**  
+  Detalles del equipo, su misión, visión y propósito.
+
+- **Servicios / Services**  
+  Funcionalidades clasificadas según el grupo de usuarios (conductores o empresas).
+
+- **Contáctanos / Contact Us**  
+  Canales de comunicación y soporte disponibles.
+
+**Etiquetas específicas para Conductores**
+
+- **Inicio / Home**  
+  Panel de control para conductores.
+
+- **Mis viajes**  
+  Gestión de rutas activas y programadas.
+
+- **Registro de incidentes**  
+  Formulario para reportar problemas surgidos durante el trayecto.
+
+- **Historial**  
+  Registro de viajes pasados e incidentes resueltos.
+
+**Etiquetas específicas para Empresas**
+
+- **Inicio / Home**  
+  Vista general para monitoreo empresarial.
+
+- **Incidentes publicados**  
+  Gestión de reportes generados por los conductores.
+
+- **Reportes**  
+  Generación y análisis de datos sobre seguridad y desempeño.
+
+- **Monitoreo de viajes**  
+  Supervisión en tiempo real del estado de la flota.
+
 ### 6.2.3. Searching Systems
+
+Se explican las opciones de búsqueda disponibles en cada plataforma del sistema.
+
+**En la página web principal**  
+Los usuarios podrán navegar fácilmente entre las secciones mediante una barra interactiva que alterna entre contenido para conductores y para empresas.
+
+**Aplicación web y móvil**
+
+- **Conductores**  
+  - *Mis viajes*: Búsqueda por destino, fecha o estado.  
+  - *Registro de incidentes*: Filtro por tipo, gravedad o fecha del evento.
+
+- **Empresas**  
+  - *Monitoreo de viajes*: Filtrado por unidad, conductor, fecha o estado del trayecto.  
+  - *Incidentes publicados*: Filtro por tipo, estado (resuelto o pendiente), y fecha.
+
+**Funcionalidades compartidas**  
+- *Reportes y análisis*: Los usuarios podrán generar informes personalizados a partir de filtros como tipo de incidente, fechas o métricas de monitoreo.
+
 ### 6.2.4. SEO Tags and Meta Tags
+
+Estas etiquetas permiten mejorar la visibilidad del sitio y diferenciar la plataforma en los motores de búsqueda.
+
+**Para la página web principal:**
+
+- **Title**: TrackTox
+- **Description**: TrackTox - Página oficial de SecureOn
+- **Keywords**: transporte peligroso, monitoreo, gestión de incidentes, seguridad vial  
+- **Authors**: Equipo SecureOn
+
+**Para la aplicación web:**
+
+- **Title**: TrackTox
+- **Description**: TrackTox - Plataforma Web Oficial  
+- **Keywords**: transporte seguro, flotas, monitoreo, gestión de emergencias  
+- **Authors**: SecureOn
+
+**Para la app móvil:**
+
+- **Title**: TrackTox
+- **Description**: TrackTox - Aplicación Móvil Oficial  
+- **Keywords**: seguridad de transporte, monitoreo móvil, gestión de incidentes  
+- **Authors**: SecureOn
+
 ### 6.2.5. Navigation Systems
+
+La navegación ha sido diseñada para facilitar el acceso a la información en todas las plataformas.
+
+**Landing Page**  
+Contará con un menú horizontal fijo en la parte superior con enlaces a cada sección. El usuario podrá hacer clic en cada encabezado y desplazarse automáticamente a la información deseada.
+
+**Aplicación Web**  
+El menú principal estará adaptado al tipo de usuario y permitirá navegar entre páginas como viajes, incidentes o reportes, usando también filtros internos para una mejor experiencia.
+
+**Aplicación Móvil**  
+La navegación se optimiza mediante carruseles en la pantalla de inicio y una barra de navegación inferior (bottom navigation bar) con accesos rápidos a secciones clave como "Mis viajes", "Alertas" o "Reportes", con opciones diferenciadas según el tipo de usuario.
 
 ## 6.3. Landing Page UI Design
 Durante la fase inicial del diseño de la interfaz de la página de inicio (landing page), un paso fundamental es la elaboración de un wireframe. Este funciona como un esquema preliminar que representa la disposición y organización de los elementos esenciales de la página. En este caso, se contemplan apartados como la barra de navegación en el área principal, el encabezado o Hero, la sección de servicios, la información corporativa, los testimonios, la opción de descarga y el pie de página.
@@ -1424,7 +1645,7 @@ Aquí se muestran los wireframes desarrollados para la aplicación web y móvil 
 
 ![Wireframes Mobile App](https://github.com/user-attachments/assets/1d66d831-2319-4cc4-9eb5-27a1d815defa)
 
-[Enlace para acceder al Figma.](https://www.figma.com/design/c7g8w481pDMJGjvVyiU6F1/Chemtrack?node-id=87-44&t=Nj0ZnQTSve38LPvz-1 "Enlace para acceder al Figma.")
+[Enlace para acceder al Figma.](https://www.figma.com/design/c7g8w481pDMJGjvVyiU6F1/SecureOn?node-id=87-44&t=Nj0ZnQTSve38LPvz-1 "Enlace para acceder al Figma.")
 
 ### 6.4.2. Applications Wireflow Diagrams
 
@@ -1470,7 +1691,7 @@ El usuario administrador puede visualizar los reportes de incidentes brindados p
 [Enlace para acceder a LucidChart.](https://lucid.app/lucidchart/78d14ebd-5614-4c11-be07-705631141f25/edit?viewport_loc=-3238%2C-2725%2C14392%2C6984%2Cz.Le~yULM6Za&invitationId=inv_efb1a0e4-2462-43d2-805c-6c06dbb66383 "Enlace para acceder a LucidChart.")
 
 ### 6.4.2. Applications Mock-ups
-En este apartado se presentan los mock-ups correspondientes a la aplicación web y móvil Chemtrack.
+En este apartado se presentan los mock-ups correspondientes a la aplicación web y móvil SecureOn.
 
 **Web Application Mock-up**
 
@@ -1484,7 +1705,7 @@ En este apartado se presentan los mock-ups correspondientes a la aplicación web
 
 ![Mock-up Mobile Application](https://i.imgur.com/B0GUcoa.png)
 
-[Enlace para acceder al Figma.](https://www.figma.com/design/c7g8w481pDMJGjvVyiU6F1/Chemtrack?node-id=87-45&t=Nj0ZnQTSve38LPvz-1 "Enlace para acceder al Figma."
+[Enlace para acceder al Figma.](https://www.figma.com/design/c7g8w481pDMJGjvVyiU6F1/SecureOn?node-id=87-45&t=Nj0ZnQTSve38LPvz-1 "Enlace para acceder al Figma."
 
 ### 6.4.3. Applications User Flow Diagrams
 En esta sección, se presentan los User Flows, donde se mostrarán las Happy y Unhappy paths que los usuarios pueden tener al momento de usar la aplicación web y móvil. Para su realización se utilizó la herramienta LucidChart.
