@@ -2590,7 +2590,7 @@ En este apartado se presentan los mock-ups correspondientes a la aplicación web
 
 **Mobile Application Mock-ups:**
 
-![Mock-up Mobile Application](https://i.imgur.com/B0GUcoa.png)
+![Mock-up Mobile Application](https://i.imgur.com/Zkpo8iA.png)
 
 [Enlace para acceder al Figma.](https://www.figma.com/design/c7g8w481pDMJGjvVyiU6F1/SecureOn?node-id=87-45&t=Nj0ZnQTSve38LPvz-1 "Enlace para acceder al Figma."
 
