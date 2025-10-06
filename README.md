@@ -1328,16 +1328,891 @@ El diagrama de despliegue detalla la **arquitectura de software** de **SecurOn**
 
 # Capítulo V: Tactical-Level Software Design
 
-## 5.X. Bounded Context: <Bounded Context Name>
-### 5.X.1. Domain Layer
-### 5.X.2. Interface Layer
-### 5.X.3. Application Layer
-### 5.X.4. Infrastructure Layer
-### 5.X.6. Bounded Context Software Architecture Component Level Diagrams
-### 5.X.7. Bounded Context Software Architecture Code Level Diagrams
-#### 5.X.7.1. Bounded Context Domain Layer Class Diagrams
-#### 5.X.7.2. Bounded Context Database Design Diagram
+## 5.1. Bounded Context: IAM
+Descripción: Este contexto se encarga de controlar la autenticación, autorización y gestión de los roles asignados a los usuarios del sistema. Permite una administración centralizada de usuarios, abarcando su creación, actualización y eliminación, además de definir y aplicar las políticas de acceso a los distintos servicios y datos que ofrece la plataforma.
+### 5.1.1. Domain Layer
 
+## Aggregate 1: Usuario
+<table>
+    <tr>
+        <td>Nombre</td>
+        <td>Categoria</td>
+        <td colspan="2">Propósito</td>
+    </tr>
+    <tr>
+        <td>Usuario</td>
+        <td>Entity/Aggregate</td>
+        <td colspan="2">Modela un usuario del sistema Chemtrack, gestionando su información de acceso, roles y certificaciones para garantizar una autenticación y autorización seguras.</td>
+    </tr>
+</table>
+
+### Atributos de Usuario
+
+<table>
+    <tr>
+        <td>Nombre</td>
+        <td>Tipo de dato</td>
+        <td>Visibilidad</td>
+        <td>Descripción</td>
+    </tr>
+    <tr>
+        <td>id</td>
+        <td>Long</td>
+        <td>Private</td>
+        <td>Identificador único del usuario</td>
+    </tr>
+    <tr>
+        <td>userName</td>
+        <td>String</td>
+        <td>Private</td>
+        <td>Nombre de usuario</td>
+    </tr>
+     <tr>
+        <td>email</td>
+        <td>String</td>
+        <td>Private</td>
+        <td>Correo electrónico del usuario</td>
+    </tr>
+     <tr>
+        <td>password</td>
+        <td>String</td>
+        <td>Private</td>
+        <td>Contraseña del usuario</td>
+    </tr>
+     <tr>
+        <td>role</td>
+        <td>String</td>
+        <td>Private</td>
+        <td>Rol del usuario</td>
+    </tr>
+    <tr>
+        <td>createdAt</td>
+        <td>DateTime</td>
+        <td>Private</td>
+        <td>Fecha de creación de cuenta del usuario</td>
+    </tr>
+</table>
+
+### Métodos de Usuario
+
+<table>
+    <tr>
+        <td>Nombre</td>
+        <td>Tipo de retorno</td>
+        <td>Visibilidad</td>
+        <td>Descripción</td>
+    </tr>
+    <tr>
+        <td>Constructor</td>
+        <td>Void</td>
+        <td>Public</td>
+        <td>Construye una entidad User con los datos proporcionados</td>
+    </tr>
+    <tr>
+        <td>authenticate</td>
+        <td>Boolean</td>
+        <td>Public</td>
+        <td>Autentica al usuario basándose en su email y contraseña</td>
+    </tr>
+    <tr>
+        <td>updateProfile</td>
+        <td>Void</td>
+        <td>Public</td>
+        <td>Actualiza la dirección de correo electrónico del usuario</td>
+    </tr>
+     <tr>
+        <td>assignRole</td>
+        <td>Void</td>
+        <td>Public</td>
+        <td>Asigna un rol al usuario</td>
+    </tr>
+</table>
+
+## Aggregate 2: Rol
+<table>
+    <tr>
+        <td>Nombre</td>
+        <td>Categoria</td>
+        <td colspan="2">Propósito</td>
+    </tr>
+    <tr>
+        <td>Rol</td>
+        <td>Value Object</td>
+        <td colspan="2">Especifica el rol de un usuario (DRIVER o MANAGER) dentro de Chemtrack, permitiendo la asignación de permisos y responsabilidades según su función.</td>
+    </tr>
+</table>
+
+### Atributos de Rol
+
+<table>
+    <tr>
+        <td>Nombre</td>
+        <td>Tipo de dato</td>
+        <td>Visibilidad</td>
+        <td>Descripción</td>
+    </tr>
+    <tr>
+        <td>value</td>
+        <td>String</td>
+        <td>Private</td>
+        <td>Enum value ("DRIVER" o "MANAGER")</td>
+    </tr>
+</table>
+
+### Métodos de Rol
+
+<table>
+    <tr>
+        <td>Nombre</td>
+        <td>Tipo de retorno</td>
+        <td>Visibilidad</td>
+        <td>Descripción</td>
+    </tr>
+    <tr>
+        <td>Constructor</td>
+        <td>Void</td>
+        <td>Public</td>
+        <td>Construye una entidad Rol con los datos proporcionados</td>
+    </tr>
+    <tr>
+        <td>equals</td>
+        <td>Boolean</td>
+        <td>Public</td>
+        <td>Compara con otro: Rol para igualar</td>
+    </tr>
+</table>
+
+## Aggregate 3: Certificación
+<table>
+    <tr>
+        <td>Nombre</td>
+        <td>Categoria</td>
+        <td colspan="2">Propósito</td>
+    </tr>
+    <tr>
+        <td>Certificación</td>
+        <td>Entity/Aggregate</td>
+        <td colspan="2">Registra y gestiona las certificaciones asociadas a un usuario en Chemtrack, asegurando que cumplan con los requisitos de validez para operar en el sistema.</td>
+    </tr>
+</table>
+
+### Atributos de Certificación
+
+<table>
+    <tr>
+        <td>Nombre</td>
+        <td>Tipo de dato</td>
+        <td>Visibilidad</td>
+        <td>Descripción</td>
+    </tr>
+    <tr>
+        <td>id</td>
+        <td>UUID</td>
+        <td>Private</td>
+        <td>Identificador único de la certificación</td>
+    </tr>
+    <tr>
+        <td>certName</td>
+        <td>String</td>
+        <td>Private</td>
+        <td>Nombre de la certificación</td>
+    </tr>
+     <tr>
+        <td>issueDate</td>
+        <td>Date</td>
+        <td>Private</td>
+        <td>Fecha de expedición de la certificación</td>
+    </tr>
+     <tr>
+        <td>expirationDate</td>
+        <td>Date</td>
+        <td>Private</td>
+        <td>Fecha de caducidad de la certificación</td>
+    </tr>
+</table>
+
+### Métodos de Certificación
+
+<table>
+    <tr>
+        <td>Nombre</td>
+        <td>Tipo de retorno</td>
+        <td>Visibilidad</td>
+        <td>Descripción</td>
+    </tr>
+    <tr>
+        <td>Constructor</td>
+        <td>Void</td>
+        <td>Public</td>
+        <td>Constructor de una certificación con información proveída</td>
+    </tr>
+</table>
+
+## Aggregate 4: Permiso
+<table>
+    <tr>
+        <td>Nombre</td>
+        <td>Categoria</td>
+        <td colspan="2">Propósito</td>
+    </tr>
+    <tr>
+        <td>Permiso</td>
+        <td>Entity/Aggregate</td>
+        <td colspan="2">Establece los permisos específicos de un usuario en Chemtrack, controlando su acceso a funcionalidades y datos según su rol.</td>
+    </tr>
+</table>
+
+### Atributos de Permiso
+
+<table>
+    <tr>
+        <td>Nombre</td>
+        <td>Tipo de dato</td>
+        <td>Visibilidad</td>
+        <td>Descripción</td>
+    </tr>
+    <tr>
+        <td>id</td>
+        <td>UUID</td>
+        <td>Private</td>
+        <td>Identificador único del permiso</td>
+    </tr>
+    <tr>
+        <td>name</td>
+        <td>String</td>
+        <td>Private</td>
+        <td>Nombre del permiso</td>
+    </tr>
+</table>
+
+### Métodos de Certificación
+
+<table>
+    <tr>
+        <td>Nombre</td>
+        <td>Tipo de retorno</td>
+        <td>Visibilidad</td>
+        <td>Descripción</td>
+    </tr>
+    <tr>
+        <td>Constructor</td>
+        <td>Void</td>
+        <td>Public</td>
+        <td>Constructor de un permiso con información proveída</td>
+    </tr>
+    <tr>
+        <td>definePermission</td>
+        <td>Void</td>
+        <td>Public</td>
+        <td>Define el nombre del permiso</td>
+    </tr>
+</table>
+
+### 5.1.2. Interface Layer
+## Controller 1: AuthController
+<table>
+    <tr>
+        <td>Nombre</td>
+        <td>Categoria</td>
+        <td colspan="2">Propósito</td>
+    </tr>
+    <tr>
+        <td>AuthController</td>
+        <td>Controller</td>
+        <td colspan="2">Maneja las solicitudes HTTP para autenticar usuarios y gestionar sus cuentas en Chemtrack, incluyendo inicio de sesión, registro y actualizaciones.</td>
+    </tr>
+</table>
+
+### Atributos de AuthController
+
+<table>
+    <tr>
+        <td>Nombre</td>
+        <td>Tipo de dato</td>
+        <td>Visibilidad</td>
+        <td>Descripción</td>
+    </tr>
+    <tr>
+        <td>userService</td>
+        <td>UserService</td>
+        <td>Private</td>
+        <td>Servicio para aplicar reglas de negocio y lógica de autenticación</td>
+    </tr>
+    <tr>
+        <td>userMapper</td>
+        <td>UserMapper</td>
+        <td>Private</td>
+        <td>Mapeador para transformar entidades de usuario en DTO y viceversa</td>
+    </tr>
+</table>
+
+### Métodos de AuthController
+
+<table>
+    <tr>
+        <td>Nombre</td>
+        <td>Tipo de retorno</td>
+        <td>Visibilidad</td>
+        <td>Descripción</td>
+    </tr>
+    <tr>
+        <td>authenticateUser</td>
+        <td>ResponseEntity</td>
+        <td>Public</td>
+        <td>Autentica un usuario usando credenciales y JWT</td>
+    </tr>
+    <tr>
+        <td>registerUser</td>
+        <td>ResponseEntity</td>
+        <td>Public</td>
+        <td>Registra un nuevo usuario en el sistema</td>
+    </tr>
+    <tr>
+        <td>getAllUsers</td>
+        <td>ResponseEntity</td>
+        <td>Public</td>
+        <td>Devuelve la lista de usuarios registrados</td>
+    </tr>
+     <tr>
+        <td>updateUser</td>
+        <td>ResponseEntity</td>
+        <td>Public</td>
+        <td>Actualiza la información de un usuario existente</td>
+    </tr>
+    <tr>
+        <td>deleteUser</td>
+        <td>ResponseEntity</td>
+        <td>Public</td>
+        <td>Elimina un usuario por ID</td>
+    </tr>
+</table>
+
+#### Controller 2: PermissionController
+
+| Nombre | Categoría | Propósito |
+| --- | --- | --- |
+| PermissionController | Controller | Gestiona solicitudes HTTP para asignar y remover permisos de usuarios en Chemtrack, asegurando un control de acceso granular. |
+
+**Atributos de PermissionController:**
+
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| permissionService | PermissionService | Private | Servicio para aplicar las reglas de negocio |
+
+**Métodos de PermissionController:**
+
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| getAllPermissions | ResponseEntity | Public | Retorna la lista de todos los permisos |
+| assignPermissionToUser | ResponseEntity | Public | Asigna el permiso para cada user |
+| removePermissionFromUser | ResponseEntity | Public | Quita el permiso para cada user |
+
+### 5.1.3. Application Layer
+
+## Service 1: UserService
+<table>
+    <tr>
+        <td>Nombre</td>
+        <td>Categoria</td>
+        <td colspan="2">Propósito</td>
+    </tr>
+    <tr>
+        <td>UserService</td>
+        <td>Service</td>
+        <td colspan="2">Implementa la lógica de negocio para la gestión de usuarios en Chemtrack, incluyendo autenticación, registro y manejo de perfiles.</td>
+    </tr>
+</table>
+
+### Atributos de UserService
+
+<table>
+    <tr>
+        <td>Nombre</td>
+        <td>Tipo de dato</td>
+        <td>Visibilidad</td>
+        <td>Descripción</td>
+    </tr>
+    <tr>
+        <td>userRepository</td>
+        <td>UserRepository</td>
+        <td>Private</td>
+        <td>Repositorio para las operaciones CRUD de los usuarios</td>
+    </tr>
+    <tr>
+        <td>passwordEncoder</td>
+        <td>passwordEncoder</td>
+        <td>Private</td>
+        <td>Se utiliza para codificar las contraseñas de los usuarios</td>
+    </tr>
+    <tr>
+        <td>jwtHandler</td>
+        <td>JwtHandler</td>
+        <td>Private</td>
+        <td>Manejador para autenticación y autorización JWT</td>
+    </tr>
+</table>
+
+### Métodos de UserService
+
+<table>
+    <tr>
+        <td>Nombre</td>
+        <td>Tipo de retorno</td>
+        <td>Visibilidad</td>
+        <td>Descripción</td>
+    </tr>
+    <tr>
+        <td>authenticateUser</td>
+        <td>ResponseEntity</td>
+        <td>Public</td>
+        <td>Autentica un usuario usando credenciales y JWT</td>
+    </tr>
+    <tr>
+        <td>registerUser</td>
+        <td>ResponseEntity</td>
+        <td>Public</td>
+        <td>Registra un nuevo usuario en el sistema y cifra la contraseña</td>
+    </tr>
+    <tr>
+        <td>getAllUsers</td>
+        <td>List</td>
+        <td>Public</td>
+        <td>Devuelve la lista de usuarios registrados</td>
+    </tr>
+     <tr>
+        <td>updateUser</td>
+        <td>User</td>
+        <td>Public</td>
+        <td>Actualiza la información de un usuario existente</td>
+    </tr>
+    <tr>
+        <td>deleteUser</td>
+        <td>ResponseEntity</td>
+        <td>Public</td>
+        <td>Elimina un usuario por ID</td>
+    </tr>
+    <tr>
+        <td>loadUserByUsername</td>
+        <td>UserDetails</td>
+        <td>Public</td>
+        <td>Carga un usuario por nombre de usuario para la autenticación</td>
+    </tr>
+</table>
+
+#### Service 2: PermissionService
+
+| Nombre | Categoría | Propósito |
+| --- | --- | --- |
+| PermissionService | Service | Aplica la lógica de negocio para la gestión de permisos en Chemtrack, permitiendo asignar y revocar accesos a usuarios. |
+
+**Atributos de PermissionService:**
+
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| permissionRepository | PermissionRepository | Private | Repositorio para operaciones CRUD de permisos|
+
+**Métodos de PermissionService:**
+
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| getAllPermissions | List<Permission> | Public | Devuelve la lista de todos los permisos |
+| assignPermissionToUser | ResponseEntity | Public | Asigna un permiso al usuario |
+| removePermissionFromUser | ResponseEntity | Public | Elimina el permiso de un usuario |
+
+### 5.1.4. Infrastructure Layer
+
+#### Repository 1: UserRepositoryImpl
+
+| Nombre | Categoría | Propósito |
+| --- | --- | --- |
+| UserRepositoryImpl | Repository | Facilita las operaciones de persistencia de usuarios en Chemtrack, interactuando con la base de datos para operaciones CRUD. |
+
+**Métodos de UserRepositoryImpl:**
+
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| findById | User | Public | Recupera usuario de la base de datos por id |
+| findByEmail | User | Public | Recupera el usuario de la base de datos por correo electrónico |
+| save | Void | Public | Guarda usuario |
+| existsByEmail | Boolean | Public | Verifica si el usuario existe por email |
+
+#### Repository 2: PermissionRepositoryImpl
+
+| Nombre | Categoría | Propósito |
+| --- | --- | --- |
+| PermissionRepositoryImpl | Repository | Administra la persistencia de permisos en Chemtrack, permitiendo operaciones CRUD en la base de datos. |
+
+**Métodos de PermissionRepositoryImpl:**
+
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| findByName | Optional<Permission> | Public | Recupera el permiso de la base de datos por nombre |
+| save | Permission | Public | Guarda el permiso en la base de datos |
+| deleteById | Void | Public | Elimina el permiso en la base de datos por id|
+
+### External Service
+
+#### Service 1: EmailService
+
+| Nombre | Categoría | Propósito |
+| --- | --- | --- |
+| EmailService | Service | Gestiona el envío de notificaciones y correos electrónicos a usuarios de Chemtrack a través de un servidor SMTP externo. |
+
+**Métodos de EmailService:**
+
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| sendEmail | Void | Public | Envía un correo electrónico al destinatario |
+
+### 5.1.6. Bounded Context Software Architecture Component Level Diagrams
+El IAM Bounded Context administra identidad y acceso para Drivers y Managers en Chemtrack. Componentes como AuthController, UserService y PermissionService manejan autenticación y permisos. EmailService, Certification y UserRepositoryImpl gestionan notificaciones y persistencia de usuarios. Se integra con un External Email System y una base de datos relacional para almacenamiento.
+
+![image](https://github.com/user-attachments/assets/3178abf8-7494-4cde-8c7a-14583a51c3ef)
+
+### 5.1.7. Bounded Context Software Architecture Code Level Diagrams
+A continuación se incluirán las secciones internas Bounded Context Domain Layer Class Diagrams y Bounded Context Database Diagram para el Bounded Context de IAM.
+
+#### 5.1.7.1. Bounded Context Domain Layer Class Diagrams
+El diagrama de la capa de dominio muestra el contexto delimitado de gestión de usuarios en Chemtrack. Incluye clases como UserAggregate, que contiene User y Certification, con métodos para agregar certificaciones y validar usuarios. AuthenticationService genera tokens y hashes de contraseñas, mientras UserRepository gestiona operaciones CRUD. La relación "has" con Role define roles como DRIVER y MANAGER, integrando permisos y autenticación.
+
+![image](https://github.com/user-attachments/assets/7870fb53-32b9-449f-944c-dad16c11f427)
+
+#### 5.1.7.2. Bounded Context Database Design Diagram
+El diagrama de diseño de base de datos representa la estructura relacional del contexto delimitado IAM. La tabla User almacena id, role_id y password_hash, con una relación "tiene" hacia Certification. Role contiene name y se asocia con User_Role_Permission mediante asignado_a y tiene relaciones. Permission define name único, conectando con User_Role_Permission para gestionar accesos.
+
+![image](https://github.com/user-attachments/assets/5be6bc52-8caf-4531-b0da-45991ff25087)
+
+### 5.2 Bounded Context: Management
+**Descripción:** Este módulo se ocupa de organizar y manejar todo lo relacionado con la generación, envío y monitoreo de notificaciones sobre incidentes o eventos importantes. Su objetivo es mantener informados en tiempo real a transportistas, operadores y supervisores, facilitando la transmisión oportuna de alertas y actualizaciones sobre el estado de dichos sucesos.
+
+#### 5.2.1. Domain Layer
+
+#### Entity 1: Transporte
+
+| Nombre | Categoría | Propósito |
+| --- | --- | --- |
+| Transporte | Entity | Modela y gestiona una operación de transporte químico en Chemtrack, incluyendo su estado, conductor asignado y datos de inicio. |
+
+**Atributos de Transporte:**
+
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| id | UUID | Private | Identificador único del transporte |
+| driverId | UUID | Private | ID del Conductor asignado |
+| status | TransportStatus | Private | Estado del transporte (PENDIENTE, EN_PROCESO) |
+| startTime | DateTime | Private |  Hora de inicio del transporte |
+
+**Métodos de Transporte:**
+
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| Constructor | Void | Public | Constructor de un Transporte con id|
+| updateStatus | Void | Public | Actualiza el estado del transporte |
+| assignDriver | Void | Public | Asigna un driverId |
+
+#### Entity 2: SensorReading
+
+| Nombre | Categoría | Propósito |
+| --- | --- | --- |
+| SensorReading | Entity | Registra y gestiona las lecturas de sensores durante un transporte en Chemtrack, capturando datos como niveles de gas y temperatura. |
+
+**Atributos de SensorReading:**
+
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| id | UUID | Private | Identificador único de la lectura |
+| type | String | Private | Tipo de lectura del sensor |
+| gasLevel | Float | Private | Medida del nivel de gas |
+| temperature | Float | Private | Medida de temperatura |
+| timestamp | DateTime | Private | Tiempo de la lectura |
+
+**Métodos de SensorReading:**
+
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| Constructor | Void | Public | Constructor de un SensorReading con ID |
+
+#### Value Object 1: TransportStatus
+
+| Nombre | Categoría | Propósito |
+| --- | --- | --- |
+| TransportStatus | Value Object | Define y categoriza los estados posibles de un transporte en Chemtrack, como PENDIENTE o EN_PROCESO, para seguimiento operativo. |
+
+**Atributos de TransportStatus:**
+
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| value | String | Private | Valor Enum |
+
+**Métodos de TransportStatus:**
+
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| Constructor | Void | Public | Constructor de un TransportStatus con valor |
+| equals | Boolean | Public | Compara con otros: TransportStatus para la igualdad |
+
+#### 5.2.2. Interface Layer
+
+#### Controller 1: TransportController
+
+| Nombre | Categoría | Propósito |
+| --- | --- | --- |
+| TransportController | Controller | Procesa solicitudes HTTP para gestionar operaciones de transporte en Chemtrack, como inicio, actualización y consulta de estados. |
+
+**Atributos de TransportController:**
+
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| transportService | TransportService | Private | Servicio para aplicar reglas de negocio de transporte |
+
+**Métodos de TransportController:**
+
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| startTransport | ResponseEntity | Public | Inicializa transporte con transportId |
+| updateStatus | ResponseEntity | Public | Actualiza el estado del transporte con transportId |
+| getAllTransports | ResponseEntity | Public | Devuelve la lista de todos los transportes |
+
+#### 5.2.3. Application Layer
+
+#### Service 1: TransportService
+
+| Nombre | Categoría | Propósito |
+| --- | --- | --- |
+| TransportService | Service | Implementa la lógica de negocio para la gestión de operaciones de transporte en Chemtrack, coordinando inicios, actualizaciones y consultas. |
+
+**Atributos de TransportService:**
+
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| transportRepository | TransportRepository | Private | Repositorio para operaciones CRUD de transporte |
+
+**Métodos de TransportService:**
+
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| startTransport | ResponseEntity | Public | Inicia el transporte con transportId |
+| updateTransportStatus | ResponseEntity | Public | Actualiza el transporte con transportId |
+| getAllTransports | List<Transport> | Public | Devuelve la lista de todos los transportes |
+
+#### 5.2.4. Infrastructure Layer
+
+#### Repository 1: TransportRepositoryImpl
+
+| Nombre | Categoría | Propósito |
+| --- | --- | --- |
+| TransportRepositoryImpl | Repository | Administra la persistencia de datos de transporte en Chemtrack, permitiendo operaciones CRUD en la base de datos. |
+
+**Métodos de TransportRepositoryImpl:**
+
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| findById | Transport | Public | Recupera el transporte de la base de datos por id |
+| save | Void | Public | Guarda el transporte a la base de datos |
+
+### External Service
+
+#### Service 1: IoTDeviceService
+
+| Nombre | Categoría | Propósito |
+| --- | --- | --- |
+| IoTDeviceService | Service | Obtiene y procesa datos de sensores de dispositivos IoT en Chemtrack para monitoreo en tiempo real durante el transporte. |
+
+**Métodos de IoTDeviceService:**
+
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| fetchSensorData | SensorData | Public | Recupera datos del dispositivo con deviceId |
+
+#### 5.2.6. Bounded Context Software Architecture Component Level Diagrams
+
+El diagrama del Management Bounded Context muestra la gestión de transporte y monitoreo en Chemtrack. Incluye TransportController, TransportService e IoTDeviceService para procesar datos de sensores IoT. Transport y SensorReading envían notificaciones vía SMTP, mientras TransportRepositoryImpl persiste datos. Se integra con una base de datos y un IoT System para monitoreo en tiempo real.
+
+![image](https://github.com/user-attachments/assets/8b6ee048-e773-49e0-9fb4-092c47885f70)
+
+
+#### 5.2.7. Bounded Context Software Architecture Code Level Diagrams
+
+A continuación se incluirán las secciones internas Bounded Context Domain Layer Class Diagrams y Bounded Context Database Diagram para el Bounded Context de Management.
+
+#### 5.2.7.1. Bounded Context Domain Layer Class Diagrams
+
+El diagrama de clases del Management Bounded Context modela transporte en Chemtrack. TransportAggregate contiene Transport y SensorReading, con métodos como addSensorReading y validateTransport.MonitoringService procesa datos de sensores y genera alertas, mientras TransportRepository gestiona persistencia.TransportStatus define estados como PENDING, IN_PROGRESS y COMPLETED, asignados a Transport.
+
+![image](https://github.com/user-attachments/assets/7458ce29-30be-407f-a661-d9983f5c246d)
+
+
+#### 5.2.7.2. Bounded Context Database Design Diagram
+
+El esquema de base de datos del Management Bounded Context organiza datos de transporte. La tabla Transport almacena driver_id y status_id, vinculada a SensorReading por transport_id. TransportStatus define estados únicos, mientras SensorReading registra value y timestamp. Las claves primarias y foráneas aseguran relaciones entre transporte, sensores y estados.
+
+![image](https://github.com/user-attachments/assets/5c8a4a18-9b40-46af-99be-d76661ef4c6f)
+
+### 5.3. Bounded Context: Records
+
+**Descripción:** Este contexto tiene como propósito coordinar y controlar los servicios vinculados al transporte y la carga. Incluye funciones como el monitoreo de recursos, la planificación de rutas y la actualización de información relacionada con los servicios activos. Asimismo, respalda la toma de decisiones operativas con base en el estado actual de las operaciones logísticas.
+
+#### 5.3.1. Domain Layer
+
+#### Entity 1: Incident
+
+| Nombre | Categoría | Propósito |
+| --- | --- | --- |
+| Incident | Entity | Representa y gestiona un incidente relacionado con un transporte en Chemtrack, capturando su tipo, tiempo y estado para seguimiento y resolución. |
+
+**Atributos de Incident:**
+
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| id | UUID | Private | Identificador único de un incidente |
+| transportId | UUID | Private | ID del transporte relacionado |
+| type | IncidentType | Private | Tipo de incidente |
+| timestamp | DateTime | Private | Timestamp del incidente |
+
+**Métodos de Incident:**
+
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| Constructor | Void | Public | Constructs de un incidente con id |
+| updateDetails | Void | Public | Actualiza los detalles de un incidente |
+| resolve | Void | Public | Marca el incidente como resuelto |
+
+#### Entity 2: CorrectiveAction
+
+| Nombre | Categoría | Propósito |
+| --- | --- | --- |
+| CorrectiveAction | Entity | Define y registra una acción correctiva asociada a un incidente en Chemtrack, incluyendo su descripción y estado de resolución. |
+
+**Atributos de CorrectiveAction:**
+
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| id | UUID | Private | Identificador único de la acción |
+| actionDescription | String | Private | Descripción de la acción. |
+| timestamp | DateTime | Private | Timestamp de la acción |
+
+**Métodos de CorrectiveAction:**
+
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| Constructor | Void | Public | Contructor de CorrectiveAction con id |
+
+### Value Objects
+
+#### Value Object 1: IncidentType
+
+| Nombre | Categoría | Propósito |
+| --- | --- | --- |
+| IncidentType | Value Object | Clasifica los tipos de incidentes en Chemtrack, como fugas de gas o anomalías de temperatura, para categorización y análisis. |
+
+**Atributos de IncidentType:**
+
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| value | String | Private | Valor enum |
+
+**Métodos de IncidentType:**
+
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| Constructor | Void | Public | Constructor de un IncidentType |
+| equals | Boolean | Public | Compara con otro: IncidentType para igualdad |
+
+#### 5.3.2. Interface Layer
+
+#### Controller 1: IncidentController
+
+| Nombre | Categoría | Propósito |
+| --- | --- | --- |
+| IncidentController | Procesa solicitudes HTTP para gestionar incidentes en Chemtrack, incluyendo reportes, resoluciones y consultas de incidentes. |
+
+**Atributos de IncidentController:**
+
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| incidentService | IncidentService | Private | Servicio de aplicación de reglas de negocio de incidencias |
+
+**Métodos de IncidentController:**
+
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| reportIncident | ResponseEntity | Public | Informa de un nuevo incidente con incidentData |
+| resolveIncident | ResponseEntity | Public | Resuelve el incidente con incidentId |
+| getAllIncidents | ResponseEntity | Public | Devuelve la lista de todos los incidentes |
+
+#### 5.3.3. Application Layer
+
+#### Service 1: IncidentService
+
+| Nombre | Categoría | Propósito |
+| --- | --- | --- |
+| IncidentService | Service | Aplica la lógica de negocio para la gestión de incidentes en Chemtrack, incluyendo reportes, resoluciones y recuperación de datos históricos. |
+
+**Atributos de IncidentService:**
+
+| Nombre | Tipo de dato | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| incidentRepository | IncidentRepository | Private | Repositorio para operaciones CRUD de incidentes |
+
+**Métodos de IncidentService:**
+
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| reportIncident | ResponseEntity | Public | Informa de un nuevo incidente con incidentData |
+| resolveIncident | ResponseEntity | Public | Resuelve el incidente con incidentId |
+| getAllIncidents | List<Incident> | Public | Devuelve la lista de todos los incidentes |
+
+#### 5.3.4. Infrastructure Layer
+
+#### Repository 1: IncidentRepositoryImpl
+
+| Nombre | Categoría | Propósito |
+| --- | --- | --- |
+| IncidentRepositoryImpl | Repository | Gestiona la persistencia de incidentes en Chemtrack, permitiendo operaciones CRUD en la base de datos para datos históricos. |
+
+**Métodos de IncidentRepositoryImpl:**
+
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| findById | Incident | Public | Recupera el incidente de la base de datos por id |
+| save | Void | Public | Guarda el incidente: Incidente en la base de datos |
+
+### External Service
+
+#### Service 1: NotificationService
+
+| Nombre | Categoría | Propósito |
+| --- | --- | --- |
+| NotificationService | Service | Gestiona el envío de notificaciones de incidentes en Chemtrack a sistemas externos, asegurando alertas en tiempo real. |
+
+**Métodos de NotificationService:**
+
+| Nombre | Tipo de retorno | Visibilidad | Descripción |
+| --- | --- | --- | --- |
+| sendNotification | Void | Public | Envía notificación al destinatario |
+
+#### 5.3.6. Bounded Context Software Architecture Component Level Diagrams
+
+El Records Bounded Context gestiona incidentes y reportes históricos en Chemtrack. Incluye IncidentController, IncidentService y NotificationService para manejar reportes y alertas. Corrective Action envía acciones correctivas vía SMTP, mientras IncidentRepositoryImpl persiste datos. Se integra con un Alert System y una base de datos relacional para almacenamiento.
+
+![image](https://github.com/user-attachments/assets/11cc8bdf-878c-432a-ac20-36c2bfb03060)
+
+#### 5.3.7. Bounded Context Software Architecture Code Level Diagrams
+
+A continuación se incluirán las secciones internas Bounded Context Domain Layer Class Diagrams y Bounded Context Database Diagram para el Bounded Context de Records.
+
+#### 5.3.7.1. Bounded Context Domain Layer Class Diagrams
+
+El diagrama de clases del Records Bounded Context modela incidentes en Chemtrack. IncidentAggregate contiene Incident y CorrectiveAction, con métodos como addAction y validateIncident. ReportingService genera reportes, mientras IncidentRepository gestiona persistencia de incidentes. IncidentType define tipos como GAS_LEAK y TEMPERATURE_ANOMALY, asociados a Incident.
+
+![image](https://github.com/user-attachments/assets/db74f044-9b00-48a5-87dc-6095170426bb)
+
+
+#### 5.3.7.2. Bounded Context Database Design Diagram
+
+El esquema de base de datos del Records Bounded Context organiza datos de incidentes. La tabla Incident almacena transport_id y type_id, vinculada a CorrectiveAction por incident_id. IncidentType define tipos únicos, mientras CorrectiveAction registra action_description y completed_date. Las claves primarias y foráneas aseguran relaciones entre incidentes, tipos y acciones.
+
+![image](https://github.com/user-attachments/assets/db160ad5-988c-49e9-aa79-d3a18edcde06)
 
 # Capítulo VI: Solution UX Design
 ## 6.1. Style Guidelines
