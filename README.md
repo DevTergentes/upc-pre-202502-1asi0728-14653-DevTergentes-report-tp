@@ -644,6 +644,18 @@ El objetivo de las preguntas del segmento objetivo de las empresas de transporte
 | **Imagen**  | ![entrevista_2](https://github.com/user-attachments/assets/4dc6f462-920d-4513-adcf-1dc2e1ca6348) |
 | **Resumen de la entrevista** | Maricielo, de 25 años y residente en Callao, relató que tuvo una experiencia con una fuga menor de gas, frente a la cual actuó siguiendo los protocolos de seguridad. Entre sus principales dificultades menciona el tráfico, las largas jornadas y la falta de espacios seguros para detenerse. Actualmente, utiliza un sistema de GPS que le resulta útil para el control de rutas, aunque reconoce que no brinda información sobre el estado de la carga. Está dispuesta a incorporar una solución tecnológica de monitoreo en tiempo real, motivada por la seguridad y la prevención de accidentes, siempre que sea sencilla y práctica. Considera clave el uso de sensores de presión, temperatura y gases, y cree que las alertas más efectivas serían las sonoras inmediatas y las notificaciones en celular, preferentemente mediante una app móvil o mensajes de texto. Identifica como posibles obstáculos el costo, el mantenimiento y la capacitación. En su rutina laboral utiliza con mayor frecuencia el celular, el GPS y la radio de comunicación. |
 
+### Tercera Entrevista
+
+| Campo       | Detalle |
+|-------------|---------|
+| **Nombre**  | Oscar Aranda |
+| **Edad**    | 21 |
+| **Inicio**  | 0:00|
+| **Fin**     | 0:00|
+| **Duración**| 5:23 |
+| **Link**    | [Ver entrevista]() |
+| **Imagen**  | ![entrevista_3](https://github.com/user-attachments/assets/9080b17e-acbd-48ba-a29e-68ce6e52cd04) |
+| **Resumen de la entrevista** | Oscar, de 21 años y residente en Comas, ha manejado una fuga menor y sus retos principales son el tráfico y la falta de paradas seguras. Solo usa GPS, que no monitorea la carga. Está muy dispuesto a incorporar tecnología de monitoreo en tiempo real por seguridad. Considera esenciales sensores de presión, temperatura y fugas. Prefiere alertas sonoras inmediatas por app móvil/pantalla. Los obstáculos principales son el costo y la complejidad. Critica que las tecnologías actuales están incompletas al enfocarse solo en el vehículo. Usa frecuentemente su móvil y GPS. |
 
 **Segmento objetivo: Empresas de transporte de productos peligrosos**
 
