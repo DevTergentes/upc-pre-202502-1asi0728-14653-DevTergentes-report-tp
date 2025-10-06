@@ -15,7 +15,7 @@ NRC 14653
 
 Profesor: Berrocal Navarro, Richard Leonardo 
 
-***INFORME DE TRABAJO - TB1***
+***INFORME DE TRABAJO - TP***
 
 **Startup: DevTergentes**
 
@@ -108,6 +108,35 @@ Link de Github: [https://github.com/DevTergentes](https://github.com/DevTergente
     - [4.3.2. Software Architecture Context Level Diagrams](#432-software-architecture-context-level-diagrams)
     - [4.3.3. Software Architecture Container Level Diagrams](#433-software-architecture-container-level-diagrams)
     - [4.3.4. Software Architecture Deployment Diagrams](#434-software-architecture-deployment-diagrams)
+ ## [Capítulo V: Tactical-Level Software Design](#capítulo-v-tactical-level-software-design)
+  - [5.X. Bounded Context: <Bounded Context Name>](#5x-bounded-context-bounded-context-name)
+    - [5.X.1. Domain Layer](#5x1-domain-layer)
+    - [5.X.2. Interface Layer](#5x2-interface-layer)
+    - [5.X.3. Application Layer](#5x3-application-layer)
+    - [5.X.4. Infrastructure Layer](#5x4-infrastructure-layer)
+    - [5.X.6. Bounded Context Software Architecture Component Level Diagrams](#5x6-bounded-context-software-architecture-component-level-diagrams)
+    - [5.X.7. Bounded Context Software Architecture Code Level Diagrams](#5x7-bounded-context-software-architecture-code-level-diagrams)
+      - [5.X.7.1. Bounded Context Domain Layer Class Diagrams](#5x71-bounded-context-domain-layer-class-diagrams)
+      - [5.X.7.2. Bounded Context Database Design Diagram](#5x72-bounded-context-database-design-diagram)
+## [Capítulo VI: Solution UX Design](#capítulo-vi-solution-ux-design)
+  - [6.1. Style Guidelines](#61-style-guidelines)
+    - [6.1.1. General Style Guidelines](#611-general-style-guidelines)
+    - [6.1.2. Web, Mobile & Devices Style Guidelines](#612-web-mobile--devices-style-guidelines)
+  - [6.2. Information Architecture](#62-information-architecture)
+    - [6.2.2. Labeling Systems](#622-labeling-systems)
+    - [6.2.3. Searching Systems](#623-searching-systems)
+    - [6.2.4. SEO Tags and Meta Tags](#624-seo-tags-and-meta-tags)
+    - [6.2.5. Navigation Systems](#625-navigation-systems)
+  - [6.3. Landing Page UI Design](#63-landing-page-ui-design)
+    - [6.3.1. Landing Page Wireframe](#631-landing-page-wireframe)
+    - [6.3.2. Landing Page Mock-up](#632-landing-page-mock-up)
+  - [6.4. Applications UX/UI Design](#64-applications-uxui-design)
+    - [6.4.1. Applications Wireframes](#641-applications-wireframes)
+    - [6.4.2. Applications Wireflow Diagrams](#642-applications-wireflow-diagrams)
+    - [6.4.2. Applications Mock-ups](#642-applications-mock-ups)
+    - [6.4.3. Applications User Flow Diagrams](#643-applications-user-flow-diagrams)
+  - [6.5. Applications Prototyping](#65-applications-prototyping)
+     
 
 ## [Conclusiones](#conclusiones)
 - [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
@@ -115,7 +144,6 @@ Link de Github: [https://github.com/DevTergentes](https://github.com/DevTergente
 ## [Bibliografía](#bibliografía)
 
 ## [Anexos](#anexos)
-
 
 ---
 
@@ -1296,8 +1324,242 @@ El diagrama muestra la **arquitectura de software a nivel de contenedores** del 
 El diagrama de despliegue detalla la **arquitectura de software** de **SecurOn** para la mitigación de riesgos de productos químicos reactivos. Muestra los contenedores y nodos de despliegue: **Landing Page** (HTML/CSS, Github Pages), **Web Application** (Angular/Springboot, Netlify), **Web API** y **Edge API Application** (Springboot, Azure), **Mobile App** (Flutter, dispositivos móviles), **IoT Embedded App** (Python, dispositivos IoT), **Web Database** (MySQL, Azure) y **Edge Database** (MySQL, Azure). Las conexiones representan los flujos de datos, incluyendo el **monitoreo**, la **transferencia de datos IoT** y las operaciones de **lectura y escritura en las bases de datos**.
 
 <img src="https://github.com/user-attachments/assets/c2fac1fa-18fb-4547-ab6f-56cac609d78a" alt="deployment" border="0">
-
 <br>
+
+# Capítulo V: Tactical-Level Software Design
+
+## 5.X. Bounded Context: <Bounded Context Name>
+### 5.X.1. Domain Layer
+### 5.X.2. Interface Layer
+### 5.X.3. Application Layer
+### 5.X.4. Infrastructure Layer
+### 5.X.6. Bounded Context Software Architecture Component Level Diagrams
+### 5.X.7. Bounded Context Software Architecture Code Level Diagrams
+#### 5.X.7.1. Bounded Context Domain Layer Class Diagrams
+#### 5.X.7.2. Bounded Context Database Design Diagram
+
+
+# Capítulo VI: Solution UX Design
+## 6.1. Style Guidelines
+### 6.1.1. General Style Guidelines
+### 6.1.2. Web, Mobile & Devices Style Guidelines
+
+## 6.2. Information Architecture
+### 6.2.2. Labeling Systems
+### 6.2.3. Searching Systems
+### 6.2.4. SEO Tags and Meta Tags
+### 6.2.5. Navigation Systems
+
+## 6.3. Landing Page UI Design
+Durante la fase inicial del diseño de la interfaz de la página de inicio (landing page), un paso fundamental es la elaboración de un wireframe. Este funciona como un esquema preliminar que representa la disposición y organización de los elementos esenciales de la página. En este caso, se contemplan apartados como la barra de navegación en el área principal, el encabezado o Hero, la sección de servicios, la información corporativa, los testimonios, la opción de descarga y el pie de página.
+
+### 6.3.1. Landing Page Wireframe
+
+Hero:
+
+![image](https://github.com/user-attachments/assets/8995e159-15f6-4bf4-9a9f-2cbe0e68860d)
+
+Services:
+
+![image](https://github.com/user-attachments/assets/c7ce2413-f6b9-4359-804d-d6f6d48ea7a9)
+
+About us:
+
+![image](https://github.com/user-attachments/assets/a2140cd0-fa6d-46d0-bd69-046f8b9668b4)
+
+Testimonials:
+
+![image](https://github.com/user-attachments/assets/9cc4d581-7022-4e76-8dfd-df58706562cc)
+
+Download:
+
+![image](https://github.com/user-attachments/assets/88aad065-1a17-4217-b814-b2ebb3b36da3)
+
+Footer:
+
+![image](https://github.com/user-attachments/assets/4c0265b9-db50-401e-97cf-a08bf8dd5114)
+
+### 6.3.2. Landing Page Mock-up
+
+Hero:
+
+![image](https://github.com/user-attachments/assets/89f42efd-c555-426c-ab67-a89d68fd4d36)
+
+Services:
+
+![image](https://github.com/user-attachments/assets/1185c8ba-d63f-4267-a5ac-f3b655a710b7)
+
+About us:
+
+![image](https://github.com/user-attachments/assets/e7d26a9d-8e06-43af-999f-1381fc0ded28)
+
+Testimonials:
+
+![image](https://github.com/user-attachments/assets/16b6e8ac-4b0f-4f8d-bd81-f81e532be8d4)
+
+Download:
+
+![image](https://github.com/user-attachments/assets/6cbbe3c0-e59f-4e4e-b9fd-054db6526844)
+
+Footer:
+
+![image](https://github.com/user-attachments/assets/12ee1743-0d86-43fa-8d52-ba26b9a8f389)
+
+
+## 6.4. Applications UX/UI Design
+En este apartado se presentan las propuestas visuales y de interacción de nuestras aplicaciones web y móviles, tomando en cuenta la experiencia del usuario al interactuar con los productos.
+
+### 6.4.1. Applications Wireframes
+Aquí se muestran los wireframes desarrollados para la aplicación web y móvil Chemtack.
+
+**Wireframes Web Application:**
+
+![Wireframes Web App](https://i.imgur.com/CswDZjd.png)
+
+**Wireframes Web Application Responsive:**
+![Wireframes Web App Responsive](https://i.imgur.com/dV2z3Vz.png)
+
+**Wireframes Mobile:**
+
+![Wireframes Mobile App](https://github.com/user-attachments/assets/1d66d831-2319-4cc4-9eb5-27a1d815defa)
+
+[Enlace para acceder al Figma.](https://www.figma.com/design/c7g8w481pDMJGjvVyiU6F1/Chemtrack?node-id=87-44&t=Nj0ZnQTSve38LPvz-1 "Enlace para acceder al Figma.")
+
+### 6.4.2. Applications Wireflow Diagrams
+
+En esta sección, se presentan los Wireflows, donde se mostrarán las rutas que los usuarios pueden tener al momento de usar la aplicación web y móvil. Para su realización se utilizó la herramienta LucidChart.
+
+---
+
+**Wireflow Diagrams Mobile Application:**
+**User goal, usuario inicia sesion y se registra**
+
+**Descripción:**
+Al iniciar la aplicación, el usuario se encuentra en la página de opciones, donde puede iniciar sesión. Si el usuario no posee una cuenta puede registrar una nueva utilizando su correo electrónico.
+
+![Wireflow Mobile Application 1](https://i.imgur.com/QvX5QtC.jpeg)
+
+**User goal, usuario transportista acepta servicio e inicia recorrido**
+
+**Descripción:**
+Cuando el transportista haya aceptado el servicio y comience con la ruta presiona en la app la opción de iniciar recorrido, donde le figurará detalles acerca del recorrido y la carga a transportar y parámetros brindados por los sensores.
+
+![Wireflow Mobile Application 2](https://i.imgur.com/FojRu3F.jpeg)
+
+**User goal, usuario transportista reporta incidente**
+
+**Descripción:**
+El usuario puede reportar incidentes que hayan ocurrido durante el recorrido para que de ese modo el administrador permanezca atento de ello.
+
+![Wireflow Mobile Application 3](https://i.imgur.com/GqzxViA.jpeg)
+
+**User goal, usuario administrador añade nueva ruta a monitorear**
+
+**Descripción:**
+Desde la app el admnistrador tiene la opción de poder añadir nuevos servicios a monitorear para que así pueda ir monitoreando remotamente como se encuentran los parámetros de los sensores.
+
+![Wireflow Mobile Application 4](https://i.imgur.com/rrNCCir.jpeg)
+
+**User goal, usuario administrador visualiza reportes de incidentes**
+
+**Descripción:**
+El usuario administrador puede visualizar los reportes de incidentes brindados por los transportistas al igual de los parámetros de monitoreo que dejaron los sensores en dicho momento.
+![Wireflow Mobile Application 5](https://i.imgur.com/HaLPhcx.jpeg)
+
+[Enlace para acceder a LucidChart.](https://lucid.app/lucidchart/78d14ebd-5614-4c11-be07-705631141f25/edit?viewport_loc=-3238%2C-2725%2C14392%2C6984%2Cz.Le~yULM6Za&invitationId=inv_efb1a0e4-2462-43d2-805c-6c06dbb66383 "Enlace para acceder a LucidChart.")
+
+### 6.4.2. Applications Mock-ups
+En este apartado se presentan los mock-ups correspondientes a la aplicación web y móvil Chemtrack.
+
+**Web Application Mock-up**
+
+![Mock-up Web Application](https://i.imgur.com/yqDNN8S.png)
+
+**Web Application Responsive Mock-up**
+![Mock-up Web Application Responsive](https://i.imgur.com/etnXnd4.png)
+
+
+**Mobile Application Mock-ups:**
+
+![Mock-up Mobile Application](https://i.imgur.com/B0GUcoa.png)
+
+[Enlace para acceder al Figma.](https://www.figma.com/design/c7g8w481pDMJGjvVyiU6F1/Chemtrack?node-id=87-45&t=Nj0ZnQTSve38LPvz-1 "Enlace para acceder al Figma."
+
+### 6.4.3. Applications User Flow Diagrams
+En esta sección, se presentan los User Flows, donde se mostrarán las Happy y Unhappy paths que los usuarios pueden tener al momento de usar la aplicación web y móvil. Para su realización se utilizó la herramienta LucidChart.
+- Entonces podrá ingresar a la sección "Monitoring" para iniciar el recorrido
+- Si selecciona una ruta, se le muestran los detalles del viaje y de la carga
+- Si desea añadir una nueva ruta, se le muestra un formulario para completarla
+- Al iniciar el recorrido, se muestran los datos de monitoreo en tiempo real
+- Entonces puede seguir la ruta y finalizar la entrega desde la interfaz
+
+![image](https://i.imgur.com/SsocVaB.jpeg)
+
+**User goal, usuario transportista reporta incidente**
+
+**Task Flow:**
+
+- Si el transportista se encuentra realizando un recorrido
+- Entonces puede acceder a la sección "Incidents" desde el menú
+- Si decide registrar un nuevo incidente, se le muestra un formulario
+- Al completar los campos requeridos, puede enviar el reporte
+- Entonces el incidente queda registrado y visible para el administrador
+
+![image](https://i.imgur.com/7bxJw1e.jpeg)
+
+**User goal, usuario administrador añade nueva ruta a monitorear**
+
+**Task Flow:**
+
+- Si el administrador accede a la sección "Monitoring"
+- Entonces puede seleccionar la opción para añadir una nueva ruta
+- Si decide continuar, se le muestra un formulario para completar los datos
+- Al guardar la información, la nueva ruta queda registrada
+- Entonces podrá monitorear los parámetros de los sensores en esa ruta
+
+![image](https://i.imgur.com/7BzRtg9.jpeg)
+
+**User goal, usuario administrador visualiza reportes de incidentes**
+
+**Task Flow:**
+
+- Si el administrador accede a la sección "Incidents"
+- Entonces se le muestra la lista de reportes enviados por los transportistas
+- Si selecciona un reporte, se visualiza el detalle del incidente
+- Entonces también se muestran los parámetros de monitoreo asociados al evento
+
+![image](https://i.imgur.com/aFCOnRN.jpeg)
+
+
+
+[Enlace para acceder a LucidChart](https://lucid.app/lucidchart/78d14ebd-5614-4c11-be07-705631141f25/edit?viewport_loc=-7647%2C-2992%2C14024%2C6805%2C0_0&invitationId=inv_efb1a0e4-2462-43d2-805c-6c06dbb66383 "Enlace para acceder a LucidChart"). 
+
+
+## 6.5. Applications Prototyping
+
+En este apartado se presenta el prototipo desarrollado en Figma, el cual refleja la aplicación de principios de arquitectura de la información, buscando que la experiencia sea lo más eficiente y clara posible.
+
+Principio de elección:
+Se procura que tanto la aplicación web como la móvil mantengan un número adecuado de secciones visibles en todo momento. Por ello, ambas incluyen una barra superior fija con cuatro secciones que permiten acceder rápidamente a las funcionalidades desde cualquier pantalla.
+
+Principio de divulgación:
+La información se organiza en bloques diferenciados, lo que facilita al usuario ubicar con mayor rapidez el contenido o función que necesita.
+
+Video de presentación del prototipo:
+**Prototipo Web Application**
+Timing: 0:00
+Duración: 03:31
+
+![image](https://i.imgur.com/bMplMmA.png)
+
+**Prototipo Mobile Application**
+Timing: 03:32
+Duración: 03:51
+
+![image](https://i.imgur.com/H1gB1R8.png)
+
+[Link al video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114248_upc_edu_pe/Eb7QckaAXOZHqCAdbBh9b1cB-LXKRizGLBlfKQjgbgPFjQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=60MG8p "Link al video").
+
 
 ## Conclusiones
 
