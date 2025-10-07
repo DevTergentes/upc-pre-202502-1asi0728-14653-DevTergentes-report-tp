@@ -2821,7 +2821,6 @@ Soto, J. A. S., González, D. L. E., Sánchez, J. F. I., Reyes, J. A., & Layva, 
 | Modelo C4 |  |
 | Wireflows y user flows en LucidChart | https://lucid.app/lucidchart/78d14ebd-5614-4c11-be07-705631141f25/edit?viewport_loc=-8888%2C-2789%2C15213%2C6598%2C0_0&invitationId=inv_efb1a0e4-2462-43d2-805c-6c06dbb66383 |
 | Prototipo en Figma de web y mobile app | https://www.figma.com/design/K1K4Imdh3xHVPDeqIXi37D/SecurOn?node-id=87-45&t=2OxavIdVJlEDenr7-1 |
-| Prototypes Navigation/ Product Navigation |  |
 | Landing Page desplegada | https://devtergentes.github.io/secureOn-landing-page/ |
 | Repositorio Report | https://github.com/DevTergentes/upc-pre-202502-1asi0728-14653-DevTergentes-report-tp |
 | Repositorio Landing Page | https://github.com/DevTergentes/secureOn-landing-page |
