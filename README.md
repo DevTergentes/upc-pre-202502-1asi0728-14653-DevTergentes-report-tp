@@ -2815,7 +2815,7 @@ Soto, J. A. S., González, D. L. E., Sánchez, J. F. I., Reyes, J. A., & Layva, 
 | Journey Mapping en Miro |  |
 | As-is Scenario Mapping en Miro |  |
 | To-be Scenario Mapping en Miro | https://miro.com/app/board/uXjVJKtI4DU=/?share_link_id=437443717777 |
-| Event Storming en Miro |  |
+| Event Storming en Miro | https://miro.com/welcomeonboard/ZDUyWkh5OTlpSVF4RGdTNG9tdkI0N0FnS1F5VUtRczM0dXJkS2dSZHRDeW1yWm54RW02c3EybHBKYzdIaGkxRjZUb2lwNHB2a0RKelJzRmJNUDd3NEoyNVE3Wk1Uc2U5MUFySzEyZFNBZ0pSa011QkVnQy93aVprVXUyVGFsQ2pNakdSWkpBejJWRjJhRnhhb1UwcS9BPT0hdjE=?share_link_id=980476835383 |
 | Domain Message Flows Modeling en Miro |  |
 | Bounded Context Canvases en Miro |  |
 | Modelo C4 |  |
