@@ -2557,6 +2557,37 @@ Aquí se muestran los wireframes desarrollados para la aplicación web y móvil 
 En esta sección, se presentan los Wireflows, donde se mostrarán las rutas que los usuarios pueden tener al momento de usar la aplicación web y móvil. Para su realización se utilizó la herramienta LucidChart.
 
 ---
+**Wireflow Diagrams Web Application:**
+
+**User goal, usuario inicia sesion y se registra**
+
+**Descripción:**
+Al iniciar la aplicación, el usuario se encuentra en la página de opciones, donde puede iniciar sesión. Si el usuario no posee una cuenta puede registrar una nueva utilizando su correo electrónico.
+
+![Wireflow Web Application 1](https://i.imgur.com/3NlrAHP.jpeg)
+
+**User goal, usuario transportista ve servicios disponibles**
+
+**Descripción:**
+Cuando el transportista haya terminado de completar su perfil y este interesado en aceptar una entrega ingresa a la opción "Publication", envía su solicitud al servicio de su interés y si es aceptado en alguna podrá proceder a visualizar las notificaciones y la opción de rutas.
+
+![Wireflow Web Application 2)](https://i.imgur.com/QsE9k1q.jpeg)
+
+**User goal, usuario administrador publica servicios**
+
+**Descripción:**
+Una vez que el administrador haya terminado de completar su perfil se le mostrará un formulario para publicar un servicio y si es aceptado por algún transportista podrá visualizar la opción de "Solicitation".
+
+![Wireflow Web Application 3)](https://i.imgur.com/QP2utY2.jpeg)
+
+**User goal, usuario administrador visualiza perfil de transportista**
+
+**Descripción:**
+El administrador podrá ver todas las solicitudes de transportistas a su publicación de servicio desde la opción "Solicitation" y desde dicha vista podrá decidir si aceptarlos o visualizar previamente su perfil donde si incluye los datos de su CV.
+
+![Wireflow Web Application 4)](https://i.imgur.com/qUWePu3.jpeg)
+
+---
 
 **Wireflow Diagrams Mobile Application:**
 **User goal, usuario inicia sesion y se registra**
