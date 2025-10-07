@@ -55,6 +55,7 @@ Link de Github: [https://github.com/DevTergentes](https://github.com/DevTergente
 **TP:** Se han desarrollado las actividades correspondientes para la entrega TP dentro de nuestra organización de Git Hub.
 *Registro de commits*
 
+<img width="1568" height="670" alt="image" src="https://github.com/user-attachments/assets/de3111be-9d4e-4291-9a73-ecb365d3205d" />
 
 ---
 
@@ -408,7 +409,6 @@ A continuación, se plantean las hipótesis que proponen una solución a la prob
 
 
 #### 1.2.2.4. Lean UX Canvas
-
 
 ![image](https://github.com/user-attachments/assets/ed8887b4-8e82-49c9-ad85-539f768bda72)
 
