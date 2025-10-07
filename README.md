@@ -2643,7 +2643,46 @@ En este apartado se presentan los mock-ups correspondientes a la aplicación web
 ### 6.4.3. Applications User Flow Diagrams
 En esta sección, se presentan los User Flows, donde se mostrarán las Happy y Unhappy paths que los usuarios pueden tener al momento de usar la aplicación web y móvil. Para su realización se utilizó la herramienta LucidChart.
 
-**User Flow Diagrams Mobile Application:**
+## User Flow Diagrams Web Application:
+![User Flow Web Application 1](https://i.imgur.com/GN4AKVH.jpeg)
+
+
+**User goal, usuario transportista ve servicios disponibles**
+
+**Task Flow:**
+
+- Si el transportista está interesado en aceptar una entrega
+- Entra a la sección de "Solicitation"
+- Y se visualiza los servicios
+  
+![image](https://i.imgur.com/7wLkgEV.jpeg)
+
+
+**User goal, usuario administrador publica servicios**
+
+**Task Flow:**
+
+- Si el usuario autenticado como administrador se encuentra en la sección
+- Entonces se le muestra un formulario para publicar un servicio
+- Si es aceptado, entonces es mostrado en la interfaz de los transportistas
+  
+![image](https://i.imgur.com/AcVcOS4.jpeg)
+
+
+**User goal, usuario administrador visualiza perfil de transportista**
+
+**Task Flow:**
+
+- Si el administrador desea verificar el perfil del transporista
+- Al aceptar un envío, el administrador puede ver el perfil
+- Si es así, entonces se le muestra el perfil a detalle
+
+![image](https://i.imgur.com/NhsskSA.jpeg)
+
+---
+
+
+## User Flow Diagrams Mobile Application:
 
 **User goal, usuario inicia sesion y se registra**
 
