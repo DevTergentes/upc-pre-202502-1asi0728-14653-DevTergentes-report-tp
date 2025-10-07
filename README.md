@@ -2596,6 +2596,35 @@ En este apartado se presentan los mock-ups correspondientes a la aplicación web
 
 ### 6.4.3. Applications User Flow Diagrams
 En esta sección, se presentan los User Flows, donde se mostrarán las Happy y Unhappy paths que los usuarios pueden tener al momento de usar la aplicación web y móvil. Para su realización se utilizó la herramienta LucidChart.
+
+**User Flow Diagrams Mobile Application:**
+
+**User goal, usuario inicia sesion y se registra**
+
+**Task Flow:**
+
+- Primero el usuario debe estar en la pantalla Sign In
+- Luego, si quiere crear un nuevo usuario va a la pantalla Sign Up donde puede elegir entre ser transportista o administrador
+- Dependendiendo de su tipo de cuenta se le redirige a la sección Home correspondiente
+
+![image](https://i.imgur.com/npceGi9.jpeg)
+
+**User goal, usuario transportista acepta servicio e inicia recorrido**
+
+**Task Flow:**
+
+- Si el transportista ha aceptado un servicio
+- Entonces podrá ingresar a la sección "Monitoring" para iniciar el recorrido
+- Si selecciona una ruta, se le muestran los detalles del viaje y de la carga
+- Si desea añadir una nueva ruta, se le muestra un formulario para completarla
+- Al iniciar el recorrido, se muestran los datos de monitoreo en tiempo real
+- Entonces puede seguir la ruta y finalizar la entrega desde la interfaz
+
+![image](https://i.imgur.com/LAI9iqQ.jpeg)
+
+**User goal, usuario transportista reporta incidente**
+
+**Task Flow:**
 - Entonces podrá ingresar a la sección "Monitoring" para iniciar el recorrido
 - Si selecciona una ruta, se le muestran los detalles del viaje y de la carga
 - Si desea añadir una nueva ruta, se le muestra un formulario para completarla
@@ -2715,4 +2744,7 @@ Soto, J. A. S., González, D. L. E., Sánchez, J. F. I., Reyes, J. A., & Layva, 
 | Prototipo en Figma de web y mobile app | https://www.figma.com/design/K1K4Imdh3xHVPDeqIXi37D/SecurOn?node-id=87-45&t=2OxavIdVJlEDenr7-1 |
 | Prototypes Navigation/ Product Navigation |  |
 | Landing Page desplegada | https://devtergentes.github.io/secureOn-landing-page/ |
+| Repositorio Report | https://github.com/DevTergentes/upc-pre-202502-1asi0728-14653-DevTergentes-report-tp |
+| Repositorio Landing Page | https://github.com/DevTergentes/secureOn-landing-page |
+| Repositorio Backend | https://github.com/DevTergentes/secureOn-backend |
 | Video grupal del TP1 |  |
