@@ -2532,7 +2532,6 @@ Footer:
 
 
 
-
 ## 6.4. Applications UX/UI Design
 En este apartado se presentan las propuestas visuales y de interacción de nuestras aplicaciones web y móviles, tomando en cuenta la experiencia del usuario al interactuar con los productos.
 
@@ -2550,7 +2549,7 @@ Aquí se muestran los wireframes desarrollados para la aplicación web y móvil 
 
 ![Wireframes Mobile App](https://github.com/user-attachments/assets/1d66d831-2319-4cc4-9eb5-27a1d815defa)
 
-[Enlace para acceder al Figma.](https://www.figma.com/design/c7g8w481pDMJGjvVyiU6F1/SecureOn?node-id=87-44&t=Nj0ZnQTSve38LPvz-1 "Enlace para acceder al Figma.")
+[Enlace para acceder al Figma.](https://www.figma.com/design/K1K4Imdh3xHVPDeqIXi37D/SecurOn?node-id=87-44&t=ytQkGBOLqrfy4mp6-1)
 
 ### 6.4.2. Applications Wireflow Diagrams
 
@@ -2624,24 +2623,22 @@ Desde la app el admnistrador tiene la opción de poder añadir nuevos servicios 
 El usuario administrador puede visualizar los reportes de incidentes brindados por los transportistas al igual de los parámetros de monitoreo que dejaron los sensores en dicho momento.
 ![Wireflow Mobile Application 5](https://i.imgur.com/HaLPhcx.jpeg)
 
-[Enlace para acceder a LucidChart.](https://lucid.app/lucidchart/78d14ebd-5614-4c11-be07-705631141f25/edit?viewport_loc=-3238%2C-2725%2C14392%2C6984%2Cz.Le~yULM6Za&invitationId=inv_efb1a0e4-2462-43d2-805c-6c06dbb66383 "Enlace para acceder a LucidChart.")
+[Enlace para acceder a LucidChart.](https://lucid.app/lucidchart/78d14ebd-5614-4c11-be07-705631141f25/edit?invitationId=inv_efb1a0e4-2462-43d2-805c-6c06dbb66383&page=0_0#)
 
 ### 6.4.2. Applications Mock-ups
 En este apartado se presentan los mock-ups correspondientes a la aplicación web y móvil SecureOn.
 
 **Web Application Mock-up**
 
-![Mock-up Web Application](https://i.imgur.com/yqDNN8S.png)
-
-**Web Application Responsive Mock-up**
-![Mock-up Web Application Responsive](https://i.imgur.com/etnXnd4.png)
-
+<img width="1318" height="693" alt="image" src="https://github.com/user-attachments/assets/13a4bcbc-ab7f-45ea-8933-3f20ea72e088" />
+<img width="990" height="652" alt="image" src="https://github.com/user-attachments/assets/b402f95a-62f6-4e5d-8747-1e544cad47de" />
+<img width="1328" height="646" alt="image" src="https://github.com/user-attachments/assets/ddfb85ab-5ddf-4a37-a8a6-a4e0f647dbb6" />
 
 **Mobile Application Mock-ups:**
 
 ![Mock-up Mobile Application](https://i.imgur.com/Zkpo8iA.png)
 
-[Enlace para acceder al Figma.](https://www.figma.com/design/c7g8w481pDMJGjvVyiU6F1/SecureOn?node-id=87-45&t=Nj0ZnQTSve38LPvz-1 "Enlace para acceder al Figma."
+[Enlace para acceder al Figma.](https://www.figma.com/design/K1K4Imdh3xHVPDeqIXi37D/SecurOn?node-id=87-45&t=ytQkGBOLqrfy4mp6-1)
 
 ### 6.4.3. Applications User Flow Diagrams
 En esta sección, se presentan los User Flows, donde se mostrarán las Happy y Unhappy paths que los usuarios pueden tener al momento de usar la aplicación web y móvil. Para su realización se utilizó la herramienta LucidChart.
