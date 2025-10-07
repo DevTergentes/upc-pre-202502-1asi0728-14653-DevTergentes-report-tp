@@ -2536,7 +2536,7 @@ Footer:
 En este apartado se presentan las propuestas visuales y de interacción de nuestras aplicaciones web y móviles, tomando en cuenta la experiencia del usuario al interactuar con los productos.
 
 ### 6.4.1. Applications Wireframes
-Aquí se muestran los wireframes desarrollados para la aplicación web y móvil Chemtack.
+Aquí se muestran los wireframes desarrollados para la aplicación web y móvil SecurOn.
 
 **Wireframes Web Application:**
 
