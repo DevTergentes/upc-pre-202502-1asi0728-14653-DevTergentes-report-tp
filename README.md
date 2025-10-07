@@ -2444,22 +2444,22 @@ Estas etiquetas permiten mejorar la visibilidad del sitio y diferenciar la plata
 
 **Para la página web principal:**
 
-- **Title**: TrackTox
-- **Description**: TrackTox - Página oficial de SecureOn
+- **Title**: DevTergentes
+- **Description**: DevTergentes - Página oficial de SecureOn
 - **Keywords**: transporte peligroso, monitoreo, gestión de incidentes, seguridad vial  
 - **Authors**: Equipo SecureOn
 
 **Para la aplicación web:**
 
-- **Title**: TrackTox
-- **Description**: TrackTox - Plataforma Web Oficial  
+- **Title**: DevTergentes
+- **Description**: DevTergentes - Plataforma Web Oficial  
 - **Keywords**: transporte seguro, flotas, monitoreo, gestión de emergencias  
 - **Authors**: SecureOn
 
 **Para la app móvil:**
 
-- **Title**: TrackTox
-- **Description**: TrackTox - Aplicación Móvil Oficial  
+- **Title**: DevTergentes
+- **Description**: DevTergentes - Aplicación Móvil Oficial  
 - **Keywords**: seguridad de transporte, monitoreo móvil, gestión de incidentes  
 - **Authors**: SecureOn
 
@@ -2641,10 +2641,21 @@ En este apartado se presentan los mock-ups correspondientes a la aplicación web
 [Enlace para acceder al Figma.](https://www.figma.com/design/K1K4Imdh3xHVPDeqIXi37D/SecurOn?node-id=87-45&t=ytQkGBOLqrfy4mp6-1)
 
 ### 6.4.3. Applications User Flow Diagrams
-En esta sección, se presentan los User Flows, donde se mostrarán las Happy y Unhappy paths que los usuarios pueden tener al momento de usar la aplicación web y móvil. Para su realización se utilizó la herramienta LucidChart.
+En esta sección, se presentan los User Flows, donde se mostrarán las Happy y Unhappy paths que los usuarios pueden tener al momento de usar la aplicación web y móvil. Para su realización se utilizó la herramienta LucidChart y Miro.
 
 ## User Flow Diagrams Web Application:
-![User Flow Web Application 1](https://i.imgur.com/GN4AKVH.jpeg)
+
+
+**User goal, usuario inicia sesion y se registra**
+
+**Task Flow:**
+
+- Primero el usuario debe estar en la pantalla Sign In
+- Luego, si quiere crear un nuevo usuario va a la pantalla Sign Up donde puede elegir entre ser transportista o administrador
+- Dependendiendo de su tipo de cuenta se le redirige a la sección Home correspondiente
+  
+
+<img width="1439" height="704" alt="image" src="https://github.com/user-attachments/assets/4df78c56-c90f-4d08-b17a-7254994c144a" />
 
 
 **User goal, usuario transportista ve servicios disponibles**
@@ -2655,7 +2666,8 @@ En esta sección, se presentan los User Flows, donde se mostrarán las Happy y U
 - Entra a la sección de "Solicitation"
 - Y se visualiza los servicios
   
-![image](https://i.imgur.com/7wLkgEV.jpeg)
+
+<img width="1778" height="347" alt="image" src="https://github.com/user-attachments/assets/fa0a8435-5e19-4afd-bdfc-387952dbe9b0" />
 
 
 **User goal, usuario administrador publica servicios**
@@ -2666,7 +2678,9 @@ En esta sección, se presentan los User Flows, donde se mostrarán las Happy y U
 - Entonces se le muestra un formulario para publicar un servicio
 - Si es aceptado, entonces es mostrado en la interfaz de los transportistas
   
-![image](https://i.imgur.com/AcVcOS4.jpeg)
+
+
+<img width="1580" height="359" alt="image" src="https://github.com/user-attachments/assets/ef8339ec-431a-41a7-a604-1de62f8399a5" />
 
 
 **User goal, usuario administrador visualiza perfil de transportista**
@@ -2677,7 +2691,11 @@ En esta sección, se presentan los User Flows, donde se mostrarán las Happy y U
 - Al aceptar un envío, el administrador puede ver el perfil
 - Si es así, entonces se le muestra el perfil a detalle
 
-![image](https://i.imgur.com/NhsskSA.jpeg)
+
+<img width="1057" height="744" alt="image" src="https://github.com/user-attachments/assets/acc31b8a-c1d2-43e5-8d3b-c744b1691597" />
+
+
+[Enlace para acceder al Miro.](https://miro.com/welcomeonboard/TmR3RjRKMk1ISmdzSVZwem5Lb1ZVTjViek1iMjJtOGlMREFqMVBNdGtKWjIzZ0laeWhmZ3E2R01RYTgzVEpuVzhkYXNRZUJIcFREZjJOWnVDcnpmd1cyU1hyVVRBY2V1TU5aaGR5N1JZMVBvRmpNeDhSMXpNWjYzMzJLNCtUeW1zVXVvMm53MW9OWFg5bkJoVXZxdFhRPT0hdjE=?share_link_id=547853430532)
 
 ---
 
