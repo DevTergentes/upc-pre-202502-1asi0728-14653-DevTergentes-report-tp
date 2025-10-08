@@ -413,7 +413,6 @@ A continuación, se plantean las hipótesis que proponen una solución a la prob
 ![image](https://github.com/user-attachments/assets/ed8887b4-8e82-49c9-ad85-539f768bda72)
 
 
-
 ## 1.3. Segmentos objetivo
 
 | Tipo de Usuario | Conductores que transportan gases combustibles | Empresas de transporte que operan con materiales peligrosos | 
@@ -756,7 +755,7 @@ Se realiza las User Persona, personaje ficticio para reflejar al cliente ideal, 
 
 **Empresas de transporte de productos peligrosos**
 
-![Carlo Galavis](https://github.com/user-attachments/assets/fb10e06a-0889-4d9b-a8d0-d005574d1eb8)
+![Usuario- Empresas de transporte](https://github.com/user-attachments/assets/fb10e06a-0889-4d9b-a8d0-d005574d1eb8)
 
 ### 2.3.2. User Task Matrix
 
@@ -860,6 +859,10 @@ Tanto los transportistas como las empresas coinciden en la alta importancia de l
 <img src="https://i.imgur.com/b1FuQz1.png" style="width:80%">
 <img src="https://i.imgur.com/SEZ5r2H.png" style="width:80%">
 
+
+[Ver en Miro](https://miro.com/app/board/uXjVJKtI4DU=/?moveToWidget=3458764643380535123&cot=14)
+
+
 ### 2.3.4. Empathy Mapping
 
 **Transportistas de combustibles peligrosos**
@@ -874,6 +877,9 @@ Tanto los transportistas como las empresas coinciden en la alta importancia de l
 
 ![image](https://github.com/user-attachments/assets/753224a7-ec79-412f-9fe9-7a5cf13b7c0b)
 ![image](https://github.com/user-attachments/assets/233c4c8e-0a59-472f-863e-d9023194cdc5)
+
+[Ver en Miro](https://miro.com/app/board/uXjVJKtI4DU=/?moveToWidget=3458764643380112825&cot=14)
+
 
 ## 2.4. Ubiquitous Language
 
@@ -932,6 +938,7 @@ El trayecto definido que debe seguir el transportista, monitoreado en tiempo rea
 **To Be Scenario Mapping: Empresas de transporte**
 <img width="1693" height="652" alt="image" src="https://github.com/user-attachments/assets/14d02699-4d2d-45d1-949a-e3b9a303ac64" />
 
+[Ver en Miro](https://miro.com/app/board/uXjVJKtI4DU=/?moveToWidget=3458764643380168351&cot=14)
 
 
 ## 3.2. User Stories
@@ -980,7 +987,6 @@ El trayecto definido que debe seguir el transportista, monitoreado en tiempo rea
 ![Impact map Empresa de tansportes](https://i.imgur.com/5o4y4SJ.png)
 
 
-
 ## 3.4. Product Backlog
 
 A continuación, se mostrará la herramienta Product Backlog, lista de trabajo ordenado por la prioridad para el equipo de desarrollo de GreatMinds.
@@ -1000,7 +1006,6 @@ A continuación, se mostrará la herramienta Product Backlog, lista de trabajo o
 |14|US04|Seguimiento en Tiempo Real de los Transportes Activos|Como empresa de transporte de productos peligrosos, quiero realizar un seguimiento en tiempo real de todos los transportes activos para garantizar la seguridad y la entrega puntual de los productos.|2|
 |17|US03|Reporte de Estado de la carga|Como transportista, quiero generar y enviar un reporte sobre el estado de la carga, para mantener un registro actualizado.|3|
 |18|US02|Notificaciones de Mantenimiento Preventivo|Como transportista, quiero recibir notificaciones para realizar el mantenimiento preventivo del vehículo, para evitar problemas inesperados.|3|
-
 
 
 
@@ -2840,16 +2845,16 @@ Soto, J. A. S., González, D. L. E., Sánchez, J. F. I., Reyes, J. A., & Layva, 
 | Artefacto | Enlace |
 | ------------ | ------------ |
 | Video grupal del TB1 | https://upcedupe-my.sharepoint.com/personal/u202114248_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202114248%5Fupc%5Fedu%5Fpe%2FDocuments%2FDevTergentes%2FTB1%2Fupc%2Dpre%2D202502%2D1asi0728%2D14653%2DDevTergentes%2Dexpo%2Dtb1%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E1a5d984f%2D061f%2D4946%2D8017%2Dbb95af7b7b96 |
-| Lean UX Canvas |  |
+| Lean UX Canvas | https://upcedupe-my.sharepoint.com/:i:/g/personal/u202218451_upc_edu_pe/EQTioYxyeCNCiL0l0pq5QPUBBtTyySdgG3OPmW51P8geaQ?e=TXjbT6 |
 | Video entrevistas segmento transportista | https://upcedupe-my.sharepoint.com/personal/u202218451_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202218451%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevistas%20%2D%20segmento%20objetivo%20%2D%20Transportistas%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ed1ddf045%2D0880%2D437c%2D84d5%2D93616aae6cd6 |
 | Video entrevistas segmento empresa de transporte | https://upcedupe-my.sharepoint.com/personal/u202218451_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202218451%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevistas%2D%20segmento%20obj%20%2D%20Empresas%20de%20transporte%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E07cc65e9%2D2c07%2D43d1%2Daebd%2Dca09988c4eed&isDarkMode=false |
-| Journey Mapping en Miro |  |
-| As-is Scenario Mapping en Miro |  |
+| Journey Mapping en Miro | https://miro.com/app/board/uXjVJKtI4DU=/?moveToWidget=3458764643380535123&cot=14 |
+| As-is Scenario Mapping en Miro | https://miro.com/app/board/uXjVJKtI4DU=/?moveToWidget=3458764643380112825&cot=14 |
 | To-be Scenario Mapping en Miro | https://miro.com/app/board/uXjVJKtI4DU=/?share_link_id=437443717777 |
-| Event Storming en Miro | https://miro.com/welcomeonboard/ZDUyWkh5OTlpSVF4RGdTNG9tdkI0N0FnS1F5VUtRczM0dXJkS2dSZHRDeW1yWm54RW02c3EybHBKYzdIaGkxRjZUb2lwNHB2a0RKelJzRmJNUDd3NEoyNVE3Wk1Uc2U5MUFySzEyZFNBZ0pSa011QkVnQy93aVprVXUyVGFsQ2pNakdSWkpBejJWRjJhRnhhb1UwcS9BPT0hdjE=?share_link_id=980476835383 |
-| Domain Message Flows Modeling en Miro |  |
-| Bounded Context Canvases en Miro |  |
-| Modelo C4 |  |
+| Event Storming en Miro | https://miro.com/app/board/uXjVJKtI4DU=/?moveToWidget=3458764643380828864&cot=14 |
+| Domain Message Flows Modeling en Miro | https://miro.com/app/board/uXjVJKtI4DU=/?moveToWidget=3458764643380975198&cot=14 |
+| Bounded Context Canvases en Miro | https://miro.com/app/board/uXjVJKtI4DU=/?moveToWidget=3458764643380975568&cot=14 |
+| Modelo C4 | https://miro.com/app/board/uXjVJKtI4DU=/?moveToWidget=3458764643381054042&cot=14 |
 | Wireflows y user flows en LucidChart | https://lucid.app/lucidchart/78d14ebd-5614-4c11-be07-705631141f25/edit?viewport_loc=-8888%2C-2789%2C15213%2C6598%2C0_0&invitationId=inv_efb1a0e4-2462-43d2-805c-6c06dbb66383 |
 | Prototipo en Figma de web y mobile app | https://www.figma.com/design/K1K4Imdh3xHVPDeqIXi37D/SecurOn?node-id=87-45&t=2OxavIdVJlEDenr7-1 |
 | Landing Page desplegada | https://devtergentes.github.io/secureOn-landing-page/ |
