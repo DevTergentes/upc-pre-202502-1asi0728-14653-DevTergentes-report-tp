@@ -674,9 +674,9 @@ El objetivo de las preguntas del segmento objetivo de las empresas de transporte
 | **Nombre**  | Oscar Aranda |
 | **Edad**    | 21 |
 | **Inicio**  | 0:00|
-| **Fin**     | 0:00|
+| **Fin**     | 5:23|
 | **Duración**| 5:23 |
-| **Link**    | [Ver entrevista]() |
+| **Link**    | [Ver entrevista](https://youtu.be/AbekK4OjQmk) |
 | **Imagen**  | ![entrevista_3](https://github.com/user-attachments/assets/9080b17e-acbd-48ba-a29e-68ce6e52cd04) |
 | **Resumen de la entrevista** | Oscar, de 21 años y residente en Comas, ha manejado una fuga menor y sus retos principales son el tráfico y la falta de paradas seguras. Solo usa GPS, que no monitorea la carga. Está muy dispuesto a incorporar tecnología de monitoreo en tiempo real por seguridad. Considera esenciales sensores de presión, temperatura y fugas. Prefiere alertas sonoras inmediatas por app móvil/pantalla. Los obstáculos principales son el costo y la complejidad. Critica que las tecnologías actuales están incompletas al enfocarse solo en el vehículo. Usa frecuentemente su móvil y GPS. |
 
