@@ -2856,4 +2856,4 @@ Soto, J. A. S., González, D. L. E., Sánchez, J. F. I., Reyes, J. A., & Layva, 
 | Repositorio Report | https://github.com/DevTergentes/upc-pre-202502-1asi0728-14653-DevTergentes-report-tp |
 | Repositorio Landing Page | https://github.com/DevTergentes/secureOn-landing-page |
 | Repositorio Backend | https://github.com/DevTergentes/secureOn-backend |
-| Video grupal del TP1 |  |
+| Video grupal del TP1 | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218451_upc_edu_pe/EcRlHfM3FVtBh7YUdC7EkMsBJaEn2cqSkuhkRGoOj5EWRA?e=QiBhX6&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
