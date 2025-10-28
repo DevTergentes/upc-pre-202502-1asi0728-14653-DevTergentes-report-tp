@@ -2813,6 +2813,16 @@ La información se organiza en bloques diferenciados, lo que facilita al usuario
 
 [Enlace del figma.](https://www.figma.com/proto/K1K4Imdh3xHVPDeqIXi37D/SecurOn?node-id=99-3698&p=f&t=7rm5BEls7kpdcYpS-1&scaling=min-zoom&content-scaling=fixed&page-id=87%3A45&starting-point-node-id=99%3A3493&show-proto-sidebar=1)
 
+# Capítulo VII: Product Implementation, Validation & Deployment
+## 7.1. Software Configuration Management
+### 7.1.1. Software Development Environment Configuration
+### 7.1.2. Source Code Management
+### 7.1.3. Source Code Style Guide & Conventions
+### 7.1.4. Software Deployment Configuration
+## 7.2. Solution Implementation
+### 7.2.1. Sprint 1
+#### 7.2.1.1. Sprint Planning 1
+
 
 ## Conclusiones
 
