@@ -2853,12 +2853,100 @@ La información se organiza en bloques diferenciados, lo que facilita al usuario
 ### 7.1.3. Source Code Style Guide & Conventions {#713-source-code-style-guide--conventions}
 ### 7.1.4. Software Deployment Configuration {#714-software-deployment-configuration}
 
+
 ## 7.2. Solution Implementation {#72-solution-implementation}
+
 ### 7.2.1. Sprint 1 {#721-sprint-1}
+
 #### 7.2.1.1. Sprint Planning 1 {#7211-sprint-planning-1}
+
+En este sprint el enfoque es consolidar el flujo base operativo del producto: monitoreo/seguimiento en tiempo real, gestión de incidentes, alta de transportistas y transición de estado del transporte, asegurando API consumible y evidencias de pruebas.
+
+| Sprint # | 1 |
+|---|---|
+| **Sprint Planning Background** |  |
+| **Date** | 2025-11-04 |
+| **Time** | 10:00 p.m. |
+| **Location** | Reunión realizada mediante Discord |
+| **Prepared By** | Jherson Astuyauri |
+| **Attendees (to planning meeting)** | Jherson Astuyauri, Camila Amaro, Jeremi Antonio, Jose Calderon, Claudio Quispesivana |
+| **Sprint 1 – Review Summary** | No aplica al ser el primer sprint de implementación sobre la base ya desplegada. |
+| **Sprint 1 – Retrospective Summary** | No aplica al ser el primer sprint. |
+| **Sprint Goal & User Stories** |  |
+| **Sprint 1 Goal** | Entregar: (i) listado/detalle de transportes activos con actualización en vivo, (ii) creación/listado de incidentes con notificación, (iii) alta de transportistas, (iv) cambio de estado del transporte. |
+| **Sprint 1 Velocity** | 30 Story Points |
+| **Sum of Story Points** | 27 Story Points (US01: 6, US04: 6, US05: 6, US06: 4, US08: 5) |
+
+---
+
 #### 7.2.1.2. Sprint Backlog 1 {#7212-sprint-backlog-1}
+
+| Sprint # | 1 |
+|---|---|
+
+**Control de estado (User Story → Work-Items/Tasks)**
+
+| User Story Id | User Story Title | Work-Item / Task Id | Work-Item / Task Title | Description | Estimation (Hours) | Assigned To | Status |
+|---|---|---|---|---|---:|---|---|
+| US01 | Monitoreo del Vehículo | T01 | Listar transportes activos | Filtro `status=IN_PROGRESS`, paginación, orden por inicio | 5 | Jose | **Done** |
+|  |  | T02 | Detalle con última telemetría | Endpoint de detalle + mapper de última lectura | 5 | Claudio | **Done** |
+|  |  | T03 | Consumir API en Web | Lista + detalle; polling o canal SSE si aplica | 5 | Camila | **Done** |
+|  |  | T04 | Validación UI | Alineación con wireframes; copy/estados vacíos | 2 | Jherson | **Done** |
+| US04 | Seguimiento en Tiempo Real | T05 | Estrategia real-time | SSE/WebSocket o fallback polling con TTL | 4 | Jose | **Done** |
+|  |  | T06 | Integración UI tiempo real | Indicadores de conexión/última actualización | 4 | Camila | **Done** |
+|  |  | T07 | Validación Mobile | Lectura/visualización mínima en app | 3 | Jeremi | **Done** |
+| US05 | Notificaciones de Incidentes | T08 | Crear/listar incidentes (API) | POST/GET con validaciones y estados de incidente | 5 | Claudio | **Done** |
+|  |  | T09 | Disparo de notificación | Publicación de evento/log; canal de alerta | 3 | Jose | **Done** |
+|  |  | T10 | UI de incidentes (Web) | Form creación + listado por transporte | 4 | Jherson | **Done** |
+| US06 | Alta de Transportista | T11 | Endpoint alta con rol | Validaciones, 409 duplicado, 400 campos requeridos | 4 | Claudio | **Done** |
+|  |  | T12 | UI de registro | Formulario + feedback de errores | 3 | Camila | **Done** |
+| US08 | Cambio de Estado Transporte | T13 | Transición de estado | PATCH/POST estado + auditoría mínima | 4 | Jose | **Done** |
+|  |  | T14 | UI cambio de estado | Botón/menú y feedback en detalle del viaje | 3 | Jherson | **Done** |
+
+---
+
 #### 7.2.1.3. Development Evidence for Sprint Review {#7213-development-evidence-for-sprint-review}
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| **secureOn-webapp** | incidents | d19b853 | feat: update add delivery button visibility according to user role and icons styles | Ajusta visibilidad del botón de entrega según rol y mejora estilos de íconos. | 2025-11-05 |
+|  | incidents | 0f192fb | feat: redisgn and fix incident reporting and monitoring UI | Rediseño y correcciones en UI de reporte/monitoreo de incidentes. | 2025-11-05 |
+|  | incidents | f3e3368 | feat: improve session handling and update footer branding | Mejora manejo de sesión y actualiza branding del footer. | 2025-11-05 |
+|  | incidents | e09c47e | feat: redesign auth pages and improve session handling | Rediseño de vistas de autenticación y manejo de sesión. | 2025-11-05 |
+|  | incidents | 8258524 | feat: Update styles and delivery component | Actualiza estilos y componente de entregas. | 2025-10-29 |
+|  | incidents | 54b505e | feat: Update deliveries component | Mejoras funcionales al componente de entregas. | 2025-10-29 |
+|  | incidents | fca2461 | chore: initial commit | Configuración inicial del módulo de incidentes. | 2025-10-27 |
+| **secureOn-mobileapp** | develop | c5fe32c | chore: update backend URLs to use secureon for auth and enhance incident service with additional methods and error handling | Actualiza URLs backend a dominio secureon y amplía servicio de incidentes con métodos/errores. | 2025-11-05 |
+|  | develop | a919dc2 | chore: update backend URLs to use secureon for incidents, deliveries, employees, records, and services | Unifica endpoints a dominio secureon para múltiples recursos. | 2025-10-29 |
+|  | develop | a3e1118 | chore: enhance README with features and installation instructions, and change backend URLs to localhost for development | Mejora README y configura URLs locales para dev. | 2025-10-07 |
+|  | develop | 035d946 | chore: initial commit | Estructura inicial del proyecto mobile. | 2025-10-07 |
+| **secureOn-backend** | main | 55b4ca7 | refactor: improve formatting and description generation in RecordLog and RecordServiceImpl | Refactor de formateo y generación de descripciones en servicios de registros. | 2025-11-04 |
+|  | main | ddc361 | fix: enhance error handling and timestamp management in RecordController and RecordServiceImpl | Mejora manejo de errores y timestamps en controladores/servicios. | 2025-11-03 |
+|  | main | a46210a | feat: add OpenAPI configuration and update CORS settings for improved security | Agrega OpenAPI y ajusta CORS para mayor seguridad. | 2025-11-03 |
+|  | main | bf01a7d | chore: update database connection settings for production environment | Ajustes de conexión a BD para producción. | 2025-11-03 |
+|  | main | 06789d3 | chore: initial project setup with core API structure | Estructura base del API. | 2025-10-27 |
+| **secureOn-embeddedapp** | main | 155a0e8 | feat: update project and readme | Actualiza proyecto y README. | 2025-10-22 |
+|  | main | 7843fce | feat: add iot wokwi project | Añade proyecto IoT Wokwi. | 2025-10-22 |
+|  | main | 873ccfd | Initial commit | Commit inicial del repositorio. | 2025-10-22 |
+| **secureOn-landing-page** | develop | ac85fcc | Update README.md | Actualiza documentación del proyecto. | 2025-10-05 |
+|  | develop | 16b5497 | docs: update readme | Mejora del README. | 2025-10-05 |
+|  | develop | 5bf0591 | feat: update readme | Ajustes adicionales de README. | 2025-10-05 |
+|  | develop | 5dd4930 | feat: implement complete SecureOn landing page with responsive design | Implementa landing page completa y responsive. | 2025-10-05 |
+|  | develop | c230d8d | Initial commit | Estructura inicial del proyecto. | 2025-09-08 |
+
+---
+
 #### 7.2.1.4. Testing Suite Evidence for Sprint Review {#7214-testing-suite-evidence-for-sprint-review}
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| qa-tests / backend | test/us01-us04 | 9a71c2f | test(api): transports active & detail | Casos 200/404; asserts de esquema y última telemetría | 2025-11-09 |
+| qa-tests / backend | test/us05 | 3bd4e10 | test(api): incident create/list + event | Verifica 201/400 y registro de evento/log | 2025-11-09 |
+| qa-tests / backend | test/us06 | f17c0a8 | test(api): driver signup validations | 201 y 409; validaciones de campos requeridos | 2025-11-09 |
+| qa-tests / backend | test/us08 | c5e28b3 | test(api): status transitions | Transiciones válidas e inválidas con 422 | 2025-11-09 |
+| qa-tests / webapp | e2e/sprint1 | 7d92ef4 | e2e(web): realtime & incidents | Lista/detalle, suscripción/polling, formulario | 2025-11-09 |
+| qa-tests / mobile | e2e/monitor-lite | 4ac0f56 | e2e(mobile): monitor view | Render y actualización de estado en vista de viajes | 2025-11-09 |
+
 #### 7.2.1.5. Execution Evidence for Sprint Review {#7215-execution-evidence-for-sprint-review}
 #### 7.2.1.6. Services Documentation Evidence for Sprint Review {#7216-services-documentation-evidence-for-sprint-review}
 #### 7.2.1.7. Software Deployment Evidence for Sprint Review {#7217-software-deployment-evidence-for-sprint-review}
