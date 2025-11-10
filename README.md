@@ -15,7 +15,7 @@ NRC 14653
 
 Profesor: Berrocal Navarro, Richard Leonardo 
 
-***INFORME DE TRABAJO - TP***
+***INFORME DE TRABAJO - TB2***
 
 **Startup: DevTergentes**
 
@@ -40,11 +40,12 @@ Profesor: Berrocal Navarro, Richard Leonardo
 | - | - | - | - |
 | 1.00 | 18/09/2025 | Todos los integrantes del equipo  | Se completó la primera entrega del TB1.  |
 | 2.00 | 7/10/2025 | Todos los integrantes del equipo  | Se completaron los capítulos V y VI del informe.  |
+| 3.00 | 7/11/2025 | Todos los integrantes del equipo  | Se completaron  |
 ---
 
 # Project Report Collaboration Insights
 
-**TB1:** Se han desarrollado las actividades correspondientes para la entrega TB1 dentro de nuestra organización de Git Hub.
+**TB1:** Se han desarrollado las actividades correspondientes para la entrega TB1 dentro de nuestra organización de GitHub.
 
 Link de Github: [https://github.com/DevTergentes](https://github.com/DevTergentes)
 
@@ -52,9 +53,15 @@ Link de Github: [https://github.com/DevTergentes](https://github.com/DevTergente
 <img width="1022" height="585" alt="image" src="https://github.com/user-attachments/assets/365d5b4b-fc4b-46a8-bd1e-dec62e80f457" />
 
 
-**TP:** Se han desarrollado las actividades correspondientes para la entrega TP dentro de nuestra organización de Git Hub.
-*Registro de commits*
+**TP:** Se han desarrollado las actividades correspondientes para la entrega TP dentro de nuestra organización de GitHub.
 
+*Registro de commits*
+<img width="1568" height="670" alt="image" src="https://github.com/user-attachments/assets/de3111be-9d4e-4291-9a73-ecb365d3205d" />
+
+
+**TB2:** Se han desarrollado las actividades correspondientes para la entrega TB2 dentro de nuestra organización de GitHub.
+
+*Registro de commits*
 <img width="1568" height="670" alt="image" src="https://github.com/user-attachments/assets/de3111be-9d4e-4291-9a73-ecb365d3205d" />
 
 ---
@@ -160,6 +167,31 @@ Link de Github: [https://github.com/DevTergentes](https://github.com/DevTergente
     - [6.4.2. Applications Mock-ups](#642-applications-mock-ups)
     - [6.4.3. Applications User Flow Diagrams](#643-applications-user-flow-diagrams)
   - [6.5. Applications Prototyping](#65-applications-prototyping)
+## [Capítulo VII: Product Implementation, Validation & Deployment](#capítulo-vii-product-implementation-validation--deployment)
+
+- [7.1. Software Configuration Management](#71-software-configuration-management)
+  - [7.1.1. Software Development Environment Configuration](#711-software-development-environment-configuration)
+  - [7.1.2. Source Code Management](#712-source-code-management)
+  - [7.1.3. Source Code Style Guide & Conventions](#713-source-code-style-guide--conventions)
+  - [7.1.4. Software Deployment Configuration](#714-software-deployment-configuration)
+- [7.2. Solution Implementation](#72-solution-implementation)
+  - [7.2.1. Sprint 1](#721-sprint-1)
+    - [7.2.1.1. Sprint Planning 1](#7211-sprint-planning-1)
+    - [7.2.1.2. Sprint Backlog 1](#7212-sprint-backlog-1)
+    - [7.2.1.3. Development Evidence for Sprint Review](#7213-development-evidence-for-sprint-review)
+    - [7.2.1.4. Testing Suite Evidence for Sprint Review](#7214-testing-suite-evidence-for-sprint-review)
+    - [7.2.1.5. Execution Evidence for Sprint Review](#7215-execution-evidence-for-sprint-review)
+    - [7.2.1.6. Services Documentation Evidence for Sprint Review](#7216-services-documentation-evidence-for-sprint-review)
+    - [7.2.1.7. Software Deployment Evidence for Sprint Review](#7217-software-deployment-evidence-for-sprint-review)
+    - [7.2.1.8. Team Collaboration Insights during Sprint](#7218-team-collaboration-insights-during-sprint)
+- [7.3. Validation Interviews](#73-validation-interviews)
+  - [7.3.1. Diseño de Entrevistas](#731-diseño-de-entrevistas)
+  - [7.3.2. Registro de Entrevistas](#732-registro-de-entrevistas)
+  - [7.3.3. Evaluaciones según heurísticas](#733-evaluaciones-según-heurísticas)
+- [7.4. Video About-the-Product](#74-video-about-the-product)
+
+- [Avance de Conclusiones, Bibliografía y Anexos](#avance-de-conclusiones-bibliografía-y-anexos)
+
      
 
 ## [Conclusiones](#conclusiones)
@@ -2813,15 +2845,34 @@ La información se organiza en bloques diferenciados, lo que facilita al usuario
 
 [Enlace del figma.](https://www.figma.com/proto/K1K4Imdh3xHVPDeqIXi37D/SecurOn?node-id=99-3698&p=f&t=7rm5BEls7kpdcYpS-1&scaling=min-zoom&content-scaling=fixed&page-id=87%3A45&starting-point-node-id=99%3A3493&show-proto-sidebar=1)
 
-# Capítulo VII: Product Implementation, Validation & Deployment
-## 7.1. Software Configuration Management
-### 7.1.1. Software Development Environment Configuration
-### 7.1.2. Source Code Management
-### 7.1.3. Source Code Style Guide & Conventions
-### 7.1.4. Software Deployment Configuration
-## 7.2. Solution Implementation
-### 7.2.1. Sprint 1
-#### 7.2.1.1. Sprint Planning 1
+# Capítulo VII: Product Implementation, Validation & Deployment {#capítulo-vii-product-implementation--validation--deployment}
+
+## 7.1. Software Configuration Management {#71-software-configuration-management}
+### 7.1.1. Software Development Environment Configuration {#711-software-development-environment-configuration}
+### 7.1.2. Source Code Management {#712-source-code-management}
+### 7.1.3. Source Code Style Guide & Conventions {#713-source-code-style-guide--conventions}
+### 7.1.4. Software Deployment Configuration {#714-software-deployment-configuration}
+
+## 7.2. Solution Implementation {#72-solution-implementation}
+### 7.2.1. Sprint 1 {#721-sprint-1}
+#### 7.2.1.1. Sprint Planning 1 {#7211-sprint-planning-1}
+#### 7.2.1.2. Sprint Backlog 1 {#7212-sprint-backlog-1}
+#### 7.2.1.3. Development Evidence for Sprint Review {#7213-development-evidence-for-sprint-review}
+#### 7.2.1.4. Testing Suite Evidence for Sprint Review {#7214-testing-suite-evidence-for-sprint-review}
+#### 7.2.1.5. Execution Evidence for Sprint Review {#7215-execution-evidence-for-sprint-review}
+#### 7.2.1.6. Services Documentation Evidence for Sprint Review {#7216-services-documentation-evidence-for-sprint-review}
+#### 7.2.1.7. Software Deployment Evidence for Sprint Review {#7217-software-deployment-evidence-for-sprint-review}
+#### 7.2.1.8. Team Collaboration Insights during Sprint {#7218-team-collaboration-insights-during-sprint}
+
+## 7.3. Validation Interviews {#73-validation-interviews}
+### 7.3.1. Diseño de Entrevistas {#731-diseño-de-entrevistas}
+### 7.3.2. Registro de Entrevistas {#732-registro-de-entrevistas}
+### 7.3.3. Evaluaciones según heurísticas {#733-evaluaciones-según-heurísticas}
+
+## 7.4. Video About-the-Product {#74-video-about-the-product}
+
+# Avance de Conclusiones, Bibliografía y Anexos {#avance-de-conclusiones-bibliografía-y-anexos}
+
 
 
 ## Conclusiones
