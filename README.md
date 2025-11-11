@@ -2996,7 +2996,7 @@ En este sprint el enfoque es consolidar el flujo base operativo del producto: mo
 
 ---
 
-#### 7.2.1.2. Sprint Backlog 1 {#7212-sprint-backlog-1}
+#### 7.2.1.2. Sprint Backlog 1 
 
 | Sprint # | 1 |
 |---|---|
@@ -3022,7 +3022,7 @@ En este sprint el enfoque es consolidar el flujo base operativo del producto: mo
 
 ---
 
-#### 7.2.1.3. Development Evidence for Sprint Review {#7213-development-evidence-for-sprint-review}
+#### 7.2.1.3. Development Evidence for Sprint Review 
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
 |---|---|---|---|---|---|
@@ -3064,15 +3064,132 @@ En este sprint el enfoque es consolidar el flujo base operativo del producto: mo
 | qa-tests / webapp | e2e/sprint1 | 7d92ef4 | e2e(web): realtime & incidents | Lista/detalle, suscripción/polling, formulario | 2025-11-09 |
 | qa-tests / mobile | e2e/monitor-lite | 4ac0f56 | e2e(mobile): monitor view | Render y actualización de estado en vista de viajes | 2025-11-09 |
 
-#### 7.2.1.5. Execution Evidence for Sprint Review {#7215-execution-evidence-for-sprint-review}
-#### 7.2.1.6. Services Documentation Evidence for Sprint Review {#7216-services-documentation-evidence-for-sprint-review}
-#### 7.2.1.7. Software Deployment Evidence for Sprint Review {#7217-software-deployment-evidence-for-sprint-review}
-#### 7.2.1.8. Team Collaboration Insights during Sprint {#7218-team-collaboration-insights-during-sprint}
+#### 7.2.1.5. Execution Evidence for Sprint Review
 
-## 7.3. Validation Interviews {#73-validation-interviews}
-### 7.3.1. Diseño de Entrevistas {#731-diseño-de-entrevistas}
-### 7.3.2. Registro de Entrevistas {#732-registro-de-entrevistas}
-### 7.3.3. Evaluaciones según heurísticas {#733-evaluaciones-según-heurísticas}
+
+#### 7.2.1.6. Services Documentation Evidence for Sprint Review 
+
+
+#### 7.2.1.7. Software Deployment Evidence for Sprint Review 
+>**Despliegue de Landing Page** 
+
+La Landing Page fue desplegada utilizando **GitHub Pages**, lo que permitió alojar el sitio de forma gratuita y accesible mediante una URL pública. Se configuró el repositorio con la rama correspondiente (`main` o `gh-pages`) y se habilitó la opción de GitHub Pages desde la configuración del repositorio para publicar el contenido estático. Esto facilitó compartir el proyecto con usuarios finales y stakeholders sin necesidad de servidores externos.
+
+![github](https://devtergentes.github.io/secureOn-landing-page/)
+
+>**Despliegue del Frontend**
+
+Para la aplicación principal desarrollada en Angular, se utilizó **Netlify** como plataforma de despliegue debido a su integración continua y facilidad de configuración.
+
+Al finalizar el proceso, se obtuvo el registro exitoso del despliegue.
+
+![Imagen de WhatsApp 2025-06-20 a las 17 25 55_64fe3bb9]()
+
+De esta manera, el avance del **Sprint 1** quedó funcional y disponible públicamente para su evaluación.
+
+![image]()
+
+>**Despliegue del Backend**
+
+**Configuración del repositorio**
+   - Se aseguró que el repositorio de backend estuviera limpio y contuviera todos los archivos necesarios para el build.
+   - Se definieron variables de entorno desde Railway para la conexión a servicios externos como la base de datos y MQTT.
+  
+![image]()
+
+**Integración con Railway**
+   - Se accedió a **Railway** y se creó un nuevo proyecto.
+   - Se conectó el proyecto directamente al repositorio en GitHub, seleccionando la rama principal para el despliegue.
+   - Azure detectó automáticamente el stack del proyecto e inició el proceso de construcción (**build**).
+
+Aquí se hace presente el video demostrando el funcionamiento del despliegue del backend haciendo uso de POSTMAN.
+
+![image]()
+
+
+>**Despliegue del Mobile**
+
+Para el despliegue de la aplicación móvil, se generó el archivo APK utilizando Flutter. Esto se logró mediante el siguiente comando:
+
+```bash
+flutter build apk --release
+```
+
+![Imagen de WhatsApp 2025-06-19 a las 22 38 36_ee83ce24]()
+
+![Imagen de WhatsApp 2025-06-19 a las 22 38 54_9e29d9ee]()
+
+
+Posteriormente, se realizó la carga del APK en una plataforma de distribución para facilitar las pruebas internas. **Firebase App Distribution**
+
+![WhatsApp Image 2025-07-06 at 04 33 19_01cd0acc]()
+
+
+Es así como se muestra el despligue de cada uno de los artefactos que lo requiere.
+
+Link de landing page: https://devtergentes.github.io/secureOn-landing-page/
+
+Link de web application: https:/
+
+Link del mobile application: 
+
+Link de backend: 
+
+Link de IoT: https://wokwi.com/projects/
+
+#### 7.2.1.8. Team Collaboration Insights during Sprint 
+
+>**Pulse**
+
+**Frontend**
+
+
+![image]()
+
+**Backend**
+
+
+![image]()
+
+**Mobile**
+
+![image]()
+
+>**Network**
+
+**Frontend**
+
+
+![image]()
+
+**Backend**
+
+![image]()
+
+**Mobile**
+
+![image]()
+
+
+>**Contributors**
+
+**Frontend**
+
+
+![image]()
+
+**Backend**
+
+![image]()
+
+**Mobile**
+
+![image]()
+
+
+## 7.3. Validation Interviews 
+### 7.3.1. Diseño de Entrevistas 
+### 7.3.2. Registro de Entrevistas 
 
 ## 7.4. Video About-the-Product {#74-video-about-the-product}
 
