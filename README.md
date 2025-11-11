@@ -3191,9 +3191,13 @@ Link de IoT: https://wokwi.com/projects/
 ### 7.3.1. Diseño de Entrevistas 
 ### 7.3.2. Registro de Entrevistas 
 
-## 7.4. Video About-the-Product {#74-video-about-the-product}
+## 7.4. Video About-the-Product 
 
-# Avance de Conclusiones, Bibliografía y Anexos {#avance-de-conclusiones-bibliografía-y-anexos}
+![aboutTheProduct](https://github.com/user-attachments/assets/530a102a-bbeb-4f67-acca-4b1380db6908)
+
+Enlace: https://upcedupe-my.sharepoint.com/personal/u202213076_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202213076_upc_edu_pe%2FDocuments%2F8vo+Ciclo%2FEmergentes%2Fupc-pre-202401-si728-14653-DevTergentes-about-the-product-sprint-1.mp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&startedResponseCatch=true&referrer=StreamWebApp.Web&referrerScenario=AddressBarCopied.view.bc72fc28-2356-41ba-b1c3-2038aafe3cd5
+
+# Avance de Conclusiones, Bibliografía y Anexos
 
 
 
@@ -3245,3 +3249,4 @@ Soto, J. A. S., González, D. L. E., Sánchez, J. F. I., Reyes, J. A., & Layva, 
 | Repositorio Landing Page | [Repositorio Landing Page](https://github.com/DevTergentes/secureOn-landing-page) |
 | Repositorio Backend | [Repositorio Backend](https://github.com/DevTergentes/secureOn-backend)|
 | Video grupal del TP1 |  [Video grupal del TP1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218451_upc_edu_pe/EcRlHfM3FVtBh7YUdC7EkMsBJaEn2cqSkuhkRGoOj5EWRA?e=QiBhX6&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+| Video About the Product |  [Video About the Product](https://upcedupe-my.sharepoint.com/personal/u202213076_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202213076_upc_edu_pe%2FDocuments%2F8vo+Ciclo%2FEmergentes%2Fupc-pre-202401-si728-14653-DevTergentes-about-the-product-sprint-1.mp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&startedResponseCatch=true&referrer=StreamWebApp.Web&referrerScenario=AddressBarCopied.view.bc72fc28-2356-41ba-b1c3-2038aafe3cd5) |
