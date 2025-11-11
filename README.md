@@ -2846,20 +2846,136 @@ La información se organiza en bloques diferenciados, lo que facilita al usuario
 
 [Enlace del figma.](https://www.figma.com/proto/K1K4Imdh3xHVPDeqIXi37D/SecurOn?node-id=99-3698&p=f&t=7rm5BEls7kpdcYpS-1&scaling=min-zoom&content-scaling=fixed&page-id=87%3A45&starting-point-node-id=99%3A3493&show-proto-sidebar=1)
 
-# Capítulo VII: Product Implementation, Validation & Deployment {#capítulo-vii-product-implementation--validation--deployment}
 
-## 7.1. Software Configuration Management {#71-software-configuration-management}
-### 7.1.1. Software Development Environment Configuration {#711-software-development-environment-configuration}
-### 7.1.2. Source Code Management {#712-source-code-management}
-### 7.1.3. Source Code Style Guide & Conventions {#713-source-code-style-guide--conventions}
-### 7.1.4. Software Deployment Configuration {#714-software-deployment-configuration}
+# Capítulo VII: Product Implementation, Validation & Deployment 
+## 7.1. Software Configuration Management
+### 7.1.1. Software Development Environment Configuration
+
+El entorno de desarrollo de *SecureOn* está estructurado para garantizar una integración ágil entre los módulos web, móvil, backend y embebido, permitiendo mantener una arquitectura escalable y coherente.
+
+* **Frontend (Web App):** desarrollado en **Angular**, utilizando HTML5, CSS3 y TypeScript. La interfaz se diseña bajo los lineamientos de **Material Design**, implementando Angular Material como biblioteca principal de componentes.
+* **Backend (API REST):** desarrollado en **Spring Boot (Java)**, encargado de la lógica de negocio, seguridad, autenticación y conexión a la base de datos.
+* **Mobile App:** desarrollada en **Flutter/Dart**, diseñada para ofrecer una experiencia multiplataforma, conectándose al backend a través de la API REST.
+* **Embedded App:** implementada en **C++ (Arduino Framework)** y desplegada en un **ESP32**, permitiendo la integración con sensores y módulos de control.
+* **Landing Page:** creada como un sitio estático informativo que comunica los objetivos, funcionalidades y beneficios del sistema.
+* **Control de versiones:** gestionado bajo **GitFlow**, con *commits semánticos* y versionado semántico (*Semantic Versioning*).
+* **Pruebas:** se aplican pruebas unitarias, de integración y de interfaz con herramientas como **JUnit**, **Postman**, **Jasmine/Karma** y **Flutter Test**.
+* **Colaboración:** la planificación y seguimiento de tareas se realiza mediante **GitHub Projects**, con tableros Kanban y gestión de *issues*.
+
+### 7.1.2. Source Code Management
+
+El código fuente de *SecureOn* se organiza dentro de la cuenta oficial de GitHub **DevTergentes**, estructurada por módulos de desarrollo independientes.
+
+| Módulo                      | Repositorio                                                                    | Descripción                                                                                                              |
+| :-------------------------- | :----------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------- |
+| **Backend (API REST)**      | [secureOn-backend](https://github.com/DevTergentes/secureOn-backend)           | Contiene la lógica de negocio, gestión de usuarios, autenticación y conexión con la base de datos mediante Spring Boot.  |
+| **Web App (Frontend)**      | [secureOn-webapp](https://github.com/DevTergentes/secureOn-webapp)             | Aplicación web desarrollada en Angular que permite la interacción con los servicios del sistema a través de la API REST. |
+| **Mobile App (Flutter)**    | [secureOn-mobileapp](https://github.com/DevTergentes/secureOn-mobileapp)       | Aplicación móvil híbrida que replica las funcionalidades principales del sistema para Android e iOS.                     |
+| **Embedded App (IoT)**      | [secureOn-embeddedapp](https://github.com/DevTergentes/secureOn-embeddedapp)   | Código embebido en C++ para el control del hardware conectado al ESP32.                                                  |
+| **Landing Page (Estática)** | [secureOn-landing-page](https://github.com/DevTergentes/secureOn-landing-page) | Página de presentación del producto, orientada a la difusión informativa y marketing digital.                            |
+
+Cada repositorio mantiene su propio archivo `README.md`, estructura modular y flujo de desarrollo sincronizado mediante *pull requests* y revisiones de código colaborativas.
 
 
-## 7.2. Solution Implementation {#72-solution-implementation}
+### 7.1.3. Source Code Style Guide & Conventions
 
-### 7.2.1. Sprint 1 {#721-sprint-1}
+#### **HTML (W3Schools HTML Style Guide)**
 
-#### 7.2.1.1. Sprint Planning 1 {#7211-sprint-planning-1}
+* Declarar tipo de documento (`<!DOCTYPE html>`).
+* Usar etiquetas y atributos en minúsculas.
+* Cerrar todas las etiquetas correctamente.
+* Incluir comillas en los valores de los atributos.
+* Incluir siempre `alt`, `width`, `height` en imágenes.
+* No omitir metadatos ni etiquetas estructurales.
+
+#### **CSS (Google HTML/CSS Style Guide)**
+
+* Nombres de clases cortos, claros y semánticos.
+* Separación por guiones (`kebab-case`).
+* Evitar el uso de selectores por ID.
+* Uso de propiedades abreviadas para optimización.
+
+#### **JavaScript / TypeScript (W3C + Angular Best Practices)**
+
+* Nombres descriptivos en variables, funciones y componentes.
+* Evitar variables globales.
+* Emplear *camelCase* para variables y funciones, *PascalCase* para clases.
+* Documentar con comentarios los bloques de código complejos.
+* Uso de *linting* automático con **ESLint** y formato con **Prettier**.
+
+#### **Java (Oracle Code Conventions)**
+
+* Nombrar clases con *PascalCase* y métodos con *camelCase*.
+* Añadir comentarios *Javadoc* a clases y funciones públicas.
+* Mantener la longitud máxima de línea en 120 caracteres.
+* Seguir la estructura estándar de paquetes: `com.secureon.module`.
+
+#### **Flutter / Dart**
+
+* Uso de nombres claros en *widgets* y *controllers*.
+* Emplear `const` donde sea posible para optimización de rendimiento.
+* Seguir la guía oficial de estilo de Dart.
+
+#### **Gherkin (Readable Specifications)**
+
+* Indentación consistente en los bloques `Given-When-Then`.
+* Uso de tablas para representar datos de prueba.
+* Empleo de comillas simples para parámetros.
+* Separar escenarios con comentarios descriptivos.
+
+Se adoptan las **guías de estilo de Google** para HTML, CSS y JavaScript/TypeScript, las **convenciones de Oracle** para Java y las **recomendaciones oficiales de Dart** para Flutter.
+
+### 7.1.4. Software Deployment Configuration
+
+El despliegue del ecosistema *SecureOn* se encuentra planificado bajo una arquitectura distribuida, que permitirá una implementación eficiente y escalable en entornos productivos y de prueba.
+
+#### **1. Frontend (Web App - Netlify)**
+
+La aplicación web será desplegada en **Netlify**, aprovechando su integración con GitHub para *builds* automáticos y *continuous deployment*.
+
+* Repositorio: [secureOn-webapp](https://github.com/DevTergentes/secureOn-webapp)
+* Plataforma: Netlify
+* Tipo: Aplicación Angular (HTML5, CSS3, TypeScript)
+* Despliegue: CI/CD conectado con rama `main`
+
+#### **2. Backend (API REST - Railway)**
+
+El backend, desarrollado en Spring Boot, se desplegará en **Railway**, que gestionará la infraestructura de ejecución, variables de entorno y base de datos.
+
+* Repositorio: [secureOn-backend](https://github.com/DevTergentes/secureOn-backend)
+* Plataforma: Railway
+* Tipo: Microservicio REST con base de datos relacional
+* Despliegue: Integración continua desde GitHub
+
+#### **3. Mobile App (Flutter - Fase de despliegue futura)**
+
+La aplicación móvil se publicará en las tiendas oficiales de Android y iOS tras la validación del MVP.
+
+* Repositorio: [secureOn-mobileapp](https://github.com/DevTergentes/secureOn-mobileapp)
+* Plataforma prevista: Google Play Store / App Store
+* Estado actual: En desarrollo
+
+#### **4. Embedded App (IoT - ESP32)**
+
+El módulo embebido será implementado en dispositivos **ESP32**, programado en C++ y validado en simuladores (Wokwi).
+
+* Repositorio: [secureOn-embeddedapp](https://github.com/DevTergentes/secureOn-embeddedapp)
+* Plataforma: Firmware sobre hardware ESP32
+* Estado actual: En validación técnica
+
+#### **5. Landing Page (GitHub Pages)**
+
+El sitio informativo de *SecureOn* será alojado en **GitHub Pages** para asegurar disponibilidad y mantenimiento gratuito.
+
+* Repositorio: [secureOn-landing-page](https://github.com/DevTergentes/secureOn-landing-page)
+* Plataforma: GitHub Pages
+* Tipo: Sitio estático informativo
+* Despliegue: Publicación mediante rama `main`
+
+
+
+### 7.2.1. Sprint 1 
+#### 7.2.1.1. Sprint Planning 1 
 
 En este sprint el enfoque es consolidar el flujo base operativo del producto: monitoreo/seguimiento en tiempo real, gestión de incidentes, alta de transportistas y transición de estado del transporte, asegurando API consumible y evidencias de pruebas.
 
