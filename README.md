@@ -3191,6 +3191,314 @@ Link de IoT: https://wokwi.com/projects/
 ### 7.3.1. Diseño de Entrevistas 
 ### 7.3.2. Registro de Entrevistas 
 
+### 7.3.3. Evaluaciones según heurísticas
+
+#### <div align="center">UX Heuristics & Principles Evaluation</div>
+
+##### <div align="center">Usability – Inclusive Design – Information Architecture</div>
+
+
+<b> <em> SITE O APP A EVALUAR: </em> </b> <br>
+SecureOn  
+
+<b> <em> TAREAS A EVALUAR: </em> </b> <br>
+El alcance de esta evaluación comprende la revisión de la usabilidad de las siguientes actividades:
+- Web Application
+   - Registro de un nuevo usuario
+   - Inicio de sesión de un usuario existente
+   - Agregar un nuevo servicio
+   - Agregar un nuevo delivery
+   - Registrar un nuevo incidente
+   - Visualización del listado de empleados
+   - Visualización de los detalles de deliveries
+   - Visualización del monitoreo de sensores
+
+- Mobile Application
+   - Agregar un nuevo servicio
+   - Registrar un nuevo incidente
+   - Visualización de los detalles de deliveries
+   - Aceptar o rechazar deliveries
+   - Búsqueda de servicios, deliveries e incidentes
+
+No se incluyen en esta versión de la evaluación las siguientes actividades:
+
+- Registro de usuario e inicio de sesión en la aplicación móvil
+- Gestión de notificaciones
+- Opciones de ayuda y soporte técnico
+
+<b> <em> ESCALA DE SEVERIDAD: </em> </b> <br>
+Los errores serán calificados considerando la siguiente escala de severidad:
+
+<table align="center" border="1" width="100%" style="text-align:center;">
+    <tr>
+        <th>
+            <b>Nivel</b>
+        </th>
+        <th>
+            Descripción
+        </th>
+    </tr>
+    <tr>
+        <td>
+            <b>1</b>
+        </td>
+        <td align="left">
+            Problema superficial: Puede ser superado fácilmente por el usuario o ocurre con baja frecuencia. No requiere corrección inmediata, a menos que exista disponibilidad de tiempo.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b>2</b>
+        </td>
+        <td align="left">
+            Problema menor: Se presenta con mayor frecuencia o resulta un poco más difícil de superar para el usuario. Debería asignarse una prioridad baja para su resolución en una versión futura.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b>3</b>
+        </td>
+        <td align="left">
+            Problema mayor: Ocurre con frecuencia o los usuarios no logran resolverlo. Es importante que sea corregido y debe asignársele una prioridad alta.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b>4</b>
+        </td>
+        <td align="left">
+            Problema muy grave: Error crítico que impide al usuario continuar utilizando la herramienta. Es imperativo que sea corregido antes del lanzamiento.
+        </td>
+    </tr>
+</table>
+
+<b> <em> TABLA DE RESUMEN: </em> </b> <br>
+La siguiente tabla resume los resultados de la evaluación:
+
+- Web Application
+
+<table align="center" border="1" width="100%" style="text-align:center;">
+    <tr>
+        <th>#</th>
+        <th>Problema</th>
+        <th>Escala de severidad</th>
+        <th>Heurística/Principio violada(o)</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td align="left">Mensajes de error poco claros</td>
+        <td>3</td>
+        <td align="left">Usabilidad - Ayudar a los usuarios a reconocer, diagnosticar y recuperarse de errores</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td align="left">Falta de opción para mostrar la contraseña</td>
+        <td>2</td>
+        <td align="left">Usabilidad - Flexibilidad y eficiencia de uso</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td align="left">Falta de opciones para categorizar el incidente</td>
+        <td>2</td>
+        <td align="left">Arquitectura de la Información: Is it usable?</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td align="left">No hay opción para editar la información del empleado</td>
+        <td>2</td>
+        <td align="left">Usabilidad - Control y libertad del usuario</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td align="left">Falta de indicadores de estado de entrega</td>
+        <td>3</td>
+        <td align="left">Usabilidad - Visibilidad del estado del sistema</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td align="left">No se muestran las imágenes de los empleados en el listado</td>
+        <td>2</td>
+        <td align="left">Arquitectura de la Información: Is it understandable?</td>
+    </tr>
+</table>
+
+- Mobile Application
+
+<table align="center" border="1" width="100%" style="text-align:center;">
+    <tr>
+        <th>#</th>
+        <th>Problema</th>
+        <th>Escala de severidad</th>
+        <th>Heurística/Principio violada(o)</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td align="left">No hay confirmación tras registrar un servicio</td>
+        <td>3</td>
+        <td align="left">Usabilidad - Visibilidad del estado del sistema</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td align="left">No se ofrece lista de tipos de incidente predefinidos</td>
+        <td>2</td>
+        <td align="left">Usabilidad - Flexibilidad y eficiencia de uso</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td align="left">No hay distinción visual entre servicios activos y completados</td>
+        <td>3</td>
+        <td align="left">Arquitectura de la Información: Is it organized?</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td align="left">No hay mensaje de confirmación tras aceptar</td>
+        <td>3</td>
+        <td align="left">Usabilidad - Visibilidad del estado del sistema</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td align="left">No se puede deshacer la acción</td>
+        <td>3</td>
+        <td align="left">Usabilidad - Control y libertad del usuario</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td align="left">El campo de búsqueda no diferencia entre tipos de contenido</td>
+        <td>3</td>
+        <td align="left">Arquitectura de la Información: Is it findable?</td>
+    </tr>
+</table>
+
+<b> <em> DESCRIPCIÓN DEL PROBLEMA: </em> </b> <br>
+
+**- Web Application**
+
+**PROBLEMA #1:** Mensajes de error poco claros  
+<b>Severidad:</b> 3  
+<b>Heurística violada:</b> Usabilidad - Ayudar a los usuarios a reconocer, diagnosticar y recuperarse de errores  
+<b>Problema:</b>  
+Los mensajes de error al ingresar credenciales incorrectas son genéricos y no especifican la naturaleza del problema.  
+<b>Recomendación:</b>  
+Ofrecer mensajes de error detallados, como "Usuario no encontrado" o "Contraseña incorrecta", para facilitar al usuario la identificación y corrección del error. <br>
+
+<img src="https://i.ibb.co/DDNWkHB4/Captura-de-pantalla-2025-06-09-005016.png" alt="web-problem1" border="0"><br>
+
+**PROBLEMA #2:** Falta de opción para mostrar la contraseña<br>
+<b>Severidad:</b> 2  
+<b>Heurística violada:</b> Usabilidad - Flexibilidad y eficiencia de uso  
+<b>Problema:</b>  
+No se incluye una opción para visualizar la contraseña durante su escritura, lo que puede generar errores al ingresarla. <br>
+<b>Recomendación:</b>  
+Incorporar un ícono de ojo que permita al usuario ver la contraseña mientras la escribe. <br>
+
+<img src="https://i.ibb.co/S7WmzFGH/Captura-de-pantalla-2025-06-09-005325.png" alt="web-problem2" border="0"><br>
+
+**PROBLEMA #3:**  Falta de opciones para categorizar el incidente  
+<b>Severidad:</b> 2<br>
+<b>Heurística violada:</b> Arquitectura de la Información: Is it usable?<br>
+<b>Problema:</b>  
+No se proporcionan opciones para clasificar el incidente, lo que puede complicar su categorización y seguimiento.  
+<b>Recomendación:</b>  
+Incluir un menú desplegable o un conjunto de opciones para categorizar el incidente. <br>
+
+<img src="https://i.ibb.co/DDXBfTCJ/Captura-de-pantalla-2025-06-09-005627.png" alt="web-problem3" border="0"><br>
+
+**PROBLEMA #4:** No hay opción para editar la información del empleado  
+<b>Severidad:</b> 2  
+<b>Heurística violada:</b> Usabilidad - Control y libertad del usuario  
+<b>Problema:</b>  
+Una vez agregada la información del empleado, no existe una opción para modificarla. 
+<b>Recomendación:</b>  
+Habilitar la edición de la información del empleado directamente desde la interfaz de usuario. <br>
+
+![image](https://github.com/user-attachments/assets/082cf5ff-eb2e-47f5-b327-71c82ff4e9e3)
+
+
+**PROBLEMA #5:** Falta de indicadores de estado de entrega<br>
+<b>Severidad:</b> 3  
+<b>Heurística violada:</b> Usabilidad - Visibilidad del estado del sistema  
+<b>Problema:</b>  
+No se ofrecen indicadores claros del estado de cada entrega (por ejemplo, "En camino", "Entregado"). <br>
+<b>Recomendación:</b>  
+Incorporar indicadores visuales del estado de cada entrega en la pantalla principal. <br>
+
+![image](https://github.com/user-attachments/assets/369e3de8-23c4-474a-bd2d-41c607f0abc9)
+
+
+**PROBLEMA #6:** No se muestran las imágenes de los empleados en el listado  
+<b>Severidad:</b> 2 <br>
+<b>Heurística violada:</b> Arquitectura de la Información: Is it understandable?<br>
+<b>Problema:</b>  
+La sección de empleados presenta solo nombres y datos básicos sin incluir la imagen correspondiente. Esto dificulta la identificación visual rápida, especialmente en equipos numerosos, y reduce la conexión humana que favorece el reconocimiento de las personas en la organización.  
+<b>Recomendación:</b>  
+Integrar imágenes o avatares de los empleados junto a sus nombres. Si por cuestiones de privacidad no es posible mostrar la foto real, emplear avatares personalizados o íconos que contribuyan a la diferenciación visual. <br>
+
+![image](https://github.com/user-attachments/assets/6c9c6f18-fdd9-40a5-8ab5-a64f9ed922ce)
+
+
+**- Mobile Application**
+
+**PROBLEMA #1:** No hay confirmación tras registrar un servicio  
+<b>Severidad:</b> 3  
+<b>Heurística violada:</b> Usabilidad - Visibilidad del estado del sistema  
+<b>Problema:</b>  
+No se presenta un mensaje de éxito o alerta visual clara después de agregar el servicio.<br>
+<b>Recomendación:</b>  
+Mostrar un snackbar o modal de confirmación (“Servicio registrado exitosamente”). <br>
+
+<img src="https://i.ibb.co/0RV8Fy9X/Captura-de-pantalla-2025-06-19-185601.png" alt="mob-problem1" border="0"><br>
+
+**PROBLEMA #2:** No se ofrece lista de tipos de incidente predefinidos<br>
+<b>Severidad:</b> 2  
+<b>Heurística violada:</b> Usabilidad - Flexibilidad y eficiencia de uso  
+<b>Problema:</b>  
+Se requiere escribir manualmente el tipo de incidente, sin sugerencias ni función de autocompletado.
+<b>Recomendación:</b>  
+Incluir un menú desplegable con tipos comunes (fuga, explosión, temperatura, etc.). <br>
+
+<img src="https://i.ibb.co/cPdj06G/Captura-de-pantalla-2025-06-19-185638.png" alt="mob-problem2" border="0"><br>
+
+**PROBLEMA #3:**  No hay distinción visual entre servicios activos y completados  
+<b>Severidad:</b> 3<br>
+<b>Heurística violada:</b> Arquitectura de la Información: Is it organized?<br>
+<b>Problema:</b>  
+Todas las entregas se muestran visualmente idénticas, lo que obstaculiza el reconocimiento de sus estados.<br>
+<b>Recomendación:</b>  
+Utilizar colores, etiquetas o secciones diferenciadas para separarlas según su estado. <br>
+
+<img src="https://i.ibb.co/8nj3mdWD/Captura-de-pantalla-2025-06-19-205349.png" alt="mob-problem3" border="0"><br>
+
+**PROBLEMA #4:** No hay mensaje de confirmación tras aceptar  
+<b>Severidad:</b> 3 <br>
+<b>Heurística violada:</b> Usabilidad - Visibilidad del estado del sistema  
+<b>Problema:</b>  
+El sistema no notifica si la acción de aceptar una entrega fue exitosa ni qué cambios conlleva.
+<b>Recomendación:</b>  
+Mostrar un mensaje de éxito (“Entrega asignada”) y actualizar la lista de entregas en tiempo real. <br>
+
+<img src="https://i.ibb.co/CpppQtN8/Captura-de-pantalla-2025-06-19-205429.png" alt="mob-problem4" border="0"><br>
+
+**PROBLEMA #5:** No se puede deshacer la acción<br>
+<b>Severidad:</b> 3 <br>
+<b>Heurística violada:</b> Usabilidad - Control y libertad del usuario <br>
+<b>Problema:</b>  
+Una vez que se acepta o rechaza una entrega, no existe la posibilidad de revertir la acción, tampoco hay un cuadro de diálogo para confirmar la eliminación.<br>
+<b>Recomendación:</b>  
+Agregar un botón de “deshacer” o una confirmación previa a la acción. <br>
+
+<img src="https://i.ibb.co/23QyfRzk/Captura-de-pantalla-2025-06-19-205611.png" alt="mob-problem5" border="0"><br>
+
+**PROBLEMA #6:** El campo de búsqueda no diferencia entre tipos de contenido <br>
+<b>Severidad:</b> 3 <br>
+<b>Heurística violada:</b> Arquitectura de la Información: Is it findable?<br>
+<b>Problema:</b>  
+Al realizar una búsqueda, no está claro si se está filtrando por nombre, tipo, fecha o ubicación, lo que complica la localización de elementos específicos.<br>
+<b>Recomendación:</b>  
+Añadir filtros específicos o placeholders indicativos (ej. “Buscar por nombre o tipo…”).<br>
+
+<img src="https://i.ibb.co/5xXkSYbf/Captura-de-pantalla-2025-06-19-205745.png" alt="mob-problem6" border="0"><br>
+
+
 ## 7.4. Video About-the-Product 
 
 ![aboutTheProduct](https://github.com/user-attachments/assets/530a102a-bbeb-4f67-acca-4b1380db6908)
