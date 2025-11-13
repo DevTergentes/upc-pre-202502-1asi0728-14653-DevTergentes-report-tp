@@ -3309,8 +3309,91 @@ Resumen:
 - Como sugerencia, recomendó mejorar la sección de incidentes, de modo que los eventos más críticos se muestren en la parte superior y los de menor riesgo aparezcan debajo.
 - Por último, destacó que una de las funcionalidades que más le llamó la atención fue el sensor de ritmo cardíaco, debido a que esto demuestra que no solo se protege la carga, sino también la salud y seguridad de los propios transportistas.
 
+***Tercera Entrevista:***
 
-### 7.3.3. Evaluaciones según heurísticas
+Nombres y apellidos: Arnhol Castrejon
+
+Edad: 21
+
+Inicio: 0:00
+
+Fin: 12:55
+
+Duración: 12:55
+
+Link: [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218451_upc_edu_pe/IQCcpvTJdwKQSbG2PKX0ZF63AddppluBX_NNejzJ-te_dTU?e=uroHxu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+<img width="747" height="308" alt="image" src="https://github.com/user-attachments/assets/b29fd5fe-d563-4448-93f6-e2002ff85363" />
+
+
+Resumen:
+
+- Arnhol es un transportista de 21 años, con dos años de experiencia en el manejo de productos peligrosos. Actualmente utiliza la aplicación SecureOn en su celular Android, la cual valora por ser intuitiva, rápida y "directa al grano", con un diseño serio y botones grandes que facilitan su uso en la ruta. Su principal motivación para usar la app es la seguridad y la gestión de incidentes; la describe como un "botón de alerta moderno" que permite a la central activar los protocolos de ayuda de forma más eficiente. Arnhol prefiere la funcionalidad simple y rápida, por lo que considera crucial mejorar el formulario de registro de incidentes, ya que el actual es muy detallado para una emergencia. Respecto a las funciones que considera indispensables a futuro, resalta la necesidad de alertas automáticas (por fugas o cambios de temperatura) y poder ver un pequeño historial de los sensores, no solo el dato en tiempo real.
+
+
+**Segmento objetivo: Empresas de transporte**
+
+***Primera Entrevista:***
+
+Nombres y apellidos: 
+
+Edad: 
+
+Inicio: 0:00
+
+Fin: 10:59
+
+Duración: 10:59
+
+Link: 
+
+![entrevista1t](https://i.imgur.com/BxBtaK0.png)
+
+Resumen:
+
+- Luis .....
+
+  
+***Segunda Entrevista:***
+
+Nombres y apellidos: Alexis Miranda
+
+Edad: 25
+
+Inicio: 0:00
+
+Fin: 12:12
+
+Duración: 12:12
+
+Link: [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218451_upc_edu_pe/IQAXX0SgrbcyQL3qv985cMByAQLTiAqtdbB5nP8O2pLtc_o?e=Bh8hOd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+<img width="792" height="345" alt="image" src="https://github.com/user-attachments/assets/eb50ddfe-6f2e-403f-bd74-e9720db4b0dd" />
+
+Resumen:
+
+- Alexis, de 25 años y dueño de una empresa de transporte especializada en combustible, interactúa con SecureOn principalmente desde la interfaz web en su oficina, la cual califica con un 9 sobre 10. Valora su diseño "limpio y corporativo" porque transmite la confianza necesaria para la gestión de productos peligrosos y destaca que la promoción de ChemTrack es atractiva por ser una solución directa a sus necesidades. Para él, la plataforma es "fundamental" y el "corazón de su operación", siendo la visualización de empleados en ruta la función más crítica. Desde su perspectiva gerencial, las mejoras clave que solicita son la adición de un módulo de "Reportes Gerenciales" para descargar consolidados mensuales, la capacidad de adjuntar documentos (como guías de remisión) a los registros y la implementación de "geocercas" para alertar sobre desvíos de ruta.
+
+***Tercera Entrevista:***
+
+Nombres y apellidos: 
+
+Edad: 
+
+Inicio: 0:00
+
+Fin: 10:59
+
+Duración: 10:59
+
+Link: 
+
+![entrevista1t](https://i.imgur.com/BxBtaK0.png)
+
+Resumen:
+
+- Luis .....
+
 
 #### <div align="center">UX Heuristics & Principles Evaluation</div>
 
