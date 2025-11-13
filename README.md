@@ -3376,7 +3376,7 @@ Fin: 16:04
 
 Duración: 16:04
 
-Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114248_upc_edu_pe/IQCWfd7n2LEfRpqctHNGwGrGAeQeL6u-cnyUwyFXOGC6mj4?e=PDhCEU
+Link: https://goo.su/9bWU8
 
 ![entrevista Carolina Torres](https://i.imgur.com/eZ36fmn.png)
 
@@ -3398,7 +3398,7 @@ Fin: 12:55
 
 Duración: 12:55
 
-Link: [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218451_upc_edu_pe/IQCcpvTJdwKQSbG2PKX0ZF63AddppluBX_NNejzJ-te_dTU?e=uroHxu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+Link: https://goo.su/7S7M4
 
 <img width="747" height="308" alt="image" src="https://github.com/user-attachments/assets/b29fd5fe-d563-4448-93f6-e2002ff85363" />
 
@@ -3422,7 +3422,7 @@ Fin: 07:40
 
 Duración: 07:40
 
-Link: [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213076_upc_edu_pe/IQA_m9XNJZrmTYUb2gXMombCAdwkoen5DPBMLNFEj9jI3BU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Lyeqdv)
+Link: https://goo.su/4sQA3UH
 
 ![entrevista1t](https://github.com/user-attachments/assets/f404d47b-fd4f-4f38-bb3a-0636ad48a3d0)
 
@@ -3444,7 +3444,7 @@ Fin: 12:12
 
 Duración: 12:12
 
-Link: [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218451_upc_edu_pe/IQAXX0SgrbcyQL3qv985cMByAQLTiAqtdbB5nP8O2pLtc_o?e=Bh8hOd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+Link: https://goo.su/BGo2QJM
 
 <img width="792" height="345" alt="image" src="https://github.com/user-attachments/assets/eb50ddfe-6f2e-403f-bd74-e9720db4b0dd" />
 
@@ -3464,7 +3464,7 @@ Fin: 12:00
 
 Duración: 12:03
 
-Link: [Ver entrevista](https://drive.google.com/file/d/1bMGvv7QCp0wabGgdrNSkyuG4FSD-WNm3/view?usp=sharing)
+Link: https://goo.su/6Xqxv
 
 <img width="792" height="345" alt="Image" src="https://github.com/user-attachments/assets/98391b59-a176-44ac-89ec-bb76bd375bd3" />
 
