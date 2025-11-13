@@ -2868,11 +2868,11 @@ El código fuente de *SecureOn* se organiza dentro de la cuenta oficial de GitHu
 
 | Módulo                      | Repositorio                                                                    | Descripción                                                                                                              |
 | :-------------------------- | :----------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------- |
-| **Backend (API REST)**      | [secureOn-backend](https://github.com/DevTergentes/secureOn-backend)           | Contiene la lógica de negocio, gestión de usuarios, autenticación y conexión con la base de datos mediante Spring Boot.  |
-| **Web App (Frontend)**      | [secureOn-webapp](https://github.com/DevTergentes/secureOn-webapp)             | Aplicación web desarrollada en Angular que permite la interacción con los servicios del sistema a través de la API REST. |
-| **Mobile App (Flutter)**    | [secureOn-mobileapp](https://github.com/DevTergentes/secureOn-mobileapp)       | Aplicación móvil híbrida que replica las funcionalidades principales del sistema para Android e iOS.                     |
-| **Embedded App (IoT)**      | [secureOn-embeddedapp](https://github.com/DevTergentes/secureOn-embeddedapp)   | Código embebido en C++ para el control del hardware conectado al ESP32.                                                  |
-| **Landing Page (Estática)** | [secureOn-landing-page](https://github.com/DevTergentes/secureOn-landing-page) | Página de presentación del producto, orientada a la difusión informativa y marketing digital.                            |
+| **Backend (API REST)**      | https://github.com/DevTergentes/secureOn-backend                               | Contiene la lógica de negocio, gestión de usuarios, autenticación y conexión con la base de datos mediante Spring Boot.  |
+| **Web App (Frontend)**      | https://github.com/DevTergentes/secureOn-webapp                                | Aplicación web desarrollada en Angular que permite la interacción con los servicios del sistema a través de la API REST. |
+| **Mobile App (Flutter)**    | https://github.com/DevTergentes/secureOn-mobileapp                             | Aplicación móvil híbrida que replica las funcionalidades principales del sistema para Android e iOS.                     |
+| **Embedded App (IoT)**      | https://github.com/DevTergentes/secureOn-embeddedapp                           | Código embebido en C++ para el control del hardware conectado al ESP32.                                                  |
+| **Landing Page (Estática)** | https://github.com/DevTergentes/secureOn-landing-page                          | Página de presentación del producto, orientada a la difusión informativa y marketing digital.                            |
 
 Cada repositorio mantiene su propio archivo `README.md`, estructura modular y flujo de desarrollo sincronizado mediante *pull requests* y revisiones de código colaborativas.
 
@@ -2933,7 +2933,7 @@ El despliegue del ecosistema *SecureOn* se encuentra planificado bajo una arquit
 
 La aplicación web será desplegada en **Netlify**, aprovechando su integración con GitHub para *builds* automáticos y *continuous deployment*.
 
-* Repositorio: [secureOn-webapp](https://github.com/DevTergentes/secureOn-webapp)
+* Repositorio: https://github.com/DevTergentes/secureOn-webapp
 * Plataforma: Netlify
 * Tipo: Aplicación Angular (HTML5, CSS3, TypeScript)
 * Despliegue: CI/CD conectado con rama `main`
@@ -2942,7 +2942,7 @@ La aplicación web será desplegada en **Netlify**, aprovechando su integración
 
 El backend, desarrollado en Spring Boot, se desplegará en **Railway**, que gestionará la infraestructura de ejecución, variables de entorno y base de datos.
 
-* Repositorio: [secureOn-backend](https://github.com/DevTergentes/secureOn-backend)
+* Repositorio: https://github.com/DevTergentes/secureOn-backend
 * Plataforma: Railway
 * Tipo: Microservicio REST con base de datos relacional
 * Despliegue: Integración continua desde GitHub
@@ -2951,7 +2951,7 @@ El backend, desarrollado en Spring Boot, se desplegará en **Railway**, que gest
 
 La aplicación móvil se publicará en las tiendas oficiales de Android y iOS tras la validación del MVP.
 
-* Repositorio: [secureOn-mobileapp](https://github.com/DevTergentes/secureOn-mobileapp)
+* Repositorio: https://github.com/DevTergentes/secureOn-mobileapp
 * Plataforma prevista: Google Play Store / App Store
 * Estado actual: En desarrollo
 
@@ -2959,7 +2959,7 @@ La aplicación móvil se publicará en las tiendas oficiales de Android y iOS tr
 
 El módulo embebido será implementado en dispositivos **ESP32**, programado en C++ y validado en simuladores (Wokwi).
 
-* Repositorio: [secureOn-embeddedapp](https://github.com/DevTergentes/secureOn-embeddedapp)
+* Repositorio: https://github.com/DevTergentes/secureOn-embeddedapp
 * Plataforma: Firmware sobre hardware ESP32
 * Estado actual: En validación técnica
 
@@ -2967,7 +2967,7 @@ El módulo embebido será implementado en dispositivos **ESP32**, programado en 
 
 El sitio informativo de *SecureOn* será alojado en **GitHub Pages** para asegurar disponibilidad y mantenimiento gratuito.
 
-* Repositorio: [secureOn-landing-page](https://github.com/DevTergentes/secureOn-landing-page)
+* Repositorio: https://github.com/DevTergentes/secureOn-landing-page
 * Plataforma: GitHub Pages
 * Tipo: Sitio estático informativo
 * Despliegue: Publicación mediante rama `main`
@@ -3789,7 +3789,7 @@ Añadir filtros específicos o placeholders indicativos (ej. “Buscar por nombr
 
 ![aboutTheProduct](https://github.com/user-attachments/assets/530a102a-bbeb-4f67-acca-4b1380db6908)
 
-Enlace: https://upcedupe-my.sharepoint.com/personal/u202213076_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202213076%5Fupc%5Fedu%5Fpe%2FDocuments%2F8vo%20Ciclo%2FEmergentes%2Fupc%2Dpre%2D202401%2Dsi728%2D14653%2DDevTergentes%2Dabout%2Dthe%2Dproduct%2Dsprint%2D1%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E1c55e847%2D7237%2D4d22%2Da9ca%2D5f3714338244
+Enlace: https://goo.su/NOY2PbS
 
 # Avance de Conclusiones, Bibliografía y Anexos
 
