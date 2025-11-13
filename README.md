@@ -2830,9 +2830,9 @@ La información se organiza en bloques diferenciados, lo que facilita al usuario
 
 **Prototipo Web Application**
 
-![image](https://i.imgur.com/0K8roNe.png)
+![image](https://i.imgur.com/h6h6GqB.png)
 
-<img width="1561" height="942" alt="image" src="https://github.com/user-attachments/assets/b801aad1-3cfb-4c08-b239-a5d646cdc54b" />
+<img width="1561" height="auto" alt="image" src="https://i.imgur.com/hJt5nPS.png" />
 
 [Enlace del figma.](https://www.figma.com/proto/K1K4Imdh3xHVPDeqIXi37D/SecurOn?node-id=239-5858&p=f&t=7rm5BEls7kpdcYpS-1&scaling=min-zoom&content-scaling=fixed&page-id=87%3A45&starting-point-node-id=239%3A5858&show-proto-sidebar=1)
 
@@ -2841,7 +2841,7 @@ La información se organiza en bloques diferenciados, lo que facilita al usuario
 
 ![image](https://i.imgur.com/PAiIXsN.png)
 
-<img width="1466" height="931" alt="image" src="https://github.com/user-attachments/assets/0dbf14f2-a540-4f30-9baf-db66cac0599b" />
+<img width="1466" height="auto" alt="image" src="https://github.com/user-attachments/assets/0dbf14f2-a540-4f30-9baf-db66cac0599b" />
 
 [Enlace del figma.](https://www.figma.com/proto/K1K4Imdh3xHVPDeqIXi37D/SecurOn?node-id=99-3698&p=f&t=7rm5BEls7kpdcYpS-1&scaling=min-zoom&content-scaling=fixed&page-id=87%3A45&starting-point-node-id=99%3A3493&show-proto-sidebar=1)
 
