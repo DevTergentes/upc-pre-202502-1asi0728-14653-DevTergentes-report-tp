@@ -3334,23 +3334,24 @@ Resumen:
 
 ***Primera Entrevista:***
 
-Nombres y apellidos: 
+Nombres y apellidos: Valeria Salinas
 
-Edad: 
+Edad: 20
 
 Inicio: 0:00
 
-Fin: 10:59
+Fin: 07:40
 
-Duración: 10:59
+Duración: 07:40
 
-Link: 
+Link: [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213076_upc_edu_pe/IQA_m9XNJZrmTYUb2gXMombCAdwkoen5DPBMLNFEj9jI3BU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Lyeqdv)
 
-![entrevista1t](https://i.imgur.com/BxBtaK0.png)
+![entrevista1t](https://github.com/user-attachments/assets/f404d47b-fd4f-4f38-bb3a-0636ad48a3d0)
 
 Resumen:
 
-- Luis .....
+- Valeria, encargada de operaciones en una empresa de transporte de materiales químicos, utiliza SecurOn tanto desde la web como desde la aplicación móvil para monitorear las rutas y el estado de las unidades. Califica el diseño del landing page con un 8 sobre 10, destacando su presentación clara y ordenada, aunque considera que podría incluir ejemplos prácticos o videos demostrativos. Valora que la plataforma sea intuitiva y de fácil navegación, lo que facilita la gestión diaria y el seguimiento de los conductores.
+Para Valeria, SecurOn es una herramienta confiable que permite controlar la seguridad de la carga y del personal, brindando tranquilidad a la empresa. Sin embargo, sugiere mejorar el panel de control, incorporando más indicadores en tiempo real y reportes automáticos de incidentes. También propone integrar alertas por voz, filtros de búsqueda más precisos y un resumen gráfico de los eventos para optimizar el monitoreo. En su experiencia, la plataforma cumple con su propósito principal: mantener la seguridad y la prevención activa durante todo el proceso de transporte.
 
   
 ***Segunda Entrevista:***
