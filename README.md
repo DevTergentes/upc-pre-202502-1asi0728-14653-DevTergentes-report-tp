@@ -2846,6 +2846,7 @@ La información se organiza en bloques diferenciados, lo que facilita al usuario
 
 [Enlace del figma.](https://www.figma.com/proto/K1K4Imdh3xHVPDeqIXi37D/SecurOn?node-id=99-3698&p=f&t=7rm5BEls7kpdcYpS-1&scaling=min-zoom&content-scaling=fixed&page-id=87%3A45&starting-point-node-id=99%3A3493&show-proto-sidebar=1)
 
+[Link al video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114248_upc_edu_pe/IQBQaGl-E98qRaGuPEZGm-0aAZqTFTYlYcdJX6BpVu0bw9w?e=XQXjjD).
 
 # Capítulo VII: Product Implementation, Validation & Deployment 
 ## 7.1. Software Configuration Management
