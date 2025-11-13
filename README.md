@@ -1,4 +1,4 @@
-<img width="1897" height="986" alt="image" src="https://github.com/user-attachments/assets/7cc4e6f2-5f3c-426a-bcef-95913e6569ad" /><div align="center">
+<div align="center">
 
 <img width="125" height="125" alt="image" src="https://github.com/user-attachments/assets/998a5621-906e-45a8-9368-0a74b48f0d6e" />
 
@@ -3068,7 +3068,6 @@ En este sprint el enfoque es consolidar el flujo base operativo del producto: mo
 
 En el Sprint 1 se alcanzó a desarrollar la última versión de la landing page y una versión avanzada del Frontend del Web Application, Mobile, Backend e IoT de la aplicación. A continuación se muestra lo realizado:
 
-<br>
 >**Landing Page**
 
 - Versión terminada
@@ -3172,6 +3171,7 @@ Visualización de Incidents en el mobile
 <img width="1361" height="923" alt="image" src="https://github.com/user-attachments/assets/c6058b51-0d7d-4a5f-87fe-d82c23b8d91a" />
 
 Muestra de los empleados de acuerdo al usuario autenticado
+
 <img width="386" height="861" alt="image" src="https://github.com/user-attachments/assets/7c5749b3-92bb-456a-a6e1-7f9b01a8148e" />
 
 
@@ -3180,7 +3180,9 @@ Muestra de los empleados de acuerdo al usuario autenticado
 
 La Landing Page fue desplegada utilizando **GitHub Pages**, lo que permitió alojar el sitio de forma gratuita y accesible mediante una URL pública. Se configuró el repositorio con la rama correspondiente (`main` o `gh-pages`) y se habilitó la opción de GitHub Pages desde la configuración del repositorio para publicar el contenido estático. Esto facilitó compartir el proyecto con usuarios finales y stakeholders sin necesidad de servidores externos.
 
-![github](https://devtergentes.github.io/secureOn-landing-page/)
+<img width="1902" height="986" alt="image" src="https://github.com/user-attachments/assets/96387e3a-86f9-4acf-8dd8-8bbce8ec26a2" />
+
+[Ver landing page](https://devtergentes.github.io/secureOn-landing-page/)
 
 >**Despliegue del Frontend**
 
@@ -3188,59 +3190,41 @@ Para la aplicación principal desarrollada en Angular, se utilizó **Netlify** c
 
 Al finalizar el proceso, se obtuvo el registro exitoso del despliegue.
 
-![Imagen de WhatsApp 2025-06-20 a las 17 25 55_64fe3bb9]()
+<img width="1912" height="980" alt="image" src="https://github.com/user-attachments/assets/1997e4f7-b6c3-4f63-844b-c137279896c9" />
 
 De esta manera, el avance del **Sprint 1** quedó funcional y disponible públicamente para su evaluación.
 
-![image]()
+[Ver app web](https://secureon-webapp.netlify.app/login)
 
 >**Despliegue del Backend**
 
 **Configuración del repositorio**
    - Se aseguró que el repositorio de backend estuviera limpio y contuviera todos los archivos necesarios para el build.
    - Se definieron variables de entorno desde Railway para la conexión a servicios externos como la base de datos y MQTT.
-  
-![image]()
 
-**Integración con Railway**
-   - Se accedió a **Railway** y se creó un nuevo proyecto.
-   - Se conectó el proyecto directamente al repositorio en GitHub, seleccionando la rama principal para el despliegue.
-   - Azure detectó automáticamente el stack del proyecto e inició el proceso de construcción (**build**).
+<img width="1886" height="974" alt="image" src="https://github.com/user-attachments/assets/821bf9af-b653-4f57-890b-6e66bc1c4e6c" />
 
-Aquí se hace presente el video demostrando el funcionamiento del despliegue del backend haciendo uso de POSTMAN.
-
-![image]()
-
+[Ver Backend](https://secureon-backend-production.up.railway.app/swagger-ui/index.html#/)
 
 >**Despliegue del Mobile**
 
 Para el despliegue de la aplicación móvil, se generó el archivo APK utilizando Flutter. Esto se logró mediante el siguiente comando:
-
 ```bash
 flutter build apk --release
 ```
-
-![Imagen de WhatsApp 2025-06-19 a las 22 38 36_ee83ce24]()
-
-![Imagen de WhatsApp 2025-06-19 a las 22 38 54_9e29d9ee]()
+<img width="1906" height="1005" alt="image" src="https://github.com/user-attachments/assets/0f713380-7e2a-4ceb-8e69-544bb507039c" />
 
 
-Posteriormente, se realizó la carga del APK en una plataforma de distribución para facilitar las pruebas internas. **Firebase App Distribution**
+### Es así como se muestra el despligue de cada uno de los artefactos que lo requiere.
 
-![WhatsApp Image 2025-07-06 at 04 33 19_01cd0acc]()
+Link de landing page: [https://devtergentes.github.io/secureOn-landing-page/](https://devtergentes.github.io/secureOn-landing-page/)
 
+Link de web application: [https://secureon-webapp.netlify.app/login](https://secureon-webapp.netlify.app/login)
 
-Es así como se muestra el despligue de cada uno de los artefactos que lo requiere.
+Link de backend: [https://secureon-backend-production.up.railway.app/swagger-ui/index.html#/](https://secureon-backend-production.up.railway.app/swagger-ui/index.html#/)
 
-Link de landing page: https://devtergentes.github.io/secureOn-landing-page/
+Link de IoT: [https://wokwi.com/projects/446744586586072065](https://wokwi.com/projects/446744586586072065)
 
-Link de web application: https:/
-
-Link del mobile application: 
-
-Link de backend: 
-
-Link de IoT: https://wokwi.com/projects/
 
 #### 7.2.1.8. Team Collaboration Insights during Sprint 
 
