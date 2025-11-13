@@ -1,4 +1,4 @@
-<div align="center">
+<img width="1897" height="986" alt="image" src="https://github.com/user-attachments/assets/7cc4e6f2-5f3c-426a-bcef-95913e6569ad" /><div align="center">
 
 <img width="125" height="125" alt="image" src="https://github.com/user-attachments/assets/998a5621-906e-45a8-9368-0a74b48f0d6e" />
 
@@ -3065,6 +3065,70 @@ En este sprint el enfoque es consolidar el flujo base operativo del producto: mo
 | qa-tests / mobile | e2e/monitor-lite | 4ac0f56 | e2e(mobile): monitor view | Render y actualización de estado en vista de viajes | 2025-11-09 |
 
 #### 7.2.1.5. Execution Evidence for Sprint Review
+
+En el Sprint 1 se alcanzó a desarrollar la última versión de la landing page y una versión avanzada del Frontend del Web Application, Mobile, Backend e IoT de la aplicación. A continuación se muestra lo realizado:
+
+<br>
+>**Landing Page**
+
+- Versión terminada
+- Estado: En producción activa
+<img width="1904" height="899" alt="image" src="https://github.com/user-attachments/assets/cb479b24-e64e-4914-9121-03ac2f7ef3ad" />
+<img width="1888" height="923" alt="image" src="https://github.com/user-attachments/assets/e798d6c9-a3fe-4553-83d1-c35bb4588878" />
+<img width="1897" height="986" alt="image" src="https://github.com/user-attachments/assets/51d9df11-8c18-44cd-901b-b13b1639e1ec" />
+
+>**Frontend**
+
+- Versión casi terminada
+- Estado: En producción activa
+<img width="1902" height="977" alt="image" src="https://github.com/user-attachments/assets/4809bc30-7da1-468f-8d89-a965d820ed8a" />
+<img width="1893" height="963" alt="image" src="https://github.com/user-attachments/assets/cfbde80a-0da9-4138-b744-3a65bbf310d3" />
+<img width="1914" height="992" alt="image" src="https://github.com/user-attachments/assets/17913ea0-c597-4d1d-b16a-3b77c12ffb33" />
+<img width="1904" height="982" alt="image" src="https://github.com/user-attachments/assets/f5bade23-2a7f-45ff-875a-0d4f9ade77cb" />
+<img width="1919" height="933" alt="image" src="https://github.com/user-attachments/assets/0a3acaa8-4ccb-4aae-9bad-ea5f4ed89bc7" />
+
+
+<br>
+
+>**Backend**
+
+- Versión casi terminada
+- Estado: En producción activa
+
+Endpoints
+<img width="1902" height="966" alt="image" src="https://github.com/user-attachments/assets/9756111d-9dd8-494e-84e5-f31e9028de93" />
+<img width="1813" height="991" alt="image" src="https://github.com/user-attachments/assets/5493aab9-91fc-419c-a147-b68c785fe725" />
+<img width="1704" height="925" alt="image" src="https://github.com/user-attachments/assets/d90489e7-112b-443e-bde6-224b6812ef6d" />
+
+
+Demostración del funcionamiento de los endpoints a través de postman
+<img width="1380" height="789" alt="image" src="https://github.com/user-attachments/assets/d9e41d2c-54bc-4166-bfc7-b861b0d25494" />
+<img width="1380" height="788" alt="image" src="https://github.com/user-attachments/assets/574b7ec1-1a70-43ea-b59c-4eca66ebb231" />
+<img width="1383" height="795" alt="image" src="https://github.com/user-attachments/assets/fce9b607-a788-48fa-9e06-ef3fe27ba44e" />
+
+
+<br>
+
+>**Mobile**
+- Versión casi terminada
+- Estado: Conectado con el backend deployado
+<img width="923" height="912" alt="image" src="https://github.com/user-attachments/assets/31fed463-6799-4e6c-8ce1-f6554f623035" />
+<img width="428" height="857" alt="image" src="https://github.com/user-attachments/assets/ddf558b1-c393-4990-94c0-20a302b88adf" />
+<img width="385" height="835" alt="image" src="https://github.com/user-attachments/assets/da271656-870b-4be3-8efe-4bb36c353056" />
+<img width="395" height="849" alt="image" src="https://github.com/user-attachments/assets/34c38b83-cb2f-4581-abe3-c80ad3e7f5fb" />
+<img width="398" height="839" alt="image" src="https://github.com/user-attachments/assets/5e61acb6-f4f0-473f-8958-c00b0c8d49f0" />
+<img width="392" height="847" alt="image" src="https://github.com/user-attachments/assets/1588fff8-c140-404c-b9ae-329c8c864383" />
+
+
+<br>
+
+>**IoT Embedded**
+- Versión casi terminada
+- Estado: Simulado en Wokwi e integrado con broker MQTT
+
+<img width="1916" height="982" alt="image" src="https://github.com/user-attachments/assets/c8567360-167d-4c37-bbab-50d277b52b8a" />
+
+
 
 
 #### 7.2.1.6. Services Documentation Evidence for Sprint Review 
