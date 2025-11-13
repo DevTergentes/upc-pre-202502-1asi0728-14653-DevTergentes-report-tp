@@ -2,20 +2,19 @@
 
 <img width="125" height="125" alt="image" src="https://github.com/user-attachments/assets/998a5621-906e-45a8-9368-0a74b48f0d6e" />
 
-Universidad Peruana de Ciencias Aplicadas
+### Universidad Peruana de Ciencias Aplicadas
 
-Ingeniería de Software
+### Ingeniería de Software
 
-Ciclo 2025-20
+### Arquitecturas de Software Emergentes
 
-# Arquitecturas De Software Emergentes
+### 2025-20
 
+**Sección: 14653**
 
-NRC 14653
+**Docente: Berrocal Navarro, Richard Leonardo**
 
-Profesor: Berrocal Navarro, Richard Leonardo 
-
-***INFORME DE TRABAJO - TB2***
+***INFORME TB2***
 
 **Startup: DevTergentes**
 
@@ -31,7 +30,7 @@ Profesor: Berrocal Navarro, Richard Leonardo
 | Quispesivana Torres, Claudio Sandro          | U202215099    |
 
 </div>
-<br><div align="center"><h3>Septiembre 2025</h3></div><br>
+<br><div align="center"><h3>Noviembre 2025</h3></div><br>
 
 ---
 # Registro de Versiones del Informe
@@ -3299,7 +3298,7 @@ Fin: 16:04
 
 Duración: 16:04
 
-Link: https://upcedupe-my.sharepoint.com/personal/u202114248_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202114248%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevista%20de%20validaci%C3%B3n%20Carolina%20Torres%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Edb73f57b%2D4d63%2D4fda%2D977a%2D5803c42d1a16
+Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114248_upc_edu_pe/IQCWfd7n2LEfRpqctHNGwGrGAeQeL6u-cnyUwyFXOGC6mj4?e=PDhCEU
 
 ![entrevista Carolina Torres](https://i.imgur.com/eZ36fmn.png)
 
@@ -3758,6 +3757,7 @@ Soto, J. A. S., González, D. L. E., Sánchez, J. F. I., Reyes, J. A., & Layva, 
 | Modelo C4 | [Modelo C4](https://miro.com/app/board/uXjVJKtI4DU=/?moveToWidget=3458764643381054042&cot=14) |
 | Wireflows y user flows en LucidChart | [Wireflows y user flows en LucidChart](https://lucid.app/lucidchart/78d14ebd-5614-4c11-be07-705631141f25/edit?viewport_loc=-8888%2C-2789%2C15213%2C6598%2C0_0&invitationId=inv_efb1a0e4-2462-43d2-805c-6c06dbb66383) |
 | Prototipo en Figma de web y mobile app | [Prototipo en Figma de web y mobile app](https://www.figma.com/design/K1K4Imdh3xHVPDeqIXi37D/SecurOn?node-id=87-45&t=2OxavIdVJlEDenr7-1) |
+| Video Prototipo | [Video rototipo de web y mobile app](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114248_upc_edu_pe/IQC-0HJGgFzmR6ggHWwYfW9XAfi1ykYsxiwZXykI4G4DxY0) |
 | Landing Page desplegada | [Landing Page desplegada](https://devtergentes.github.io/secureOn-landing-page/) |
 | Repositorio Report | [Repositorio Report](https://github.com/DevTergentes/upc-pre-202502-1asi0728-14653-DevTergentes-report-tp) |
 | Repositorio Landing Page | [Repositorio Landing Page](https://github.com/DevTergentes/secureOn-landing-page) |
