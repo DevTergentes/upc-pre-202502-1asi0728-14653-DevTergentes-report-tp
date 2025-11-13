@@ -3190,6 +3190,79 @@ Link de IoT: https://wokwi.com/projects/
 
 ## 7.3. Validation Interviews 
 ### 7.3.1. Diseño de Entrevistas 
+A continuación, se elaboraron entrevistas dirigidas a los dos segmentos objetivos establecidos para el proyecto. Las preguntas fueron diseñadas con la finalidad de detectar tanto fortalezas como oportunidades de mejora en la plataforma, considerando factores como la experiencia del usuario, la percepción del diseño y la utilidad de la información presentada. Es importante señalar que las preguntas introductorias no se incluyen en esta lista, aunque se aplicarán al inicio de cada entrevista.
+
+**Segmento objetivo: Transportistas**
+
+El propósito de las preguntas destinadas a este segmento es obtener información relevante basada en la experiencia directa de los transportistas al utilizar la plataforma **SecureOn**. Mediante sus respuestas, se busca analizar la usabilidad, la claridad, la fluidez de navegación y la eficacia de las funcionalidades móviles y web enfocadas en el monitoreo de servicios y el registro de incidentes.
+
+**Alcances de la demostración:**
+
+- Landing Page
+- Principales tareas en la app movil
+- Principales secciones de la app web
+
+**Preguntas prinicipales**
+
+- ¿Consideras que el landing page ofrece toda la información necesaria para entender el propósito y funcionalidades ofrecidas por la aplicación para obtener información de sensores y registrar incidentes?
+
+- ¿Resulta agradable a la vista la manera en la que la información está presentada?
+
+- ¿Qué dispositivo utilizaste para acceder al Landing Page? ¿La página presenta algún tipo de inconveniente de diseño que impida navegar de manera fluida?
+
+- Con respecto a la aplicación móvil, ¿consideras que el proceso para agregar un nuevo servicio e incidente es intuitivo?
+
+- ¿La información de los incidentes y servicios que se visualiza es suficiente? ¿Qué otros datos te gustaría visualizar?
+
+- ¿Qué opinas acerca de la distribución de secciones en la aplicación móvil? ¿Agregarías más secciones? ¿Cuáles?
+
+- ¿Cómo describirías nuestra aplicación móvil en pocas palabras?
+
+- De todas las características evidenciadas en la aplicación móvil para agregar y registrar incidentes, ¿cuál crees que debería mejorarse? ¿Por qué?
+
+- ¿Qué nuevas funcionalidades relacionadas al monitoreo de sensores o al registro de incidentes consideras útiles en el contexto del transporte de combustibles peligrosos?
+
+- ¿Consideras que el diseño de la aplicación móvil es adecuado?
+
+- ¿La información de monitoreo de sensores es clara y útil para la toma de decisiones? ¿Qué detalles adicionales te gustaría ver?
+
+- ¿La navegación para acceder a diferentes secciones (sensores, incidentes, reportes) te resultó fácil y rápida?
+
+- ¿Consideras que la aplicación web responde de manera adecuada y rápida a tus acciones (ej. carga de datos, actualización de información)?
+
+- ¿Sientes que la aplicación ayuda a prevenir o manejar mejor los incidentes relacionados con el transporte? ¿De qué manera?
+
+**Segmento objetivo: Empresas de transporte de productos peligrosos**
+
+Las preguntas dirigidas a las empresas de transporte de productos peligrosos tienen como propósito comprender el valor estratégico que la plataforma **SecureOn** aporta en la gestión operativa, la prevención de riesgos y la toma de decisiones. Desde una perspectiva administrativa y gerencial, se busca validar si la información proporcionada por el sistema es suficiente, si la plataforma contribuye al control eficiente de incidentes y procesos, y qué funcionalidades adicionales podrían optimizar su uso como herramienta integral de monitoreo y seguridad en el transporte de materiales peligrosos.
+
+
+**Alcances de la demostración:**
+
+- Landing Page
+- Principales tareas en la app movil
+- Principales secciones de la app web
+
+**Preguntas prinicipales**
+
+- ¿Consideras atractiva la manera en la que el producto SecureOn está promocionado en la Landing Page?
+
+- ¿Consideras que el landing page ofrece toda la información necesaria para tener un entendimiento adecuado del funcionamiento, propósito y funcionalidades ofrecidas?
+
+- ¿Resulta agradable a la vista la manera en la que la información está presentada?
+
+- ¿Qué dispositivo utilizaste para acceder al Landing Page? ¿La página presenta algún tipo de inconveniente de diseño que impida navegar de manera fluida?
+
+- Del 1 al 10, ¿cómo calificarías el diseño de la Landing Page?
+
+- Con respecto a la aplicación móvil, ¿consideras que es complicado encontrar un servicio realizado?
+
+- ¿Los detalles de los servicios y de los incidentes son adecuados en las secciones? ¿Qué otros apartados te gustaría visualizar?
+
+- ¿Qué características específicas deseas que agreguemos a la aplicación móvil?
+  
+- ¿Qué tan fácil te resulta buscar la información que requieres dentro de la plataforma?
+
 ### 7.3.2. Registro de Entrevistas 
 
 **Segmento objetivo: Transportistas**
