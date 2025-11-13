@@ -3287,6 +3287,29 @@ Resumen:
 
 - Luis Chinchihualpa es un transportista de productos reactivos y actualmente dispone de un sistema GPS y de un monitoreo de temperatura básico instalado en su vehículo. Él comentó que su principal motivo para añadir una solución tecnológica adicional es incrementar su seguridad, ya que esto le ayudaría a prevenir más accidentes que podrían poner en riesgo tanto su integridad como la de las personas a su alrededor. Además, señala que esta solución le daría mayor tranquilidad durante sus recorridos. Luis prefiere recibir las notificaciones mediante alertas sonoras, pues considera que así puede prestarles más atención mientras conduce. Respecto a las funciones que considera indispensables, resalta el monitoreo en tiempo real, las alertas automáticas y el acceso inmediato desde la central.
 
+***Segunda Entrevista:***
+
+Nombres y apellidos: Carolina Torres
+
+Edad: 26
+
+Inicio: 0:00
+
+Fin: 16:04
+
+Duración: 16:04
+
+Link: https://upcedupe-my.sharepoint.com/personal/u202114248_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202114248%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevista%20de%20validaci%C3%B3n%20Carolina%20Torres%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Edb73f57b%2D4d63%2D4fda%2D977a%2D5803c42d1a16
+
+![entrevista Carolina Torres](https://i.imgur.com/eZ36fmn.png)
+
+Resumen:
+
+- Carolina es transportista de carga. Tras probar nuestra landing page, aplicación web y aplicación móvil, indicó que le resultaron bastante intuitivas, ya que pudo encontrar las opciones con facilidad, sin necesidad de una guía o tutorial. Además, comentó que las secciones de las aplicaciones le parecieron adecuadas y bien organizadas para alguien que se dedica al transporte de carga y necesita verificar los parámetros de su cargamento.
+- Como sugerencia, recomendó mejorar la sección de incidentes, de modo que los eventos más críticos se muestren en la parte superior y los de menor riesgo aparezcan debajo.
+- Por último, destacó que una de las funcionalidades que más le llamó la atención fue el sensor de ritmo cardíaco, debido a que esto demuestra que no solo se protege la carga, sino también la salud y seguridad de los propios transportistas.
+
+
 ### 7.3.3. Evaluaciones según heurísticas
 
 #### <div align="center">UX Heuristics & Principles Evaluation</div>
