@@ -3191,6 +3191,28 @@ Link de IoT: https://wokwi.com/projects/
 ### 7.3.1. Diseño de Entrevistas 
 ### 7.3.2. Registro de Entrevistas 
 
+**Segmento objetivo: Transportistas**
+
+***Primera Entrevista:***
+
+Nombres y apellidos: Luis Chinchihualpa
+
+Edad: 20
+
+Inicio: 0:00
+
+Fin: 10:59
+
+Duración: 10:59
+
+Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215099_upc_edu_pe/IQAkK1Ik1NbBTpXFPPNKn3HCAeISINRtYK1IBQzTmtUsDAY?e=OxnByP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+![entrevista1t](https://i.imgur.com/BxBtaK0.png)
+
+Resumen:
+
+- Luis Chinchihualpa es un transportista de productos reactivos y actualmente dispone de un sistema GPS y de un monitoreo de temperatura básico instalado en su vehículo. Él comentó que su principal motivo para añadir una solución tecnológica adicional es incrementar su seguridad, ya que esto le ayudaría a prevenir más accidentes que podrían poner en riesgo tanto su integridad como la de las personas a su alrededor. Además, señala que esta solución le daría mayor tranquilidad durante sus recorridos. Luis prefiere recibir las notificaciones mediante alertas sonoras, pues considera que así puede prestarles más atención mientras conduce. Respecto a las funciones que considera indispensables, resalta el monitoreo en tiempo real, las alertas automáticas y el acceso inmediato desde la central.
+
 ### 7.3.3. Evaluaciones según heurísticas
 
 #### <div align="center">UX Heuristics & Principles Evaluation</div>
