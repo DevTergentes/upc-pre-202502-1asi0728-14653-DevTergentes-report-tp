@@ -3356,7 +3356,7 @@ Fin: 10:59
 
 Duración: 10:59
 
-Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215099_upc_edu_pe/IQAkK1Ik1NbBTpXFPPNKn3HCAeISINRtYK1IBQzTmtUsDAY?e=OxnByP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+Link: https://goo.su/194fdX9
 
 ![entrevista1t](https://i.imgur.com/BxBtaK0.png)
 
