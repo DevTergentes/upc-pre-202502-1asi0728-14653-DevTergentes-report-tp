@@ -3481,23 +3481,25 @@ Resumen:
 
 ***Tercera Entrevista:***
 
-Nombres y apellidos: 
+Nombres y apellidos: Diego Sebastian Valdivia Colque
 
-Edad: 
+Edad: 21
 
 Inicio: 0:00
 
-Fin: 10:59
+Fin: 12:00
 
-Duración: 10:59
+Duración: 12:03
 
-Link: 
+Link: [Ver entrevista](https://drive.google.com/file/d/1bMGvv7QCp0wabGgdrNSkyuG4FSD-WNm3/view?usp=sharing)
 
-![entrevista1t](https://i.imgur.com/BxBtaK0.png)
+<img width="792" height="345" alt="Image" src="https://github.com/user-attachments/assets/98391b59-a176-44ac-89ec-bb76bd375bd3" />
 
 Resumen:
 
-- Luis .....
+- Diego, de 21 años y el representante de una empresa de transporte de productos peligrosos consideró que la landing page de ChemTrack es clara, atractiva y enfocada en la seguridad, aunque podría incluir ejemplos prácticos. Calificó el diseño con un 10/10.
+Sobre la aplicación móvil, destacó su facilidad de uso y la utilidad para monitorear servicios e incidentes, aunque sugirió mejorar la velocidad, añadir filtros más específicos y reportes personalizables.
+Valoró positivamente la visualización de empleados y el control en tiempo real, proponiendo integrar GPS y paneles de riesgo. En general, percibe la plataforma como una herramienta funcional y valiosa, con margen para optimizar la experiencia y el detalle operativo
 
 
 #### <div align="center">UX Heuristics & Principles Evaluation</div>
