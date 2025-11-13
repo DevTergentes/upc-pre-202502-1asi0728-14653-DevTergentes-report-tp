@@ -3129,9 +3129,50 @@ Demostración del funcionamiento de los endpoints a través de postman
 <img width="1916" height="982" alt="image" src="https://github.com/user-attachments/assets/c8567360-167d-4c37-bbab-50d277b52b8a" />
 
 
-
-
 #### 7.2.1.6. Services Documentation Evidence for Sprint Review 
+
+Para el Sprint 1, se verificaron que los siguientes endpoints clave permitan gestionar usuarios, entregas, servicios, incidentes, rutas seguras, historial y publicaciones dentro del sistema. Cada endpoint cumple una función específica en la arquitectura del backend.
+
+| Endpoint | Detalles |
+| - | - | 
+| /user-controller| En este endpoint se almacenan la información de los usuarios, tales como username, email, password, role, photo y token | 
+| /deliveries | En este endpoint se almacenan las entregas que aun no tienen ligadas un incidente | 
+| /services  | En este endpoint se almacenan los servicios realizados por parte de las empresas | 
+| /incidents | En este endpoint se almacenan los incidentes registrados manualmente | 
+| /sensors	 | 	Este endpoint gestiona la creación, consulta y envío de notificaciones de mantenimiento, nuevas solicitudes y alertas por tiempo de conducción. | 
+
+>Sensors
+<img width="913" height="937" alt="image" src="https://github.com/user-attachments/assets/101d0537-4008-44d7-921e-fd6d9be366be" />
+<img width="385" height="841" alt="image" src="https://github.com/user-attachments/assets/7748f08f-cd22-45e0-b429-fcfed8d8b6b7" />
+
+>Incidents
+<img width="1900" height="985" alt="image" src="https://github.com/user-attachments/assets/64bfe1e0-d048-4bd8-a062-ee88a675c20a" />
+<img width="1919" height="985" alt="image" src="https://github.com/user-attachments/assets/4d1f4782-41dc-4ddb-97f3-883bf0396600" />
+
+Visualización de Incidents en el mobile 
+<img width="394" height="850" alt="image" src="https://github.com/user-attachments/assets/5c37fae6-7df3-4e6b-b242-36e350d166b8" />
+
+
+>Services
+<img width="1331" height="803" alt="image" src="https://github.com/user-attachments/assets/29a65ca1-11d5-4b6c-9a68-896545a1e2be" />
+<img width="374" height="828" alt="image" src="https://github.com/user-attachments/assets/f0ea5eab-1b8e-4cc4-a05f-01ea25ebc7c1" />
+
+
+>Deliveries
+
+<img width="1345" height="883" alt="image" src="https://github.com/user-attachments/assets/702866af-c26e-4ec5-9396-37f924e2176d" />
+<img width="1889" height="967" alt="image" src="https://github.com/user-attachments/assets/4a5e5f0b-1587-43de-bb94-323bce13cac4" />
+<img width="1903" height="934" alt="image" src="https://github.com/user-attachments/assets/65e6d585-031c-4c57-99f0-cfe64820c9c8" />
+<img width="369" height="832" alt="image" src="https://github.com/user-attachments/assets/228af5ab-22af-41f7-b100-79c396f183e3" />
+<img width="380" height="844" alt="image" src="https://github.com/user-attachments/assets/e5a5d571-6dfa-4b92-b37f-e5055f864b43" />
+
+
+>Auth controller & User controller
+
+<img width="1361" height="923" alt="image" src="https://github.com/user-attachments/assets/c6058b51-0d7d-4a5f-87fe-d82c23b8d91a" />
+
+Muestra de los empleados de acuerdo al usuario autenticado
+<img width="386" height="861" alt="image" src="https://github.com/user-attachments/assets/7c5749b3-92bb-456a-a6e1-7f9b01a8148e" />
 
 
 #### 7.2.1.7. Software Deployment Evidence for Sprint Review 
