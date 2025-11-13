@@ -3381,7 +3381,9 @@ Los mensajes de error al ingresar credenciales incorrectas son genéricos y no e
 <b>Recomendación:</b>  
 Ofrecer mensajes de error detallados, como "Usuario no encontrado" o "Contraseña incorrecta", para facilitar al usuario la identificación y corrección del error. <br>
 
-<img src="https://i.ibb.co/DDNWkHB4/Captura-de-pantalla-2025-06-09-005016.png" alt="web-problem1" border="0"><br>
+
+![image](https://github.com/user-attachments/assets/f1acc0eb-b12a-40af-9acb-dc9f54e48c85)
+<br>
 
 **PROBLEMA #2:** Falta de opción para mostrar la contraseña<br>
 <b>Severidad:</b> 2  
@@ -3391,7 +3393,8 @@ No se incluye una opción para visualizar la contraseña durante su escritura, l
 <b>Recomendación:</b>  
 Incorporar un ícono de ojo que permita al usuario ver la contraseña mientras la escribe. <br>
 
-<img src="https://i.ibb.co/S7WmzFGH/Captura-de-pantalla-2025-06-09-005325.png" alt="web-problem2" border="0"><br>
+![image](https://github.com/user-attachments/assets/0d0da660-9742-469a-a81e-26f80f11d098)
+<br>
 
 **PROBLEMA #3:**  Falta de opciones para categorizar el incidente  
 <b>Severidad:</b> 2<br>
@@ -3401,7 +3404,8 @@ No se proporcionan opciones para clasificar el incidente, lo que puede complicar
 <b>Recomendación:</b>  
 Incluir un menú desplegable o un conjunto de opciones para categorizar el incidente. <br>
 
-<img src="https://i.ibb.co/DDXBfTCJ/Captura-de-pantalla-2025-06-09-005627.png" alt="web-problem3" border="0"><br>
+![image](https://github.com/user-attachments/assets/dfbd1bd3-602e-4443-9902-af4ec675edea)
+<br>
 
 **PROBLEMA #4:** No hay opción para editar la información del empleado  
 <b>Severidad:</b> 2  
@@ -3411,7 +3415,7 @@ Una vez agregada la información del empleado, no existe una opción para modifi
 <b>Recomendación:</b>  
 Habilitar la edición de la información del empleado directamente desde la interfaz de usuario. <br>
 
-![image](https://github.com/user-attachments/assets/082cf5ff-eb2e-47f5-b327-71c82ff4e9e3)
+![image](https://github.com/user-attachments/assets/3e73924f-7527-4e8d-b149-55780aba8db3)
 
 
 **PROBLEMA #5:** Falta de indicadores de estado de entrega<br>
@@ -3422,7 +3426,7 @@ No se ofrecen indicadores claros del estado de cada entrega (por ejemplo, "En ca
 <b>Recomendación:</b>  
 Incorporar indicadores visuales del estado de cada entrega en la pantalla principal. <br>
 
-![image](https://github.com/user-attachments/assets/369e3de8-23c4-474a-bd2d-41c607f0abc9)
+![image](https://github.com/user-attachments/assets/940e7fe8-a09c-4490-ac36-b3bf1f0fdae6)
 
 
 **PROBLEMA #6:** No se muestran las imágenes de los empleados en el listado  
@@ -3433,7 +3437,7 @@ La sección de empleados presenta solo nombres y datos básicos sin incluir la i
 <b>Recomendación:</b>  
 Integrar imágenes o avatares de los empleados junto a sus nombres. Si por cuestiones de privacidad no es posible mostrar la foto real, emplear avatares personalizados o íconos que contribuyan a la diferenciación visual. <br>
 
-![image](https://github.com/user-attachments/assets/6c9c6f18-fdd9-40a5-8ab5-a64f9ed922ce)
+![image](https://github.com/user-attachments/assets/c0546bf5-6e39-4de8-9faa-38b655c581fa)
 
 
 **- Mobile Application**
