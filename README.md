@@ -3522,42 +3522,46 @@ Link de web application: [https://secureon-webapp.netlify.app/login](https://sec
 Link de backend: [https://secureon-backend-production.up.railway.app/swagger-ui/index.html#/](https://secureon-backend-production.up.railway.app/swagger-ui/index.html#/)
 
 Link de IoT: [https://wokwi.com/projects/446744586586072065](https://wokwi.com/projects/446744586586072065)
+
 #### 7.2.2.8. Team Collaboration Insights during Sprint 
 
 >**Pulse**
 
 **Frontend**
-<img width="885" height="544" alt="image" src="https://github.com/user-attachments/assets/a1e3603a-b0f0-4305-a2e9-3fd134684f39" />
+<img width="925" height="549" alt="image" src="https://github.com/user-attachments/assets/ee93d6c4-6c22-4c08-8038-19f6d7ee967e" />
 
 **Backend**
-<img width="885" height="501" alt="image" src="https://github.com/user-attachments/assets/5fdef2c8-73d0-4f4f-b5bf-e500ee0b9142" />
+<img width="916" height="520" alt="image" src="https://github.com/user-attachments/assets/f72266ac-5a6b-41e8-a32e-04105e8a5eab" />
 
 **Mobile**
-<img width="867" height="467" alt="image" src="https://github.com/user-attachments/assets/df83a814-acde-4723-abd9-41f729637c43" />
+<img width="908" height="318" alt="image" src="https://github.com/user-attachments/assets/babacd50-3f67-445c-8963-aa3d0d27890a" />
 
 
 >**Network**
 
 **Frontend**
-<img width="815" height="532" alt="image" src="https://github.com/user-attachments/assets/95e19697-5bda-4467-9b4b-d8ca732ea228" />
+<img width="924" height="521" alt="image" src="https://github.com/user-attachments/assets/b26a47df-75ca-4c77-bcd1-1fab5e924f4b" />
+
 
 **Backend**
-<img width="873" height="552" alt="image" src="https://github.com/user-attachments/assets/8afeaafb-477f-4082-b0d0-21fb9cba1353" />
+<img width="939" height="574" alt="image" src="https://github.com/user-attachments/assets/6cee11e6-4d9b-4291-b47d-4bca80e784af" />
+
 
 **Mobile**
-<img width="868" height="415" alt="image" src="https://github.com/user-attachments/assets/8634fdb8-778a-4074-90ec-0fa3349e6795" />
+<img width="943" height="520" alt="image" src="https://github.com/user-attachments/assets/abf56eb5-2932-4fee-b107-cb5759b896f4" />
 
 
 >**Contributors**
 
 **Frontend**
-<img width="905" height="657" alt="image" src="https://github.com/user-attachments/assets/c60d433c-61ae-4c19-816c-f5aa9c537266" />
+<img width="917" height="634" alt="image" src="https://github.com/user-attachments/assets/fa7ebaf4-df68-4e9a-840d-88c08358fdc1" />
 
 **Backend**
-<img width="911" height="859" alt="image" src="https://github.com/user-attachments/assets/0e862eb8-d488-4822-847b-1a46772536d2" />
+<img width="930" height="850" alt="image" src="https://github.com/user-attachments/assets/29c214cf-4794-4b60-b1f6-254ffd78e890" />
 
 **Mobile**
-<img width="915" height="666" alt="image" src="https://github.com/user-attachments/assets/0ca67c5e-9058-47d4-9415-f35401e4e89e" />
+<img width="944" height="641" alt="image" src="https://github.com/user-attachments/assets/47d7c547-cc45-4fa3-a93b-31deec5f2fe4" />
+
 
 
 ## 7.3. Validation Interviews 
