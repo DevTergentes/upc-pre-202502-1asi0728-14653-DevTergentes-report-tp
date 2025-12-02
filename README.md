@@ -32,7 +32,7 @@
 </div>
 <br><div align="center"><h3>Noviembre 2025</h3></div><br>
 
----
+
 # Registro de Versiones del Informe
 
 | Versión | Fecha | Autor | Descripción de la modificación |
@@ -40,7 +40,7 @@
 | 1.00 | 18/09/2025 | Todos los integrantes del equipo  | Se completó la primera entrega del TB1.  |
 | 2.00 | 7/10/2025 | Todos los integrantes del equipo  | Se completaron los capítulos V y VI del informe.  |
 | 3.00 | 13/11/2025 | Todos los integrantes del equipo  | Se completaron los artefactos del capítulo VII para el TB2.  |
----
+
 
 # Project Report Collaboration Insights
 
@@ -63,7 +63,7 @@ Link de Github: [https://github.com/DevTergentes](https://github.com/DevTergente
 *Registro de commits*
 <img width="1568" height="670" alt="image" src="https://github.com/user-attachments/assets/de3111be-9d4e-4291-9a73-ecb365d3205d" />
 
----
+***
 
 # Contenido 
 ## Tabla de contenidos
@@ -200,7 +200,218 @@ Link de Github: [https://github.com/DevTergentes](https://github.com/DevTergente
 
 ## [Anexos](#anexos)
 
----
+***- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+- [Project Report Collaboration Insights](#project-report-collaboration-insights)
+- [Contenido](#contenido)
+  - [Tabla de contenidos](#tabla-de-contenidos)
+- [Student Outcome](#student-outcome)
+  - [Capítulo I: Introducción](#capítulo-i-introducción)
+  - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
+  - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+  - [Capítulo IV: Strategic-Level Software Design](#capítulo-iv-strategic-level-software-design)
+  - [Capítulo V: Tactical-Level Software Design](#capítulo-v-tactical-level-software-design)
+  - [Capítulo VI: Solution UX Design](#capítulo-vi-solution-ux-design)
+  - [Capítulo VII: Product Implementation, Validation \& Deployment](#capítulo-vii-product-implementation-validation--deployment)
+  - [Conclusiones](#conclusiones)
+  - [Bibliografía](#bibliografía)
+  - [Anexos](#anexos)
+- [Student Outcome](#student-outcome-1)
+- [Capítulo I: Introducción](#capítulo-i-introducción-1)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [1.2.2. Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+    - [Hipótesis 1:](#hipótesis-1)
+    - [Hipótesis 2:](#hipótesis-2)
+    - [Hipótesis 3:](#hipótesis-3)
+    - [Hipótesis 4:](#hipótesis-4)
+    - [Hipótesis 5:](#hipótesis-5)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+- [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis-1)
+  - [2.1. Competidores](#21-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas.](#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+    - [Primera Entrevista](#primera-entrevista)
+    - [Segunda Entrevista](#segunda-entrevista)
+    - [Tercera Entrevista](#tercera-entrevista)
+    - [Primera Entrevista](#primera-entrevista-1)
+    - [Segunda Entrevista](#segunda-entrevista-1)
+    - [Tercera Entrevista](#tercera-entrevista-1)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [2.3.3. Journey Mapping](#233-journey-mapping)
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+    - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
+  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification-1)
+  - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+  - [3.2. User Stories](#32-user-stories)
+  - [3.3. Impact Mapping](#33-impact-mapping)
+  - [3.4. Product Backlog](#34-product-backlog)
+- [Capítulo IV: Strategic-Level Software Design](#capítulo-iv-strategic-level-software-design-1)
+  - [4.1. Strategic-Level Attribute-Driven Design](#41-strategic-level-attribute-driven-design)
+    - [4.1.1. Design Purpose.](#411-design-purpose)
+    - [4.1.2. Attribute-Driven Design Inputs.](#412-attribute-driven-design-inputs)
+    - [4.1.2.1. Primary Functionality (Primary User Stories)](#4121-primary-functionality-primary-user-stories)
+      - [4.1.2.2. Quality Attribute Scenarios](#4122-quality-attribute-scenarios)
+      - [4.1.2.3. Constraints](#4123-constraints)
+    - [4.1.3. Architectural Drivers Backlog](#413-architectural-drivers-backlog)
+    - [4.1.4. Architectural Design Decisions](#414-architectural-design-decisions)
+    - [4.1.5. Quality Attribute Scenario Refinements](#415-quality-attribute-scenario-refinements)
+  - [4.2. Strategic-Level Domain-Driven Design](#42-strategic-level-domain-driven-design)
+    - [4.2.1. EventStorming](#421-eventstorming)
+    - [4.2.2. Candidate Context Discovery](#422-candidate-context-discovery)
+    - [4.2.3. Domain Message Flows Modeling](#423-domain-message-flows-modeling)
+    - [4.2.4. Bounded Context Canvases](#424-bounded-context-canvases)
+    - [4.2.5. Context Mapping](#425-context-mapping)
+    - [4.3. Software Architecture](#43-software-architecture)
+      - [4.3.1. Software Architecture System Landscape Diagram](#431-software-architecture-system-landscape-diagram)
+      - [4.3.2. Software Architecture Context Level Diagrams](#432-software-architecture-context-level-diagrams)
+      - [4.3.3. Software Architecture Container Level Diagrams](#433-software-architecture-container-level-diagrams)
+      - [4.3.4. Software Architecture Deployment Diagrams](#434-software-architecture-deployment-diagrams)
+- [Capítulo V: Tactical-Level Software Design](#capítulo-v-tactical-level-software-design-1)
+  - [5.1. Bounded Context: IAM](#51-bounded-context-iam)
+    - [5.1.1. Domain Layer](#511-domain-layer)
+  - [Aggregate 1: Usuario](#aggregate-1-usuario)
+    - [Atributos de Usuario](#atributos-de-usuario)
+    - [Métodos de Usuario](#métodos-de-usuario)
+  - [Aggregate 2: Rol](#aggregate-2-rol)
+    - [Atributos de Rol](#atributos-de-rol)
+    - [Métodos de Rol](#métodos-de-rol)
+  - [Aggregate 3: Certificación](#aggregate-3-certificación)
+    - [Atributos de Certificación](#atributos-de-certificación)
+    - [Métodos de Certificación](#métodos-de-certificación)
+  - [Aggregate 4: Permiso](#aggregate-4-permiso)
+    - [Atributos de Permiso](#atributos-de-permiso)
+    - [Métodos de Certificación](#métodos-de-certificación-1)
+    - [5.1.2. Interface Layer](#512-interface-layer)
+  - [Controller 1: AuthController](#controller-1-authcontroller)
+    - [Atributos de AuthController](#atributos-de-authcontroller)
+    - [Métodos de AuthController](#métodos-de-authcontroller)
+      - [Controller 2: PermissionController](#controller-2-permissioncontroller)
+    - [5.1.3. Application Layer](#513-application-layer)
+  - [Service 1: UserService](#service-1-userservice)
+    - [Atributos de UserService](#atributos-de-userservice)
+    - [Métodos de UserService](#métodos-de-userservice)
+      - [Service 2: PermissionService](#service-2-permissionservice)
+    - [5.1.4. Infrastructure Layer](#514-infrastructure-layer)
+      - [Repository 1: UserRepositoryImpl](#repository-1-userrepositoryimpl)
+      - [Repository 2: PermissionRepositoryImpl](#repository-2-permissionrepositoryimpl)
+    - [External Service](#external-service)
+      - [Service 1: EmailService](#service-1-emailservice)
+    - [5.1.5. Bounded Context Software Architecture Component Level Diagrams](#515-bounded-context-software-architecture-component-level-diagrams)
+    - [5.1.6. Bounded Context Software Architecture Code Level Diagrams](#516-bounded-context-software-architecture-code-level-diagrams)
+      - [5.1.6.1. Bounded Context Domain Layer Class Diagrams](#5161-bounded-context-domain-layer-class-diagrams)
+      - [5.1.6.2. Bounded Context Database Design Diagram](#5162-bounded-context-database-design-diagram)
+    - [5.2 Bounded Context: Management](#52-bounded-context-management)
+      - [5.2.1. Domain Layer](#521-domain-layer)
+      - [Entity 1: Transporte](#entity-1-transporte)
+      - [Entity 2: SensorReading](#entity-2-sensorreading)
+      - [Value Object 1: TransportStatus](#value-object-1-transportstatus)
+      - [5.2.2. Interface Layer](#522-interface-layer)
+      - [Controller 1: TransportController](#controller-1-transportcontroller)
+      - [5.2.3. Application Layer](#523-application-layer)
+      - [Service 1: TransportService](#service-1-transportservice)
+      - [5.2.4. Infrastructure Layer](#524-infrastructure-layer)
+      - [Repository 1: TransportRepositoryImpl](#repository-1-transportrepositoryimpl)
+    - [External Service](#external-service-1)
+      - [Service 1: IoTDeviceService](#service-1-iotdeviceservice)
+      - [5.2.5. Bounded Context Software Architecture Component Level Diagrams](#525-bounded-context-software-architecture-component-level-diagrams)
+      - [5.2.6. Bounded Context Software Architecture Code Level Diagrams](#526-bounded-context-software-architecture-code-level-diagrams)
+      - [5.2.6.1. Bounded Context Domain Layer Class Diagrams](#5261-bounded-context-domain-layer-class-diagrams)
+      - [5.2.6.2. Bounded Context Database Design Diagram](#5262-bounded-context-database-design-diagram)
+    - [5.3. Bounded Context: Records](#53-bounded-context-records)
+      - [5.3.1. Domain Layer](#531-domain-layer)
+      - [Entity 1: Incident](#entity-1-incident)
+      - [Entity 2: CorrectiveAction](#entity-2-correctiveaction)
+    - [Value Objects](#value-objects)
+      - [Value Object 1: IncidentType](#value-object-1-incidenttype)
+      - [5.3.2. Interface Layer](#532-interface-layer)
+      - [Controller 1: IncidentController](#controller-1-incidentcontroller)
+      - [5.3.3. Application Layer](#533-application-layer)
+      - [Service 1: IncidentService](#service-1-incidentservice)
+      - [5.3.4. Infrastructure Layer](#534-infrastructure-layer)
+      - [Repository 1: IncidentRepositoryImpl](#repository-1-incidentrepositoryimpl)
+    - [External Service](#external-service-2)
+      - [Service 1: NotificationService](#service-1-notificationservice)
+      - [5.3.5. Bounded Context Software Architecture Component Level Diagrams](#535-bounded-context-software-architecture-component-level-diagrams)
+      - [5.3.6. Bounded Context Software Architecture Code Level Diagrams](#536-bounded-context-software-architecture-code-level-diagrams)
+      - [5.3.6.1. Bounded Context Domain Layer Class Diagrams](#5361-bounded-context-domain-layer-class-diagrams)
+      - [5.3.6.2. Bounded Context Database Design Diagram](#5362-bounded-context-database-design-diagram)
+- [Capítulo VI: Solution UX Design](#capítulo-vi-solution-ux-design-1)
+  - [6.1. Style Guidelines](#61-style-guidelines)
+    - [6.1.1. General Style Guidelines](#611-general-style-guidelines)
+    - [6.1.2. Web, Mobile \& Devices Style Guidelines](#612-web-mobile--devices-style-guidelines)
+    - [Web Responsive Design](#web-responsive-design)
+    - [Mobile Application Interface](#mobile-application-interface)
+    - [IoT Application Interface](#iot-application-interface)
+  - [6.2. Information Architecture](#62-information-architecture)
+    - [6.2.2. Labeling Systems](#622-labeling-systems)
+    - [6.2.3. Searching Systems](#623-searching-systems)
+    - [6.2.4. SEO Tags and Meta Tags](#624-seo-tags-and-meta-tags)
+    - [6.2.5. Navigation Systems](#625-navigation-systems)
+  - [6.3. Landing Page UI Design](#63-landing-page-ui-design)
+    - [6.3.1. Landing Page Wireframe](#631-landing-page-wireframe)
+    - [6.3.2. Landing Page Mock-up](#632-landing-page-mock-up)
+  - [6.4. Applications UX/UI Design](#64-applications-uxui-design)
+    - [6.4.1. Applications Wireframes](#641-applications-wireframes)
+    - [6.4.2. Applications Wireflow Diagrams](#642-applications-wireflow-diagrams)
+    - [6.4.2. Applications Mock-ups](#642-applications-mock-ups)
+    - [6.4.3. Applications User Flow Diagrams](#643-applications-user-flow-diagrams)
+  - [User Flow Diagrams Web Application:](#user-flow-diagrams-web-application)
+  - [User Flow Diagrams Mobile Application:](#user-flow-diagrams-mobile-application)
+  - [6.5. Applications Prototyping](#65-applications-prototyping)
+- [Capítulo VII: Product Implementation, Validation \& Deployment](#capítulo-vii-product-implementation-validation--deployment-1)
+  - [7.1. Software Configuration Management](#71-software-configuration-management)
+    - [7.1.1. Software Development Environment Configuration](#711-software-development-environment-configuration)
+    - [7.1.2. Source Code Management](#712-source-code-management)
+    - [7.1.3. Source Code Style Guide \& Conventions](#713-source-code-style-guide--conventions)
+      - [**HTML (W3Schools HTML Style Guide)**](#html-w3schools-html-style-guide)
+      - [**CSS (Google HTML/CSS Style Guide)**](#css-google-htmlcss-style-guide)
+      - [**JavaScript / TypeScript (W3C + Angular Best Practices)**](#javascript--typescript-w3c--angular-best-practices)
+      - [**Java (Oracle Code Conventions)**](#java-oracle-code-conventions)
+      - [**Flutter / Dart**](#flutter--dart)
+      - [**Gherkin (Readable Specifications)**](#gherkin-readable-specifications)
+    - [7.1.4. Software Deployment Configuration](#714-software-deployment-configuration)
+      - [**1. Frontend (Web App - Netlify)**](#1-frontend-web-app---netlify)
+      - [**2. Backend (API REST - Railway)**](#2-backend-api-rest---railway)
+      - [**3. Mobile App (Flutter - Fase de despliegue futura)**](#3-mobile-app-flutter---fase-de-despliegue-futura)
+      - [**4. Embedded App (IoT - ESP32)**](#4-embedded-app-iot---esp32)
+      - [**5. Landing Page (GitHub Pages)**](#5-landing-page-github-pages)
+    - [7.2.1. Sprint 1](#721-sprint-1)
+      - [7.2.1.1. Sprint Planning 1](#7211-sprint-planning-1)
+      - [7.2.1.2. Sprint Backlog 1](#7212-sprint-backlog-1)
+      - [7.2.1.3. Development Evidence for Sprint Review](#7213-development-evidence-for-sprint-review)
+      - [7.2.1.4. Testing Suite Evidence for Sprint Review {#7214-testing-suite-evidence-for-sprint-review}](#7214-testing-suite-evidence-for-sprint-review-7214-testing-suite-evidence-for-sprint-review)
+      - [7.2.1.5. Execution Evidence for Sprint Review](#7215-execution-evidence-for-sprint-review)
+      - [7.2.1.6. Services Documentation Evidence for Sprint Review](#7216-services-documentation-evidence-for-sprint-review)
+      - [7.2.1.7. Software Deployment Evidence for Sprint Review](#7217-software-deployment-evidence-for-sprint-review)
+    - [Es así como se muestra el despligue de cada uno de los artefactos que lo requiere.](#es-así-como-se-muestra-el-despligue-de-cada-uno-de-los-artefactos-que-lo-requiere)
+      - [7.2.1.8. Team Collaboration Insights during Sprint](#7218-team-collaboration-insights-during-sprint)
+  - [7.3. Validation Interviews](#73-validation-interviews)
+    - [7.3.1. Diseño de Entrevistas](#731-diseño-de-entrevistas)
+    - [7.3.2. Registro de Entrevistas](#732-registro-de-entrevistas)
+      - [UX Heuristics \& Principles Evaluation](#ux-heuristics--principles-evaluation)
+        - [Usability – Inclusive Design – Information Architecture](#usability--inclusive-design--information-architecture)
+  - [7.4. Video About-the-Product](#74-video-about-the-product)
+- [Avance de Conclusiones, Bibliografía y Anexos](#avance-de-conclusiones-bibliografía-y-anexos)
+  - [Conclusiones](#conclusiones-1)
+  - [Recomendaciones](#recomendaciones)
+- [Bibliografía](#bibliografía-1)
+- [Anexos](#anexos-1)
+
 
 # Student Outcome
 
@@ -379,7 +590,7 @@ A continuación, se plantean las hipótesis que proponen una solución a la prob
    - Métrica actual: 50%
    - Meta deseada: 70%
 
----
+***
 
 ### Hipótesis 2:
 *Creemos que las empresas de transporte necesitan monitorear en tiempo real las condiciones de seguridad de los vehículos que transportan gases combustibles.*
@@ -394,7 +605,7 @@ A continuación, se plantean las hipótesis que proponen una solución a la prob
    - Métrica actual: 2 incidentes mensuales
    - Meta deseada: 0 incidentes mensuales
 
----
+***
 
 ### Hipótesis 3:
 *Creemos que las empresas de transporte necesitan datos precisos para mejorar sus protocolos de seguridad.*
@@ -409,7 +620,7 @@ A continuación, se plantean las hipótesis que proponen una solución a la prob
    - Métrica actual: 5% de reducción
    - Meta deseada: 20% de reducción
 
----
+***
 
 ### Hipótesis 4:
 *Creemos que las empresas de transporte deben evaluar constantemente la efectividad de los protocolos de seguridad implementados.*
@@ -424,7 +635,7 @@ A continuación, se plantean las hipótesis que proponen una solución a la prob
    - Métrica actual: 60%
    - Meta deseada: 90%
 
----
+***
 
 ### Hipótesis 5:
 *Creemos que los sensores IoT mejorarán la seguridad en el transporte de gases combustibles.*
@@ -1156,7 +1367,7 @@ La priorización se basó en dos dimensiones principales:
 
 A continuación, se presentan los escenarios refinados en orden de prioridad:
 
----
+***
 
 | Scenario Refinement for Scenario 1 |
 |-----------------------------------|
@@ -1172,7 +1383,7 @@ A continuación, se presentan los escenarios refinados en orden de prioridad:
 | **Questions:** ¿Qué estándar de cifrado será obligatorio (AES-256, TLS 1.2+)? ¿Cómo se gestionarán las llaves de cifrado? |
 | **Issues:** Posible impacto en el rendimiento por procesos de cifrado y validación. |
 
----
+***
 
 | Scenario Refinement for Scenario 2 |
 |-----------------------------------|
@@ -1188,7 +1399,7 @@ A continuación, se presentan los escenarios refinados en orden de prioridad:
 | **Questions:** ¿Se usará escalado vertical u horizontal en el monolito? |
 | **Issues:** Limitaciones de escalabilidad en arquitecturas monolíticas. |
 
----
+***
 
 | Scenario Refinement for Scenario 3 |
 |-----------------------------------|
@@ -1204,7 +1415,7 @@ A continuación, se presentan los escenarios refinados en orden de prioridad:
 | **Questions:** ¿Qué protocolo IoT será adoptado (MQTT, HTTP, WebSocket)? |
 | **Issues:** Riesgo de pérdida de datos en conexiones inestables. |
 
----
+***
 
 | Scenario Refinement for Scenario 4 |
 |-----------------------------------|
@@ -1220,7 +1431,7 @@ A continuación, se presentan los escenarios refinados en orden de prioridad:
 | **Questions:** ¿Cómo garantizar la entrega en áreas sin cobertura de red? |
 | **Issues:** Dependencia de conectividad móvil para alertas críticas. |
 
----
+***
 
 | Scenario Refinement for Scenario 5 |
 |-----------------------------------|
@@ -1381,7 +1592,7 @@ Este diagrama **contextualiza** cómo el sistema **SecurOn** se integra en su en
 
 ![image](https://github.com/user-attachments/assets/9e9d621e-da36-4ec8-a68b-368853473291)
 
----
+***
 
 #### 4.3.3. Software Architecture Container Level Diagrams
 
@@ -1389,7 +1600,7 @@ El diagrama muestra la **arquitectura de software a nivel de contenedores** del 
 
 ![image](https://github.com/user-attachments/assets/ca75228c-708d-4ed8-8ca5-129b9ef4128a)
 
----
+***
 
 #### 4.3.4. Software Architecture Deployment Diagrams
 
@@ -2597,7 +2808,7 @@ Aquí se muestran los wireframes desarrollados para la aplicación web y móvil 
 
 En esta sección, se presentan los Wireflows, donde se mostrarán las rutas que los usuarios pueden tener al momento de usar la aplicación web y móvil. Para su realización se utilizó la herramienta LucidChart.
 
----
+***
 **Wireflow Diagrams Web Application:**
 
 **User goal, usuario inicia sesion y se registra**
@@ -2739,7 +2950,7 @@ En esta sección, se presentan los User Flows, donde se mostrarán las Happy y U
 
 [Enlace para acceder al Miro.](https://miro.com/welcomeonboard/TmR3RjRKMk1ISmdzSVZwem5Lb1ZVTjViek1iMjJtOGlMREFqMVBNdGtKWjIzZ0laeWhmZ3E2R01RYTgzVEpuVzhkYXNRZUJIcFREZjJOWnVDcnpmd1cyU1hyVVRBY2V1TU5aaGR5N1JZMVBvRmpNeDhSMXpNWjYzMzJLNCtUeW1zVXVvMm53MW9OWFg5bkJoVXZxdFhRPT0hdjE=?share_link_id=547853430532)
 
----
+***
 
 
 ## User Flow Diagrams Mobile Application:
@@ -2994,7 +3205,7 @@ En este sprint el enfoque es consolidar el flujo base operativo del producto: mo
 | **Sprint 1 Velocity** | 30 Story Points |
 | **Sum of Story Points** | 27 Story Points (US01: 6, US04: 6, US05: 6, US06: 4, US08: 5) |
 
----
+***
 
 #### 7.2.1.2. Sprint Backlog 1 
 
@@ -3020,7 +3231,7 @@ En este sprint el enfoque es consolidar el flujo base operativo del producto: mo
 | US08 | Cambio de Estado Transporte | T13 | Transición de estado | PATCH/POST estado + auditoría mínima | 4 | Jose | **Done** |
 |  |  | T14 | UI cambio de estado | Botón/menú y feedback en detalle del viaje | 3 | Jherson | **Done** |
 
----
+***
 
 #### 7.2.1.3. Development Evidence for Sprint Review 
 
@@ -3051,7 +3262,7 @@ En este sprint el enfoque es consolidar el flujo base operativo del producto: mo
 |  | develop | 5dd4930 | feat: implement complete SecureOn landing page with responsive design | Implementa landing page completa y responsive. | 2025-10-05 |
 |  | develop | c230d8d | Initial commit | Estructura inicial del proyecto. | 2025-09-08 |
 
----
+***
 
 #### 7.2.1.4. Testing Suite Evidence for Sprint Review {#7214-testing-suite-evidence-for-sprint-review}
 
