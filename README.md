@@ -3288,7 +3288,7 @@ En este sprint el enfoque es consolidar el flujo base operativo del producto: mo
 | **Sprint 1 – Review Summary** | Durante el Sprint 1, el equipo completó con éxito las funcionalidades planificadas relacionadas con la gestión de transportes e incidentes. Las principales entregas incluyeron: <br> - Listado y detalle de transportes activos con actualización en tiempo real. <br> - Creación y visualización de incidentes con sistema de notificaciones. <br> - Registro (alta) de transportistas en la plataforma. <br> - Actualización y cambio de estado del transporte dentro del sistema. <br> Estas funcionalidades fueron revisadas por el Product Owner, quien confirmó que se cumplieron los criterios de aceptación definidos para este primer incremento del producto. |
 | **Sprint 1 – Retrospective Summary** | Aspectos positivos <br> - El equipo logró completar la mayoría de tareas dentro de los tiempos estimados, manteniendo un flujo de trabajo organizado. <br> - La comunicación vía Discord permitió coordinar esfuerzos y resolver impedimentos de manera oportuna. <br> - La distribución de tareas entre los miembros del equipo permitió avanzar en paralelo y cumplir con las funcionalidades clave del sprint. |
 | **Sprint Goal & User Stories** |  |
-| **Sprint 2 Goal** | Entregar: (i) generación y envío de reportes de estado del vehículo, (ii) recepción de notificaciones de nuevas solicitudes de transporte mediante canales en tiempo real, (iii) publicación de solicitudes de transporte de productos peligrosos con notificaciones a transportistas, (iv) implementación de funcionalidades técnicas clave (monitoreo del vehículo y notificaciones de incidentes vía Edge API) para habilitar flujos críticos del sistema. |
+| **Sprint 2 Goal** | Entregar: (i) generación y envío de reportes de estado del vehículo, (ii) recepción de notificaciones de nuevas solicitudes de transporte mediante canales en tiempo real, (iii) publicación de solicitudes de transporte de productos peligrosos con notificaciones a transportistas, (iv) implementación de funcionalidad técnica clave (monitoreo del vehículo) para habilitar flujos críticos del sistema. |
 | **Sprint 2 Velocity** | 30 Story Points |
 | **Sum of Story Points** | 16 Story Points (US03: 3, US07: 8, US09: 5) |
 
@@ -3303,14 +3303,14 @@ En este sprint el enfoque es consolidar el flujo base operativo del producto: mo
 
 | User Story Id | User Story Title | Work-Item / Task Id | Work-Item / Task Title | Description | Estimation (Hours) | Assigned To | Status |
 |---|---|---|---|---|---:|---|---|
-| US03| Generar reporte  | T01 | Lógica backend para generar reporte + estructura base del documento  | 6 | Jose | **Done** |
+| US03| Generar reporte  | T01 |  Generar reporte    | Lógica backend para generar reporte + estructura base del documento  | 6 | Jose | **Done** |
 |  |  | T02 | Envío del reporte   | Enviar reporte al supervisor vía API o evento interno | 5 | Claudio | **Done** |
 |  |  | T03 | Manejo de error en reporte   | Mensajes de error + fallback para guardar datos    | 4 | Camila | **Done** |
 | US07 | Notificación de Nuevas Solicitudes de Transporte| T05 | Suscripción a canal SSE/WebSocket   | Conexión estable + reconexión automática | 8 | Jose | **Done** |
 |  |  | T06 | Procesar notificación entrante | Parseo, validación y persistencia mínima  | 7 | Camila | **Done** |
 |  |  | T07 | Manejo de errores   | Alertas UI + fallback manual + reintentos   | 5 | Jeremi | **Done** |
 |  |  | T08 | UI aceptación/rechazo de solicitud  | Componente interactivo + validaciones  | 10 | Jherson | **Done** |
-|  |  | T09 | Integración con permisos del usuario    | Validar requisitos del transportista (licencia, disponibilidad, etc.)  | 10 | Jose | **Done** |
+|  |  | T09 | Integración con permisos del usuario    | Validar requisitos del transportista (licencia, disponibilidad, etc.)  | 10 | Claudio | **Done** |
 | US09 | Publicación de solicitudes de transporte peligrosos  | T10 | Formulario de solicitud  | Formulario con campos obligatorios y validaciones | 7 | Claudio | **Done** |
 |  |  | T11 | Endpoint publicación  | POST con validaciones + respuestas 200/400/500   | 8 | Jose | **Done** |
 |  |  | T12 | Manejo de errores  | Mostrar mensaje cuando falle la publicación | 4 | Jeremy | **Done** |
