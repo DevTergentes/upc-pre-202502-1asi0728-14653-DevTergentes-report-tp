@@ -3321,6 +3321,243 @@ En este sprint el enfoque es consolidar el flujo base operativo del producto: mo
 |  |  | T16 | UI de estado del vehículo | Pantalla/Sección mostrando estado actual + refresco si aplica | 4 | Jherson | **Done** |
 
 ***
+#### 7.2.2.3. Development Evidence for Sprint Review 
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| **secureOn-webapp** | incidents | d19b853 | feat: update add delivery button visibility according to user role and icons styles | Ajusta visibilidad del botón de entrega según rol y mejora estilos de íconos. | 2025-11-05 |
+|  | incidents | 0f192fb | feat: redisgn and fix incident reporting and monitoring UI | Rediseño y correcciones en UI de reporte/monitoreo de incidentes. | 2025-11-05 |
+|  | incidents | f3e3368 | feat: improve session handling and update footer branding | Mejora manejo de sesión y actualiza branding del footer. | 2025-11-05 |
+|  | incidents | e09c47e | feat: redesign auth pages and improve session handling | Rediseño de vistas de autenticación y manejo de sesión. | 2025-11-05 |
+|  | incidents | 8258524 | feat: Update styles and delivery component | Actualiza estilos y componente de entregas. | 2025-10-29 |
+|  | incidents | 54b505e | feat: Update deliveries component | Mejoras funcionales al componente de entregas. | 2025-10-29 |
+|  | incidents | fca2461 | chore: initial commit | Configuración inicial del módulo de incidentes. | 2025-10-27 |
+| **secureOn-mobileapp** | develop | c5fe32c | chore: update backend URLs to use secureon for auth and enhance incident service with additional methods and error handling | Actualiza URLs backend a dominio secureon y amplía servicio de incidentes con métodos/errores. | 2025-11-05 |
+|  | develop | a919dc2 | chore: update backend URLs to use secureon for incidents, deliveries, employees, records, and services | Unifica endpoints a dominio secureon para múltiples recursos. | 2025-10-29 |
+|  | develop | a3e1118 | chore: enhance README with features and installation instructions, and change backend URLs to localhost for development | Mejora README y configura URLs locales para dev. | 2025-10-07 |
+|  | develop | 035d946 | chore: initial commit | Estructura inicial del proyecto mobile. | 2025-10-07 |
+| **secureOn-backend** | main | 55b4ca7 | refactor: improve formatting and description generation in RecordLog and RecordServiceImpl | Refactor de formateo y generación de descripciones en servicios de registros. | 2025-11-04 |
+|  | main | ddc361 | fix: enhance error handling and timestamp management in RecordController and RecordServiceImpl | Mejora manejo de errores y timestamps en controladores/servicios. | 2025-11-03 |
+|  | main | a46210a | feat: add OpenAPI configuration and update CORS settings for improved security | Agrega OpenAPI y ajusta CORS para mayor seguridad. | 2025-11-03 |
+|  | main | bf01a7d | chore: update database connection settings for production environment | Ajustes de conexión a BD para producción. | 2025-11-03 |
+|  | main | 06789d3 | chore: initial project setup with core API structure | Estructura base del API. | 2025-10-27 |
+| **secureOn-embeddedapp** | main | 155a0e8 | feat: update project and readme | Actualiza proyecto y README. | 2025-10-22 |
+|  | main | 7843fce | feat: add iot wokwi project | Añade proyecto IoT Wokwi. | 2025-10-22 |
+|  | main | 873ccfd | Initial commit | Commit inicial del repositorio. | 2025-10-22 |
+| **secureOn-landing-page** | develop | ac85fcc | Update README.md | Actualiza documentación del proyecto. | 2025-10-05 |
+|  | develop | 16b5497 | docs: update readme | Mejora del README. | 2025-10-05 |
+|  | develop | 5bf0591 | feat: update readme | Ajustes adicionales de README. | 2025-10-05 |
+|  | develop | 5dd4930 | feat: implement complete SecureOn landing page with responsive design | Implementa landing page completa y responsive. | 2025-10-05 |
+|  | develop | c230d8d | Initial commit | Estructura inicial del proyecto. | 2025-09-08 |
+
+***
+
+#### 7.2.2.4. Testing Suite Evidence for Sprint Review {#7214-testing-suite-evidence-for-sprint-review}
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| qa-tests / backend | test/us01-us04 | 9a71c2f | test(api): transports active & detail | Casos 200/404; asserts de esquema y última telemetría | 2025-11-09 |
+| qa-tests / backend | test/us05 | 3bd4e10 | test(api): incident create/list + event | Verifica 201/400 y registro de evento/log | 2025-11-09 |
+| qa-tests / backend | test/us06 | f17c0a8 | test(api): driver signup validations | 201 y 409; validaciones de campos requeridos | 2025-11-09 |
+| qa-tests / backend | test/us08 | c5e28b3 | test(api): status transitions | Transiciones válidas e inválidas con 422 | 2025-11-09 |
+| qa-tests / webapp | e2e/sprint1 | 7d92ef4 | e2e(web): realtime & incidents | Lista/detalle, suscripción/polling, formulario | 2025-11-09 |
+| qa-tests / mobile | e2e/monitor-lite | 4ac0f56 | e2e(mobile): monitor view | Render y actualización de estado en vista de viajes | 2025-11-09 |
+
+#### 7.2.2.5. Execution Evidence for Sprint Review
+
+En el Sprint 2 se alcanzó a desarrollar la última versión de la landing page, del Frontend del Web Application, Mobile, Backend e IoT de la aplicación. A continuación se muestra lo realizado:
+
+>**Landing Page**
+
+- Versión terminada
+- Estado: En producción activa
+<img width="1904" height="899" alt="image" src="https://github.com/user-attachments/assets/cb479b24-e64e-4914-9121-03ac2f7ef3ad" />
+<img width="1888" height="923" alt="image" src="https://github.com/user-attachments/assets/e798d6c9-a3fe-4553-83d1-c35bb4588878" />
+<img width="1897" height="986" alt="image" src="https://github.com/user-attachments/assets/51d9df11-8c18-44cd-901b-b13b1639e1ec" />
+
+>**Frontend**
+
+- Versión casi terminada
+- Estado: En producción activa
+<img width="1902" height="977" alt="image" src="https://github.com/user-attachments/assets/4809bc30-7da1-468f-8d89-a965d820ed8a" />
+<img width="1893" height="963" alt="image" src="https://github.com/user-attachments/assets/cfbde80a-0da9-4138-b744-3a65bbf310d3" />
+<img width="1914" height="992" alt="image" src="https://github.com/user-attachments/assets/17913ea0-c597-4d1d-b16a-3b77c12ffb33" />
+<img width="1904" height="982" alt="image" src="https://github.com/user-attachments/assets/f5bade23-2a7f-45ff-875a-0d4f9ade77cb" />
+<img width="1919" height="933" alt="image" src="https://github.com/user-attachments/assets/0a3acaa8-4ccb-4aae-9bad-ea5f4ed89bc7" />
+
+
+<br>
+
+>**Backend**
+
+- Versión terminada
+- Estado: En producción activa
+
+Endpoints
+<img width="1902" height="966" alt="image" src="https://github.com/user-attachments/assets/9756111d-9dd8-494e-84e5-f31e9028de93" />
+<img width="1813" height="991" alt="image" src="https://github.com/user-attachments/assets/5493aab9-91fc-419c-a147-b68c785fe725" />
+<img width="1704" height="925" alt="image" src="https://github.com/user-attachments/assets/d90489e7-112b-443e-bde6-224b6812ef6d" />
+
+
+Demostración del funcionamiento de los endpoints a través de postman
+<img width="1380" height="789" alt="image" src="https://github.com/user-attachments/assets/d9e41d2c-54bc-4166-bfc7-b861b0d25494" />
+<img width="1380" height="788" alt="image" src="https://github.com/user-attachments/assets/574b7ec1-1a70-43ea-b59c-4eca66ebb231" />
+<img width="1383" height="795" alt="image" src="https://github.com/user-attachments/assets/fce9b607-a788-48fa-9e06-ef3fe27ba44e" />
+
+
+<br>
+
+>**Mobile**
+- Versión terminada
+- Estado: Conectado con el backend deployado
+<img width="923" height="912" alt="image" src="https://github.com/user-attachments/assets/31fed463-6799-4e6c-8ce1-f6554f623035" />
+<img width="428" height="857" alt="image" src="https://github.com/user-attachments/assets/ddf558b1-c393-4990-94c0-20a302b88adf" />
+<img width="385" height="835" alt="image" src="https://github.com/user-attachments/assets/da271656-870b-4be3-8efe-4bb36c353056" />
+<img width="395" height="849" alt="image" src="https://github.com/user-attachments/assets/34c38b83-cb2f-4581-abe3-c80ad3e7f5fb" />
+<img width="398" height="839" alt="image" src="https://github.com/user-attachments/assets/5e61acb6-f4f0-473f-8958-c00b0c8d49f0" />
+<img width="392" height="847" alt="image" src="https://github.com/user-attachments/assets/1588fff8-c140-404c-b9ae-329c8c864383" />
+
+
+<br>
+
+>**IoT Embedded**
+- Versión terminada
+- Estado: Simulado en Wokwi e integrado con broker MQTT
+
+<img width="1916" height="982" alt="image" src="https://github.com/user-attachments/assets/c8567360-167d-4c37-bbab-50d277b52b8a" />
+
+
+#### 7.2.2.6. Services Documentation Evidence for Sprint Review 
+
+Para el Sprint 2, se verificaron que los siguientes endpoints clave permitan gestionar usuarios, entregas, servicios, incidentes, rutas seguras, historial y publicaciones dentro del sistema. Cada endpoint cumple una función específica en la arquitectura del backend.
+
+| Endpoint | Detalles |
+| - | - | 
+| /user-controller| En este endpoint se almacenan la información de los usuarios, tales como username, email, password, role, photo y token | 
+| /deliveries | En este endpoint se almacenan las entregas que aun no tienen ligadas un incidente | 
+| /services  | En este endpoint se almacenan los servicios realizados por parte de las empresas | 
+| /incidents | En este endpoint se almacenan los incidentes registrados manualmente | 
+| /sensors	 | 	Este endpoint gestiona la creación, consulta y envío de notificaciones de mantenimiento, nuevas solicitudes y alertas por tiempo de conducción. | 
+
+>Sensors
+<img width="913" height="937" alt="image" src="https://github.com/user-attachments/assets/101d0537-4008-44d7-921e-fd6d9be366be" />
+<img width="385" height="841" alt="image" src="https://github.com/user-attachments/assets/7748f08f-cd22-45e0-b429-fcfed8d8b6b7" />
+
+>Incidents
+<img width="1900" height="985" alt="image" src="https://github.com/user-attachments/assets/64bfe1e0-d048-4bd8-a062-ee88a675c20a" />
+<img width="1919" height="985" alt="image" src="https://github.com/user-attachments/assets/4d1f4782-41dc-4ddb-97f3-883bf0396600" />
+
+Visualización de Incidents en el mobile 
+<img width="394" height="850" alt="image" src="https://github.com/user-attachments/assets/5c37fae6-7df3-4e6b-b242-36e350d166b8" />
+
+
+>Services
+<img width="1331" height="803" alt="image" src="https://github.com/user-attachments/assets/29a65ca1-11d5-4b6c-9a68-896545a1e2be" />
+<img width="374" height="828" alt="image" src="https://github.com/user-attachments/assets/f0ea5eab-1b8e-4cc4-a05f-01ea25ebc7c1" />
+
+
+>Deliveries
+
+<img width="1345" height="883" alt="image" src="https://github.com/user-attachments/assets/702866af-c26e-4ec5-9396-37f924e2176d" />
+<img width="1889" height="967" alt="image" src="https://github.com/user-attachments/assets/4a5e5f0b-1587-43de-bb94-323bce13cac4" />
+<img width="1903" height="934" alt="image" src="https://github.com/user-attachments/assets/65e6d585-031c-4c57-99f0-cfe64820c9c8" />
+<img width="369" height="832" alt="image" src="https://github.com/user-attachments/assets/228af5ab-22af-41f7-b100-79c396f183e3" />
+<img width="380" height="844" alt="image" src="https://github.com/user-attachments/assets/e5a5d571-6dfa-4b92-b37f-e5055f864b43" />
+
+
+>Auth controller & User controller
+
+<img width="1361" height="923" alt="image" src="https://github.com/user-attachments/assets/c6058b51-0d7d-4a5f-87fe-d82c23b8d91a" />
+
+Muestra de los empleados de acuerdo al usuario autenticado
+
+<img width="386" height="861" alt="image" src="https://github.com/user-attachments/assets/7c5749b3-92bb-456a-a6e1-7f9b01a8148e" />
+#### 7.2.2.7. Software Deployment Evidence for Sprint Review 
+>**Despliegue de Landing Page** 
+
+La Landing Page fue desplegada utilizando **GitHub Pages**, lo que permitió alojar el sitio de forma gratuita y accesible mediante una URL pública. Se configuró el repositorio con la rama correspondiente (`main` o `gh-pages`) y se habilitó la opción de GitHub Pages desde la configuración del repositorio para publicar el contenido estático. Esto facilitó compartir el proyecto con usuarios finales y stakeholders sin necesidad de servidores externos.
+
+<img width="1902" height="986" alt="image" src="https://github.com/user-attachments/assets/96387e3a-86f9-4acf-8dd8-8bbce8ec26a2" />
+
+[Ver landing page](https://devtergentes.github.io/secureOn-landing-page/)
+
+>**Despliegue del Frontend**
+
+Para la aplicación principal desarrollada en Angular, se utilizó **Netlify** como plataforma de despliegue debido a su integración continua y facilidad de configuración.
+
+Al finalizar el proceso, se obtuvo el registro exitoso del despliegue.
+
+<img width="1912" height="980" alt="image" src="https://github.com/user-attachments/assets/1997e4f7-b6c3-4f63-844b-c137279896c9" />
+
+De esta manera, el avance del **Sprint 1** quedó funcional y disponible públicamente para su evaluación.
+
+[Ver app web](https://secureon-webapp.netlify.app/login)
+
+>**Despliegue del Backend**
+
+**Configuración del repositorio**
+   - Se aseguró que el repositorio de backend estuviera limpio y contuviera todos los archivos necesarios para el build.
+   - Se definieron variables de entorno desde Railway para la conexión a servicios externos como la base de datos y MQTT.
+
+<img width="1886" height="974" alt="image" src="https://github.com/user-attachments/assets/821bf9af-b653-4f57-890b-6e66bc1c4e6c" />
+
+[Ver Backend](https://secureon-backend-production.up.railway.app/swagger-ui/index.html#/)
+
+>**Despliegue del Mobile**
+
+Para el despliegue de la aplicación móvil, se generó el archivo APK utilizando Flutter. Esto se logró mediante el siguiente comando:
+```bash
+flutter build apk --release
+```
+<img width="1906" height="1005" alt="image" src="https://github.com/user-attachments/assets/0f713380-7e2a-4ceb-8e69-544bb507039c" />
+
+
+### Es así como se muestra el despligue de cada uno de los artefactos que lo requiere.
+
+Link de landing page: [https://devtergentes.github.io/secureOn-landing-page/](https://devtergentes.github.io/secureOn-landing-page/)
+
+Link de web application: [https://secureon-webapp.netlify.app/login](https://secureon-webapp.netlify.app/login)
+
+Link de backend: [https://secureon-backend-production.up.railway.app/swagger-ui/index.html#/](https://secureon-backend-production.up.railway.app/swagger-ui/index.html#/)
+
+Link de IoT: [https://wokwi.com/projects/446744586586072065](https://wokwi.com/projects/446744586586072065)
+#### 7.2.2.8. Team Collaboration Insights during Sprint 
+
+>**Pulse**
+
+**Frontend**
+<img width="885" height="544" alt="image" src="https://github.com/user-attachments/assets/a1e3603a-b0f0-4305-a2e9-3fd134684f39" />
+
+**Backend**
+<img width="885" height="501" alt="image" src="https://github.com/user-attachments/assets/5fdef2c8-73d0-4f4f-b5bf-e500ee0b9142" />
+
+**Mobile**
+<img width="867" height="467" alt="image" src="https://github.com/user-attachments/assets/df83a814-acde-4723-abd9-41f729637c43" />
+
+
+>**Network**
+
+**Frontend**
+<img width="815" height="532" alt="image" src="https://github.com/user-attachments/assets/95e19697-5bda-4467-9b4b-d8ca732ea228" />
+
+**Backend**
+<img width="873" height="552" alt="image" src="https://github.com/user-attachments/assets/8afeaafb-477f-4082-b0d0-21fb9cba1353" />
+
+**Mobile**
+<img width="868" height="415" alt="image" src="https://github.com/user-attachments/assets/8634fdb8-778a-4074-90ec-0fa3349e6795" />
+
+
+>**Contributors**
+
+**Frontend**
+<img width="905" height="657" alt="image" src="https://github.com/user-attachments/assets/c60d433c-61ae-4c19-816c-f5aa9c537266" />
+
+**Backend**
+<img width="911" height="859" alt="image" src="https://github.com/user-attachments/assets/0e862eb8-d488-4822-847b-1a46772536d2" />
+
+**Mobile**
+<img width="915" height="666" alt="image" src="https://github.com/user-attachments/assets/0ca67c5e-9058-47d4-9415-f35401e4e89e" />
+
 
 ## 7.3. Validation Interviews 
 ### 7.3.1. Diseño de Entrevistas 
