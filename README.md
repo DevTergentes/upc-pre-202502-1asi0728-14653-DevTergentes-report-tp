@@ -2983,8 +2983,8 @@ El sitio informativo de *SecureOn* será alojado en **GitHub Pages** para asegur
 
 ***
 
-### 7.2.2. Sprint 2
-#### 7.2.2.1. Sprint Planning 2
+### 7.2.1. Sprint 1
+#### 7.2.1.1. Sprint Planning 1
 
 En este sprint el enfoque es consolidar el flujo base operativo del producto: monitoreo/seguimiento en tiempo real, gestión de incidentes, alta de transportistas y transición de estado del transporte, asegurando API consumible y evidencias de pruebas.
 
@@ -3272,8 +3272,8 @@ Link de IoT: [https://wokwi.com/projects/446744586586072065](https://wokwi.com/p
 **Mobile**
 <img width="915" height="666" alt="image" src="https://github.com/user-attachments/assets/0ca67c5e-9058-47d4-9415-f35401e4e89e" />
 
-### 7.2.1. Sprint 1 
-#### 7.2.1.1. Sprint Planning 1 
+### 7.2.2. Sprint 2
+#### 7.2.2.1. Sprint Planning 2
 
 En este sprint el enfoque es consolidar el flujo base operativo del producto: monitoreo/seguimiento en tiempo real, gestión de incidentes, alta de transportistas y transición de estado del transporte, asegurando API consumible y evidencias de pruebas.
 
@@ -3294,7 +3294,7 @@ En este sprint el enfoque es consolidar el flujo base operativo del producto: mo
 
 ***
 
-#### 7.2.1.2. Sprint Backlog 2
+#### 7.2.2.2. Sprint Backlog 2
 
 | Sprint # | 2 |
 |---|---|
