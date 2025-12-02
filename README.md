@@ -3472,6 +3472,7 @@ Visualización de Incidents en el mobile
 Muestra de los empleados de acuerdo al usuario autenticado
 
 <img width="386" height="861" alt="image" src="https://github.com/user-attachments/assets/7c5749b3-92bb-456a-a6e1-7f9b01a8148e" />
+
 #### 7.2.2.7. Software Deployment Evidence for Sprint Review 
 >**Despliegue de Landing Page** 
 
