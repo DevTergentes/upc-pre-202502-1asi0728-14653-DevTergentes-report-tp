@@ -3325,30 +3325,22 @@ En este sprint el enfoque es consolidar el flujo base operativo del producto: mo
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
 |---|---|---|---|---|---|
-| **secureOn-webapp** | incidents | d19b853 | feat: update add delivery button visibility according to user role and icons styles | Ajusta visibilidad del botón de entrega según rol y mejora estilos de íconos. | 2025-11-05 |
-|  | incidents | 0f192fb | feat: redisgn and fix incident reporting and monitoring UI | Rediseño y correcciones en UI de reporte/monitoreo de incidentes. | 2025-11-05 |
-|  | incidents | f3e3368 | feat: improve session handling and update footer branding | Mejora manejo de sesión y actualiza branding del footer. | 2025-11-05 |
-|  | incidents | e09c47e | feat: redesign auth pages and improve session handling | Rediseño de vistas de autenticación y manejo de sesión. | 2025-11-05 |
-|  | incidents | 8258524 | feat: Update styles and delivery component | Actualiza estilos y componente de entregas. | 2025-10-29 |
-|  | incidents | 54b505e | feat: Update deliveries component | Mejoras funcionales al componente de entregas. | 2025-10-29 |
-|  | incidents | fca2461 | chore: initial commit | Configuración inicial del módulo de incidentes. | 2025-10-27 |
-| **secureOn-mobileapp** | develop | c5fe32c | chore: update backend URLs to use secureon for auth and enhance incident service with additional methods and error handling | Actualiza URLs backend a dominio secureon y amplía servicio de incidentes con métodos/errores. | 2025-11-05 |
-|  | develop | a919dc2 | chore: update backend URLs to use secureon for incidents, deliveries, employees, records, and services | Unifica endpoints a dominio secureon para múltiples recursos. | 2025-10-29 |
-|  | develop | a3e1118 | chore: enhance README with features and installation instructions, and change backend URLs to localhost for development | Mejora README y configura URLs locales para dev. | 2025-10-07 |
-|  | develop | 035d946 | chore: initial commit | Estructura inicial del proyecto mobile. | 2025-10-07 |
-| **secureOn-backend** | main | 55b4ca7 | refactor: improve formatting and description generation in RecordLog and RecordServiceImpl | Refactor de formateo y generación de descripciones en servicios de registros. | 2025-11-04 |
-|  | main | ddc361 | fix: enhance error handling and timestamp management in RecordController and RecordServiceImpl | Mejora manejo de errores y timestamps en controladores/servicios. | 2025-11-03 |
-|  | main | a46210a | feat: add OpenAPI configuration and update CORS settings for improved security | Agrega OpenAPI y ajusta CORS para mayor seguridad. | 2025-11-03 |
-|  | main | bf01a7d | chore: update database connection settings for production environment | Ajustes de conexión a BD para producción. | 2025-11-03 |
-|  | main | 06789d3 | chore: initial project setup with core API structure | Estructura base del API. | 2025-10-27 |
-| **secureOn-embeddedapp** | main | 155a0e8 | feat: update project and readme | Actualiza proyecto y README. | 2025-10-22 |
-|  | main | 7843fce | feat: add iot wokwi project | Añade proyecto IoT Wokwi. | 2025-10-22 |
-|  | main | 873ccfd | Initial commit | Commit inicial del repositorio. | 2025-10-22 |
-| **secureOn-landing-page** | develop | ac85fcc | Update README.md | Actualiza documentación del proyecto. | 2025-10-05 |
-|  | develop | 16b5497 | docs: update readme | Mejora del README. | 2025-10-05 |
-|  | develop | 5bf0591 | feat: update readme | Ajustes adicionales de README. | 2025-10-05 |
-|  | develop | 5dd4930 | feat: implement complete SecureOn landing page with responsive design | Implementa landing page completa y responsive. | 2025-10-05 |
-|  | develop | c230d8d | Initial commit | Estructura inicial del proyecto. | 2025-09-08 |
+| **secureOn-backend** | feature/us03-report | a3f91c2 | feat(report): generate transport status report payload | Implementa lógica de generación de reporte de estado del vehículo (US03 T01), incluyendo agregación de incidentes y últimos eventos de telemetría. | 2025-11-30 |
+|  | feature/us03-report | c8b40f9 | feat(report): send report to supervisor via internal event | Expone endpoint y publica evento interno para envío de reporte al supervisor (US03 T02), permitiendo consumo asíncrono desde otros servicios. | 2025-12-01 |
+|  | feature/us03-report | e41c7ab | fix(report): improve error handling & persistence fallback | Ajusta manejo de errores y añade estrategia de fallback para persistir datos cuando falle el envío del reporte (US03 T03). | 2025-12-01 |
+|  | feature/us07-realtime-requests | 9d7a2f1 | feat(realtime): add SSE channel for new transport requests | Crea canal SSE para notificar nuevas solicitudes de transporte a los transportistas (US07 T05), incluyendo reconexión automática. | 2025-11-30 |
+|  | feature/us09-dangerous-request | b1f3e9d | feat(api): create dangerous goods request endpoint | Implementa endpoint POST para publicación de solicitudes de transporte de mercancías peligrosas con validaciones y códigos 200/400/500 (US09 T11). | 2025-12-01 |
+|  | feature/ts01-vehicle-monitoring | f2c78e0 | feat(api): add GET /api/vehicle-monitoring/{vehicleId} | Implementa endpoint GET de monitoreo de vehículo (TS01 T14) con filtros por estado y validación de existencia del vehículo. | 2025-12-02 |
+|  | feature/ts01-vehicle-monitoring | 3ac59d7 | refactor(api): improve error responses for monitoring endpoint | Ajusta manejo de errores del endpoint de monitoreo agregando respuestas 404/500 y mensajes técnicos consistentes (TS01 T15). | 2025-12-02 |
+| **secureOn-webapp** | feature/us03-report-ui | d5e18a4 | feat(web): add report generation & send button in transport detail | Añade acciones de generar y enviar reporte en el detalle del transporte, integrando con el backend y mostrando estados de carga (US03 T01–T02). | 2025-12-01 |
+|  | feature/us07-requests-ui | 79a1fd2 | feat(web): subscribe UI to realtime requests channel | Conecta la UI al canal SSE/WebSocket para nuevas solicitudes, mostrando indicadores de conexión y reconexión (US07 T05). | 2025-12-01 |
+|  | feature/us07-requests-ui | 4ce9821 | feat(web): process incoming request notification and persist minimal data | Implementa parseo, validación y almacenamiento mínimo de solicitudes entrantes en la vista de bandeja de solicitudes (US07 T06). | 2025-12-01 |
+|  | feature/us07-requests-ui | 1f92c7e | feat(web): add accept/reject request UI actions with error handling | Crea componente de aceptación/rechazo de solicitudes con validaciones y manejo de errores visibles al usuario (US07 T08–T07). | 2025-12-02 |
+|  | feature/us07-permissions | 6ab4e93 | feat(auth): validate driver permissions on request actions | Integra validación de permisos y requisitos del transportista (licencia, disponibilidad) antes de permitir aceptar solicitudes (US07 T09). | 2025-12-02 |
+|  | feature/us09-dangerous-request | 0f3c9b8 | feat(web): add dangerous goods request form | Implementa formulario de solicitud de transporte de mercancías peligrosas con campos obligatorios y validaciones de negocio (US09 T10). | 2025-12-01 |
+|  | feature/us09-dangerous-request | 2b84c6f | feat(web): trigger notification after dangerous request creation | Dispara notificación a transportistas calificados luego del registro exitoso de la solicitud peligrosa (US09 T13). | 2025-12-02 |
+| **secureOn-mobileapp** | feature/monitor-view | 83c7e10 | feat(mobile): add vehicle monitoring screen | Crea pantalla móvil para visualizar el estado actual del vehículo, incluyendo último evento de telemetría (TS01 T16). | 2025-12-02 |
+|  | feature/realtime-requests | 5a0d9e2 | feat(mobile): basic support for realtime transport requests | Añade suscripción ligera a canal SSE/WebSocket y render básico de solicitudes entrantes para validación funcional (US07 T05–T06). | 2025-12-02 |
 
 ***
 
@@ -3356,12 +3348,12 @@ En este sprint el enfoque es consolidar el flujo base operativo del producto: mo
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
 |---|---|---|---|---|---|
-| qa-tests / backend | test/us01-us04 | 9a71c2f | test(api): transports active & detail | Casos 200/404; asserts de esquema y última telemetría | 2025-11-09 |
-| qa-tests / backend | test/us05 | 3bd4e10 | test(api): incident create/list + event | Verifica 201/400 y registro de evento/log | 2025-11-09 |
-| qa-tests / backend | test/us06 | f17c0a8 | test(api): driver signup validations | 201 y 409; validaciones de campos requeridos | 2025-11-09 |
-| qa-tests / backend | test/us08 | c5e28b3 | test(api): status transitions | Transiciones válidas e inválidas con 422 | 2025-11-09 |
-| qa-tests / webapp | e2e/sprint1 | 7d92ef4 | e2e(web): realtime & incidents | Lista/detalle, suscripción/polling, formulario | 2025-11-09 |
-| qa-tests / mobile | e2e/monitor-lite | 4ac0f56 | e2e(mobile): monitor view | Render y actualización de estado en vista de viajes | 2025-11-09 |
+| qa-tests / backend | test/us03-report | 7e3b9a1 | test(api): report generation & delivery | Cubre casos 200/400 para generación de reporte, validando estructura del payload y registro cuando falla el envío al supervisor (US03 T01–T03). | 2025-12-02 |
+| qa-tests / backend | test/us07-realtime | 0d94c6f | test(api): realtime requests channel | Verifica conexión al canal SSE/WebSocket, reconexión automática y formato de las notificaciones de nuevas solicitudes (US07 T05–T06). | 2025-12-02 |
+| qa-tests / backend | test/us09-dangerous | 2f3a7c8 | test(api): dangerous goods request endpoint | Valida creación de solicitudes de mercancías peligrosas (200), errores de validación (400) y manejo de fallos internos (500) (US09 T11–T12). | 2025-12-02 |
+| qa-tests / backend | test/ts01-monitoring | 6c8e1d4 | test(api): vehicle monitoring endpoint | Pruebas 200/404 para GET /api/vehicle-monitoring/{vehicleId}, validando filtrado por vehículo y mensajes de error (TS01 T14–T15). | 2025-12-02 |
+| qa-tests / webapp | e2e/sprint2-web | 9b178e0 | e2e(web): report, realtime requests & dangerous form | Flujo end-to-end: generación y envío de reporte desde el detalle del transporte, recepción de nuevas solicitudes en tiempo real y registro de solicitudes peligrosas desde la UI (US03, US07, US09). | 2025-12-02 |
+| qa-tests / mobile | e2e/sprint2-mobile | 4a7d2c3 | e2e(mobile): monitoring view & realtime requests | Verifica render de la pantalla de monitoreo de vehículo y recepción de notificaciones de nuevas solicitudes en la app móvil (TS01, US07). | 2025-12-02 |
 
 #### 7.2.2.5. Execution Evidence for Sprint Review
 
