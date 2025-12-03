@@ -30,7 +30,7 @@
 | Quispesivana Torres, Claudio Sandro          | U202215099    |
 
 </div>
-<br><div align="center"><h3>Noviembre 2025</h3></div><br>
+<br><div align="center"><h3>Diciembre 2025</h3></div><br>
 
 
 # Registro de Versiones del Informe
