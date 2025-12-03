@@ -14,7 +14,7 @@
 
 **Docente: Berrocal Navarro, Richard Leonardo**
 
-***INFORME TB2***
+***INFORME TF***
 
 **Startup: DevTergentes**
 
